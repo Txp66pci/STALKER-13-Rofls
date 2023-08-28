@@ -9,8 +9,8 @@
 			modifications += "visor"
 */
 /obj/item/clothing/head/steel
-	name = "Steel Helmet"
-	desc = "A desperately outdated steel army helmet without any additions. Provides no protection against anomalies or radiation, but can deflect bullets. This helmet was never particularly popular in the Zone, except for use in brief armed conflicts between factions."
+	name = "Стальной шлем"
+	desc = "Отчаянно устаревший стальной армейский шлем без каких-либо дополнений. Не обеспечивает защиты от аномалий или радиации, но может отклонять пули. Этот шлем никогда не был особенно популярен в Зоне, за исключением использования в коротких вооруженных конфликтах между фракциями."
 	icon_state = "steelhelmet"
 	item_state = "steelhelmet"
 	armor = list("melee" = 25, "bullet" = 30, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 10)
@@ -21,8 +21,8 @@
 	modifications = list("material_head" = 0)
 
 /obj/item/clothing/head/ssh
-	name = "SSH-68"
-	desc = "The SSh-68 replaced the general-army SSh-60 helmet. It differs from its predecessor in greater durability, a large inclination of the front part and short side boards."
+	name = "СШ-68"
+	desc = "СШ-68 пришел на смену общеармейскому шлему СШ-60. Отличается от предшественника большей прочностью, большим наклоном лицевой части и короткими боковыми бортами."
 	icon_state = "ssh-68"
 	item_state = "ssh-68"
 	armor = list("melee" = 25, "bullet" = 35, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 10)
@@ -33,8 +33,8 @@
 	modifications = list("material_head" = 0)
 
 /obj/item/clothing/head/tsh
-	name = "TSH-4M"
-	desc = "This helmet is designed to provide two-way radiotelephone communication in objects with a high level of noise, to protect it from climatic factors and from impacts on structural elements of objects. It has poor protection for the zone's needs, but is very warm."
+	name = "ТШ-4M"
+	desc = "Данный шлем предназначен для обеспечения двусторонней радиотелефонной связи на объектах с высоким уровнем шума, для защиты его от климатических факторов и от ударов по конструктивным элементам объектов. Он имеет плохую защиту для нужд зоны, но очень теплый."
 	icon_state = "TSH-4M"
 	item_state = "TSH-4M"
 	gas_transfer_coefficient = 0.01
@@ -62,8 +62,8 @@
 	return 0
 
 /obj/item/clothing/head/tacticalhelmet
-	name = "Tactical helmet"
-	desc = "French SPECTRA tactical helmet that lacks camouflage. It is not known how it made its way into the Zone. The helmet is designed to provide a squad leader with strategic superiority over the enemy via its many scanners and satellite communications devices, which have not been installed in this particular helmet. Comes with multi-layered Kevlar protection and armored elements to protect electronic components. Includes a respirator and a nightvision device."
+	name = "Тактический шлем"
+	desc = "Французский тактический шлем SPECTRA, лишенный камуфляжа. Неизвестно, как он попал в Зону. Шлем предназначен для обеспечения командиру отделения стратегического превосходства над противником с помощью его многочисленных сканеров и устройств спутниковой связи, которые не были установлены в этом конкретном шлеме. Поставляется с многослойной кевларовой защитой и бронированными элементами для защиты электронных компонентов. В комплекте респиратор и прибор ночного видения."
 	icon_state = "hardhat0_tactical"
 	item_state = "hardhat0_tactical"
 	item_color = "tactical"
@@ -80,8 +80,8 @@
 	..()
 
 /obj/item/clothing/head/hardhat/tactical/light
-	name = "Light tactical helmet"
-	desc = "A British MK VI model of a tactical helmet that lacks camouflage. It is not known how it made its way into the Zone. Comes with multi-layered Kevlar protection and armored elements to protect electronic components."
+	name = "Легкий тактический шлем"
+	desc = "Британская модель тактического шлема MK VI, лишенная камуфляжа. Неизвестно, как он попал в Зону. Поставляется с многослойной кевларовой защитой и бронированными элементами для защиты электронных компонентов."
 	icon_state = "hardhat0_lighttactical"
 	item_state = "hardhat0_lighttactical"
 	item_color = "lighttactical"
@@ -99,8 +99,8 @@
 	return
 
 /obj/item/clothing/head/hardhat/tactical/guardian_of_freedom
-	name = "Guardian of Freedom helmet"
-	desc = "A British MK VI model of a tactical helmet modified by the Freedom faction. It is not known how it made its way into the Zone. Comes with multi-layered Kevlar protection and armored elements to protect electronic components."
+	name = "Шлем Защитника Свободы"
+	desc = "Британская модель тактического шлема MK VI, модифицированная фракцией Свободы. Неизвестно, как он попал в Зону. Поставляется с многослойной кевларовой защитой и бронированными элементами для защиты электронных компонентов."
 	icon_state = "hardhat0_gof"
 	item_state = "hardhat0_gof"
 	item_color = "gof"
@@ -118,8 +118,8 @@
 	return
 
 /obj/item/clothing/head/assaultmerc
-	name = "Mercenary helmet"
-	desc = "Schutzhelm 04 made in Switzerland used by the Mercenaries of the Dead City."
+	name = "Шлем Наёмников"
+	desc = "Сделан в Швейцарии и используется Наемниками Мертвого города."
 	icon_state = "assaultmerc"
 	item_state = "assaultmerc"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
@@ -131,22 +131,22 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/gopcap
-	name = "cap"
-	desc = "Put a fucking bullet in his forehead!"
+	name = "Кепка"
+	desc = "Пустите ему в лоб ёбаную пулю!"
 	icon_state = "gopcap"
 	item_state = "gopcap"
 	flags_inv = HIDEHAIR
 
 /obj/item/clothing/head/soft/jacknoircap
-	name = "Сap"
-	desc = "Who knows how the British made it to Chernobyl?"
+	name = "Шапка"
+	desc = "Кто знает, как британцы добрались до Чернобыля?"
 	icon_state = "jacknoirsoft"
 	item_color = "jacknoir"
 	item_state = "greysoft"
 
 /obj/item/clothing/head/spheram
-	name = "Sphera M12"
-	desc = "An aluminum/titanium helmet with a cloth exterior that comes with pockets for additional steel armor pieces and an armor face mask. Sphera M12 are normally used as part of a combination that includes PSZ series Spetsnaz body armor. Quite popular in the Zone thanks to its respirator and built-in first generation night vision device, as well as providing the maximum head protection possible. Comes with electronics slots."
+	name = "Сфера M12"
+	desc = "Алюминиево-титановый шлем, которая поставляется с местом для дополнительного улучшения и маской для лица. Сфера M12 обычно используются как часть брони, которая включает в себя бронежилеты спецназа серии ПСЗ. Довольно популярен в Зоне благодаря респиратору и встроенному прибору ночного видения первого поколения, а также обеспечивает максимально возможную защиту головы. Поставляется со слотами для электроники."
 	icon_state = "sphera"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	dynamic_hair_suffix = ""
@@ -163,8 +163,8 @@
 	..()
 
 /obj/item/clothing/head/skathelmet
-	name = "SKAT-M9"
-	desc = "A slightly advanced version of the Sphera M12. Normally used as part of a combination that includes PSZ series Spetsnaz body armor. Quite popular in the Zone thanks to its respirator and built-in first generation night vision device, as well as providing the maximum head protection possible. Comes with electronics slots."
+	name = "СКАТ-M9"
+	desc = "Немного улучшенная версия Сферы M12. Обычно используется как часть комбинации, включающей бронежилеты спецназа серии ПСЗ. Довольно популярен в Зоне благодаря респиратору и встроенному прибору ночного видения первого поколения, а также обеспечивает максимально возможную защиту головы. Поставляется со слотами для электроники."
 	icon_state = "helmet_skat"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	dynamic_hair_suffix = ""
@@ -180,8 +180,8 @@
 	..()
 
 /obj/item/clothing/head/petrovichhelmet
-	name = "SKOT-M777"
-	desc = "An aluminum-cardboard helmet made with sprats with pockets for change and armor. Usually comes with vodka. Not popular enough in the Zone due to Petrovich's conspiracy. "
+	name = "СКОТ-M777"
+	desc = "Алюминиево-картонный шлем из шпрот с карманами для мелочи и доспехов. Обычно идет с водкой. Недостаточно популярен в Зоне из-за заговора Петровича. "
 	icon_state = "helmet_skot"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	armor = list("melee" = 75, "bullet" = 75, "laser" = 60, "energy" = 70, "bomb" = 70, "bio" = 50, "rad" = 80, "fire" = 70, "acid" = 0, "psy" = 50)
@@ -191,8 +191,8 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/beret_ua
-	name = "military beret"
-	desc = "Worth more than a conscript's monthly salary."
+	name = "Военный берет"
+	desc = "Стоит больше, чем месячная зарплата призывника."
 	icon_state = "beret_ua"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 0)
 	strip_delay = 80
@@ -208,8 +208,8 @@
 */
 
 /obj/item/clothing/head/maska_1
-	name = "MASKA-1 SCH Helmet"
-	desc = "The Maska 1 helmet was in use by the Russian MVD until being largely replaced by the aluminum ZSh-1-2. Now it is more commonly seen being worn by Clear Sky stalkers."
+	name = "Шлем МАСКА-1Щ"
+	desc = "Шлем Маска-1 использовался МВД России до тех пор, пока не был в значительной степени заменен алюминиевым ЗШ-1-2. Теперь его чаще носят сталкеры Чистого Неба."
 	icon_state = "maska_1"
 	item_state = "maska_1"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
@@ -221,8 +221,8 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 1)
 
 /obj/item/clothing/mask/gas/stalker
-	name = "gas mask"
-	desc = "A regular plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. Widely used by rookies and veterans of all factions due to its universal functionality. Does not provide any physical protection."
+	name = "Противогаз"
+	desc = "Обычный пластиково-резиновый противогаз, используемый для фильтрации воздуха от радиоактивных частиц и отравляющих веществ. Широко используется новичками и ветеранами всех фракций благодаря своему универсальному функционалу. Не обеспечивает никакой физической защиты."
 	icon_state = "gasmasknew"
 	item_state = "gasmasknew"
 	gas_transfer_coefficient = 0.01
@@ -236,8 +236,8 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/gp4
-	name = "gp-4 gas mask"
-	desc = "The Soviet GP-4 is another mask in the Soviet GP series. It was made to be issued to civilians due to the rising panic about the Cold War. This model is extremely common in the Zone and is favored by many stalkers due to its relative reliability and light weight."
+	name = "Противогаз ГП-4"
+	desc = "Советский ГП-4 - еще одна маска в серии ГП. Он был сделан для выдачи гражданским лицам из-за растущей паники по поводу холодной войны. Эта модель чрезвычайно распространена в Зоне и пользуется популярностью у многих сталкеров из-за ее относительной надежности и небольшого веса."
 	icon_state = "gp4"
 	item_state = "gp4"
 	gas_transfer_coefficient = 0.01
@@ -251,8 +251,8 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/gp5
-	name = "gp-5 gas mask"
-	desc = "Similar to the GP-4, this mask incudes an ShM-62 filter. Unforunately, this filter is dosed with asbestos and the casing is known to degrade lead into the filter. If it's your only option, look for a filter using activated charcoal."
+	name = "Противогаз ГП-5"
+	desc = "Подобно ГП-4, эта маска включает в себя фильтр ШМ-62. К сожалению, этот фильтр дозируется асбестом, а корпус, как известно, разлагает свинец в фильтр. Если это ваш единственный вариант, ищите фильтр с использованием активированного угля."
 	icon_state = "gp5"
 	item_state = "gp5"
 	gas_transfer_coefficient = 0.01
@@ -266,8 +266,8 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/mercenary
-	name = "gas mask"
-	desc = "A western plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. Widely used by mercenaries. Does not provide any physical protection."
+	name = "Противогаз"
+	desc = "Западный пластиково-резиновый противогаз, используемый для фильтрации воздуха от радиоактивных частиц и ядовитых веществ. Широко используется Наёмниками. Не обеспечивает никакой физической защиты."
 	icon_state = "mercenary_gasmask"
 	item_state = "mercenary_gasmask"
 	gas_transfer_coefficient = 0.01
@@ -280,8 +280,8 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/respirator
-	name = "respirator"
-	desc = "An old respirator. Doesn't protect from much."
+	name = "Респиратор"
+	desc = "Старый респиратор. Не защищает от многого."
 	icon_state = "respirator"
 	item_state = "respirator"
 	gas_transfer_coefficient = 0.01
@@ -294,8 +294,8 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/buckethelmet
-	name = "Bucket Helmet"
-	desc = "A bucket with two holes to see through. Protects the head from impacts at the cost of looking like an idiot. Come to think of it, maybe this is not the best choice for protection."
+	name = "Ведрошлем"
+	desc = "Ведро с двумя отверстиями, чтобы видеть. Защищает голову от ударов. Цена? Ты выглядишь как идиот. Если подумать, может быть, это не лучший выбор для защиты."
 	icon_state = "bucket_helmet"
 	item_state = "bucket_helmet"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
@@ -305,8 +305,8 @@
 	durability = 50
 
 /obj/item/clothing/mask/gas/stalker/renegademask
-	name = "renegade ballistic mask"
-	desc = "A mask of lightweight but durable material that gives you a chance to survive a stray bullet to the face. It has two non-bullet holes."
+	name = "Баллистическая маска ренегата"
+	desc = "Маска из легкого, но прочного материала, которая дает вам шанс пережить шальную пулю в лицо. Имеет два непулевых отверстия."
 	icon_state = "renegade_mask"
 	item_state = "renegade_mask"
 	gas_transfer_coefficient = 0.01

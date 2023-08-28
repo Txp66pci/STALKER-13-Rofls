@@ -33,19 +33,19 @@
 	spread = 3
 
 /obj/item/projectile/bullet/bullet12x70
-	name = "pellet"
+	name = "Дробь"
 	damage = 17
 	range = 24
 	spread = 4
 
 /obj/item/projectile/bullet/bullet12x70p
-	name = "slug"
+	name = "Жекан"
 	damage = 70
 	range = 56
 	spread = 4
 
 /obj/item/projectile/bullet/bullet12x70d
-	name = "dart"
+	name = "Дротик"
 	damage = 50
 	armour_penetration = 25
 	range = 36
@@ -135,7 +135,7 @@
 
 /obj/item/projectile/bullet/tungsten_slug
 	damage = 75
-	name = "2mm tungsten slug"
+	name = "2mm вольфрамовый патрон"
 	icon_state = "tungstenbolt"
 	armour_penetration = 30
 	range = 100
@@ -143,21 +143,21 @@
 	movement_type = FLYING | UNSTOPPABLE
 
 /obj/item/projectile/bullet/fragment
-	name = "fragment"
+	name = "фрагмент"
 	damage = 25
 	armour_penetration = 25
 	range = 6
 	spread = 15
 
 /obj/item/projectile/bullet/p90
-	name = "5.7×28mm bullet"
+	name = "5.7×28mm пуля"
 	damage = 28
 	armour_penetration = 5
 	range = 50
 	spread = 5
 
 /obj/item/projectile/bullet/c500cal
-	name = ".500 bullet"
+	name = ".500 пуля"
 	damage = 60
 	armour_penetration = 20
 	range = 50
@@ -165,7 +165,7 @@
 
 
 /obj/item/projectile/bullet/c500calbuck
-	name = ".500 pellet"
+	name = ".500 дробь"
 	damage = 25
 	armour_penetration = 10
 	range = 30

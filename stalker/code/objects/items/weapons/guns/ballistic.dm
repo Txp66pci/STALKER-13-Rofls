@@ -5,7 +5,7 @@
 	modifications = list("barrel_pistol" = 0, "frame_pistol" = 0, "grip_pistol" = 0)
 
 /obj/item/gun/ballistic/automatic/pistol/pm   // Макаров
-	name = "PMm"
+	name = "ПМм"
 	desc = "This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defense handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including its short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size."
 	icon_state = "pm"
 	w_class = 2
