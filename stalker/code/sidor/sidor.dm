@@ -1,14 +1,14 @@
 /obj/sidor
-	name = "Sidor"
+	name = "Сидорович"
 	icon = 'stalker/icons/sidorovich.dmi'
 	icon_state = "sidor"
 
-	var/successText = list("Not bad! Good product!",
-					"Well done, I'm satisfied!")
+	var/successText = list("Неплохо, хороший товар!",
+					"Молодец! Я доволен!")
 
-	var/failText = list("You'd still have cans to collect.",
-					"Are you drunk?"
-					"You pull that shit?")
+	var/failText = list("Ты бы ещё консервных банок насобирал!",
+					"Нафига ты эту дрянь тягаешь?"
+					"Что за бодягу ты мне приволок?")
 
 	var/buyText = list("buy", "buy", "take", "take away", "privolok", "dragged")
 

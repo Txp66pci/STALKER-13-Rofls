@@ -2,8 +2,8 @@
 // oy vey
 // - Carl
 /obj/machinery/door/poddoor/gate
-	name = "checkpoint gate"
-	desc = "A heavy gate that opens mechanically, designed to keep the checkpoint safe from wildlife and Stalkers alike."
+	name = "Ворота контрольно-пропускного пункта"
+	desc = "Тяжелые ворота, которые открываются механически, предназначены для защиты контрольно-пропускного пункта как от диких животных, так и от сталкеров."
 	icon = 'stalker/icons/structure/military_gate.dmi'
 	icon_state = "closed"
 	id = 333

@@ -3,13 +3,13 @@
 	anchored = 1
 
 /obj/structure/closet/crate/stalker/blue
-	name = "crate"
-	desc = "An ordinary iron box."
+	name = "Ящик"
+	desc = "Обычный железный ящик."
 	icon_state = "blue"
 
 /obj/structure/closet/crate/stalker/blue/stash
-	name = "stash"
-	desc = "Stalkers commonly use these crates to hide their loot. The lock is rusted away."
+	name = "Тайник"
+	desc = "Сталкеры обычно используют эти ящики, чтобы спрятать свою добычу. Замок заржавел."
 	var/lootcount = 1		//how many items will be spawned
 	var/lootdoubles = 1		//if the same item can be spawned twice
 	var/list/loot = list()
@@ -71,7 +71,7 @@
 		if(istype(H.wear_id, /obj/item/stalker_pda))
 			var/obj/item/stalker_pda/KPK = H.wear_id
 			if(KPK.owner)
-				show_lenta_message(null, KPK, null, "PDA", "System", "You discovered a cache!", selfsound = 1)
+				show_lenta_message(null, KPK, null, "КПК", "Система", "Вы нашли тайник!", selfsound = 1)
 
 
 		var/datum/data/record/sk = find_record("sid", H.sid, GLOB.data_core.stalkers)
@@ -85,6 +85,6 @@
 	anchored = 1
 
 /obj/structure/closet/stalker/shkaf
-	name = "closet"
-	desc = "A regular iron locker."
+	name = "Шкаф"
+	desc = "Обычный железный шкаф."
 	icon_state = "shkaf"

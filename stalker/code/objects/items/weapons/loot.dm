@@ -5,64 +5,64 @@
 	name = "mutant parts"
 
 /obj/item/stalker/loot/mutantparts/dog_tail
-	name = "dog tail"
-	desc = "The resistance of the mutant dog's skin to electricity and chemical agents has long been the subject of scientific attention. Since the animal's tail is almost completely free of fat tissue, it is especially suited for lab experimentation."
+	name = "Хвост собаки"
+	desc = "Устойчивость кожи собаки-мутанта к электричеству и химическим агентам уже давно является предметом научного внимания. Поскольку хвост животного почти полностью свободен от жировой ткани, он особенно подходит для лабораторных экспериментов."
 	icon_state = "pes"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
 
 /obj/item/stalker/loot/mutantparts/rat_tail
-	name = "rat tail"
-	desc = "This is a rat tail... whether or not it will be any use will be up to the scientist to find out."
+	name = "Крысиный хвост"
+	desc = "Это крысиный хвост... Будет ли это полезно или нет, предстоит выяснить ученому."
 	icon_state = "rattail"
 	grind_results = list("carbon" = 5, "unknownsubstance" = 2.5, "nutriment" = 5, "blood" = 5)
 
 /obj/item/stalker/loot/mutantparts/flesh_eye
-	name = "flesh eye"
-	desc = "The mutated, swollen eye of the Flesh acquired a number of strange characteristics, the most useful of which is the ability to regenerate the lens. The specifics of the process are unknown, although such discovery would most certainly revolutionize modern medicine. You can play your part in scientific development by selling Flesh eyes to scientists for their experiments."
+	name = "Глаз плоти"
+	desc = "Мутировавший, опухший глаз Плоти приобрел ряд странных характеристик, наиболее полезной из которых является способность к регенерации хрусталика. Специфика процесса неизвестна, хотя такое открытие, безусловно, произведет революцию в современной медицине. Вы можете сыграть свою роль в научном развитии, продавая глаза плоти ученым для их экспериментов."
 	icon_state = "plot"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
 
 /obj/item/stalker/loot/mutantparts/boar_leg
-	name = "boar hoof"
-	desc = "The hoof of a wild boar is used by scientists for manufacturing of some medicines, the most widespread of which are anti radiation drugs."
+	name = "Копыто кабана"
+	desc = "Копыто кабана используется учеными для изготовления некоторых лекарственных средств, наиболее распространенными из которых являются противорадиационные препараты."
 	icon_state = "boar"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
 
 /obj/item/stalker/loot/mutantparts/snork_leg
-	name = "snork leg"
-	desc = "Snork feet contain a huge number of highly elastic tendons. This explains the beast's ability to make those unbelievably long jumps."
+	name = "Нога снорка"
+	desc = "Нога снорка содержат огромное количество высокоэластичных сухожилий. Это объясняет способность зверя совершать невероятно длинные прыжки."
 	icon_state = "snork_leg"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 5, "nutriment" = 10, "blood" = 10)
 
 /obj/item/stalker/loot/mutantparts/pseudo_tail
-	name = "pseudodog tail"
-	desc = "The resistance of the skin of mutated dogs to chemical and electrical effects has long attracted the attention of scientists. Due to the lack of fat deposits, the tails of dogs are most suitable for laboratory research."
+	name = "Хвост псевдособаки"
+	desc = "Устойчивость кожи мутировавших собак к химическому и электрическому воздействию давно привлекает внимание ученых. Благодаря отсутствию жировых отложений, хвосты собак наиболее подходят для лабораторных исследований."
 	icon_state = "psevdopes"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
 
 /obj/item/stalker/loot/mutantparts/bloodsucker
-	name = "bloodsucker tendrils"
-	desc = "Bloodsucker's tentacles contain a special gland used for secreting an enzyme that dissolves the victim's skin and at the same time prevents blood from clotting. If scientists can determine the structure of the enzyme, it will help make a breakthrough in medicine. "
+	name = "Щупальца кровососа"
+	desc = "Щупальца кровососа содержат специальную железу, используемую для выделения фермента, который растворяет кожу жертвы и в то же время препятствует свертыванию крови. Если ученым удастся определить структуру фермента, это поможет совершить прорыв в медицине. "
 	icon_state = "bloodsucker"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
 
 /obj/item/stalker/loot/mutantparts/controller_brain
-	name = "controller brain"
-	desc = "A brain. You can feel the psy-waves unconfortably pushing into your thoughts when you hold it."
+	name = "Мозг контролёра"
+	desc = "Мозг. Вы можете почувствовать, как пси-волны проникают в ваши мысли, когда вы держите его в руках."
 	icon_state = "controller_brain"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
 
 /obj/item/stalker/loot/mutantparts/poltergeist_skin
-	name = "poltergeist flesh"
-	desc = "A chunk of flesh taken from a Poltergeist. It seems to be very slightly moving on its own, somehow."
+	name = "Плоть полтергейста"
+	desc = "Кусок плоти, взятый из полтергейста. Кажется, что он еле движется сам по себе, как-то."
 	icon_state = "myaso"
 	grind_results = list("carbon" = 5, "unknownsubstancethree" = 7.5, "nutriment" = 5, "blood" = 5, "slimejelly" = 5)
 
 	/// Raw Meat ///
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat
-	name = "mutant meat"
-	desc = "Stringy, gamey meat from a mutant."
+	name = "Мясо мутанта"
+	desc = "Тягучее, дичное мясо мутанта."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant
@@ -74,8 +74,8 @@
 	list_reagents = list("nutriment" = 3, "cooking_oil" = 2) //Meat has fats that a food processor can process into cooking oil
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/dog_meat
-	name = "dog meat"
-	desc = "Stringy, gamey meat from a mutant dog."
+	name = "Собачье мясо"
+	desc = "Тягучее, дичное мясо собаки-мутанта."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/dog
@@ -85,8 +85,8 @@
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/rat_meat
-	name = "rat meat"
-	desc = "This is rat meat... It does not appear to be too appetizing as it is."
+	name = "Крысиное мясо"
+	desc = "Это крысиное мясо... Он не кажется слишком аппетитным."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstance" = 2.5, "nutriment" = 5, "blood" = 5)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/rat
@@ -96,8 +96,8 @@
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/flesh_meat
-	name = "flesh meat"
-	desc = "Meat from a flesh; it has a strong rotten and putrescent odor."
+	name = "Мясо плоти"
+	desc = "Мясо из плоти; имеет сильный гнилостный запах."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/flesh
@@ -107,8 +107,8 @@
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/boar_meat
-	name = "boar meat"
-	desc = "The meat of a wild mutated boar; it seems thick and hard to bend."
+	name = "Мясо кабана"
+	desc = "Мясо дикого мутировавшего кабана; Он кажется толстым и трудно гнётся."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/boar
@@ -118,8 +118,8 @@
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/snork_meat
-	name = "snork meat"
-	desc = "Snork meat, it is extremely lean and tough."
+	name = "Мясо снорка"
+	desc = "Мясо снорка, оно очень постное и жесткое."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/snork
@@ -129,8 +129,8 @@
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/pseudo_meat
-	name = "pseudodog meat"
-	desc = "Stringy, gamey meat from a pseudodog."
+	name = "Мясо псевдособаки"
+	desc = "Тягучее, дичное мясо псевдособаки."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/pseudo
@@ -140,8 +140,8 @@
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/bloodsucker_meat
-	name = "bloodsucker meat"
-	desc = "Bloodsucker meat, it smells putrescent and seems to twitch every once and a while."
+	name = "Мясо кровососа"
+	desc = "Мясо кровососа, пахнет гнилью и, кажется, время от времени дергается."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/bloodsucker
@@ -151,8 +151,8 @@
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/controller_meat
-	name = "controller meat"
-	desc = "Mutant meat from a controller. You can feel pulsating coming from this sticky slab of flesh."
+	name = "Мясо контролёра"
+	desc = "Вы можете почувствовать пульсацию, исходящую от этого липкого куска плоти."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/mutant/controller
@@ -164,39 +164,39 @@
 	/// Cooked Meat ///
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant
-	name = "cooked mutant meat"
-	desc = "Stringy, gamey meat from a mutant."
+	name = "Приготовленное мясо мутантов"
+	desc = "Тягучее, дичное мясо мутанта."
 	icon_state = "mutantmeatcooked"
 	trash = null
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/dog
-	name = "cooked dog meat"
-	desc = "Stringy, gamey meat from a mutant dog."
+	name = "Приготовленное мясо собаки"
+	desc = "Тягучее, дичное мясо собаки-мутанта."
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/rat
-	name = "cooked rat meat"
-	desc = "This is rat meat... It does not appear to be too appetizing as it is."
+	name = "Приготовленное крысиное мясо"
+	desc = "Это крысиное мясо... Он не кажется слишком аппетитным."
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/flesh
-	name = "cooked flesh meat"
-	desc = "Meat from a flesh; it has a strong rotten and putrescent odor."
+	name = "Приготовленное мясо плоти"
+	desc = "Мясо из плоти; имеет сильный гнилостный запах."
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/boar
-	name = "cooked boar meat"
-	desc = "The meat of a wild mutated boar; it seems thick and hard to bend."
+	name = "Приготовленное мясо кабана"
+	desc = "Мясо дикого мутировавшего кабана; Он кажется толстым и трудно гнётся."
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/snork
-	name = "cooked snork meat"
-	desc = "Snork meat, it is extremely lean and tough."
+	name = "Приготовленное мясо снорка"
+	desc = "Мясо снорка, оно очень постное и жесткое."
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/pseudo
-	name = "cooked pseudodog meat"
-	desc = "Stringy, gamey meat from a pseudodog."
+	name = "Приготовленное мясо псевдособаки"
+	desc = "Тягучее, дичное мясо псевдособаки."
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/bloodsucker
-	name = "cooked bloodsucker meat"
-	desc = "Bloodsucker meat, it smells putrescent and seems to twitch every once and a while."
+	name = "Приготовленное мясо кровососа"
+	desc = "Мясо кровососа, пахнет гнилью и, кажется, время от времени дергается."
 
 /obj/item/reagent_containers/food/snacks/meat/steak/mutant/controller
-	name = "cooked controller meat"
-	desc = "Mutant meat from a controller. You can feel pulsating coming from this sticky slab of flesh."
+	name = "Приготовленное мясо контролёра"
+	desc = "Вы можете почувствовать пульсацию, исходящую от этого липкого куска плоти."

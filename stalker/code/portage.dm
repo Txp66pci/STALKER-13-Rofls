@@ -40,7 +40,7 @@
 */ //fuck - Valtos
 
 /obj/structure/flora/stalker
-	name = "bulrush"
+	name = "Камыш"
 	icon = 'stalker/icons/fallout/flora.dmi'
 
 /obj/structure/flora/stalker/smallbush
@@ -94,8 +94,8 @@
 		windowed = 1
 
 /turf/closed/wall/stalker/beton
-	name = "wall"
-	desc = "A huge chunk of wall"
+	name = "Стена"
+	desc = "Огромный кусок стены"
 	icon = 'stalker/icons/walls/beton_tg.dmi'
 	icon_state = "beton"
 	canSmoothWith = list(
@@ -104,8 +104,8 @@
 	)
 
 /turf/closed/wall/stalker/bricks
-	name = "wall"
-	desc = "A huge chunk of wall"
+	name = "Стена"
+	desc = "Огромный кусок стены"
 	icon = 'stalker/icons/walls/bricks_tg.dmi'
 	icon_state = "bricks"
 	canSmoothWith = list(
@@ -113,8 +113,8 @@
 	)
 
 /turf/closed/wall/stalker/bricks_yellow
-	name = "wall"
-	desc = "A huge chunk of wall"
+	name = "Стена"
+	desc = "Огромный кусок стены"
 	icon = 'stalker/icons/walls/bricks_tg_yellow.dmi'
 	icon_state = "bricks"
 	canSmoothWith = list(
@@ -122,8 +122,8 @@
 	)
 
 /turf/closed/wall/stalker/bricks_white
-	name = "wall"
-	desc = "A huge chunk of wall"
+	name = "Стена"
+	desc = "Огромный кусок стены"
 	icon = 'stalker/icons/walls/bricks_tg_white.dmi'
 	icon_state = "bricks"
 	canSmoothWith = list(
@@ -131,8 +131,8 @@
 	)
 
 /turf/closed/wall/stalker/beton_agro
-	name = "wall"
-	desc = "A huge chunk of wall"
+	name = "Стена"
+	desc = "Огромный кусок стены"
 	icon = 'stalker/icons/walls/beton_w_tg.dmi'
 	icon_state = "beton"
 	canSmoothWith = list(
@@ -140,56 +140,56 @@
 	)
 
 /turf/closed/wall/shuttle
-	name = "wall"
+	name = "Стена"
 	icon = 'icons/turf/shuttle.dmi'
 	icon_state = "wall1"
 	smooth = SMOOTH_FALSE
 
 /turf/closed/wall/stalker/ship
-	name = "hull"
-	desc = "A huge chunk of hull"
+	name = "Корпус"
+	desc = "Огромный кусок корпуса"
 	icon = 'stalker/icons/barzha.dmi'
 	icon_state = "hull"
 	canSmoothWith = list(/turf/closed/wall/stalker/ship)
 
 /turf/closed/wall/stalker/log
-	name = "log wall"
-	desc = "A log wall"
+	name = "Бревенчатая стена"
+	desc = "Бревенчатая стена"
 	icon = 'icons/turf/walls/log.dmi'
 	icon_state = "log"
 	canSmoothWith = list(/turf/closed/wall/stalker/log)
 
 /turf/closed/wall/stalker/store
-	name = "concrete wall"
-	desc = "A concrete wall"
+	name = "Бетонная стена"
+	desc = "Бетонная стена"
 	icon = 'icons/turf/walls/store.dmi'
 	icon_state = "store"
 	canSmoothWith = list(/turf/closed/wall/stalker/store)
 
 /turf/closed/wall/stalker/superstore
-	name = "concrete wall"
-	desc = "A concrete wall"
+	name = "Бетонная стена"
+	desc = "Бетонная стена"
 	icon = 'icons/turf/walls/superstore.dmi'
 	icon_state = "supermart"
 	canSmoothWith = list(/turf/closed/wall/stalker/superstore)
 
 /turf/closed/wall/stalker/brickdark
-	name = "brick wall"
-	desc = "A dark brick wall"
+	name = "Кирпичная стена"
+	desc = "Тёмная кирпичная стена"
 	icon = 'icons/turf/walls/brick_walldark.dmi'
 	icon_state = "brickwall"
 	canSmoothWith = list(/turf/closed/wall/stalker/brickdark)
 
 /turf/closed/wall/stalker/brick
-	name = "brick wall"
-	desc = "A brick wall"
+	name = "Кирпичная стена"
+	desc = "Кирпичная стена"
 	icon = 'icons/turf/walls/brick_wall.dmi'
 	icon_state = "brickwall"
 	canSmoothWith = list(/turf/closed/wall/stalker/brick)
 
 /obj/structure/chair/brevno
-	name = "log"
-	desc = "A simple log."
+	name = "Бревно"
+	desc = "Просто бревно."
 	icon = 'stalker/icons/decor.dmi'
 	icon_state = "log1"
 

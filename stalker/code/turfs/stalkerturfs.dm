@@ -4,8 +4,8 @@
 #define WEST_EDGING		"west"
 
 /turf/open/floor/plating/asteroid/snow/lite
-	name = "snow"
-	desc = "Looks cold."
+	name = "Снег"
+	desc = "Выглядит холодно."
 	icon = 'icons/turf/snow.dmi'
 	baseturfs = /turf/open/floor/plating/asteroid/snow
 	icon_state = "snow"
@@ -16,8 +16,8 @@
 	dug = 1
 
 /obj/structure/grille/stalker
-	desc = "Strong iron fence."
-	name = "fence"
+	desc = "Прочный железный забор."
+	name = "Забор"
 	icon = 'stalker/icons/structure.dmi'
 	icon_state = "fence1"
 	density = 1
@@ -56,21 +56,21 @@
 	return
 
 /obj/structure/grille/stalker/wood
-	desc = "Old wooden fence."
+	desc = "Старый деревянный забор."
 	icon_state = "zabor_horizontal1"
 	density = 1
 	opacity = 1
 
 /obj/structure/grille/stalker/beton
 	icon = 'stalker/icons/beton_zabor.dmi'
-	desc = "Too strong."
+	desc = "Слишком крепкий."
 	icon_state = "1"
 	density = 1
 	opacity = 1
 
 /obj/structure/grille/stalker/beton/green
 	icon = 'stalker/icons/green_zabor.dmi'
-	desc = "Green fence. Better than gray."
+	desc = "Зеленый забор. Лучше, чем серый."
 	icon_state = "1"
 
 obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, height=0)
@@ -96,7 +96,7 @@ obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, heig
 	flags_1 |= GLOBAL_LIGHT_TURF_1
 
 /turf/open/stalker/floor
-	name = "grass"
+	name = "Трава"
 	icon = 'stalker/icons/grass.dmi'
 	icon_state = "grass1"
 	layer = TURF_LAYER
@@ -154,7 +154,7 @@ obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, heig
 	icon_state = "dump_grass[rand(1, 3)]"
 
 /turf/open/stalker/floor/digable/gryaz_rocky
-	name = "rocky dirt"
+	name = "Каменистая грязь"
 	icon = 'stalker/icons/zemlya.dmi'
 	icon_state = "gryaz_rocky1"
 
@@ -180,7 +180,7 @@ obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, heig
 	return
 
 /turf/open/stalker/floor/sidor
-	name = "floor"
+	name = "Пол"
 	icon = 'stalker/icons/beton.dmi'
 	icon_state = "sidorpol"
 
@@ -188,7 +188,7 @@ obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, heig
 	icon = 'stalker/icons/beton.dmi'
 
 /turf/open/stalker/floor/asphalt
-	name = "road"
+	name = "Дорога"
 	icon = 'stalker/icons/Prishtina/asphalt.dmi'
 	icon_state = "road1"
 	layer = MID_TURF_LAYER
@@ -268,7 +268,7 @@ var/global/list/AsphaltEdgeCache
 	return
 
 /turf/open/stalker/floor/tropa
-	name = "road"
+	name = "Дорога"
 	icon = 'stalker/icons/tropa.dmi'
 	icon_state = "tropa"
 	layer = ABOVE_MID_TURF_LAYER
@@ -299,7 +299,7 @@ var/global/list/TropaEdgeCache
 	return
 
 /turf/open/stalker/floor/road
-	name = "road"
+	name = "Дорога"
 	icon = 'stalker/icons/building_road.dmi'
 	icon_state = "road2"
 	layer = MID_TURF_LAYER
@@ -336,7 +336,7 @@ var/global/list/WhiteRoadCache
 	return
 
 /turf/open/stalker/floor/gryaz
-	name = "dirt"
+	name = "Грязь"
 	icon = 'stalker/icons/zemlya.dmi'
 	icon_state = "gryaz1"
 	layer = ABOVE_ABOVE_MID_TURF_LAYER
@@ -383,7 +383,7 @@ var/global/list/GryazEdgeCache
 	icon_state = "gryaz3"
 
 /obj/structure/stalker/rails
-	name = "rails"
+	name = "Рельсы"
 	icon = 'stalker/icons/rails.dmi'
 	icon_state = "sp"
 	layer = MID_TURF_LAYER
@@ -392,7 +392,7 @@ var/global/list/GryazEdgeCache
 	opacity = 0
 
 /turf/open/stalker/floor/plasteel
-	name = "floor"
+	name = "Плитка"
 	icon = 'stalker/icons/floor.dmi'
 
 /turf/open/stalker/floor/plasteel/plita
@@ -414,7 +414,7 @@ var/global/list/GryazEdgeCache
 	icon_state = "plitka_old[rand(1, 8)]"
 
 /turf/open/stalker/floor/water
-	name = "water"
+	name = "Вода"
 	icon = 'stalker/icons/water.dmi'
 	smooth = SMOOTH_MORE|SMOOTH_BORDER
 	var/smooth_icon = 'stalker/icons/smoothwater.dmi'
@@ -445,7 +445,7 @@ var/global/list/GryazEdgeCache
 		return
 
 	if(busy)
-		user << "<span class='notice'>Someone's already washing here.</span>"
+		user << "<span class='notice'>Кто-то тут уже моется.</span>"
 		return
 	var/selected_area = parse_zone(user.zone_selected)
 	var/washing_face = 0
@@ -481,14 +481,14 @@ var/global/list/GryazEdgeCache
 
 /turf/open/stalker/floor/water/attackby(obj/item/O, mob/user, params)
 	if(busy)
-		user << "<span class='warning'>Someone's already washing here!</span>"
+		user << "<span class='warning'>Кто-то тут уже моется!</span>"
 		return
 
 	if(istype(O, /obj/item/reagent_containers))
 		var/obj/item/reagent_containers/RG = O
 		if(RG.flags_1 & OPENCONTAINER)
 			RG.reagents.add_reagent("water", min(RG.volume - RG.reagents.total_volume, RG.amount_per_transfer_from_this))
-			user << "<span class='notice'>You fill [RG] from [src].</span>"
+			user << "<span class='notice'>Вы наполняете [RG] из [src].</span>"
 			return
 
 	/*if(istype(O, /obj/item/melee/baton))
@@ -571,7 +571,7 @@ var/global/list/WaterEdgeCache
 */
 /turf/open/stalker/floor/wood
 	icon = 'stalker/icons/floor.dmi'
-	name = "floor"
+	name = "Пол"
 	footstep = FOOTSTEP_WOOD
 	barefootstep = FOOTSTEP_WOOD
 	clawfootstep = FOOTSTEP_WOOD_CLAW
@@ -648,7 +648,7 @@ var/global/list/WaterEdgeCache
 	icon_state = "woodd[rand(1, 70)]"
 
 /turf/open/stalker/floor/agroprom/beton
-	name = "floor"
+	name = "Бетон"
 	icon = 'stalker/icons/pol_agroprom.dmi'
 	icon_state = "beton1"
 
@@ -656,7 +656,7 @@ var/global/list/WaterEdgeCache
 	icon_state = "beton[rand(1, 4)]"
 
 /turf/open/stalker/floor/agroprom/gryaz
-	name = "dirt"
+	name = "Грязь"
 	icon = 'stalker/icons/pol_agroprom.dmi'
 	icon_state = "gryaz1"
 	footstep = FOOTSTEP_GRASS
@@ -666,7 +666,7 @@ var/global/list/WaterEdgeCache
 	icon_state = "gryaz[rand(1, 11)]"
 
 /turf/open/stalker/floor/lattice
-	name = "lattice"
+	name = "Решётка"
 	icon = 'stalker/icons/floor.dmi'
 	icon_state = "lattice_new1"
 	overlay_priority = HIGH_TURF_LAYER
@@ -675,7 +675,7 @@ var/global/list/WaterEdgeCache
 	icon_state = "lattice_new[rand(1, 21)]"
 
 /turf/open/stalker/floor/lattice/brokeone
-	name = "lattice"
+	name = "Решётка"
 	icon = 'stalker/icons/floor.dmi'
 	icon_state = "lattice1"
 
@@ -683,7 +683,7 @@ var/global/list/WaterEdgeCache
 	icon_state = "lattice[rand(1, 4)]"
 
 /turf/open/stalker/floor/lattice/broketwo
-	name = "lattice"
+	name = "Решётка"
 	icon = 'stalker/icons/floor.dmi'
 	icon_state = "lattice2_1"
 

@@ -2,8 +2,8 @@
 	density = 1
 
 /obj/structure/stalker/car/gryzovik
-	name = "Gruzovik"
-	desc = "An old soviet truck."
+	name = "Грузовик"
+	desc = "Старый советский грузовик."
 
 /obj/structure/stalker/car/gryzovik/south
 	icon = 'stalker/icons/cars/gruzovik_south.dmi'
@@ -22,8 +22,8 @@
 	icon_state = "1"
 
 /obj/structure/stalker/car/gryzovik2
-	name = "Gruzovik"
-	desc = "An old Soviet grukhovik with flat tires."
+	name = "Грузовик"
+	desc = "Старенький советский грузовик со спущенными шинами."
 
 /obj/structure/stalker/car/gryzovik2/south
 	icon = 'stalker/icons/cars/gruzovik2_south.dmi'
@@ -50,22 +50,22 @@
 	icon = 'stalker/icons/cars/moskvich3_south.dmi'
 
 /obj/structure/stalker/car/uaz
-	name = "UAZ"
+	name = "УАЗ"
 	icon = 'stalker/icons/cars/uaz-469_south.dmi'
-	desc = "Rusty, but still working. The gas tank is empty."
+	desc = "Ржавый, но все еще рабочий. Бензобак пуст."
 
 /obj/structure/stalker/car/uaz/north
-	name = "UAZ"
+	name = "УАЗ"
 	icon = 'stalker/icons/cars/uaz-469_north.dmi'
-	desc = "Rusty, but still working. The gas tank is empty."
+	desc = "Ржавый, но все еще рабочий. Бензобак пуст."
 
 /obj/structure/stalker/car/mi24
 	name = "MI24"
 	icon = 'stalker/icons/cars/mi-24.dmi'
 
 /obj/structure/stalker/car/gryzovik_army
-	name = "Gruzovik"
-	desc = "An old Soviet army gruen with flat tires."
+	name = "Грузовик"
+	desc = "Старый советский армейский грузовик со спущенными шинами."
 
 /obj/structure/stalker/car/gryzovik_army/south
 	icon = 'stalker/icons/cars/gruzovik_army_south.dmi'

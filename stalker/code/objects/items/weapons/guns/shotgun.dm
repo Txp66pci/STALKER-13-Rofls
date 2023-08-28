@@ -2,8 +2,8 @@
 	modifications = list("barrel_shotgun" = 0, "frame_shotgun" = 0, "grip_shotgun" = 0)
 
 /obj/item/gun/ballistic/shotgun/bm16  // Горизонталка
-	name = "BM-16"
-	desc = "The original BM16 rifle. Heavy and dangerous two barrel rifle, and it's effective in high range too."
+	name = "БМ-16"
+	desc = "Оригинальная винтовка БМ16. Тяжелая и опасная двухствольная винтовка, она эффективна и на больших дистанциях."
 	icon_state = "bm16"
 	item_state = "bm16"
 	w_class = 4
@@ -45,13 +45,13 @@
 		num_unloaded++
 	if (num_unloaded)
 		playsound(user, eject_sound, 50, 1)
-		user << "<span class='notice'>You break open \the [src] and unload [num_unloaded] shell\s.</span>"
+		user << "<span class='notice'>Вы открыли \the [src] и разрядили [num_unloaded] гильзу\s.</span>"
 	else
 		user << "<span class='warning'>[src] is empty!</span>"
 
 /obj/item/gun/ballistic/shotgun/bm16/toz34  //  Вертикалка
-	name = "TOZ-34"
-	desc = "This extremely common over-and-under hunting shotgun can offer better protection against mutants than a pistol, thanks to its accuracy and stopping power. Used mostly by rookies on the outskirts of the Zone."
+	name = "ТОЗ-34"
+	desc = "Это чрезвычайно распространенное охотничье ружье может обеспечить лучшую защиту от мутантов, чем пистолет, благодаря своей точности и останавливающей силе. Используется в основном новичками на окраинах Зоны."
 	icon_state = "toz34"
 	item_state = "toz34"
 	recoil = 0.6
@@ -68,8 +68,8 @@
 	modifications = list("barrel_shotgun" = 0, "frame_shotgun" = 0, "grip_shotgun" = 0)
 
 /obj/item/gun/ballistic/shotgun/ithaca  //  Ithaca M37
-	name = "Ithaca M37"
-	desc = " Pump-action shotgun made in large numbers for the civilian, military, and police markets. It utilizes a novel combination ejection/loading port on the bottom of the gun which leaves the sides closed to the elements. Since shotshells load and eject from the bottom, operation of the gun is equally convenient for both right and left hand shooters. This makes the gun popular with left-handed shooters. The model 37 is considered one of the most durable and reliable shotguns ever produced."
+	name = "Итака M37"
+	desc = " Помповое ружье, производимое в больших количествах для гражданского, военного и полицейского рынков. В нем используется новое комбинированное отверстие для выброса/заряжания в нижней части пистолета, которое оставляет боковые стороны закрытыми для элементов. Поскольку гильзы заряжаются и выбрасываются со дна, эксплуатация орудия одинаково удобна как для правых, так и для левых стрелков. Это делает пистолет популярным среди стрелков-левшей. Модель 37 считается одним из самых прочных и надежных дробовиков из когда-либо созданных."
 	icon_state = "ithacam37"
 	item_state = "ithacam37"
 	durability = 100
@@ -91,8 +91,8 @@
 	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
 
 /obj/item/gun/ballistic/shotgun/chaser  //  Winchester 1300
-	name = "Chaser-13"
-	desc = "A Western smoothbore shotgun that is extremely popular around the world thanks to its amazing reliability and faster reloading speed. Particularly valued for its functionality by the Zone's hunters. All of its parts are coated with an anticorrosion compound."
+	name = "Чейзер-13"
+	desc = "Западный гладкоствольный дробовик, который чрезвычайно популярен во всем мире благодаря своей удивительной надежности и более высокой скорости перезарядки. Особенно ценится за свою функциональность охотниками Зоны. Все его детали покрыты антикоррозийным составом."
 	icon_state = "chaser"
 	item_state = "chaser"
 	durability = 100
@@ -113,8 +113,8 @@
 	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
 
 /obj/item/gun/ballistic/shotgun/bm16/sawnoff
-	name = "sawed-off BM-16"
-	desc = "A sawed-off hunting shotgun with two side-by-side barrels, making it lighter and more compact than a full shotgun. One of the most popular weapons among bandits due to its combination of ease of concealment and extreme effectiveness in close combat."
+	name = "Обрез БМ-16"
+	desc = "Обрез охотничьего ружья с двумя расположенными бок о бок стволами, что делает его легче и компактнее, чем полноценный дробовик. Одно из самых популярных видов оружия среди бандитов благодаря сочетанию легкости маскировки и чрезвычайной эффективности в ближнем бою."
 	sawn_off = TRUE
 	weapon_weight = WEAPON_LIGHT
 	item_state = "gun"
@@ -132,8 +132,8 @@
 	update_icon()
 
 /obj/item/gun/ballistic/shotgun/spsa
-	name = "SPAS-12"
-	desc = "This special purpose smoothbore automatic shotgun was designed in the second half of the 20th century and comes with pump-action and self-cocking firing modes. Used as an all-purpose weapon by the police and assault troops. Notable for its reliability and tactical flexibility. Despite its large weight, complex mechanism and considerable cost it is in demand in the Zone due to its effectiveness against mutants."
+	name = "СПАС-12"
+	desc = "Это гладкоствольное автоматическое ружье специального назначения было разработано во второй половине 20-го века и поставляется с помповым и самовзводным режимами стрельбы. Используется в качестве универсального оружия полицией и штурмовыми отрядами. Отличается надежностью и тактической гибкостью. Несмотря на большой вес, сложный механизм и немалую стоимость, он пользуется спросом в Зоне благодаря своей эффективности против мутантов."
 	icon_state = "spsa"	//Нужно добавить
 	item_state = "spsa" //Нужно добавить
 	durability = 150
@@ -156,8 +156,8 @@
 ///////////////////////////// Bolt-actions //////////////////////////////////////////
 
 /obj/item/gun/ballistic/rifle/boltaction/enfield
-	name = "Lee Enfield"
-	desc = "A heavy and versatile rifle, rechambered in the powerful 7.62x51mm cartridge."
+	name = "Ли Энфилд"
+	desc = "Тяжелая и универсальная винтовка, переделанная под мощный патрон 7,62x51 мм."
 	icon_state = "enfield"
 	item_state = "enfield"
 	durability = 200
@@ -177,8 +177,8 @@
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/mosin
-	name = "mosin-nagant"
-	desc = "A heavy and versatile rifle which has served the Soviet Union for over a century, chambered in 7.62×54mm cartridge."
+	name = "Винтовка Мосина"
+	desc = "Тяжелая и универсальная винтовка, прослужившая Советскому Союзу более века, под патрон 7,62×54 мм."
 	icon_state = "mosin"
 	item_state = "mosin"
 	durability = 200
@@ -198,8 +198,8 @@
 	can_scope = 1
 
 obj/item/gun/ballistic/rifle/boltaction/mosinobrez
-	name = "mosin-nagant sawnoff"
-	desc = "Possibly one of the worst engineering ideas ever to stumble into someone's head. If you manage to kill someone with this (except yourself), then you're beyond robust."
+	name = "Обрез Мосинки"
+	desc = "Возможно, одна из худших инженерных идей, когда-либо приходивших кому-то в голову. Если вам удастся убить кого-то этим (кроме себя), то вы есть робаст."
 	icon_state = "mosin-obrez"
 	item_state = "mosin-obrez"
 	durability = 160
@@ -217,8 +217,8 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	can_scope = 0
 
 /obj/item/gun/ballistic/rifle/boltaction/arisaka
-	name = "arisaka"
-	desc = "A versatile bolt-action service rifle that was used by the Empire of Japan predominantly during the Second Sino-Japanese War and Second World War."
+	name = "Арисака"
+	desc = "Универсальная служебная винтовка с продольно-скользящим затвором, которая использовалась Японской империей преимущественно во время Второй китайско-японской войны и Второй мировой войны."
 	icon_state = "arisaka"
 	item_state = "rifle"
 	durability = 200
@@ -238,8 +238,8 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/karabiner
-	name = "karabiner 98K"
-	desc = "A versatile bolt-action service rifle that was used by Germany predominantly during the Second World War."
+	name = "Карабинер 98K"
+	desc = "Универсальная служебная винтовка с продольно-скользящим затвором, которая использовалась Германией преимущественно во время Второй мировой войны."
 	icon_state = "karabiner"
 	item_state = "rifle"
 	durability = 200
@@ -259,8 +259,8 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/springfield
-	name = "M1903 springfield"
-	desc = "The M1903 Springfield, officially the United States Rifle, Caliber .30-06, Model 1903, is an American five-round magazine-fed, bolt-action service repeating rifle, used primarily during the first half of the 20th century. The M1903 was first used in combat during the Philippine American War, and it was officially adopted by the United States as the standard infantry rifle on June 19, 1903, where it saw service in World War I, and was replaced by the faster-firing semi-automatic eight-round M1 Garand starting in 1936."
+	name = "M1903 Спрингфилд"
+	desc = "M1903 Спрингфилд, официально винтовка Соединенных Штатов, калибр.30-06, модель 1903 года, представляет собой американскую многозарядную винтовку с магазинным питанием и продольно-скользящим затвором, используемую в основном в первой половине 20-го века. M1903 была впервые использована в бою во время филиппино-американской войны, и она была официально принята Соединенными Штатами в качестве стандартной пехотной винтовки 19 июня 1903 года, где она использовалась в Первой мировой войне, и была заменена более скорострельной полуавтоматической восьмизарядной винтовкой M1 Гаранд, начиная с 1936 года."
 	icon_state = "springfield"
 	item_state = "rifle"
 	durability = 200
@@ -280,8 +280,8 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/makeshiftbolt
-	name = "makeshift bolt action rifle"
-	desc = "A cobbled together bolt action rifle made out of junk. Maybe this wasn't such a good idea..."
+	name = "Самодельная винтовка с продольно-скользящим затвором"
+	desc = "Слепленная винтовка с продольно-скользящим затвором, сделанная из хлама. Может быть, это была не такая уж хорошая идея..."
 	icon_state = "makeshiftbolt"
 	item_state = "rifle"
 	durability = 200
@@ -307,8 +307,8 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 ///
 
 /obj/item/gun/ballistic/awm
-	name = "AWSM"
-	desc = "A heavy and versatile rifle, rechambered in the massive .338 Lapua cartridge. One of the most formidable weapons in the zone."
+	name = "АВСМ"
+	desc = "Тяжелая и универсальная винтовка, переделанная под массивный патрон.338 Лапуа. Одно из самых грозных видов оружия в зоне."
 	icon_state = "awp"//temp??? shut cho bitchass up figass
 	item_state = "awp"
 	durability = 50//Heavily increases chance of jamming or explosion of round in chamber. Required due to power of rifle.

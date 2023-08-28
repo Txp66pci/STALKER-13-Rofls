@@ -1,6 +1,6 @@
 /obj/item/kitchen/knife/tourist
-	name = "tourist knife"
-	desc = "Cheap knife but good enough for a tourist."
+	name = "Туристический нож"
+	desc = "Дешевый нож, но достаточно хороший для туриста."
 	icon = 'stalker/icons/weapons.dmi'
 	icon_state = "knife"
 	slot_flags = ITEM_SLOT_BELT
@@ -8,13 +8,13 @@
 	throwforce = 15
 	w_class = WEIGHT_CLASS_SMALL
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1
 
 /obj/item/kitchen/knife/bayonet
-	name = "bayonet"
-	desc = "Dangerous, but bad at butchering mutants."
+	name = "Байонет"
+	desc = "Опасен, но плох в разделке мутантов."
 	icon = 'stalker/icons/weapons.dmi'
 	icon_state = "bayonet"
 	slot_flags = ITEM_SLOT_BELT
@@ -22,14 +22,14 @@
 	throwforce = 20
 	w_class = WEIGHT_CLASS_NORMAL
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	bayonet = TRUE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/throwing
-	name = "throwing knife"
-	desc = "A small knife which is best thrown rather than used in close combat."
+	name = "Метательный нож"
+	desc = "Маленький нож, который лучше бросать, а не использовать в ближнем бою."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "throwingknife"
 	slot_flags = ITEM_SLOT_BELT
@@ -39,12 +39,12 @@
 	embedding = list("embedded_pain_multiplier" = 4, "embed_chance" = 75, "embedded_fall_chance" = 25)
 	w_class = WEIGHT_CLASS_SMALL
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("penetrated", "stabbed", "skewered", "pierced")
+	attack_verb = list("пробивает", "дырявит")
 	sharpness = IS_SHARP_ACCURATE
 
 /obj/item/kitchen/knife/machete
-	name = "machete"
-	desc = "Great for hacking your problems away."
+	name = "Мачете"
+	desc = "Отлично подходит для разрубания ваших проблем."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "machete"
 	item_state = "machete"
@@ -55,13 +55,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/machete2
-	name = "machete"
-	desc = "Great for hacking your problems away."
+	name = "Мачете"
+	desc = "Отлично подходит для разрубания ваших проблем."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "machete2"
 	item_state = "machete2"
@@ -72,13 +72,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/machete3
-	name = "machete"
-	desc = "Great for hacking your problems away."
+	name = "Мачете"
+	desc = "Отлично подходит для разрубания ваших проблем."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "machete3"
 	item_state = "scrapsabre"
@@ -89,13 +89,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/machete4
-	name = "machete"
-	desc = "Great for hacking your problems away."
+	name = "Мачете"
+	desc = "Отлично подходит для разрубания ваших проблем."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "machete4"
 	item_state = "salvagedmachete"
@@ -106,13 +106,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/foreignsabre
-	name = "foreign sabre"
-	desc = "Great for hacking your problems away. This seems to be a genuine sabre, it is heavy and has seen a lot of use."
+	name = "Иностранная сабля"
+	desc = "Отлично подходит для разрубания ваших проблем. Кажется, это настоящая сабля, она тяжелая и много использовалась."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "foreignsabre"
 	item_state = "sabre"
@@ -123,13 +123,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/rapier0
-	name = "rapier"
-	desc = "Great for stabbing your problems away. This seems to be a genuine rapier, it is heavy and has seen a lot of use."
+	name = "Рапира"
+	desc = "Отлично подходит для затыкивания ваших проблем. Кажется, это настоящая рапира, она тяжелая и много использовалась."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "rapier0"
 	item_state = "rapier"
@@ -140,13 +140,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "penetrated", "pierced")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/sickle
-	name = "sickle"
-	desc = "Great for hacking your problems away. All you need is a hammer now!"
+	name = "Серп"
+	desc = "Отлично подходит для разрубания ваших проблем. Все, что вам нужно сейчас это молоток!"
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "sickle"
 	item_state = "sickle"
@@ -157,13 +157,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "penetrated", "pierced")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "пробивает")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/trench
-	name = "trench knife"
-	desc = "Dangerous, made for the trenches."
+	name = "Траншейный нож"
+	desc = "Опасный, сделанный для окопов."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "knife_trench"
 	item_state = "knife_trench"
@@ -174,13 +174,13 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/bowie
-	name = "bowie knife"
+	name = "Нож Боуи"
 	desc = "Day bow bow ... chicka chi-kow!"
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "knife_bowie"
@@ -192,14 +192,14 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/bolo
-	name = "bolo knife"
-	desc = "A large cutting tool of Filipino origin similar to the machete. It is used particularly in the Philippines, the jungles of Indonesia, Malaysia and Brunei, as well as in the sugar fields of Cuba."
+	name = "Нож Боло"
+	desc = "Большой режущий инструмент филиппинского происхождения, похожий на мачете. Он используется, в частности, на Филиппинах, в джунглях Индонезии, Малайзии и Брунея, а также на сахарных плантациях Кубы."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "bolo"
 	item_state = "bolo"
@@ -210,14 +210,14 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/kukri
-	name = "kukri"
-	desc = "A large curved blade lodged in an ornate handle. Most people would assume that it is of australian descent. Exceptionally effective when thrown."
+	name = "Кукри"
+	desc = "Большое изогнутое лезвие в богато украшенной рукояти. Большинство людей предположили бы, что он австралийского происхождения. Исключительно эффективен при броске."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "kukri"
 	item_state = "kukri"
@@ -228,14 +228,14 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
 /obj/item/shovel/entrenching_tool
-	name = "entrenching tool"
-	desc = "The most useful tool in the trenches!"
+	name = "Сапёрная лопатка"
+	desc = "Самый полезный инструмент в окопах!"
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "entrenching_tool"
 	item_state = "entrenching_tool"
@@ -246,14 +246,14 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 //	bayonet = TRUE
 
 
 /obj/item/hatchet/ancienthatchet
-	name = "ancienthatchet"
-	desc = "An old looking hand axe, still seems sturdy and sharp."
+	name = "Древний топор"
+	desc = "Старый ручной топор все еще кажется крепким и острым."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "ancienthatchet"
 	item_state = "hatchet"
@@ -264,13 +264,13 @@
 	lefthand_file = 'icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "дырявит", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/hatchet/woodhatchet
-	name = "wooden hatchet"
-	desc = "An old wooden hand axe, still seems sturdy and sharp."
+	name = "Деревянный топорик"
+	desc = "Старый деревянный ручной топор все еще кажется крепким и острым."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "woodhatchet"
 	item_state = "hatchet"
@@ -281,13 +281,13 @@
 	lefthand_file = 'icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
-	attack_verb = list("attacked", "stabbed", "torn", "ripped")
+	attack_verb = list("атакует", "режет", "кромсает", "рвёт")
 	sharpness = IS_SHARP_ACCURATE
 	//butcher_speed = 1.25
 
 /obj/item/melee/halliganbar
-	name = "tire iron"
-	desc = "A rusty metal halligan bar which can be used to beat mutants and stalkers. The end is bent and unusable to use it properly."
+	name = "Монтировка"
+	desc = "Ржавый металлический хулиган, который можно использовать для избиения мутантов и сталкеров. Конец изогнут и непригоден для правильного использования."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "halliganbar"
 	item_state = "crowbar"
@@ -298,12 +298,12 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
-	attack_verb = list("attacked", "smacked", "beat", "bludgened")
+	attack_verb = list("атакует", "бьёт", "избивает")
 	sharpness = IS_BLUNT
 
 /obj/item/melee/largewrench
-	name = "large wrench"
-	desc = "A rusty metal wrench which can be used to beat mutants and stalkers. The end is bent and unusable."
+	name = "Большой ключ"
+	desc = "Ржавый металлический гаечный ключ, который можно использовать для избиения мутантов и сталкеров. Конец погнут и непригоден."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "largewrench"
 	item_state = "bigwrench"
@@ -314,12 +314,12 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
-	attack_verb = list("attacked", "smacked", "beat", "bludgened")
+	attack_verb = list("атакует", "бьёт", "избивает")
 	sharpness = IS_BLUNT
 
 /obj/item/melee/redwrench
-	name = "large wrench"
-	desc = "A rusty red metal wrench which can be used to beat mutants and stalkers. The end is bent and unusable."
+	name = "Большой ключ"
+	desc = "Ржавый красный металлический ключ, который можно использовать для избиения мутантов и сталкеров. Конец погнут и непригоден."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "redwrench"
 	item_state = "bigwrench"
@@ -330,12 +330,12 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
-	attack_verb = list("attacked", "smacked", "beat", "bludgened")
+	attack_verb = list("атакует", "бьёт", "избивает")
 	sharpness = IS_BLUNT
 
 /obj/item/melee/tireiron
-	name = "tire iron"
-	desc = "A rusty metal tire iron which can be used to beat mutants and stalkers. The end is bent and unusable."
+	name = "Монтировка"
+	desc = "Ржавый металлический ключ для шин, который можно использовать для избиения мутантов и сталкеров. Конец погнут и непригоден."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "tireiron"
 	item_state = "tireiron"
@@ -346,12 +346,12 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
-	attack_verb = list("attacked", "smacked", "beat", "bludgened")
+	attack_verb = list("атакует", "бьёт", "избивает")
 	sharpness = IS_BLUNT
 
 /obj/item/melee/tireiron2
-	name = "tire iron"
-	desc = "A rusty metal tire iron which can be used to beat mutants and stalkers. The end is bent and unusable."
+	name = "Монтировка"
+	desc = "Ржавый металлический ключ для шин, который можно использовать для избиения мутантов и сталкеров. Конец погнут и непригоден."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "tireiron2"
 	item_state = "tireiron"
@@ -362,12 +362,12 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
-	attack_verb = list("attacked", "smacked", "beat", "bludgened")
+	attack_verb = list("атакует", "бьёт", "избивает")
 	sharpness = IS_BLUNT
 
 /obj/item/melee/pipe
-	name = "metal pipe"
-	desc = "A rusty metal pipe which can be used to beat mutants and stalkers."
+	name = "Металлическая труба"
+	desc = "Ржавая металлическая труба, которую можно использовать для избиения мутантов и сталкеров."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "pipe"
 	item_state = "nullrod"
@@ -378,12 +378,12 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
-	attack_verb = list("attacked", "smacked", "beat", "bludgened")
+	attack_verb = list("атакует", "бьёт", "избивает")
 	sharpness = IS_BLUNT
 
 /obj/item/melee/pipe2
-	name = "metal pipe"
-	desc = "A rusty metal pipe which can be used to beat mutants and stalkers."
+	name = "Металлическая труба"
+	desc = "Ржавая металлическая труба, которую можно использовать для избиения мутантов и сталкеров."
 	icon_state = "pipe2"
 	item_state = "pipe"
 	slot_flags = ITEM_SLOT_BELT
@@ -393,12 +393,12 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
-	attack_verb = list("attacked", "smacked", "beat", "bludgened")
+	attack_verb = list("атакует", "бьёт", "избивает")
 	sharpness = IS_BLUNT
 
 /obj/item/melee/baseball_bat/nail
-	name = "nail bat"
-	desc = "There ain't a skull in the league that can withstand a swatter. This one has nails through it."
+	name = "Бита с гвоздями"
+	desc = "В лиге нет ни одного черепа, который мог бы противостоять мухобойке. К этому прибиты гвозди."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "nailbat"
 	item_state = "nailbat"
@@ -406,12 +406,12 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	force = 20
 	throwforce = 12
-	attack_verb = list("beat", "smacked", "bonked", "bludgened", "battered")
+	attack_verb = list("атакует", "бьёт", "избивает", "бонкает")
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BELT
 
 /obj/item/melee/baseball_bat/barbed
-	name = "barbed bat"
+	name = "Бита с колючей проволокой"
 	desc = "There ain't a skull in the league that can withstand a swatter. This one has barbed wire wrapped around it."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "barbedbat"
@@ -420,6 +420,6 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	force = 25
 	throwforce = 12
-	attack_verb = list("beat", "smacked", "bonked", "bludgened", "battered")
+	attack_verb = list("атакует", "бьёт", "избивает", "бонкает")
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BELT

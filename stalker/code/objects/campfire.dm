@@ -1,6 +1,6 @@
 /obj/machinery/campfire
-	name = "Campfire"
-	desc = "A barrel with a couple of logs inside it. If you light it, you can heal by sitting near it."
+	name = "Костёр"
+	desc = "Бочка с парой бревен внутри. Если вы зажжете его, вы сможете исцелиться, сидя рядом с ним."
 	icon = 'stalker/icons/bochka.dmi'
 	icon_state = "campfire0"
 	anchored = 1
@@ -36,7 +36,7 @@
 	..()
 
 obj/machinery/campfire/barrel
-	name = "barrel"
+	name = "Бочка"
 	icon = 'stalker/icons/bochka.dmi'
 	icon_state = "barrel0"
 	density = 1
@@ -47,7 +47,7 @@ obj/machinery/campfire/barrel
 	if(!active || do_after_check)
 		return
 
-	user.visible_message("<span class='notice'>[user] started extinguishing the fire...</span>", "<span class='notice'>You started extinguishing the fire...</span>")
+	user.visible_message("<span class='notice'>[user] начал тушить огонь...</span>", "<span class='notice'>Вы начали тушить огонь...</span>")
 	do_after_check = 1
 
 	if(!do_after(user, 10, 1, src))
@@ -56,7 +56,7 @@ obj/machinery/campfire/barrel
 
 	do_after_check = 0
 
-	user.visible_message("<span class='green'>[user] extinguished the fire.</span>", "<span class='green'>You extinguished the fire.</span>")
+	user.visible_message("<span class='green'>[user] потушил огонь.</span>", "<span class='green'>Вы потушили огонь.</span>")
 	desc = initial(desc)
 
 	active = !active
@@ -109,10 +109,10 @@ obj/machinery/campfire/process()
 			var/obj/item/match/M = I
 			if(M.lit == 1 && !active)
 				active = !active
-				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
+				usr.visible_message("[usr] разжёг огонь.", "<span class='notice'>Вы зажгли огонь.</span>")
 				update_icon()
 				soundloop.start()
-				desc = "Campfires emit warmth and calmness. You can heal by sitting in it's range."
+				desc = "Костры излучают тепло и спокойствие. Вы можете исцелиться, сидя в его диапазоне."
 				set_light(4, 1, firecolor)
 				spawn(10)
 					set_light(0, 1, firecolor)
@@ -127,10 +127,10 @@ obj/machinery/campfire/process()
 			var/obj/item/lighter/L = I
 			if(L.lit == 1 && !active)
 				active = !active
-				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
+				usr.visible_message("[usr] зажёг огонь.", "<span class='notice'>Вы зажгли огонь.</span>")
 				update_icon()
 				soundloop.start()
-				desc = "Campfires emit warmth and calmness. You can heal by sitting in it's range."
+				desc = "Костры излучают тепло и спокойствие. Вы можете исцелиться, сидя в его диапазоне."
 				set_light(4, 1, firecolor)
 				spawn(10)
 					set_light(0, 1, firecolor)

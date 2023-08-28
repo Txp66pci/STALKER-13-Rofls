@@ -15,7 +15,7 @@
 	//	visible_message(message)
 	//else
 
-	visible_message("<span class='warning'>\The [src] is smashed apart!</span>")
+	visible_message("<span class='warning'>\The [src] разбивается вдребезги!</span>")
 
 	if(leave_debris && debriss_type)
 		new debriss_type(get_turf(src))
@@ -29,21 +29,21 @@
 	qdel(src)
 
 /obj/structure/barricade/stalker/wood
-	name = "wooden barricade"
-	desc = "A barricaded passage."
+	name = "Деревянная баррикада"
+	desc = "Забаррикадированный проход."
 	icon_state = "zabitiy_proxod"
 	debriss_type = /obj/structure/stalker/doski
 
 /obj/structure/barricade/stalker/woodalt
-	name = "wooden barricade"
-	desc = "A barricaded passage."
+	name = "Деревянная баррикада"
+	desc = "Забаррикадированный проход."
 	icon_state = "zabitiy_proxod_alt"
 	debriss_type = /obj/structure/stalker/doski
 
 
 /obj/structure/barricade/stalker/box
-	name = "wooden box"
-	desc = "Boarded up wooden box. Who knows what might be inside."
+	name = "Деревянный ящик"
+	desc = "Заколоченный деревянный ящик. Кто знает, что может быть внутри."
 	icon = 'stalker/icons/decor.dmi'
 	icon_state = "yashik_b"
 	debriss_type = /obj/structure/stalker/doski/doski2
@@ -73,9 +73,9 @@
 	lootcount = rand(1, 2)
 
 /obj/structure/stalker/blocks
-	name = "blocks"
+	name = "Блоки"
 	icon = 'stalker/icons/decor2.dmi'
-	desc = "An ordinary concrete block."
+	desc = "Обычный бетонный блок."
 	density = 1
 	opacity = 1
 
@@ -160,23 +160,23 @@
 		return 0
 
 /obj/structure/stalker/blocks/vanish/wframe2nowalk
-	name =  "metal window frame"
+	name =  "Металлическая оконная рама"
 	icon = 'stalker/icons/wframe.dmi'
 	icon_state = "wframe"
 
 /obj/structure/stalker/blocks/vanish/pipe
-	name = "Pipe"
-	desc = "A large pipe."
+	name = "Труба"
+	desc = "Большая труба."
 	icon = 'stalker/icons/decor2.dmi'
 	icon_state = "truba1"
 
 /obj/structure/stalker/blocks/vanish/pipe/pipe2
 	icon_state = "truba2"
-	name = "Pipe"
+	name = "Труба"
 
 /obj/structure/stalker/blocks/vanish/pipe/pipe3
 	icon_state = "truba3"
-	name = "Pipe"
+	name = "Труба"
 
 /obj/structure/stalker/blocks/vanish/shlagbaum1
 	icon = 'stalker/icons/decor.dmi'
@@ -186,7 +186,7 @@
 	icon_state = "shlagbaum2"
 
 /obj/structure/stalker/blocks/vanish/sandbags
-	name = "sandbags"
-	desc = "A stack of sandbags."
+	name = "Мешки с песком"
+	desc = "Штабель мешков с песком."
 	icon = 'stalker/icons/structure/sandbags.dmi'
 	icon_state = "solo"

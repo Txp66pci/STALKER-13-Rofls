@@ -5,15 +5,15 @@
 
 /obj/item/stalker/docs
 	icon_state = "docs0"
-	name = "documents"
-	desc = "Old documents. Trader may pay a big price for this."
+	name = "Документы"
+	desc = "Старые документы. Торговец может заплатить за это большую цену."
 
 /obj/item/stalker/usb
 	icon_state = "USB"
 	name = "USB"
-	desc = "Blue USB 2 Gb. Trader may pay a big price for this."
+	desc = "Синий USB 2 Гб. Торговец может заплатить за это большую цену."
 
 /obj/item/stalker/blue_box
 	icon_state = "blue_box"
-	name = "box"
-	desc = "Closed blue blox. Trader may pay a big price for this."
+	name = "Ящик"
+	desc = "Закрытый синий ящик. Торговец может заплатить за это большую цену."

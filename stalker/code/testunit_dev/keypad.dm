@@ -1,6 +1,6 @@
 /obj/machinery/button/door/keypad
-	name = "door keypad"
-	desc = "A door remote control keypad."
+	name = "Дверная клавиатура"
+	desc = "Клавиатура дверного дистанционного управления."
 	icon = 'stalker/icons/buttons.dmi'
 	icon_state = "doorctrl"
 	normaldoorcontrol = 0
@@ -34,7 +34,7 @@
 	keypadhtml = "<html>\
 	<body><br>"
 	if(keycode == "")
-		keypadhtml += "<div align=center><table border=0><tr><td>\[ <b>Enter your password</b> \]</td></tr></table><hr color=FF9900>"
+		keypadhtml += "<div align=center><table border=0><tr><td>\[ <b>Введите пароль</b> \]</td></tr></table><hr color=FF9900>"
 	else
 		keypadhtml += "<div align=center><table border=0><tr><td>[keycode]</td></tr></table><hr color=FF9900>\
 	<form>"
@@ -78,7 +78,7 @@
 	//	return
 
 	if(!allowed(user))
-		user << "<span class='danger'>Access Denied</span>"
+		user << "<span class='danger'>В доступе отказанно</span>"
 		flick("[skin]-denied", src)
 		return
 
@@ -95,7 +95,7 @@
 
 /obj/machinery/button/door/keypad/proc/ChangeCode(var/tempCode as num)
 	do
-		tempCode = text2num(input("Choose a new code-number for keypad.", "New Keypad Code", tempCode))
+		tempCode = text2num(input("Выберите новый кодовый номер.", "Новый код", tempCode))
 	while(!isnum(tempCode))
 
 	if(isnum(tempCode) && tempCode != null)
