@@ -7,7 +7,7 @@
 	self_delay = 10
 
 /obj/item/storage/firstaid/ifak
-	name = "пехотная аптечка"
+	name = "ИФАК"
 	desc = "Пехотная аптечка, содержащая все, что нужно сталкеру для стабилизации ран!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "ifak"
