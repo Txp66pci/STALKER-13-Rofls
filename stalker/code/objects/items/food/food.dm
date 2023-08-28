@@ -81,7 +81,7 @@
 	icon_state = "bobi2"
 
 /obj/item/reagent_containers/food/snacks/stalker/konserva/govyadina2
-	name = "тушёнка"
+	name = "Тушёнка"
 	desc = "Банка тушеной говядины! Горячо любимый продукт тех, кто рыщет по старым руинам в поисках добычи!"
 	//weight = 0.7
 	icon_state = "govyadina0"
