@@ -19,319 +19,319 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		///////////////////////////////  Оружие  /////////////////////////////////////////
 	"Handguns" = list(
 		///////////////////////////// **Pistols, SMGs** /////////////////////////////////////
-		new /datum/data/stalker_equipment("PMm",			"PMm",				/obj/item/gun/ballistic/automatic/pistol/pm,				3000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("ПМм",			"ПМм",				/obj/item/gun/ballistic/automatic/pistol/pm,				3000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("TT",				"TT",				/obj/item/gun/ballistic/automatic/pistol/tt,				3000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Fort-12",		"Fort-12",			/obj/item/gun/ballistic/automatic/pistol/fort12,			6500,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("PB1s",			"PB1s",				/obj/item/gun/ballistic/automatic/pistol/pb1s,				4500,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("SIG-Sauer P220",	"SIG-Sauer P220",	/obj/item/gun/ballistic/automatic/pistol/sip,				12500,	EXPERIENCED, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Colt M1911",		"Colt M1911",		/obj/item/gun/ballistic/automatic/pistol/cora,				9000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("Beretta 92FS",	"Beretta 92FS",		/obj/item/gun/ballistic/automatic/pistol/marta,				9000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("USP-match",		"USP-match",		/obj/item/gun/ballistic/automatic/pistol/usp_match, 		16000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("Colt Anaconda",	"Colt Anaconda",	/obj/item/gun/ballistic/revolver/anaconda,					25000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("Desert Eagle",	"Desert Eagle",		/obj/item/gun/ballistic/automatic/pistol/desert,			30000,	EXPERIENCED, initial_stock = SPECIALTY_AMOUNT),
+		new /datum/data/stalker_equipment("Форт-12",		"Форт-12",			/obj/item/gun/ballistic/automatic/pistol/fort12,			6500,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("ПБ1с",			"ПБ1с",				/obj/item/gun/ballistic/automatic/pistol/pb1s,				4500,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("СИГ-Сауэр P220",	"СИГ-Сауэр P220",	/obj/item/gun/ballistic/automatic/pistol/sip,				12500,	EXPERIENCED, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Кольт M1911",		"Кольт M1911",		/obj/item/gun/ballistic/automatic/pistol/cora,				9000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Беретта 92ФС",	"Беретта 92ФС",		/obj/item/gun/ballistic/automatic/pistol/marta,				9000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("ЮСП-матч",		"ЮСП-матч",		/obj/item/gun/ballistic/automatic/pistol/usp_match, 		16000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Кольт Анаконда",	"Кольт Анаконда",	/obj/item/gun/ballistic/revolver/anaconda,					25000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Дигл",	"Дигл",		/obj/item/gun/ballistic/automatic/pistol/desert,			30000,	EXPERIENCED, initial_stock = SPECIALTY_AMOUNT),
 		),
 
 
 	"Submachine Guns" = list(
-		new /datum/data/stalker_equipment("Beretta M38",	"Beretta M38",		/obj/item/gun/ballistic/automatic/berettam38,				10000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Kiparis",		"Kiparis",			/obj/item/gun/ballistic/automatic/kiparis,					12000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("PPSh",			"PPSh",				/obj/item/gun/ballistic/automatic/ppsh,						15000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("MP-5",			"MP-5",				/obj/item/gun/ballistic/automatic/mp5,						18000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("MAC10 Ingram",	"MAC10 Ingram",		/obj/item/gun/ballistic/automatic/mac10,					24000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("FN P90",			"FN P90",			/obj/item/gun/ballistic/automatic/p90,						38000,	ROOKIE, initial_stock = SPECIALTY_AMOUNT, faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Беретта M38",	"Беретта M38",		/obj/item/gun/ballistic/automatic/berettam38,				10000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Кипарис",		"Кипарис",			/obj/item/gun/ballistic/automatic/kiparis,					12000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("ППШ",			"ППШ",				/obj/item/gun/ballistic/automatic/ppsh,						15000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("МП-5",			"МП-5",				/obj/item/gun/ballistic/automatic/mp5,						18000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("МАК10 Инграм",	"МАК10 Инграм",		/obj/item/gun/ballistic/automatic/mac10,					24000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("ФН П90",			"ФН П90",			/obj/item/gun/ballistic/automatic/p90,						38000,	ROOKIE, initial_stock = SPECIALTY_AMOUNT, faction = "Mercenaries"),
 		),
 
 
 	"Automatic Weapons" = list(
 		///////////////////////////// **ARs** /////////////////////////////////////
-		new /datum/data/stalker_equipment("SKS",			"SKS",				/obj/item/gun/ballistic/rifle/semiautobolt/sks,				20000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("AK-74S",			"AK-74S",			/obj/item/gun/ballistic/automatic/aksu74 ,					24000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("СКС",			"СКС",				/obj/item/gun/ballistic/rifle/semiautobolt/sks,				20000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("AK-74С",			"AK-74С",			/obj/item/gun/ballistic/automatic/aksu74 ,					24000,	ROOKIE, initial_stock = SMG_AMOUNT),
 		new /datum/data/stalker_equipment("AK-74",			"AK-74",			/obj/item/gun/ballistic/automatic/ak74,						30000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
 		new /datum/data/stalker_equipment("AKM",			"AKM",				/obj/item/gun/ballistic/automatic/akm,						30400,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("AS-96",			"AS-96",			/obj/item/gun/ballistic/automatic/abakan,					40000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("LR-300",			"LR-300",			/obj/item/gun/ballistic/automatic/tpc301,					40000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("L85",			"L85",				/obj/item/gun/ballistic/automatic/il86,						40000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("Tunder OTs-14", 	"Tunder OTs-14",	/obj/item/gun/ballistic/automatic/groza,					35000,	VETERAN, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("AS \"Val\"",		"AS \"Val\"",		/obj/item/gun/ballistic/automatic/val,						50000,	VETERAN, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("SIG SG 550",		"SIG SG 550",		/obj/item/gun/ballistic/automatic/sigsg550,					50000,	VETERAN, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("FN F2000",		"FN F2000",			/obj/item/gun/ballistic/automatic/fnf2000,					65000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
-		new /datum/data/stalker_equipment("GP 37",			"GP 37",			/obj/item/gun/ballistic/automatic/gp37,						75000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
-		new /datum/data/stalker_equipment("FN FAL",			"FN FAL",			/obj/item/gun/ballistic/automatic/fnfal,					85000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
-		new /datum/data/stalker_equipment("FN FAL Wood Stock","FN FAL Wood Stock",/obj/item/gun/ballistic/automatic/woodfnfal,				85000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
-		new /datum/data/stalker_equipment("FN F2000S",		"FN F2000S",		/obj/item/gun/ballistic/automatic/fnf2000s,					100000,	EXPERT, initial_stock = SPECIALTY_AMOUNT, faction = "Mercenaries")
-		//new /datum/data/stalker_equipment("PKM",			"PKM",				/obj/item/gun/ballistic/automatic/l6_saw/pkm,				600000,	EXPERT)
+		new /datum/data/stalker_equipment("АС-96",			"АС-96",			/obj/item/gun/ballistic/automatic/abakan,					40000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("ЛР-300",			"ЛР-300",			/obj/item/gun/ballistic/automatic/tpc301,					40000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Л85",			"Л85",				/obj/item/gun/ballistic/automatic/il86,						40000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Гроза ОЦ-14", 	"Гроза ОЦ-14",	/obj/item/gun/ballistic/automatic/groza,					35000,	VETERAN, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("АС \"Вал\"",		"АС \"Вал\"",		/obj/item/gun/ballistic/automatic/val,						50000,	VETERAN, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("СИГ СГ 550",		"СИГ СГ 550",		/obj/item/gun/ballistic/automatic/sigsg550,					50000,	VETERAN, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("ФН Ф2000",		"ФН Ф2000",			/obj/item/gun/ballistic/automatic/fnf2000,					65000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
+		new /datum/data/stalker_equipment("ГП 37",			"ГП 37",			/obj/item/gun/ballistic/automatic/gp37,						75000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
+		new /datum/data/stalker_equipment("ФН ФАЛ",			"ФН ФАЛ",			/obj/item/gun/ballistic/automatic/fnfal,					85000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
+		new /datum/data/stalker_equipment("ФН ФАЛ деревянная рукоять","ФН ФАЛ деревянная рукоять",/obj/item/gun/ballistic/automatic/woodfnfal,				85000,	EXPERT, initial_stock = SPECIALTY_AMOUNT),
+		new /datum/data/stalker_equipment("ФН Ф2000С",		"ФН Ф2000С",		/obj/item/gun/ballistic/automatic/fnf2000s,					100000,	EXPERT, initial_stock = SPECIALTY_AMOUNT, faction = "Mercenaries")
+		//new /datum/data/stalker_equipment("ПKM",			"ПKM",				/obj/item/gun/ballistic/automatic/l6_saw/pkm,				600000,	EXPERT)
 		),
 
 
 	"Shotguns" = list(
 		/////////////////////////////// **Дробовики** /////////////////////////////////////
-		new /datum/data/stalker_equipment("Sawn off",		"Sawn off",			/obj/item/gun/ballistic/shotgun/bm16/sawnoff,				6000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("BM-16",			"BM-16",			/obj/item/gun/ballistic/shotgun/bm16,						10000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("TOZ-34",			"TOZ-34", 			/obj/item/gun/ballistic/shotgun/bm16/toz34,					15000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Ithaca M37",		"Ithaca M37",		/obj/item/gun/ballistic/shotgun/ithaca,						20000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("Wincheaster-1300","Wincheaster-1300",/obj/item/gun/ballistic/shotgun/chaser,						30000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("SPAS-12",		"SPAS-12",			/obj/item/gun/ballistic/shotgun/spsa,						50000,	VETERAN, initial_stock = RIFLE_AMOUNT)
+		new /datum/data/stalker_equipment("Обрез",		"Обрез",			/obj/item/gun/ballistic/shotgun/bm16/sawnoff,				6000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("БМ-16",			"БМ-16",			/obj/item/gun/ballistic/shotgun/bm16,						10000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("ТОЗ-34",			"ТОЗ-34", 			/obj/item/gun/ballistic/shotgun/bm16/toz34,					15000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Итака M37",		"Итака M37",		/obj/item/gun/ballistic/shotgun/ithaca,						20000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Винчестер-1300","Винчестер-1300",/obj/item/gun/ballistic/shotgun/chaser,						30000,	EXPERIENCED, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("СПАС-12",		"СПАС-12",			/obj/item/gun/ballistic/shotgun/spsa,						50000,	VETERAN, initial_stock = RIFLE_AMOUNT)
 		),
 
 
 	"Rifles" = list(
 		/////////////////////////////// **Винтовки** /////////////////////////////////////
-		new /datum/data/stalker_equipment("Mosin-Nagant obrez",	"Mosin-Nagant obrez",	/obj/item/gun/ballistic/rifle/boltaction/mosinobrez,14000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Mosin-Nagant",	"Mosin-Nagant",		/obj/item/gun/ballistic/rifle/boltaction/mosin,				15000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Lee Enfield",	"Lee Enfield",		/obj/item/gun/ballistic/rifle/boltaction/enfield,			15000,	ROOKIE, initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Vintorez", 		"Vintorez",			/obj/item/gun/ballistic/automatic/vintorez,					60000,	EXPERT, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("SVD", 	    	"SVD",			    /obj/item/gun/ballistic/semiauto/svd,					    75000,	EXPERT, initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("AWSM",			"AWSM",				/obj/item/gun/ballistic/awm,								80000,	ROOKIE, initial_stock = SPECIALTY_AMOUNT, faction = "Mercenaries")
+		new /datum/data/stalker_equipment("Обрез Мосина",	"Обрез Мосина",	/obj/item/gun/ballistic/rifle/boltaction/mosinobrez,14000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Винтовка Мосина",	"Винтовка Мосина",		/obj/item/gun/ballistic/rifle/boltaction/mosin,				15000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Ли Энфильд",	"Ли Энфильд",		/obj/item/gun/ballistic/rifle/boltaction/enfield,			15000,	ROOKIE, initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Винторез", 		"Винторез",			/obj/item/gun/ballistic/automatic/vintorez,					60000,	EXPERT, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("СВД", 	    	"СВД",			    /obj/item/gun/ballistic/semiauto/svd,					    75000,	EXPERT, initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("АВСМ",			"АВСМ",				/obj/item/gun/ballistic/awm,								80000,	ROOKIE, initial_stock = SPECIALTY_AMOUNT, faction = "Mercenaries")
 		),
 
 
 	"Melee Weapons" = list(
 		/////////////////////////////// **Другое** /////////////////////////////////////
-		new /datum/data/stalker_equipment("Kitchen Knife",		"Kitchen Knife",			/obj/item/kitchen/knife,												1500,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Tourist Knife",		"Tourist Knife",			/obj/item/kitchen/knife/tourist,										4000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Bayonet",			"Bayonet",					/obj/item/kitchen/knife/bayonet,										7000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Butcher's Cleaver",	"Butcher's Cleaver",		/obj/item/kitchen/knife/butcher,										10000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Hunting Knife",		"Hunting Knife",			/obj/item/weapon/kitchen/knife/hunting,									15000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("M9 Bayonet",			"M9 Bayonet",				/obj/item/weapon/kitchen/knife/m9,										25000,	ROOKIE, initial_stock = SMG_AMOUNT)
+		new /datum/data/stalker_equipment("Кухонный нож",		"Кухонный нож",			/obj/item/kitchen/knife,												1500,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Туристический нож",		"Туристический нож",			/obj/item/kitchen/knife/tourist,										4000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Байонет",			"Байонет",					/obj/item/kitchen/knife/bayonet,										7000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Мясницкий тессак",	"Мясницкий тессак",		/obj/item/kitchen/knife/butcher,										10000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Охотничий нож",		"Охотничий нож",			/obj/item/weapon/kitchen/knife/hunting,									15000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("M9 Байонет",			"M9 Байонет",				/obj/item/weapon/kitchen/knife/m9,										25000,	ROOKIE, initial_stock = SMG_AMOUNT)
 		),
 
 
 	"Ammo Boxes" = list(
 		////////////////////////////////  Патроны  /////////////////////////////////////////
-		new /datum/data/stalker_equipment("9x18mm Box",					"9x18mm Box",								/obj/item/ammo_box/stalker/b9x18,						2500,	ROOKIE,	initial_stock = PISTOL_AMOUNT, sale_price =300),
-		new /datum/data/stalker_equipment("9x18mm AP Box",				"9x18mm AP Box",							/obj/item/ammo_box/stalker/b9x18P,						3500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT, sale_price =350),
-		new /datum/data/stalker_equipment("7.62x25mm Box",				"7.62x25mm Box",							/obj/item/ammo_box/stalker/b762x25,						2500,	ROOKIE,	initial_stock = PISTOL_AMOUNT, sale_price =400),
-		new /datum/data/stalker_equipment("9x19mm Box",					"9x19mm Box",								/obj/item/ammo_box/stalker/b9x19,						3500,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price =450),
-		new /datum/data/stalker_equipment("9x19mm AP Box",				"9x19mm AP Box",							/obj/item/ammo_box/stalker/b9x19P,						5750,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =500),
-		new /datum/data/stalker_equipment("5.7×28mm Box",				"5.7×28mm Box",								/obj/item/ammo_box/stalker/b5728,						16000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price =550),
-		new /datum/data/stalker_equipment(".45 ACP Box",				".45 ACP Box",								/obj/item/ammo_box/stalker/bacp45,						8000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price =550),
-		new /datum/data/stalker_equipment(".45 ACP Hydroshock Box",		".45 ACP Hydroshock Box",					/obj/item/ammo_box/stalker/bacp45ap,					15000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =600),
-		new /datum/data/stalker_equipment(".44 Magnum Box",				".44 Magnum Box",							/obj/item/ammo_box/stalker/bmag44,						14000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =650),
-		new /datum/data/stalker_equipment(".44 Magnum FMJ Box",			".44 Magnum FMJ Box",						/obj/item/ammo_box/stalker/bmag44fmj,					15000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =700),
-		new /datum/data/stalker_equipment("12x70 Buckshot Box",			"12x70 Buckshot Box",						/obj/item/ammo_box/stalker/b12x70,						8000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =500),
-		new /datum/data/stalker_equipment("12x70 Slug Box",				"12x70 Slug Box",							/obj/item/ammo_box/stalker/b12x70P,						9500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =550),
-		new /datum/data/stalker_equipment("12x70 Dart Box",				"12x70 Dart Box",							/obj/item/ammo_box/stalker/b12x70D,						7000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =600),
-		new /datum/data/stalker_equipment("5.45x39mm Box",				"5.45x39mm Box",							/obj/item/ammo_box/stalker/b545,						10000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =650),
-		new /datum/data/stalker_equipment("5.45x39mm AP Box",			"5.45x39mm AP Box",							/obj/item/ammo_box/stalker/b545ap,						15000,	VETERAN,		initial_stock = PISTOL_AMOUNT,sale_price =700),
-		new /datum/data/stalker_equipment("7.62x39mm Box",				"7.62x39mm Box",							/obj/item/ammo_box/stalker/b762x39,						10000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =650),
-		new /datum/data/stalker_equipment("7.62x39mm AP Box",			"7.62x39mm AP Box",							/obj/item/ammo_box/stalker/b762x39ap,					15000,	VETERAN,		initial_stock = PISTOL_AMOUNT,sale_price =700),
-		new /datum/data/stalker_equipment("5.56x45mm Box",				"5.56x45mm Box",							/obj/item/ammo_box/stalker/b55645,						12000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =680),
-		new /datum/data/stalker_equipment("5.56x45mm AP Box",			"5.56x45mm AP Box",							/obj/item/ammo_box/stalker/b55645ap,					20000,	VETERAN,		initial_stock = PISTOL_AMOUNT,sale_price =720),
-		new /datum/data/stalker_equipment("7.62x51 Box",				"7.62x51 Box",								/obj/item/ammo_box/stalker/b762x51,						10000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =480),
-		new /datum/data/stalker_equipment("7.62x54mmR Box",				"7.62x54mmR Box",							/obj/item/ammo_box/stalker/b762x54r,					12000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =480),
-		new /datum/data/stalker_equipment("9x39 PAB-9 Box",				"9x39 PAB-9 Box",							/obj/item/ammo_box/stalker/b939,						30000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =700),
-		new /datum/data/stalker_equipment(".338 Lapua Magnum Box",		".338 Lapua Magnum Box",					/obj/item/ammo_box/stalker/b338,						60000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =700,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("9x18mm",					"9x18mm",								/obj/item/ammo_box/stalker/b9x18,						2500,	ROOKIE,	initial_stock = PISTOL_AMOUNT, sale_price =300),
+		new /datum/data/stalker_equipment("9x18mm ББ",				"9x18mm ББ",							/obj/item/ammo_box/stalker/b9x18P,						3500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT, sale_price =350),
+		new /datum/data/stalker_equipment("7.62x25mm",				"7.62x25mm",							/obj/item/ammo_box/stalker/b762x25,						2500,	ROOKIE,	initial_stock = PISTOL_AMOUNT, sale_price =400),
+		new /datum/data/stalker_equipment("9x19mm",					"9x19mm",								/obj/item/ammo_box/stalker/b9x19,						3500,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price =450),
+		new /datum/data/stalker_equipment("9x19mm ББ",				"9x19mm ББ",							/obj/item/ammo_box/stalker/b9x19P,						5750,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =500),
+		new /datum/data/stalker_equipment("5.7×28mm",				"5.7×28mm",								/obj/item/ammo_box/stalker/b5728,						16000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price =550),
+		new /datum/data/stalker_equipment(".45 ACP",				".45 ACP ",								/obj/item/ammo_box/stalker/bacp45,						8000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price =550),
+		new /datum/data/stalker_equipment(".45 ACP Экспансивный",		".45 ACP Экспансивный",					/obj/item/ammo_box/stalker/bacp45ap,					15000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =600),
+		new /datum/data/stalker_equipment(".44 Магнум",				".44 Магнум",							/obj/item/ammo_box/stalker/bmag44,						14000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =650),
+		new /datum/data/stalker_equipment(".44 Магнум FMJ",			".44 Магнум FMJ",						/obj/item/ammo_box/stalker/bmag44fmj,					15000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =700),
+		new /datum/data/stalker_equipment("12x70 Дробь",			"12x70 Buckshot",						/obj/item/ammo_box/stalker/b12x70,						8000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =500),
+		new /datum/data/stalker_equipment("12x70 Жакан",				"12x70 Жакан",							/obj/item/ammo_box/stalker/b12x70P,						9500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =550),
+		new /datum/data/stalker_equipment("12x70 Дротик",				"12x70 Дротик",							/obj/item/ammo_box/stalker/b12x70D,						7000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =600),
+		new /datum/data/stalker_equipment("5.45x39mm",				"5.45x39mm",							/obj/item/ammo_box/stalker/b545,						10000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =650),
+		new /datum/data/stalker_equipment("5.45x39mm ББ",			"5.45x39mm ББ",							/obj/item/ammo_box/stalker/b545ap,						15000,	VETERAN,		initial_stock = PISTOL_AMOUNT,sale_price =700),
+		new /datum/data/stalker_equipment("7.62x39mm",				"7.62x39mm",							/obj/item/ammo_box/stalker/b762x39,						10000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =650),
+		new /datum/data/stalker_equipment("7.62x39mm ББ",			"7.62x39mm ББ",							/obj/item/ammo_box/stalker/b762x39ap,					15000,	VETERAN,		initial_stock = PISTOL_AMOUNT,sale_price =700),
+		new /datum/data/stalker_equipment("5.56x45mm",				"5.56x45mm",							/obj/item/ammo_box/stalker/b55645,						12000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =680),
+		new /datum/data/stalker_equipment("5.56x45mm AP",			"5.56x45mm ББ",							/obj/item/ammo_box/stalker/b55645ap,					20000,	VETERAN,		initial_stock = PISTOL_AMOUNT,sale_price =720),
+		new /datum/data/stalker_equipment("7.62x51",				"7.62x51",								/obj/item/ammo_box/stalker/b762x51,						10000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =480),
+		new /datum/data/stalker_equipment("7.62x54mmR",				"7.62x54mmR",							/obj/item/ammo_box/stalker/b762x54r,					12000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =480),
+		new /datum/data/stalker_equipment("9x39",				"9x39",							/obj/item/ammo_box/stalker/b939,						30000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,sale_price =700),
+		new /datum/data/stalker_equipment(".338 Лапуа Магнум",		".338 Лапуа Магнум",					/obj/item/ammo_box/stalker/b338,						60000,	ROOKIE,			initial_stock = PISTOL_AMOUNT,sale_price =700,faction = "Mercenaries"),
 		),
 
 
 	"Ammo Magazines and Clips" = list(
-		new /datum/data/stalker_equipment("PMm; PB1s Magazine",						"PMm; PB1s Magazine",			/obj/item/ammo_box/magazine/stalker/m9x18pm,			1000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("TT Magazine",							"TT Magazine",					/obj/item/ammo_box/magazine/stalker/tt,					1000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("Fort-12 Magazine",						"Fort-12 Magazine",				/obj/item/ammo_box/magazine/stalker/m9x18fort,			2000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("Kiparis Magazine",						"Kiparis Magazine",				/obj/item/ammo_box/magazine/stalker/kiparis,			2400,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("MP-5 Magazine",							"MP-5 Magazine",				/obj/item/ammo_box/magazine/stalker/m9x19mp5,			3000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("MAC10 Magazine",							"MAC10 Magazine",				/obj/item/ammo_box/magazine/stalker/mac10,				3500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("PPSh Drum",								"PPSh Drum",					/obj/item/ammo_box/magazine/stalker/ppsh,				7000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("5.7×28mm Magazine",						"5.7×28mm Magazine",			/obj/item/ammo_box/magazine/smg57,						8000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =550),
-		new /datum/data/stalker_equipment("5.45x39mm Magazine",						"5.45x39mm Magazine",			/obj/item/ammo_box/magazine/stalker/m545,				5250,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("AKM magazine (7.62x39)",					"AKM magazine (7.62x39)",		/obj/item/ammo_box/magazine/stalker/akm,				5350,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price = 500),
-		new /datum/data/stalker_equipment("5.56x45mm Magazine",						"5.56x45mm Magazine",			/obj/item/ammo_box/magazine/stalker/m556x45,			6500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("AS \"Val\" Magazine",					"AS \"Val\" Magazine",			/obj/item/ammo_box/magazine/stalker/sp9x39val,			6000,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("Tunder S14 Magazine",					"Tunder S14 Magazine",			/obj/item/ammo_box/magazine/stalker/sp9x39groza,		6500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("Vintorez Magazine",						"Vintorez Magazine",			/obj/item/ammo_box/magazine/stalker/sp9x39vint,			6000,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("SVD Magazine",					     	"SVD Magazine",			        /obj/item/ammo_box/magazine/stalker/svd,			    7000,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("FN FAL magazine (7.62x51)",				"FN FAL magazine (7.62x51)",	/obj/item/ammo_box/magazine/stalker/fnfal,				7200,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price = 500),
-		new /datum/data/stalker_equipment("Colt M1911; SIG-Sauer P220 Magazine",	"Colt M1911; SIG-Sauer P220 Magazine",/obj/item/ammo_box/magazine/stalker/sc45,			3400,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("Beretta 92FS Magazine",					"Beretta 92FS Magazine",		/obj/item/ammo_box/magazine/stalker/m9x19marta,			3500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("Beretta M38 Magazine",					"Beretta M38 Magazine",			/obj/item/ammo_box/magazine/stalker/berettam38,			3250,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("USP-match Magazine",						"USP-match Magazine",			/obj/item/ammo_box/magazine/stalker/usp45,				4500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("Desert Eagle Magazine",					"Desert Eagle Magazine",		/obj/item/ammo_box/magazine/stalker/desert,				4000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("MAC10 Ingram Magazine",					"MAC10 Ingram Magazine",		/obj/item/ammo_box/magazine/stalker/mac10,				4500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("PKM ammo belt box",						"PKM ammo belt box",			/obj/item/ammo_box/magazine/stalker/pkm,				40000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
-		new /datum/data/stalker_equipment("7.62x51 Clip",							"7.62x51 Clip",					/obj/item/ammo_box/stalker/cl762x51,					2000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500)
+		new /datum/data/stalker_equipment("Магазин ПМм; ПБ1с",						"Магазин ПМм; ПБ1с",			/obj/item/ammo_box/magazine/stalker/m9x18pm,			1000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин TT",							"Магазин TT",					/obj/item/ammo_box/magazine/stalker/tt,					1000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин Форт-12",						"Магазин Форт-12",				/obj/item/ammo_box/magazine/stalker/m9x18fort,			2000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин Кипариса",						"Магазин Кипариса",				/obj/item/ammo_box/magazine/stalker/kiparis,			2400,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин MП-5",							"Магазин MП-5",				/obj/item/ammo_box/magazine/stalker/m9x19mp5,			3000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин МАК10",							"Магазин МАК10",				/obj/item/ammo_box/magazine/stalker/mac10,				3500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Дисковой магазин ППШ",								"Дисковой магазин ППШ",					/obj/item/ammo_box/magazine/stalker/ppsh,				7000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин 5.7×28mm",						"Магазин 5.7×28mm",			/obj/item/ammo_box/magazine/smg57,						8000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =550),
+		new /datum/data/stalker_equipment("Магазин 5.45x39mm",						"Магазин 5.45x39mm",			/obj/item/ammo_box/magazine/stalker/m545,				5250,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин AKM (7.62x39)",					"Магазин AKM (7.62x39)",		/obj/item/ammo_box/magazine/stalker/akm,				5350,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price = 500),
+		new /datum/data/stalker_equipment("Магазин 5.56x45mm",						"Магазин 5.56x45mm",			/obj/item/ammo_box/magazine/stalker/m556x45,			6500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин AС \"Вал\"",					"Магазин AС \"Вал\"",			/obj/item/ammo_box/magazine/stalker/sp9x39val,			6000,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин Гроза С14",					"TМагазин Гроза С14",			/obj/item/ammo_box/magazine/stalker/sp9x39groza,		6500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин Винтореза",						"Магазин Винтореза",			/obj/item/ammo_box/magazine/stalker/sp9x39vint,			6000,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин СВД",					     	"Магазин СВД",			        /obj/item/ammo_box/magazine/stalker/svd,			    7000,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин ФН ФАЛ (7.62x51)",				"Магазин ФН ФАЛ (7.62x51)",	/obj/item/ammo_box/magazine/stalker/fnfal,				7200,	VETERAN,	initial_stock = PISTOL_AMOUNT*2,sale_price = 500),
+		new /datum/data/stalker_equipment("Магазин Кольта M1911; СИГ-Сауэра П220",	"Магазин Кольта M1911; СИГ-Сауэра П220",/obj/item/ammo_box/magazine/stalker/sc45,			3400,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин Беретты 92ФС ",					"Магазин Беретты 92ФС",		/obj/item/ammo_box/magazine/stalker/m9x19marta,			3500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин Беретты M38",					"Магазин Беретты M38",			/obj/item/ammo_box/magazine/stalker/berettam38,			3250,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин ЮСП-матч",						"Магазин ЮСП-матч",			/obj/item/ammo_box/magazine/stalker/usp45,				4500,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин Дигла",					"Магазин Дигла",		/obj/item/ammo_box/magazine/stalker/desert,				4000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Магазин МАК10 Инграм",					"Магазин МАК10 Инграм",		/obj/item/ammo_box/magazine/stalker/mac10,				4500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Ящик с лентой для ПКМ",						"Ящик с лентой для ПКМ",			/obj/item/ammo_box/magazine/stalker/pkm,				40000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT*2,sale_price =500),
+		new /datum/data/stalker_equipment("Клипса 7.62x51",							"Клипса 7.62x51",					/obj/item/ammo_box/stalker/cl762x51,					2000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500)
 		),
 
 
 	"Suits" = list(
-		new /datum/data/stalker_equipment("Leather Jacket",				"Leather Jacket",			/obj/item/clothing/suit/hooded/kozhanka,					5000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("White Leather Jacket",		"White Leather Jacket",		/obj/item/clothing/suit/hooded/kozhanka/white,				5000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Armored Tan Coat",			"Armored Tan Coat",			/obj/item/clothing/suit/hooded/kozhanka/tancoat,			15000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Clear Sky Coat",				"Clear Sky Coat",			/obj/item/clothing/suit/hooded/kozhanka/cs_hood,			15000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
-		new	/datum/data/stalker_equipment("Bandit Jacket",				"Bandit Jacket",			/obj/item/clothing/suit/hooded/kozhanka/banditka,			6000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
-		new	/datum/data/stalker_equipment("Renegade Coat",				"Renegade Coat",			/obj/item/clothing/suit/hooded/kozhanka/renegadecoat,		6000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
-		new	/datum/data/stalker_equipment("Military Service Armor",		"Military Service Armor",	/obj/item/clothing/suit/army,								15000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new	/datum/data/stalker_equipment("Military Service Vest",	"	Military Service Vest",		/obj/item/clothing/suit/mil,								15000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new /datum/data/stalker_equipment("Sunrise Outfit",				"Sunrise Outfit",			/obj/item/clothing/suit/hooded/kombez,						33000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("6B2",						"6B2",						/obj/item/clothing/suit/sixb2,								14000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Defender II Vest",			"Defender II Vest",			/obj/item/clothing/suit/d2,									24000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new /datum/data/stalker_equipment("Mercenary Outfit",			"Mercenary Outfit",			/obj/item/clothing/suit/hooded/kombez/mercenary,			25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("Ecologist Mercenary Outfit",	"Ecologist Mercenary Outfit",/obj/item/clothing/suit/hooded/kombez/eco_mercenary,		25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
-		new /datum/data/stalker_equipment("Bandit Outfit",				"Bandit Outfit",			/obj/item/clothing/suit/hooded/kombez/kombez_bandit,		25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
-		new /datum/data/stalker_equipment("Renegade Outfit",			"Renegade Outfit",			/obj/item/clothing/suit/hooded/kombez/kombez_renegade,		25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
-		new /datum/data/stalker_equipment("Renegade Vest",              "Renegade Vest",            /obj/item/clothing/suit/hooded/kombez/kombezrenegadewornd2, 30000,      ROOKIE,     initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
-		new /datum/data/stalker_equipment("Black Trenchcoat",			"Black Trenchcoat",			/obj/item/clothing/suit/hooded/kozhanka/banditka/coat,		12500,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
-		new /datum/data/stalker_equipment("Brown Trenchcoat",			"Brown Trenchcoat",			/obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown,12500,		ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Ghillie Suit",				"Ghillie Suit",				/obj/item/clothing/suit/hooded/kozhanka/ghillie,			30000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Berill-5M",					"Berill-5M",				/obj/item/clothing/suit/berill,								50000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new /datum/data/stalker_equipment("Guardian of Freedom",		"Guardian of Freedom",		/obj/item/clothing/suit/guardian_of_freedom,				50000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
-		new /datum/data/stalker_equipment("Sentinel of Freedom",	   	"Sentinel of Freedom",		/obj/item/clothing/suit/hooded/kombez/veter,				25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
-		new /datum/data/stalker_equipment("Wind of Freedom",			"Wind of Freedom",			/obj/item/clothing/suit/hooded/strazh,				40000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
-		new /datum/data/stalker_equipment("PZ-1	",						"PZ-1",						/obj/item/clothing/suit/hooded/kombez/monolith,				25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Monolith", sale_price = 8000),
-		new /datum/data/stalker_equipment("Monolith Scientific Suit",	"Monolith Scientific Suit",	/obj/item/clothing/suit/hooded/sealed/monolith,				60000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Monolith"),
-		new /datum/data/stalker_equipment("PS5-M",						"PS5-M",					/obj/item/clothing/suit/hooded/kombez/ps5m,					25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Duty"),
-		new /datum/data/stalker_equipment("CS-3a body armor",			"CS-3a body armor",			/obj/item/clothing/suit/hooded/cs_medium,					25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
-		new /datum/data/stalker_equipment("Heavy Mercenary Armour",		"Heavy Mercenary Armour",	/obj/item/clothing/suit/assaultmerc,						50000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("Mercenary Ace Suit",			"Mercenary Ace Suit",		/obj/item/clothing/suit/hooded/sealed/merc,					60000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("CS-1 Body Armor",			"CS-1 Body Armor",			/obj/item/clothing/suit/cs_heavy,							60000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
-		new /datum/data/stalker_equipment("PSZ-9D",						"PSZ-9D",					/obj/item/clothing/suit/psz9d,								60000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
-		new	/datum/data/stalker_equipment("PSZ-9M",						"PSZ-9M",					/obj/item/clothing/suit/hooded/sealed/psz9md,				75000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
-		new	/datum/data/stalker_equipment("SSP-99 Ecologist",			"SSP-99 Ecologist",			/obj/item/clothing/suit/hooded/sealed/ecolog,				75000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
-		new	/datum/data/stalker_equipment("SSP-99M Ecologist",			"SSP-99M Ecologist",		/obj/item/clothing/suit/hooded/sealed/ecologm,				100000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
-		new	/datum/data/stalker_equipment("SEVA",						"SEVA",						/obj/item/clothing/suit/hooded/sealed/seva,					125000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
-		new /datum/data/stalker_equipment("SKAT-9M",					"SKAT-9M",					/obj/item/clothing/suit/skat,								150000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new	/datum/data/stalker_equipment("Exoskeleton",				"Exoskeleton",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Loners"),
-		new	/datum/data/stalker_equipment("Exoskeleton",				"Exoskeleton",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
-		new	/datum/data/stalker_equipment("Exoskeleton",				"Exoskeleton",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new	/datum/data/stalker_equipment("Merc Exoskeleton",			"Merc Exoskeleton",			/obj/item/clothing/suit/hooded/sealed/exoskelet/merc,		400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
-		new	/datum/data/stalker_equipment("Bandit Exoskeleton",			"Bandit Exoskeleton",		/obj/item/clothing/suit/hooded/sealed/exoskelet/bandit,		400000,		ZONE_LEGEND,	initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
-		new	/datum/data/stalker_equipment("Duty Exoskeleton",			"Duty Exoskeleton",			/obj/item/clothing/suit/hooded/sealed/exoskelet/duty,		400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
-		new	/datum/data/stalker_equipment("Freedom Exoskeleton",		"Freedom Exoskeleton",		/obj/item/clothing/suit/hooded/sealed/exoskelet/freedom,	400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
-		new	/datum/data/stalker_equipment("Monolith Exoskeleton",		"Monolith Exoskeleton",		/obj/item/clothing/suit/hooded/sealed/exoskelet/monolith,	400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Monolith")
+		new /datum/data/stalker_equipment("Кожаная Куртка",				"Кожаная Куртка",			/obj/item/clothing/suit/hooded/kozhanka,					5000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Белая Кожаная Куртка",		"Белая Кожаная Куртка",		/obj/item/clothing/suit/hooded/kozhanka/white,				5000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Укреплённая Кожаная Куртка",			"Укреплённая Кожаная Куртка",			/obj/item/clothing/suit/hooded/kozhanka/tancoat,			15000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Куртка Чистого Неба",				"Куртка Чистого Неба",			/obj/item/clothing/suit/hooded/kozhanka/cs_hood,			15000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
+		new	/datum/data/stalker_equipment("Бандитская Куртка",				"Бандитская Куртка",			/obj/item/clothing/suit/hooded/kozhanka/banditka,			6000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
+		new	/datum/data/stalker_equipment("Куртка Ренегата",				"Куртка Ренегата",			/obj/item/clothing/suit/hooded/kozhanka/renegadecoat,		6000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
+		new	/datum/data/stalker_equipment("Броня Военных",		"Броня Военных",	/obj/item/clothing/suit/army,								15000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new	/datum/data/stalker_equipment("Военный Бронежилет",		"Военный Бронежилет",		/obj/item/clothing/suit/mil,								15000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new /datum/data/stalker_equipment("Комбинезон «Заря»",				"Комбинезон «Заря",			/obj/item/clothing/suit/hooded/kombez,						33000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("6Б2",						"6Б2",						/obj/item/clothing/suit/sixb2,								14000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Бронежилет Защитник II",			"Бронежилет Защитник II",			/obj/item/clothing/suit/d2,									24000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new /datum/data/stalker_equipment("Комбенизон Наёмника",			"Комбенизон Наёмника",			/obj/item/clothing/suit/hooded/kombez/mercenary,			25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Костюм Наёмника Эколога",	"Костюм Наёмника Эколога",/obj/item/clothing/suit/hooded/kombez/eco_mercenary,		25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
+		new /datum/data/stalker_equipment("Комбенизон Бандита",				"Комбенизон Бандита",			/obj/item/clothing/suit/hooded/kombez/kombez_bandit,		25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
+		new /datum/data/stalker_equipment("Комбенизон Ренегата",			"Комбенизон Ренегата",			/obj/item/clothing/suit/hooded/kombez/kombez_renegade,		25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
+		new /datum/data/stalker_equipment("Бронежилет Ренегата",              "Бронежилет Ренегата",            /obj/item/clothing/suit/hooded/kombez/kombezrenegadewornd2, 30000,      ROOKIE,     initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
+		new /datum/data/stalker_equipment("Черный Кожаный Плащ",			"Черный Кожаный Плащ",			/obj/item/clothing/suit/hooded/kozhanka/banditka/coat,		12500,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
+		new /datum/data/stalker_equipment("Коричневый Кожаный Плащ",			"Коричневый Кожаный Плащ",			/obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown,12500,		ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Маскхалат",				"Маскхалат",				/obj/item/clothing/suit/hooded/kozhanka/ghillie,			30000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Берил-5M",					"Берил-5M",				/obj/item/clothing/suit/berill,								50000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new /datum/data/stalker_equipment("Защитник Свободы",		"Защитник Свободы",		/obj/item/clothing/suit/guardian_of_freedom,				50000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
+		new /datum/data/stalker_equipment("Ветер Свободы",	   	"Ветер Свободы",		/obj/item/clothing/suit/hooded/kombez/veter,				25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
+		new /datum/data/stalker_equipment("Страж Свободы",			"Страж Свободы",			/obj/item/clothing/suit/hooded/strazh,				40000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
+		new /datum/data/stalker_equipment("Броня Монолита",						"Броня Монолита",						/obj/item/clothing/suit/hooded/kombez/monolith,				25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Monolith", sale_price = 8000),
+		new /datum/data/stalker_equipment("Костюм Монолитовца Эколога",	"Костюм Монолитовца Эколога",	/obj/item/clothing/suit/hooded/sealed/monolith,				60000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Monolith"),
+		new /datum/data/stalker_equipment("ПС5-М",						"ПС5-М",					/obj/item/clothing/suit/hooded/kombez/ps5m,					25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Duty"),
+		new /datum/data/stalker_equipment("Броня ЧН-3а",			"Броня ЧН-3а",			/obj/item/clothing/suit/hooded/cs_medium,					25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
+		new /datum/data/stalker_equipment("Тяжёлая Броня Наёмника",		"Тяжёлая Броня Наёмника",	/obj/item/clothing/suit/assaultmerc,						50000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Типасева?",			"Mercenary Ace Suit",		/obj/item/clothing/suit/hooded/sealed/merc,					60000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Броня ЧН-1",			"Броня ЧН-1",			/obj/item/clothing/suit/cs_heavy,							60000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
+		new /datum/data/stalker_equipment("ПСЗ-9Д",						"ПСЗ-9Д",					/obj/item/clothing/suit/psz9d,								60000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
+		new	/datum/data/stalker_equipment("ПСЗ-9M",						"ПСЗ-9M",					/obj/item/clothing/suit/hooded/sealed/psz9md,				75000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
+		new	/datum/data/stalker_equipment("ССП-99 Эколог",			"ССП-99 Эколог",			/obj/item/clothing/suit/hooded/sealed/ecolog,				75000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
+		new	/datum/data/stalker_equipment("ССП-99м Эколог",			"ССП-99м Эколог",		/obj/item/clothing/suit/hooded/sealed/ecologm,				100000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
+		new	/datum/data/stalker_equipment("СЕВА",						"СЕВА",						/obj/item/clothing/suit/hooded/sealed/seva,					125000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Ecologist"),
+		new /datum/data/stalker_equipment("СКАТ-9M",					"СКАТ-9M",					/obj/item/clothing/suit/skat,								150000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new	/datum/data/stalker_equipment("Экзоскелет",				"Экзоскелет",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Loners"),
+		new	/datum/data/stalker_equipment("Экзоскелет",				"Экзоскелет",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
+		new	/datum/data/stalker_equipment("Экзоскелет",				"Экзоскелет",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new	/datum/data/stalker_equipment("Экзоскелет Наёмника",			"Экзоскелет Наёмника",			/obj/item/clothing/suit/hooded/sealed/exoskelet/merc,		400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
+		new	/datum/data/stalker_equipment("Экзоскелет Бандита",			"Экзоскелет Бандита",		/obj/item/clothing/suit/hooded/sealed/exoskelet/bandit,		400000,		ZONE_LEGEND,	initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
+		new	/datum/data/stalker_equipment("Экзоскелет Долга",			"Экзоскелет Долга",			/obj/item/clothing/suit/hooded/sealed/exoskelet/duty,		400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
+		new	/datum/data/stalker_equipment("Экзоскелет Свободы",		"Экзоскелет Свободы",		/obj/item/clothing/suit/hooded/sealed/exoskelet/freedom,	400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
+		new	/datum/data/stalker_equipment("Экзоскелет Монолита",		"Экзоскелет Монолита",		/obj/item/clothing/suit/hooded/sealed/exoskelet/monolith,	400000,		EXPERT,	initial_stock = PISTOL_AMOUNT,faction = "Monolith")
 	),
 
 
 	// Headwear
 	"Masks and Helmets" = list(
-		new /datum/data/stalker_equipment("Respirator",					"Respirator",					/obj/item/clothing/mask/gas/stalker/respirator,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
-		new /datum/data/stalker_equipment("Gas Mask",					"Gas Mask",						/obj/item/clothing/mask/gas/stalker,							7500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
-		new /datum/data/stalker_equipment("Mercenary Gas Mask",			"Mercenary Gas Mask",			/obj/item/clothing/mask/gas/stalker/mercenary,					7500,	ROOKIE,	initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("TSH-4M",						"TSH-4M",						/obj/item/clothing/head/tsh,									3000,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
-		new /datum/data/stalker_equipment("Steel Helmet",				"Steel Helmet",					/obj/item/clothing/head/steel,									7500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
-		new /datum/data/stalker_equipment("SSH-68",						"SSH-68",						/obj/item/clothing/head/ssh,									7600,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
-		new /datum/data/stalker_equipment("Light Tactical Helmet",		"Light Tactical Helmet",		/obj/item/clothing/head/hardhat/tactical/light,					12500,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,),
-		new /datum/data/stalker_equipment("Guardian of Freedom helmet",	"Guardian of Freedom helmet",	/obj/item/clothing/head/hardhat/tactical/guardian_of_freedom,	12500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
-		new /datum/data/stalker_equipment("Tactical Helmet",			"Tactical Helmet",				/obj/item/clothing/head/tacticalhelmet,							25000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,),
-		new /datum/data/stalker_equipment("Assault Helmet",	    		"Assault Helmet",				/obj/item/clothing/head/assaultmerc,							30000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("Sphera-M12",			 		"Sphera-M12",					/obj/item/clothing/head/spheram,								30000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new /datum/data/stalker_equipment("SKAT-9M Helmet",				"SKAT-9M Helmet",				/obj/item/clothing/head/skathelmet,								90000,	VETERAN, 		initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
-		new /datum/data/stalker_equipment("MASKA-1 SCH Helmet",			"MASKA-1 SCH Helmet",			/obj/item/clothing/head/maska_1,								12500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
-		new /datum/data/stalker_equipment("Renegade Ballistic Mask",    "Renegade Ballistic Mask",      /obj/item/clothing/mask/gas/stalker/renegademask,               3000,   EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "Renegades")
+		new /datum/data/stalker_equipment("Респиратор",					"Респиратор",					/obj/item/clothing/mask/gas/stalker/respirator,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
+		new /datum/data/stalker_equipment("Противогаз",					"Противогаз",						/obj/item/clothing/mask/gas/stalker,							7500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
+		new /datum/data/stalker_equipment("Противогаз Наёмника",			"Противогаз Наёмника",			/obj/item/clothing/mask/gas/stalker/mercenary,					7500,	ROOKIE,	initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("ТШ-4M",						"ТШ-4M",						/obj/item/clothing/head/tsh,									3000,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
+		new /datum/data/stalker_equipment("Стальной Шлем",				"Стальной Шлем",					/obj/item/clothing/head/steel,									7500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
+		new /datum/data/stalker_equipment("СШ-68",						"СШ-68",						/obj/item/clothing/head/ssh,									7600,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
+		new /datum/data/stalker_equipment("Лёгкий Тактический Шлем",		"Лёгкий Тактический Шлем",		/obj/item/clothing/head/hardhat/tactical/light,					12500,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,),
+		new /datum/data/stalker_equipment("Шлем Защитника Свободы",	"Шлем Защитника Свободы",	/obj/item/clothing/head/hardhat/tactical/guardian_of_freedom,	12500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT,faction = "Freedom"),
+		new /datum/data/stalker_equipment("Тактический Шлем",			"Тактический Шлем",				/obj/item/clothing/head/tacticalhelmet,							25000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,),
+		new /datum/data/stalker_equipment("Штурмовой Шлем",	    		"Штурмовой Шлем",				/obj/item/clothing/head/assaultmerc,							30000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Сфера-M12",			 		"Сфера-M12",					/obj/item/clothing/head/spheram,								30000,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new /datum/data/stalker_equipment("Шлем СКАТ-9M",				"Шлем СКАТ-9M",				/obj/item/clothing/head/skathelmet,								90000,	VETERAN, 		initial_stock = PISTOL_AMOUNT,faction = "State Security Service"),
+		new /datum/data/stalker_equipment("Шлем МАСКА-1Щ",			"Шлем МАСКА-1Щ",			/obj/item/clothing/head/maska_1,								12500,	EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
+		new /datum/data/stalker_equipment("Баллистическая Маска Ренегата",    "Баллистическая Маска Ренегата",      /obj/item/clothing/mask/gas/stalker/renegademask,               3000,   EXPERIENCED,	initial_stock = PISTOL_AMOUNT,faction = "Renegades")
 	),
 
 
 	"Medicine" = list(
 		///////////////////////////////	Медикаменты	/////////////////////////////////////////
-		new /datum/data/stalker_equipment("AI-2",						"AI-2",						/obj/item/storage/firstaid/ai2,									750,	ROOKIE, initial_stock = PISTOL_AMOUNT, sale_price = 150),
-		new /datum/data/stalker_equipment("Army Medkit",				"Army Medkit",				/obj/item/storage/firstaid/armymedkit,							2500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT, sale_price = 600),
-		new /datum/data/stalker_equipment("IFAK",						"IFAK",						/obj/item/storage/firstaid/ifak,								4000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,sale_price = 700),
-		new /datum/data/stalker_equipment("Advanced Scientific Kit",	"Advanced Scientific Kit",	/obj/item/storage/firstaid/ecologists,							20000,	VETERAN,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 3000),
-		new /datum/data/stalker_equipment("Scientific medkit",			"Scientific medkit",		/obj/item/storage/firstaid/sciencemedkit,						7000,	EXPERIENCED,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 1000),
-		new /datum/data/stalker_equipment("Improvised Stim",			"Improvised Stim",			/obj/item/reagent_containers/pill/stalker/injector/improvisedstim,		6000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,sale_price = 2000),
-		new /datum/data/stalker_equipment("Army Stim",					"Army Stim",				/obj/item/reagent_containers/pill/stalker/injector/armystim,			14000,	VETERAN,initial_stock = PISTOL_AMOUNT,sale_price = 5000),
-		new /datum/data/stalker_equipment("Scientific Stim",			"Scientific Stim",			/obj/item/reagent_containers/pill/stalker/injector/scistim,				24000,	EXPERT,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 10000),
-		new /datum/data/stalker_equipment("Bandage",					"Bandage",					/obj/item/stack/medical/gauze/bint,								750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Anti-rad",					"Anti-rad",					/obj/item/reagent_containers/pill/stalker/injector/antirad,		1000,	ROOKIE,initial_stock = PISTOL_AMOUNT*2,			sale_price = 1000),
-		new /datum/data/stalker_equipment("LSD Pills",					"LSD Pills",				/obj/item/storage/pill_bottle/lsd,								10000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Happines Pills",				"Happines Pills",			/obj/item/storage/pill_bottle/happiness,						5000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Epinephrine Pills",			"Epinephrine Pills",		/obj/item/storage/pill_bottle/epinephrine,						5000,	ROOKIE,initial_stock = PISTOL_AMOUNT)
+		new /datum/data/stalker_equipment("Аптечка",						"Аптечка",						/obj/item/storage/firstaid/ai2,									750,	ROOKIE, initial_stock = PISTOL_AMOUNT, sale_price = 150),
+		new /datum/data/stalker_equipment("Армейская Аптечка",				"Армейская Аптечка",				/obj/item/storage/firstaid/armymedkit,							2500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT, sale_price = 600),
+		new /datum/data/stalker_equipment("ИФАК",						"ИФАК",						/obj/item/storage/firstaid/ifak,								4000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,sale_price = 700),
+		new /datum/data/stalker_equipment("Улучшенная Научная Аптечка",	"Улучшенная Научная Аптечка",	/obj/item/storage/firstaid/ecologists,							20000,	VETERAN,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 3000),
+		new /datum/data/stalker_equipment("Научная Аптечка",			"Научная Аптечка",		/obj/item/storage/firstaid/sciencemedkit,						7000,	EXPERIENCED,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 1000),
+		new /datum/data/stalker_equipment("Импровизированный Стимулятор",			"Импровизированный Стимулятор",			/obj/item/reagent_containers/pill/stalker/injector/improvisedstim,		6000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,sale_price = 2000),
+		new /datum/data/stalker_equipment("Военный Стимулятор",					"Военный Стимулятор",				/obj/item/reagent_containers/pill/stalker/injector/armystim,			14000,	VETERAN,initial_stock = PISTOL_AMOUNT,sale_price = 5000),
+		new /datum/data/stalker_equipment("Научный Стимулятор",			"Научный Стимулятор",			/obj/item/reagent_containers/pill/stalker/injector/scistim,				24000,	EXPERT,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 10000),
+		new /datum/data/stalker_equipment("Бинт",					"Бинт",					/obj/item/stack/medical/gauze/bint,								750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Антирад",					"Антирад",					/obj/item/reagent_containers/pill/stalker/injector/antirad,		1000,	ROOKIE,initial_stock = PISTOL_AMOUNT*2,			sale_price = 1000),
+		new /datum/data/stalker_equipment("Таблетки ЛСД",					"Таблетки ЛСД",				/obj/item/storage/pill_bottle/lsd,								10000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Таблетки Счастья",				"Таблетки Счастья",			/obj/item/storage/pill_bottle/happiness,						5000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Таблетки Эпинефрина",			"Таблетки Эпинефрина",		/obj/item/storage/pill_bottle/epinephrine,						5000,	ROOKIE,initial_stock = PISTOL_AMOUNT)
 		),
 
 
 	"Food" = list(
 		/////////////////////////////////	Еда	///////////////////////////////////////////
-		new /datum/data/stalker_equipment("Canned stew",				"Canned stew",				/obj/item/reagent_containers/food/snacks/stalker/konserva,				550,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Canned fish",				"Canned fish",				/obj/item/reagent_containers/food/snacks/stalker/konserva/shproti,		750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Vodka \"Kazaki\"",			"Vodka \"Kazaki\"",			/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,			1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Energy drink \"NonStop\"",	"Energy drink \"NonStop\"",	/obj/item/reagent_containers/food/drinks/soda_cans/energetic,			500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Snickers",					"Snickers",					/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/snikers,300,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Salami",						"Salami",					/obj/item/reagent_containers/food/snacks/stalker/kolbasa,				500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Bread",						"Bread",					/obj/item/reagent_containers/food/snacks/stalker/baton,					400,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("MRE",						"MRE",						/obj/item/storage/box/MRE,												2500,	EXPERIENCED,initial_stock = PISTOL_AMOUNT)
+		new /datum/data/stalker_equipment("Консерва",				"Canned stew",				/obj/item/reagent_containers/food/snacks/stalker/konserva,				550,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Шпроты",				"Шпроты",				/obj/item/reagent_containers/food/snacks/stalker/konserva/shproti,		750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Водка \"Казаки\"",			"Vodka \"Kazaki\"",			/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,			1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Энергетик \"NonStop\"",	"Энергетик \"NonStop\"",	/obj/item/reagent_containers/food/drinks/soda_cans/energetic,			500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Сникерс",					"Snickers",					/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/snikers,300,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Колбаса",						"Колбаса",					/obj/item/reagent_containers/food/snacks/stalker/kolbasa,				500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Хлеб",						"Хлеб",					/obj/item/reagent_containers/food/snacks/stalker/baton,					400,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("ИРП",						"ИРП",						/obj/item/storage/box/MRE,												2500,	EXPERIENCED,initial_stock = PISTOL_AMOUNT)
 		),
 
 
 	"Backpacks" = list(
-		new /datum/data/stalker_equipment("Civvie satchel",					"Civvie satchel",			/obj/item/storage/backpack/satchel/stalker/civilian,				2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Cheap backpack",					"Cheap backpack",			/obj/item/storage/backpack/stalker/civilian,						2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Tourist bag",					"Tourist bag",				/obj/item/storage/backpack/stalker/tourist,							10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Professional backpack",			"Professional backpack",	/obj/item/storage/backpack/stalker/professional,					20000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Rucksack",						"Ruckstack",				/obj/item/storage/backpack/stalker/rucksack,						35000,	VETERAN,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Гражданский Рюкзак",					"Гражданский Рюкзак",			/obj/item/storage/backpack/satchel/stalker/civilian,				2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Дешёвый Рюкзак",					"Дешёвый Рюкзак",			/obj/item/storage/backpack/stalker/civilian,						2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Туристический Рюкзак",					"Туристический Рюкзак",				/obj/item/storage/backpack/stalker/tourist,							10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Профессиональный Рюкзак",			"Профессиональный Рюкзак",	/obj/item/storage/backpack/stalker/professional,					20000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Рюкзак",						"Рюкзак",				/obj/item/storage/backpack/stalker/rucksack,						35000,	VETERAN,initial_stock = PISTOL_AMOUNT),
 		),
 
 
 	"Rigs" = list(
-		new /datum/data/stalker_equipment("Tactical belt",					"Tactical belt",			/obj/item/storage/belt/military/tactibelt	,						8000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Carry webbing",					"Carry webbing",			/obj/item/storage/belt/military/webbing,							14000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Chestrig",						"Chestrig",					/obj/item/storage/belt/military/chestrig,							20000,	VETERAN,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Тактический ремень",					"Тактический ремень",			/obj/item/storage/belt/military/tactibelt	,						8000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Ремень для переноски",					"Ремень для переноски",			/obj/item/storage/belt/military/webbing,							14000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Разгрузка",						"Разгрузка",					/obj/item/storage/belt/military/chestrig,							20000,	VETERAN,initial_stock = PISTOL_AMOUNT),
 		),
 
 
 	"Misc" = list(
 		/////////////////////////////////	Другое	/////////////////////////////////////////////
-		new /datum/data/stalker_equipment/stalker_pda("PDA",					"PDA",													/obj/item/stalker_pda,												4000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Radio",								"Radio",												/obj/item/radio,													7000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Repair-kit for suits and helmets",	"Repair-kit for suits and helmets",						/obj/item/repair_kit/clothing,										10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Repair-kit for guns",				"Repair-kit for guns",									/obj/item/repair_kit/gun,											4000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Guitar",								"Guitar",												/obj/item/instrument/guitar,										3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Geiger counter",						"Geiger counter",										/obj/item/geiger_counter,											3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Flashlight",							"Flashlight",											/obj/item/flashlight/seclite,										1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Big Artifact belt",					"Big Artifact belt",									/obj/item/storage/belt/stalker/artifact_belt,						60000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Small Artifact belt",				"Small Artifact belt",									/obj/item/storage/belt/stalker/artifact_belt/small,					25000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Matches",							"Matches",												/obj/item/storage/box/matches,										1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Simple lighter",						"Simple lighter",										/obj/item/lighter/greyscale,										3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Zippo lighter",						"Zippo lighter",										/obj/item/lighter,													5000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Cigarettes \"Maxim\"",				"Cigarettes \"Maxim\"",									/obj/item/storage/fancy/cigarettes/cigpack/maxim,					2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Cigars",								"Cigars",												/obj/item/storage/fancy/cigarettes/cigars,							10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Weed Rollie",						"Weed Rollie",											/obj/item/clothing/mask/cigarette/rollie/trippy,					1000,	ROOKIE,	initial_stock = PISTOL_AMOUNT*4,faction = "Freedom"),
-		new /datum/data/stalker_equipment("100RUB",								"100Rub",												/obj/item/stack/spacecash/c100,										100,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =100),
-		new /datum/data/stalker_equipment("500RUB",								"500Rub",												/obj/item/stack/spacecash/c500,										500,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =500),
-		new /datum/data/stalker_equipment("1000RUB",							"1000Rub",												/obj/item/stack/spacecash/c1000,									1000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =1000),
-		new /datum/data/stalker_equipment("5000RUB",							"5000Rub",												/obj/item/stack/spacecash/c5000,									5000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =5000),
-//		new /datum/data/stalker_equipment("Bolts",								"Bolts",												/obj/item/stalker/bolts,											300,	ROOKIE),
-		new /datum/data/stalker_equipment("HandCuffs",							"HandCuffs",											/obj/item/restraints/handcuffs/cable/zipties,						500,	ROOKIE, initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
-		new /datum/data/stalker_equipment("HandCuffs",							"HandCuffs",											/obj/item/restraints/handcuffs/cable/zipties,						500,	ROOKIE, initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
-		new /datum/data/stalker_equipment("Binoculars",							"Binoculars",											/obj/item/twohanded/binoculars,										2500,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Frag Grenade",						"Frag Grenade",											/obj/item/grenade/syndieminibomb/concussion/stalker/frag,			8500,	ROOKIE,initial_stock = PISTOL_AMOUNT*4),
-		new /datum/data/stalker_equipment("Smoke Grenade",						"Smoke Grenade",										/obj/item/grenade/smokebomb/rgd,									1500,	ROOKIE,initial_stock = PISTOL_AMOUNT*4),
-		new /datum/data/stalker_equipment("Flash Grenade",						"Flash Grenade",										/obj/item/grenade/flashbang,										10000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT*4,faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("Wallet",								"Wallet",												/obj/item/storage/wallet,											500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Flare",								"Flare",												/obj/item/flashlight/flare,											2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
-		new /datum/data/stalker_equipment("Glowstick",							"Glowstick",											/obj/item/flashlight/glowstick,										2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
-		new /datum/data/stalker_equipment("Soap",								"Soap",													/obj/item/soap,														250,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 150),
-		new /datum/data/stalker_equipment("Russian Vocabulary",					"Russian Vocabulary",									/obj/item/codespeak_manual/russian,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Duty",sale_price = 8000),
-		new /datum/data/stalker_equipment("English Vocabulary",					"English Vocabulary",									/obj/item/codespeak_manual/english,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Clear Sky",sale_price = 8000),
-		new /datum/data/stalker_equipment("German Vocabulary",					"German Vocabulary",									/obj/item/codespeak_manual/german,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Ecologist",sale_price = 8000),
-		new /datum/data/stalker_equipment("Spray Cleaner",						"Spray Cleaner",										/obj/item/reagent_containers/spray/cleaner,							250,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 150)
+		new /datum/data/stalker_equipment/stalker_pda("КПК",					"КПК",													/obj/item/stalker_pda,												4000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Радио",								"Радио",												/obj/item/radio,													7000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Ремнабор Для Брони",	"Ремнабор Для Брони",						/obj/item/repair_kit/clothing,										10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("ремнабор Для Оружия",				"ремнабор Для Оружия",									/obj/item/repair_kit/gun,											4000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Гитара",								"Гитара",												/obj/item/instrument/guitar,										3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Счётчик Гейгера",						"Счётчик Гейгера",										/obj/item/geiger_counter,											3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Фонарик",							"Фонарик",											/obj/item/flashlight/seclite,										1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Пояс Для Артефактов",					"Пояс Для Артефактов",									/obj/item/storage/belt/stalker/artifact_belt,						60000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Маленький Пояс Для Артефактов",				"Маленький Пояс Для Артефактов",									/obj/item/storage/belt/stalker/artifact_belt/small,					25000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Спички",							"Спички",												/obj/item/storage/box/matches,										1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Дешёвая Зажигалка",						"Дешёвая Зажигалка",										/obj/item/lighter/greyscale,										3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Зажигалка Зиппо",						"Зажигалка Зиппо",										/obj/item/lighter,													5000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Сигареты \"Максим\"",				"Сигареты \"Максим\"",									/obj/item/storage/fancy/cigarettes/cigpack/maxim,					2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Сигары",								"Сигары",												/obj/item/storage/fancy/cigarettes/cigars,							10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Сигареты С Травкой",						"Сигареты С Травкой",											/obj/item/clothing/mask/cigarette/rollie/trippy,					1000,	ROOKIE,	initial_stock = PISTOL_AMOUNT*4,faction = "Freedom"),
+		new /datum/data/stalker_equipment("100 РУБ",								"100 РУБ",												/obj/item/stack/spacecash/c100,										100,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =100),
+		new /datum/data/stalker_equipment("500 РУБ",								"500 РУБ",												/obj/item/stack/spacecash/c500,										500,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =500),
+		new /datum/data/stalker_equipment("1000 РУБ",							"1000 РУБ",												/obj/item/stack/spacecash/c1000,									1000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =1000),
+		new /datum/data/stalker_equipment("5000 РУБ",							"5000 РУБ",												/obj/item/stack/spacecash/c5000,									5000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =5000),
+//		new /datum/data/stalker_equipment("Болты",								"Болты",												/obj/item/stalker/bolts,											300,	ROOKIE),
+		new /datum/data/stalker_equipment("Наручники",							"Наручники",											/obj/item/restraints/handcuffs/cable/zipties,						500,	ROOKIE, initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
+		new /datum/data/stalker_equipment("Наручники",							"Наручники",											/obj/item/restraints/handcuffs/cable/zipties,						500,	ROOKIE, initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
+		new /datum/data/stalker_equipment("Бинокль",							"Бинокль",											/obj/item/twohanded/binoculars,										2500,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Осколочная Граната",						"Осколочная Граната",											/obj/item/grenade/syndieminibomb/concussion/stalker/frag,			8500,	ROOKIE,initial_stock = PISTOL_AMOUNT*4),
+		new /datum/data/stalker_equipment("Дымовая граната",						"Дымовая граната",										/obj/item/grenade/smokebomb/rgd,									1500,	ROOKIE,initial_stock = PISTOL_AMOUNT*4),
+		new /datum/data/stalker_equipment("Светошумовая Граната",						"Светошумовая Граната",										/obj/item/grenade/flashbang,										10000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT*4,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Кошелёк",								"Кошелёк",												/obj/item/storage/wallet,											500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Фальшфейер",								"Фальшфейер",												/obj/item/flashlight/flare,											2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
+		new /datum/data/stalker_equipment("ХИС",							"ХИС",											/obj/item/flashlight/glowstick,										2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
+		new /datum/data/stalker_equipment("Мыло",								"Мыло",													/obj/item/soap,														250,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 150),
+		new /datum/data/stalker_equipment("Словарь По Русскому Языку",					"Словарь По Русскому Языку",									/obj/item/codespeak_manual/russian,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Duty",sale_price = 8000),
+		new /datum/data/stalker_equipment("Словарь По Английскому Языку",					"Словарь По Английскому Языку",									/obj/item/codespeak_manual/english,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Clear Sky",sale_price = 8000),
+		new /datum/data/stalker_equipment("Словарь По Немецкому Языку",					"Словарь По Немецкому Языку",									/obj/item/codespeak_manual/german,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Ecologist",sale_price = 8000),
+		new /datum/data/stalker_equipment("Клинер",						"Клинер",										/obj/item/reagent_containers/spray/cleaner,							250,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 150)
 		),
 
 
 	"Clothing" = list(
-		new /datum/data/stalker_equipment("Under",								"Under",												/obj/item/clothing/under/color/switer,						1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Dark under",							"Dark under",											/obj/item/clothing/under/color/switer/dark,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Telnyashka",							"Telnyashka",											/obj/item/clothing/under/color/switer/lolg,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Tracksuit",							"Tracksuit",											/obj/item/clothing/under/color/switer/tracksuit,			1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Worn out army boots",				"Worn out army boots",									/obj/item/clothing/shoes/jackboots/warm,					800,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Fingerless gloves",					"Fingerless gloves",									/obj/item/clothing/gloves/fingerless,						600,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Gloves",								"Gloves",												/obj/item/clothing/gloves/color/black,						800,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Balaclava",							"Balaclava",											/obj/item/clothing/mask/balaclava,							700,	ROOKIE,initial_stock = PISTOL_AMOUNT)
+		new /datum/data/stalker_equipment("Свитер",								"Свитер",												/obj/item/clothing/under/color/switer,						1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Тёмный Свитер",							"Тёмный Свитер",											/obj/item/clothing/under/color/switer/dark,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Тельняшка",							"Тельняшка",											/obj/item/clothing/under/color/switer/lolg,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Спортивка",							"Спортивка",											/obj/item/clothing/under/color/switer/tracksuit,			1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Изношенные Берцы",				"Изношенные Берцы",									/obj/item/clothing/shoes/jackboots/warm,					800,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Перчатки Без Пальцев",					"Перчатки Без Пальцев",									/obj/item/clothing/gloves/fingerless,						600,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Перчатки",								"Перчатки",												/obj/item/clothing/gloves/color/black,						800,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Балаклава",							"Балаклава",											/obj/item/clothing/mask/balaclava,							700,	ROOKIE,initial_stock = PISTOL_AMOUNT)
 		),
 
 
 	"Detectors" = list(
 		/////////////////////////////////	Детекторы	///////////////////////////////////////////
-		new /datum/data/stalker_equipment("Echo", 		"Echo",						/obj/item/detector/blink,				8000,	ROOKIE,	sale_price =7000,initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Bear",		"Bear",						/obj/item/detector/bear,				17000,	EXPERIENCED,	sale_price =10000,initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("Veles",		"Veles",					/obj/item/detector/veles,				66000,	ROOKIE,	sale_price =50000, faction = "Ecologist",initial_stock = SPECIALTY_AMOUNT),
+		new /datum/data/stalker_equipment("Отклик", 		"Отклик",						/obj/item/detector/blink,				8000,	ROOKIE,	sale_price =7000,initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Медведь",		"Медведь",						/obj/item/detector/bear,				17000,	EXPERIENCED,	sale_price =10000,initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Велес",		"Велес",					/obj/item/detector/veles,				66000,	ROOKIE,	sale_price =50000, faction = "Ecologist",initial_stock = SPECIALTY_AMOUNT),
 		),
 
 
 	"Attachments" = list(
 		/////////////////////////////////	Аттачменты	///////////////////////////////////////////
-		new /datum/data/stalker_equipment("Universal suppressor",	"Universal suppressor",						/obj/item/attachment/suppressor,			4000,	ROOKIE,RIFLE_AMOUNT,sale_price =500,),
-		new /datum/data/stalker_equipment("SUSAT",					"SUSAT",									/obj/item/attachment/scope/SUSAT,			10000,	EXPERIENCED,RIFLE_AMOUNT,sale_price =3000),
-		new /datum/data/stalker_equipment("PSU-1",					"PSU-1",									/obj/item/attachment/scope/PS/U1,			15000,	EXPERIENCED,RIFLE_AMOUNT,sale_price =5000),
-		new /datum/data/stalker_equipment("PSO-1",					"PSO-1",									/obj/item/attachment/scope/PS/O1,			30000,	EXPERIENCED,RIFLE_AMOUNT,sale_price =8000),
-		new /datum/data/stalker_equipment("Rifle/Shotgun scope",	"Rifle/Shotgun scope",						/obj/item/attachment/scope/rifle,			10000,	ROOKIE,RIFLE_AMOUNT,sale_price =400)
+		new /datum/data/stalker_equipment("Универсальный Глушитель",	"Универсальный Глушитель",						/obj/item/attachment/suppressor,			4000,	ROOKIE,RIFLE_AMOUNT,sale_price =500,),
+		new /datum/data/stalker_equipment("СУСАТ",					"СУСАТ",									/obj/item/attachment/scope/SUSAT,			10000,	EXPERIENCED,RIFLE_AMOUNT,sale_price =3000),
+		new /datum/data/stalker_equipment("ПСУ-1",					"ПСУ-1",									/obj/item/attachment/scope/PS/U1,			15000,	EXPERIENCED,RIFLE_AMOUNT,sale_price =5000),
+		new /datum/data/stalker_equipment("ПСО-1",					"ПСО-1",									/obj/item/attachment/scope/PS/O1,			30000,	EXPERIENCED,RIFLE_AMOUNT,sale_price =8000),
+		new /datum/data/stalker_equipment("Прицел Для Дробовиков/Винтовок",	"Прицел Для Дробовиков/Винтовок",						/obj/item/attachment/scope/rifle,			10000,	ROOKIE,RIFLE_AMOUNT,sale_price =400)
 		///////////////////////////////////////////////////////////////////////////////////////////
 		),
 
@@ -495,8 +495,8 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	icon = 'stalker/icons/decor.dmi'
 
 /obj/machinery/stalker/sidormat
-	name = "SYCHEMAT"
-	desc = "An equipment vendor for beginning stalkers."
+	name = "СЫЧЕМАТ"
+	desc = "Вендор Для Сталкеров."
 	icon_state = "radio"
 	density = 1
 	anchored = 1
@@ -626,7 +626,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		return
 
 	if(!ishuman(user))
-		say("You are not a human.")
+		say("Ты не человек.")
 		return
 
 	var/mob/living/carbon/human/H = user
@@ -637,7 +637,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 /obj/machinery/stalker/sidormat/ui_interact(mob/living/carbon/human/H)
 
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
-		say("Put on your PDA.")
+		say("Наденьте ваш КПК.")
 		return
 
 	//find_record("sid", H.sid, data_core.stalkers)
@@ -645,11 +645,11 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	var/datum/data/record/sk = KPK.profile
 
 	if(!sk || !KPK.owner)
-		say("Activate your PDA profile.")
+		say("Активируйте ваш КПК.")
 		return
 
 	if(KPK.owner != H)
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	H.set_machine(src)
@@ -743,12 +743,12 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 
 	if(!sk)
-		say("Activate your PDA profile.")
+		say("Активируйте ваш КПК.")
 		updateUsrDialog()
 		return
 
 	if(!KPK.owner || (KPK.owner != H))
-		say("No access.")
+		say("Нет доступа.")
 		updateUsrDialog()
 		return
 
@@ -764,19 +764,19 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 			return
 
 		if(prize.amount <= 0)
-			say("[prize.name] is out of stock.")
+			say("[prize.name] Товар закончился.")
 			updateUsrDialog()
 			return
 
 		if(prize.cost > sk.fields["money"])
-			say("You don't have enough money to buy [prize.name].")
+			say("У вас недостаточно денег для покупки [prize.name].")
 			updateUsrDialog()
 			return
 
 		sk.fields["money"] -= prize.cost
 		balance = sk.fields["money"]
 		//PoolOrNew(prize.equipment_path, itemloc2)
-		say("Successfully bought [prize.name] for [prize.cost].")
+		say("Успешно купленно [prize.name] За [prize.cost].")
 		prize.amount -= 1
 		new prize.equipment_path(itemloc2)
 
@@ -790,25 +790,25 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 /obj/machinery/stalker/sidormat/proc/SellItems()
 	var/mob/living/carbon/human/H = usr
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
-		say("Put on your PDA.")
+		say("Наденьте ваш КПК.")
 		return
 
 	var/datum/data/record/sk = find_record("sid", H.sid, GLOB.data_core.stalkers)
 	var/obj/item/stalker_pda/KPK = H.wear_id
 
 	if(!sk)
-		say("Activate your profile in PDA.")
+		say("Активируйте ваш КПК.")
 		return
 
 	if(KPK.sid != H.sid)
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	var/list/atom/movable/ontable = GetItemsOnTable()
 	var/total_cost = GetOnTableCost(ontable)
 
 	if(total_cost < 100)
-		say("Loot was not sold.")
+		say("Хабар не был продан.")
 
 	for(var/atom/movable/I in ontable)
 		if(I.loc != itemloc)
@@ -817,14 +817,14 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		sk.fields["money"] += GetCost(I)
 		balance = sk.fields["money"]
 
-		say("[I] was sold for [GetCost(I)].")
+		say("[I] продан за [GetCost(I)].")
 
 		qdel(I)
 
 		CHECK_TICK
 
 	if(total_cost)
-		say("<b>Habar was successfully sold for [total_cost].</b>")
+		say("<b>Хабыр был успешно продан за [total_cost].</b>")
 
 	updateUsrDialog()
 	return
@@ -838,17 +838,17 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		if(istype(AM, /obj/item/clothing))
 			var/obj/item/clothing/C = AM
 			if((C.durability / initial(C.durability)) * 100 < 80)
-				say("[AM] is too broken for sale.")
+				say("[AM] слишком сломан для продажи.")
 				continue
 
 		if(istype(AM, /obj/item/storage/backpack) && AM.contents.len)
-			say("Empty [AM] before selling.")
+			say("Опустошите [AM] перед продажей.")
 			continue
 
 		if(istype(AM, /obj/item/ammo_box))
 			var/obj/item/ammo_box/AB = AM
 			if(AB.stored_ammo.len < AB.max_ammo)
-				say("Fill [AB] before selling.")
+				say("Заполните [AB] перед продажей.")
 				continue
 
 		//if(istype(AM, /obj/item/reagent_containers))

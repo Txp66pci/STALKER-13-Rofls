@@ -1,13 +1,13 @@
 /datum/reagent/drug/energetic
-	name = "Energetic"
+	name = "Энергетик"
 	id = "energetic"
-	description = "Amps you up and gets you going, fixes all stamina damage you might have."
+	description = "Усиливает вас и заставляет двигаться, исправляет весь урон выносливости, который у вас может быть."
 	reagent_state = LIQUID  //SNAKE!
 	color = "#60A584"
-	taste_description = "sightly sugary chemicals"
+	taste_description = "слегка сладкая химоза"
 
 /datum/reagent/drug/energetic/on_mob_life(mob/living/M)
-	var/high_message = pick("You feel amped up.", "You feel ready.", "You feel like you can push it to the limit.")
+	var/high_message = pick("Вы чувствуете себя взвинченным.", "Вы чувствуете себя готовым.", "Вы чувствуете, что можете довести это до предела.")
 	if(prob(5))
 		M << "<span class='notice'>[high_message]</span>"
 	M.adjustStaminaLoss(-5)

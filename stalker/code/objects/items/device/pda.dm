@@ -1,11 +1,11 @@
 /obj/item/pda/stalker
-	name = "\improper PDA"
-	desc = "An individual PDA - Pocket Personal Computer. The main means of communication in the Zone. This version has not very great functionality and is under development."
+	name = "\improper КПК"
+	desc = "Индивидуальный КПК - карманный персональный компьютер. Основные средства связи в Зоне. Данная версия имеет не очень большой функционал и находится в стадии разработки."
 	icon = 'stalker/icons/device.dmi'
 	icon_state = "pda"
 	f_lum = 2
 	silent = 1
-	note = "Welcome to the menu of your personal multifunctional PDA!"
+	note = "Добро пожаловать в меню Вашего персонального многофункционального КПК!"
 	mode = 0
 	hidden = 0
 

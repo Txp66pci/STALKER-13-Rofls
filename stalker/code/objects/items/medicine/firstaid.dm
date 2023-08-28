@@ -1,5 +1,5 @@
 /obj/item/stack/medical/gauze/bint
-	desc = "A common gauze bandage. It'll work extremely well for stopping any bleeding!"
+	desc = "Обычная марлевая повязка. Это будет очень хорошо работать для остановки любого кровотечения!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "bint"
 	amount = 2
@@ -7,8 +7,8 @@
 	self_delay = 10
 
 /obj/item/storage/firstaid/ifak
-	name = "infantry first-aid kit"
-	desc = "An infantry first-aid kit containing all a STALKER needs to stabilize their wounds!"
+	name = "пехотная аптечка"
+	desc = "Пехотная аптечка, содержащая все, что нужно сталкеру для стабилизации ран!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "ifak"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -35,76 +35,76 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/reagent_containers/pill/iron
-	name = "iron pill"
-	desc = "Used to accelerate the treatment of blood deficiency."
+	name = "Таблетки железа"
+	desc = "Используется для ускорения лечения дефицита крови."
 	icon_state = "pill17"
 	list_reagents = list("iron" = 20)
 	rename_with_volume = FALSE
 
 /obj/item/reagent_containers/pill/painkiller
-	name = "analgesic pill"
-	desc = "Used to suppress pain. Causes stomach cramps after ingestion, eat beforehand!"
+	name = "обезболивающая таблетка"
+	desc = "Используется для подавления боли. Вызывает спазмы желудка после приема внутрь, ешьте перед применением!"
 	icon_state = "pill17"
 	list_reagents = list("mine_salve" = 15)
 	rename_with_volume = FALSE
 
 /obj/item/storage/pill_bottle/iron
-	name = "bottle of iron pills"
-	desc = "Contains pills used to counter blood deficiency."
+	name = "флакон таблеток железа"
+	desc = "Содержит таблетки, используемые для борьбы с дефицитом крови."
 
 /obj/item/storage/pill_bottle/iron/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/pill/iron(src)
 
 /obj/item/storage/pill_bottle/bicaridine
-	name = "bottle of bicaridine pills"
-	desc = "Contains pills used to counter brute damage."
+	name = "флакон таблеток бикаридина"
+	desc = "Содержит таблетки, используемые для борьбы с физическими уроном."
 
 /obj/item/storage/pill_bottle/bicaridine/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/pill/bicaridine(src)
 
 /obj/item/storage/pill_bottle/kelotane
-	name = "bottle of kelotane pills"
-	desc = "Contains pills used to counter burn damage."
+	name = "флакон таблеток келотана"
+	desc = "Содержит таблетки, используемые для борьбы с ожогами."
 
 /obj/item/storage/pill_bottle/kelotane/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/pill/kelotane(src)
 
 /obj/item/storage/pill_bottle/salbutamol
-	name = "bottle of salbutamol pills"
-	desc = "Contains pills used to counter after-blood loss tiredness and oxygen deficiency."
+	name = "флакон сальбутамола в таблетках"
+	desc = "Содержит таблетки, используемые для борьбы с усталостью и дефицитом кислорода после потери крови."
 
 /obj/item/storage/pill_bottle/salbutamol/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/pill/salbutamol(src)
 
 /obj/item/storage/pill_bottle/painkiller
-	name = "bottle of analgesic pills"
-	desc = "Contains pills used to relieve pain."
+	name = "флакон обезболивающих таблеток"
+	desc = "Содержит таблетки, используемые для облегчения боли."
 
 /obj/item/storage/pill_bottle/painkiller/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/pill/painkiller(src)
 
 /obj/item/reagent_containers/pill/bicaridine
-	name = "bicaridine pill"
-	desc = "Used to treat brute damage."
+	name = "таблетка бикаридина"
+	desc = "Используется для борьбы с физическими уроном."
 	icon_state = "pill17"
 	list_reagents = list("bicaridine" = 20)
 	rename_with_volume = FALSE
 
 /obj/item/reagent_containers/pill/kelotane
-	name = "kelotane pill"
-	desc = "Used to treat burn damage."
+	name = "таблетка еклотана"
+	desc = " Используется для борьбы с ожогами."
 	icon_state = "pill19"
 	list_reagents = list("kelotane" = 20)
 	rename_with_volume = FALSE
 
 /obj/item/storage/firstaid/ecologists
-	name = "scientific medical kit"
-	desc = "An advanced doctor's bag filled to the brim with everything a STALKER would every need, want or desire with in the Zone!"
+	name = "Научная аптечка"
+	desc = "Сумка п, до краев наполненная всем что нужно СТАЛКЕРУ, всё что можно захотеть или пожелать в Зоне!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "scikit"
 	w_class = WEIGHT_CLASS_BULKY
@@ -141,8 +141,8 @@
 
 // AI-2
 /obj/item/storage/firstaid/ai2
-	name = "AI-2 Medkit"
-	desc = "A first aid kit designed originally for radiological disaster. A common and affordable medical staple in the Zone!"
+	name = "Аптечка"
+	desc = "Аптечка первой помощи, разработанная изначально для радиологической катастрофы. Распространенный и доступный медицинский продукт в Зоне!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "aptechkar"
 	w_class = WEIGHT_CLASS_SMALL
@@ -167,8 +167,8 @@
 // ARMY-MEDKIT
 
 /obj/item/storage/firstaid/armymedkit
-	name = "Army Medkit"
-	desc = "A first aid kit designed for combat situations. It contains superior relief to the AI-2, but contains no radiological medication."
+	name = "Армейская аптечка"
+	desc = "Аптечка, предназначенная для боевых ситуаций. Она превосходит обычную, но не содержит радиологических препаратов."
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "aptechkab"
 	w_class = WEIGHT_CLASS_SMALL
@@ -193,8 +193,8 @@
 // SCIENTIFIC MEDKIT
 
 /obj/item/storage/firstaid/sciencemedkit
-	name = "Scientific Medkit"
-	desc = "A first aid kit designed by a company intandem with the Ecologists. This state of the art kit contains everything to save a Stalkers Life!"
+	name = "Научная аптечка"
+	desc = "Аптечка, разработанная экологами. В этом современном наборе есть все, чтобы спасти жизнь сталкеров!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "aptechkay"
 	w_class = WEIGHT_CLASS_SMALL

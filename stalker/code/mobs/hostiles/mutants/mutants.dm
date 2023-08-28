@@ -57,8 +57,8 @@
 			src.revive()
 
 /mob/living/simple_animal/hostile/mutant/dog
-	name = "dog mutant"
-	desc = "This dog became blind because of the radiation, allowing it to develop a more precise sense of smell. Its skin is of a maroon color, and the lack of food shows the bones of its ribcage. The tail is edible and taking it would be a good idea to make a soup or to sell."
+	name = "Слепой пёс"
+	desc = "Самый привычный представитель фауны Зоны. Стаи этих псов можно встретить везде, кроме совершенно гибельных мест."
 	turns_per_move = 15
 	speed = 1
 	a_intent = "harm"
@@ -66,10 +66,10 @@
 	icon_state = "stalker_dog"
 	icon_living = "stalker_dog"
 	icon_dead = "stalker_dog_dead"
-	attacktext = "bites"
+	attacktext = "кусает"
 	search_objects = 1
-	speak_emote = list("whines", "roars")
-	emote_see = list("barks!")
+	speak_emote = list("скулит", "ревёт")
+	emote_see = list("лает!")
 	faction = list("stalker_mutants1")
 	attack_sound = list('stalker/sound/mobs/mutants/attack/dog_attack.ogg',
 						'stalker/sound/mobs/mutants/attack/dog_attack2.ogg',
@@ -88,7 +88,7 @@
 	robust_searching = 0
 	see_invisible = SEE_INVISIBLE_MINIMUM
 	see_in_dark = 4
-	deathmessage = "lets out a pained whine before falling on its side!"
+	deathmessage = "издает болезненный вой, прежде чем упасть на бок!"
 	del_on_death = 0
 	minbodytemp = 0
 	maxbodytemp = 1500
@@ -118,8 +118,8 @@
 			walk_away(src, get_step(src, anydir), 7, move_to_delay)
 
 /mob/living/simple_animal/hostile/mutant/snork
-	name = "snork"
-	desc = "The Snork is wearing remains of military clothes and a broken gas mask with a hanging breathing tube. Its lips have been shredded, probably by itself, and their skin has a greenish hue. It moves on all fours and the lithe physique allows it to jump up to 10 meters. Their nails are as sharp as claws. The lenses of the gas mask do not allow us to say whether it is blind or not."
+	name = "Снорк"
+	desc = "Остатки людей... нет им покоя. Одиночный снорк - опасность для сноровистого охотника небольшая. Но в толпе..."
 	turns_per_move = 15
 	speed = 3
 	a_intent = "harm"
@@ -127,9 +127,9 @@
 	icon_state = "snork"
 	icon_living = "snork"
 	icon_dead = "snork_dead"
-	attacktext = "claws at"
-	speak_emote = list("growls", "roars", "sneers")
-	emote_see = list("growls!", "roars!", "sneers")
+	attacktext = "прыгает на"
+	speak_emote = list("Рычит", "ревёт")
+	emote_see = list("Рычит", "ревёт")
 	maxHealth = 120
 	healable = 1
 	melee_damage_lower = 20
@@ -151,7 +151,7 @@
 	del_on_death = 0
 	//environment_smash = 1
 	robust_searching = 0
-	deathmessage = "seizes up and falls limp!"
+	deathmessage = "падает замертво"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/snork_leg = 1,
 							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/snork_meat = 1)
@@ -211,8 +211,8 @@
 			update_icons()
 
 /mob/living/simple_animal/hostile/mutant/flesh
-	name = "flesh"
-	desc = "This abomination is a horribly mutated pig affected by radiation. Its three eyes have lost all the vigor of life and stare blankly. Despite the large and heavy legs, it seems to be able to move at a decent speed, and is apparently able to catch up with a running human."
+	name = "Плоть"
+	desc = "Плоть — мутировавшие до неузнаваемости свиньи, одни из самых безобидных мутантов в Зоне."
 	turns_per_move = 15
 	speed = 5
 	a_intent = "harm"
@@ -220,9 +220,9 @@
 	icon_state = "plot"
 	icon_living = "plot"
 	icon_dead = "plot_dead"
-	attacktext = "crashes into"
-	speak_emote = list("grunts")
-	emote_see = list("shrieks aggressively!")
+	attacktext = "врезается в"
+	speak_emote = list("хрипит")
+	emote_see = list("агрессивно кричит!")
 	maxHealth = 60
 	healable = 5
 	melee_damage_lower = 10
@@ -243,7 +243,7 @@
 	del_on_death = 0
 	environment_smash = 1
 	robust_searching = 1
-	deathmessage = "stops dead and falls over itself!"
+	deathmessage = "останавливается мёртвым и падает"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/flesh_eye = 1,
 							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/flesh_meat = 1)
@@ -256,8 +256,8 @@
 	aggro_vision_range = 15
 
 /mob/living/simple_animal/hostile/mutant/boar
-	name = "boar"
-	desc = "While less touched by mutation physically, as compared to other mutants, the Boars of the Zone remains ugly and loathsome. The smell coming from its mouth smells of carrion and grass. Its posture shows that he is able to go at full speed towards an enemy, so staying away would be the best option to kill him."
+	name = "Кабан"
+	desc = "Кабан — одно из многочисленных животных Зоны, подвергшееся воздействию аномальной энергии, после Второй катастрофы на ЧАЭС."
 	turns_per_move = 15
 	speed = 5
 	a_intent = "harm"
@@ -265,7 +265,7 @@
 	icon_state = "boar"
 	icon_living = "boar"
 	icon_dead = "boar_dead"
-	attacktext = "crashes into"
+	attacktext = "врезается в"
 	speak_emote = list("grunts")
 	emote_see = list("grunts aggressively!")
 	maxHealth = 180
@@ -286,7 +286,7 @@
 	del_on_death = 0
 	environment_smash = 1
 	robust_searching = 1
-	deathmessage = "collapses to the ground!"
+	deathmessage = "падает на землю!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/boar_leg = 1,
 							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/boar_meat = 1)
@@ -306,8 +306,8 @@
 	*/
 
 /mob/living/simple_animal/hostile/mutant/bloodsucker
-	name = "bloodsucker"
-	desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood."
+	name = "Кровосос"
+	desc = "О, это охотники на охотников! Камуфляж у них — мечта! Когда замаскируются, их почти не видно."
 	turns_per_move = 15
 	speed = 3
 	a_intent = "harm"
@@ -316,9 +316,9 @@
 	icon_state = "bloodsucker"
 	icon_living = "bloodsucker"
 	icon_dead = "bloodsucker_dead"
-	attacktext = "slashes"
-	speak_emote = list("growls", "roars")
-	emote_see = list("growls!", "roars!")
+	attacktext = "кромсает"
+	speak_emote = list("рычит", "ревёт")
+	emote_see = list("рычит!", "ревёт!")
 	maxHealth = 300
 	healable = 1
 	melee_damage_lower = 30
@@ -339,7 +339,7 @@
 	faction = list("stalker_mutants1", "monolith_forces")
 	del_on_death = 0
 	robust_searching = 1
-	deathmessage = "chokes up blood and falls to the ground!"
+	deathmessage = "захлебывается кровью и падает на землю!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/bloodsucker = 1,
 							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/bloodsucker_meat = 1)
@@ -389,8 +389,8 @@
 			walk_away(src, get_step(src, anydir), 7, move_to_delay)
 
 /mob/living/simple_animal/hostile/mutant/pseudog
-	name = "pseudodog"
-	desc = "A disgusting animal with wolf, bear, and human DNA. Their faces are almost human-like and constantly snarling to show their sharpened teeth. The eyes appear to glow almost eerily in the dark."
+	name = "псевдособака"
+	desc = "Псевдособаки — мутанты, обитающие почти на всей территории Зоны. Некогда это были дикие волки, обитавшие в лесах Зоны на момент катастрофы, которые и стали родоначальниками этого вида мутантов."
 	turns_per_move = 15
 	speed = 3
 	a_intent = "harm"
@@ -398,9 +398,9 @@
 	icon_state = "psydog"
 	icon_living = "psydog"
 	icon_dead = "psydog_dead"
-	attacktext = "bites"
-	speak_emote = list("growls", "roars")
-	emote_see = list("growls!", "roars!")
+	attacktext = "кусает"
+	speak_emote = list("рычит", "ревёт")
+	emote_see = list("рычит!", "ревёт!")
 	maxHealth = 80
 	healable = 1
 	melee_damage_lower = 15
@@ -424,7 +424,7 @@
 	faction = list("stalker_mutants1", "monolith_forces")
 	del_on_death = 0
 	robust_searching = 1
-	deathmessage = "makes a sinister howl before falling on its side!"
+	deathmessage = "издает зловещий вой, прежде чем упасть на бок!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/pseudo_tail = 1,
 							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/pseudo_meat = 1)
@@ -438,8 +438,8 @@
 	aggro_vision_range = 15
 
 /mob/living/simple_animal/hostile/mutant/controller
-	name = "Controller"
-	desc = "A rare type of mutant with the appearance of a deformed human with ridiculous physical properties. It has barely any clothes besides torn rags displayed randomly on the chest. Looking at him sends chills down your spine."
+	name = "Контролёр"
+	desc = "Контролёр — один из самых опасных мутантов, встречающихся в Зоне. Результат генетических экспериментов, проводимых учёными по программе развития в человеке телепатических способностей. Он обладает высокими телепатическими способностями — поражения мозга жертвы практически всегда необратимы. Старается перемещаться так, чтобы постоянно держать врага в поле зрения."
 	turns_per_move = 15
 	speed = 3
 	a_intent = "harm"
@@ -447,9 +447,9 @@
 	icon_state = "controller"
 	icon_living = "controller"
 	icon_dead = "controller_dead"
-	attacktext = "slashes"
-	speak_emote = list("growls", "roars")
-	emote_see = list("growls!", "roars!")
+	attacktext = "кромсает"
+	speak_emote = list("рычит", "ревёт")
+	emote_see = list("рычит!", "ревёт!")
 	maxHealth = 200
 	healable = 1
 	melee_damage_lower = 25
@@ -467,7 +467,7 @@
 	faction = list("stalker_mutants1", "monolith_forces")
 	del_on_death = 0
 	robust_searching = 1
-	deathmessage = "screams in agony, straining your mind with its last breath!"
+	deathmessage = "кричит в агонии, напрягая ваш разум своим последним вздохом!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/controller_brain = 1,
 							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/controller_meat = 1)
@@ -563,7 +563,7 @@
 // Poltergeist!//
 /////////////////
 /mob/living/simple_animal/hostile/mutant/poltergeist
-	name = "poltergeist"
+	name = "полтергейст"
 	real_name = "poltergeist"
 	faction = list("stalker_mutants1", "monolith_forces")
 	icon = 'stalker/icons/anomalies.dmi'
@@ -651,8 +651,8 @@
 	gib()
 
 /mob/living/simple_animal/hostile/mutant/rat
-	name = "rat mutant"
-	desc = "This rat has become enlarged and pulsing with energy and musculature. Its ragged, decrepid form reeks of putrescent filth and pestilence."
+	name = "тушкан"
+	desc = "Тушкан — маленькое крысоподобное существо, передвигающиеся на двух лапах. Обитают в основном в подвалах и подземельях, на поверхность выбираются редко."
 	turns_per_move = 15
 	speed = 1
 	a_intent = "harm"
@@ -660,10 +660,10 @@
 	icon_state = "rat"
 	icon_living = "rat"
 	icon_dead = "rat_dead"
-	attacktext = "chomps"
+	attacktext = "кусает"
 	search_objects = 1
-	speak_emote = list("squeaks", "SQUEAKS")
-	emote_see = list("squeaks!","SQUEAKS!")
+	speak_emote = list("пищит", "ПИЩИТ")
+	emote_see = list("пищит!", "ПИЩИТ!")
 	faction = list("stalker_mutants1")
 	attack_sound = 'sound/effects/mousesqueek.ogg'
 	idle_sounds = list('sound/effects/mousesqueek.ogg')
@@ -677,7 +677,7 @@
 	robust_searching = 1
 	see_invisible = SEE_INVISIBLE_MINIMUM
 	see_in_dark = 4
-	deathmessage = "lets out a pained squeak before falling on its side!"
+	deathmessage = "издает болезненный писк, прежде чем упасть на бок!"
 	del_on_death = 0
 	minbodytemp = 0
 	maxbodytemp = 1500
@@ -693,8 +693,8 @@
 	aggro_vision_range = 15
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp
-	name = "zombie"
-	desc = "A shambling hollow corpse who is forever lost to the Zone."
+	name = "зомби"
+	desc = "Зомби, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
 	icon_dead = "zombiesimp_dead"
@@ -704,9 +704,9 @@
 	mob_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
 	speak_chance = 1
 	turns_per_move = 5
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help = "тычет"
+	response_disarm = "толкает"
+	response_harm = "бьёт"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -719,7 +719,7 @@
 	harm_intent_damage = 10
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attacktext = "claws"
+	attacktext = "рвёт"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	idle_sounds =	list('stalker/sound/mobs/mutants/idle/zombie_idle_1.ogg',
 						'stalker/sound/mobs/mutants/idle/zombie_idle_2.ogg',
@@ -853,8 +853,8 @@
 		icon_dead = "zombiesimp22_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged
-	name = "zombie"
-	desc = "A shambling hollow corpse who is forever lost to the Zone."
+	name = "зомбированный"
+	desc = "Зомбированный сталкер, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
 	icon_dead = "zombiesimp_dead"
@@ -862,9 +862,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help = "тычет"
+	response_disarm = "толкает"
+	response_harm = "бьёт"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -873,7 +873,7 @@
 	harm_intent_damage = 10
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attacktext = "claws"
+	attacktext = "рвёт"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	idle_sounds =	list('stalker/sound/mobs/mutants/idle/zombie_idle_1.ogg',
 						'stalker/sound/mobs/mutants/idle/zombie_idle_2.ogg',
@@ -1008,8 +1008,8 @@
 		icon_dead = "zombiesimp22_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/merc
-	name = "Mercenary zombie"
-	desc = "A shambling hollow corpse of a mercenary who is forever lost to the Zone."
+	name = "зомбированный Наёмник"
+	desc = "Зомбированный Наёмник, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
 	icon_dead = "zombiesimp_dead"
@@ -1017,9 +1017,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help = "тычет"
+	response_disarm = "толкает"
+	response_harm = "бьёт"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -1080,8 +1080,8 @@
 		icon_dead = "zombiesimp15_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/duty
-	name = "Duty zombie"
-	desc = "A shambling hollow duty corpse who is forever lost to the Zone."
+	name = "зомбированный Долговец"
+	desc = "Зомбированный сталкер, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
 	icon_dead = "zombiesimp_dead"
@@ -1089,9 +1089,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help = "тычет"
+	response_disarm = "толкает"
+	response_harm = "бьёт"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -1100,7 +1100,7 @@
 	harm_intent_damage = 10
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attacktext = "claws"
+	attacktext = "рвёт"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	idle_sounds =	list('stalker/sound/mobs/mutants/idle/zombie_idle_1.ogg',
 						'stalker/sound/mobs/mutants/idle/zombie_idle_2.ogg',
@@ -1152,8 +1152,8 @@
 		icon_dead = "zombiesimp14_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/military
-	name = "military zombie"
-	desc = "A shambling hollow corpse of a military soldier who is forever lost to the Zone."
+	name = "зобированный военный"
+	desc = "Зомбированный сталкер, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
 	icon_dead = "zombiesimp_dead"
@@ -1161,9 +1161,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help = "тычет"
+	response_disarm = "толкает"
+	response_harm = "бьёт"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1

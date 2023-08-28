@@ -8,8 +8,8 @@
 	self_delay = 30
 
 /obj/item/reagent_containers/pill/stalker/aptechka
-	name = "kit"
-	desc = "An old Soviet first aid kit."
+	name = "Аптечка"
+	desc = "Старая советская аптечка."
 
 /obj/item/reagent_containers/pill/stalker/canconsume(mob/eater, mob/user)
 	if(!iscarbon(eater))
@@ -20,14 +20,14 @@ obj/item/reagent_containers/pill/stalker/afterattack(obj/target, mob/user , prox
 	return // thanks inheritance again
 
 /obj/item/reagent_containers/pill/stalker/injector
-	name = "Injector"
+	name = "Инжектор"
 	icon_state = "brute"
-	desc = "Small-effective combat stimulant. 15 units in one injector."
+	desc = "Малоэффективный боевой стимулятор. 15 единиц в одном инжекторе."
 	item_state = "brute"
 	var/wrapped = 1
 	list_reagents = list("cryoxadone" = 14)
 	var/icon_state_opened = "sj1_open"
-	var/desc_opened = "Opened injector."
+	var/desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/attack_self(mob/user)
 	if(wrapped)
@@ -38,26 +38,26 @@ obj/item/reagent_containers/pill/stalker/afterattack(obj/target, mob/user , prox
 /obj/item/reagent_containers/pill/stalker/injector/proc/Unwrap(mob/user)
 	icon_state = icon_state_opened
 	desc = desc_opened
-	to_chat(user, "<span class='notice'>You remove the injectors protective cover.</span>")
+	to_chat(user, "<span class='notice'>Вы снимаете защитную крышку инжектора.</span>")
 	wrapped = 0
 
 /obj/item/reagent_containers/pill/stalker/injector/canconsume(mob/eater, mob/user)
 	if(wrapped == 1)
-		to_chat(user, "<span class='warning'>The injector is closed! You should probably open it.</span>")
+		to_chat(user, "<span class='warning'>Инжектор закрыт! Вероятно, вам следует открыть его.</span>")
 		return 0
 	return 1 // Masks were stopping people from "eating" patches. Thanks, inheritance.
 
 // Pill-Bottle | Made for Fast-Use with Helmets | Simplifies use
 
 /obj/item/reagent_containers/pill/stalker/pillbottle
-	name = "Pill container"
+	name = "Контейнер для таблеток"
 	icon_state = "alcopill"
-	desc = "If you're seeing this something has gone TERRIBLY fucking wrong"
+	desc = "Если вы видите это, что-то пошло УЖАСНО не так"
 	item_state = "brute"
 	var/wrapped = 1
 	list_reagents = list("water" = 15)
 	var/icon_state_opened = "sj1_open"
-	var/desc_opened = "Opened bottle."
+	var/desc_opened = "Открыл бутылочку."
 
 /obj/item/reagent_containers/pill/stalker/pillbottle/attack_self(mob/user)
 	if(wrapped)
@@ -68,178 +68,178 @@ obj/item/reagent_containers/pill/stalker/afterattack(obj/target, mob/user , prox
 /obj/item/reagent_containers/pill/stalker/pillbottle/proc/Unwrap(mob/user)
 	icon_state = icon_state_opened
 	desc = desc_opened
-	to_chat(user, "<span class='notice'>You cracked the protective seal on the pills!</span>")
+	to_chat(user, "<span class='notice'>Вы сломали защитную пломбу контейнера!</span>")
 	wrapped = 0
 
 /obj/item/reagent_containers/pill/stalker/pillbottle/canconsume(mob/eater, mob/user)
 	if(wrapped == 1)
-		to_chat(user, "<span class='warning'>The safety seal is still closed! You need to open it to use this.</span>")
+		to_chat(user, "<span class='warning'>Защитная пломба по-прежнему закрыта! Вам нужно открыть её, чтобы использовать это.</span>")
 		return 0
 	return 1 // Masks were stopping people from "eating" patches. Thanks, inheritance.
 
 /obj/item/reagent_containers/pill/stalker/injector/brute
-	name = "brute trauma treatment injector"
+	name = "Инжектор для лечения физического урона"
 	icon_state = "brute"
-	desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking three of those in a quick succession isn't recommended."
+	desc = "Небольшой, но эффективный стимулятор заживления урона. 25 единиц в одном инжекторе. Не рекомендуется принимать их много."
 	item_state = "brute"
 	list_reagents = list("bicaridine" = 15)
 	icon_state_opened = "brute_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/burn
-	name = "burn trauma treatment injector"
+	name = "Инжектор для лечения ожогов"
 	icon_state = "burn"
-	desc = "Small yet effective burn-treating solution. 15 units in one injector. Taking three of those in a quick succession isn't recommended."
+	desc = "Небольшой, но эффективный раствор для лечения ожогов. 15 единиц в одном инжекторе. Не рекомендуется принимать их много."
 	item_state = "burn"
 	list_reagents = list("kelotane" = 15)
 	icon_state_opened = "burn_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/toxin
-	name = "antitoxin injector"
+	name = "Инжектор антитоксина"
 	icon_state = "toxin"
-	desc = "Small yet effective antitoxin injector. 15 units in one injector."
+	desc = "Небольшой, но эффективный инжектор антитоксина. 15 единиц в одном инжекторе."
 	item_state = "toxin"
 	list_reagents = list("charcoal" = 15)
 	icon_state_opened = "toxin_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/oxygen
-	name = "blood oxygenation injector"
+	name = "Инжектор оксигенации крови"
 	icon_state = "oxygen"
-	desc = "Small yet effective oxygenation injector. 15 units in one injector."
+	desc = "Небольшой, но эффективный инжектор оксигенации. 15 единиц в одном инжекторе."
 	list_reagents = list("salbutamol" = 15)
 	icon_state_opened = "oxygen_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/blood
-	name = "blood-refilling coagulant injector"
+	name = "Инжектор коагулянта и наполнителя крови"
 	icon_state = "blood"
-	desc = "Effective coagulant that also doubles as hematogen. 25 units in one injector."
+	desc = "Эффективный коагулянт, который также выполняет функцию гематогена. 25 единиц в одном инжекторе."
 	item_state = "blood"
 	list_reagents = list("coagulant" = 25)
 	icon_state_opened = "blood_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/painkiller
-	name = "combat stimulants injector"
+	name = "Инъектор боевых стимуляторов"
 	icon_state = "painkiller"
-	desc = "Military-grade mix of combat stimulants and painkillers. 30 units in one injector. Taking more than one of those in a quick succession isn't recommended."
+	desc = "Смесь боевых стимуляторов и обезболивающих военного класса. 30 единиц в одном инжекторе. Не рекомендуется принимать более одной дозы за раз."
 	item_state = "painkiller"
 	list_reagents = list("mine_salve" = 30)
 	icon_state_opened = "painkiller_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/epinephrine
-	name = "epinephrine injector"
+	name = "Инжектор адреналина"
 	icon_state = "epipen"
-	desc = "Generic epinephrine injector for the critically wounded. 15 units in one injector."
+	desc = "Универсальный инъектор адреналина для тяжелораненых. 15 единиц в одном инжекторе."
 	item_state = "epipen"
 	list_reagents = list("epinephrine" = 15)
 	icon_state_opened = "epipen_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/antirad
-	name = "antirad injector"
+	name = "Инжектор антирадина"
 	icon_state = "radanti"
-	desc = "Antiradiation chemicals that treat radiation sickness and intoxication. 15 units in one injector. Might deal some mild bruisings."
+	desc = "Противорадиационные химические вещества, которые лечат лучевую болезнь и интоксикацию. 15 единиц в одном инжекторе. Может нанести легкие синяки."
 	item_state = "radanti"
 	list_reagents = list("pen_acid" = 15)
 	icon_state_opened = "radanti_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 // MEDICAL REWORK
 
 // AI-2 MEDICATIONS
 
 /obj/item/reagent_containers/pill/stalker/injector/ai2
-	name = "Promedol injector"
+	name = "Инжектор промедола"
 	icon_state = "burn"
-	desc = "Contained within the AI-2 medical kit. Contains low-grade medications to promote healing."
+	desc = "Содержится в медицинской аптечке АИ-2. Содержит низкосортные лекарства, способствующие заживлению ран."
 	item_state = "epipen"
 	list_reagents = list("promedolsolution" = 15)
 	icon_state_opened = "burn_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/pillbottle/radprotectorai2
-	name = "Raspberry bottle"
+	name = "Малиновая бутылка"
 	icon_state = "promepill"
-	desc = "A rasberry colored bottle containing radioprotectant medication. They expired decades ago.."
+	desc = "Флакон малинового цвета, содержащий радиопротекторное лекарство. Срок их действия истек десятилетия назад.."
 	item_state = "epipen"
 	list_reagents = list("ai2rp" = 15)
 	icon_state_opened = "promepill_open"
-	desc_opened = "Pop 'em back and hail mary."
+	desc_opened = "Открой и молись Богородице."
 
 /obj/item/reagent_containers/pill/stalker/pillbottle/antiradai2
-	name = "Strawberry bottle"
+	name = "Клубничная бутылка"
 	icon_state = "strawpill"
-	desc = "A strawberry colored bottle containing anti-radiation medications. They're rather weak and expired.."
+	desc = "Бутылка клубничного цвета с противорадиационными препаратами. Они довольно слабые и просроченные.."
 	item_state = "epipen"
 	list_reagents = list("ai2ar" = 15)
 	icon_state_opened = "strawpill_open"
-	desc_opened = "Pop 'em back and hail mary."
+	desc_opened = "Открой и молись Богородице."
 
 // ARMY MEDKIT MEDICATIONS
 
 /obj/item/reagent_containers/pill/stalker/injector/armymedicalinjector
-	name = "Army injector"
+	name = "Армейский инжектор"
 	icon_state = "brute"
-	desc = "Contained within the ARMY medical kit. Used to deal with combat injuries."
+	desc = "Содержится в военной аптечке. Используется для борьбы с боевыми травмами."
 	item_state = "epipen"
 	list_reagents = list("armysolution" = 15)
 	icon_state_opened = "brute_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 // SCIENCE MEDKIT MEDICATION
 
 /obj/item/reagent_containers/pill/stalker/injector/scimedicalinjector
-	name = "Scientific injector"
+	name = "Научный инжектор"
 	icon_state = "sci"
-	desc = "Contained within the SCIENTIFIC medical kit. Used to deal with effectively all wounds!"
+	desc = "Содержится в научной аптечке. Используется для эффективного лечения всех ран!"
 	item_state = "epipen"
 	list_reagents = list("scisolution" = 15)
 	icon_state_opened = "sci_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 /obj/item/reagent_containers/pill/stalker/injector/sciradinjector
-	name = "Scientific Antirad injector"
+	name = "Научный инжектор антирадина"
 	icon_state = "radanti"
-	desc = "Contained within the SCIENTIFIC medical kit. Used to effectively cure radiation!"
+	desc = "Содержится в научной аптечке. Используется для эффективного лечения радиации!"
 	item_state = "epipen"
 	list_reagents = list("sciradsolution" = 15)
 	icon_state_opened = "radanti_open"
-	desc_opened = "Opened injector."
+	desc_opened = "Открыл инжектор."
 
 // Stimpacks
 
 // Improvised Stimpack
 
 /obj/item/reagent_containers/pill/stalker/injector/improvisedstim
-	name = "Improvised Stimpack"
+	name = "Импровизированный стимпак"
 	icon_state = "stimimprov"
-	desc = "An improvised stimpack reusing an old injector. It's safety is questionable."
+	desc = "Импровизированный стимпак с повторным использованием старого инжектора. Его безопасность под вопросом."
 	item_state = "epipen"
 	list_reagents = list("impstim" = 5)
 	icon_state_opened = "stimimprov_open"
-	desc_opened = "The needle is extended."
+	desc_opened = "Игла удлиненна."
 
 // Army Stimpack
 /obj/item/reagent_containers/pill/stalker/injector/armystim
-	name = "Army Stimpack"
+	name = "Армейский стимпак"
 	icon_state = "stimarmy"
-	desc = "A military produced combat stim for dealing with extreme bodily damage."
+	desc = "Военные изготовили боевой стим для борьбы с экстремальными телесными повреждениями."
 	item_state = "epipen"
 	list_reagents = list("stimarmypack" = 5)
 	icon_state_opened = "stimarmy_open"
-	desc_opened = "The needle is extended."
+	desc_opened = "Игла удлиненна."
 
 // Scientific Stimpack
 
 /obj/item/reagent_containers/pill/stalker/injector/scistim
-	name = "Scientific Stimpack"
+	name = "Научный стимпак"
 	icon_state = "stimsci"
-	desc = "Produced outside of the Zone for military contracts. This extremely rare and powerful stim is capable of saving even the most wounded Stalker."
+	desc = "Производится за пределами Зоны по военным контрактам. Этот чрезвычайно редкий и мощный стим способен спасти даже самого раненого Сталкера."
 	item_state = "epipen"
 	list_reagents = list("scistim" = 5)
 	icon_state_opened = "stimsci_open"
-	desc_opened = "The needle is extended."
+	desc_opened = "Игла удлиненна."

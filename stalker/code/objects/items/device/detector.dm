@@ -20,16 +20,16 @@
 	var/list/fakearts = list()
 
 /obj/item/detector/blink
-	name = "echo"
-	desc = "This dated anomalous activity detector produces an alarm signal when anomalous particles enter a special chamber as you approach an anomaly. It can also register the presence of artifacts and measure the distance to the nearest one. The distance is indicated by the frequency of the sound the detector emits. To switch to artifact search mode, open the device's front cover. Due to its simple design, Echo can only be used to locate the most common artifacts."
+	name = "отклик"
+	desc = "Самый дешёвый и малоэффективный детектор. На приближение к артефакту реагирует писком, амплитуда которого совпадает с амплитудой мигания сигнальной лампы. Позволяет находить только самые распространённые артефакты."
 	icon_state_inactive = "echo_off"
 	icon_state_active = "echo_on"
 	icon_state_null = "echo_null"
 	level_s = 1
 
 /obj/item/detector/bear
-	name = "bear"
-	desc = "The last generation of anomalous activity detector can be used to locate anomalous formations and has a color diode panel, which not only indicates the direction of artifacts, but also measures the distance to them. To switch to artifact search mode, open the device's front cover. Unfortunately the device is programmed with a somewhat outdated list of detectable artifacts."
+	name = "Медведь"
+	desc = "Модель детектора прошлого поколения. Способен не только регистрировать присутствие артефактов, но и указывать их направление на круглом дисплее."
 	icon_state = "bear_off"
 	icon_state_inactive = "bear_off"
 	icon_state_active = "bear_on"
@@ -37,8 +37,8 @@
 	level_s = 3
 
 /obj/item/detector/veles
-	name = "veles"
-	desc = "A next generation scientific detection scanner. Thanks to three modernized detection chambers, the position of artifacts is shown on a special display screen. When closed, the device registers only radiation and anomalies. To switch to artifact search mode, open the front LED display. When in search mode, the detector is capable of locating all artifacts known to science."
+	name = "Велес"
+	desc = "Современный детектор, позволяющий находить все известные науке артефакты, положение которых отображается на дисплее."
 	icon_state = "veles_off"
 	icon_state_inactive = "veles_off"
 	icon_state_active = "veles_on"

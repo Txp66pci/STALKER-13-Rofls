@@ -5,9 +5,9 @@
 // They will wake up a couple of seconds after it ends. During this time, if any mutants find them.
 // Well... Good luck, Stalker.
 /datum/reagent/medicine/anabiotic
-	name = "Anabiotic"
+	name = "Анабиотик"
 	id = "anabiotic"
-	description = "An experimental drug that shuts down the user's central nervous system allowing them to survive blowouts while out of shelter."
+	description = "Анабиотик — медицинский препарат, основным из свойств которого является возможность пережить выброс."
 	reagent_state = LIQUID
 	color = "#800000"
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
@@ -29,9 +29,9 @@
 
 // Indraline (Radioprotectant) offers a signifiant amount of radiation protection to players. Unlike anti-rad, it does not purge radiation.
 /datum/reagent/medicine/indraline
-	name = "Indraline"
+	name = "Рад-Щит"
 	id = "indraline"
-	description = "A powerful radioprotectant that protects the user from accumulating additional radiation during exposure."
+	description = "Мощный радиопротектор, который защищает от дальнейшего накопления радиации."
 	reagent_state = LIQUID
 	color = "#C39B77"
 	metabolization_rate = 0.55 * REAGENTS_METABOLISM
@@ -46,9 +46,9 @@
 
 // Viksolum is a powerful alternative to bandages. Although rare, it offers superior bleeding suppression.
 /datum/reagent/medicine/viksolum
-	name = "Viksolum"
+	name = "Барвинок"
 	id = "viksolum"
-	description = "An artificial equivalent of vitamin K. The main purpose of this drug is to increase blood coagulation speed."
+	description = "Синтетический аналог витамина К. Основное действие заключается в повышении свёртываемости крови."
 	reagent_state = LIQUID
 	color = "#FF00FF"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -62,9 +62,9 @@
 // Hercules is an artificial steroid that promotes myogenesis and protein synthesis.
 // We do not have carrying capacity so it will instead reduce stamina loss.
 /datum/reagent/medicine/hercules
-	name = "Hercules"
+	name = "Геркулес"
 	id = "hercules"
-	description = "An artificial steroid similar to testosterone that allows one to recover from fatigue faster."
+	description = "Искусственно созданный стероид, по химическому составу сходный с тестостероном. Применяется сталкерами в долгих переходах для повышения порога утомляемости мышц.."
 	reagent_state = LIQUID
 	color = "#FF00FF"
 	metabolization_rate = 0.75 * REAGENTS_METABOLISM
@@ -75,9 +75,9 @@
 
 // Psy-block strengthens the user's nervous system against massive waves of psionic energy.
 /datum/reagent/medicine/psyblock
-	name = "Psy-block"
+	name = "Пси-блокада"
 	id = "psyblock"
-	description = "A chemical developed for use exclusively in the zone that shield against the effects of anomalous psy-fields."
+	description = "«Пси-блокада» — медицинский препарат, защищающий от воздействия пси-излучения."
 	reagent_state = LIQUID
 	color = "#770000"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -88,9 +88,9 @@
 
 // Cocaine is a powerful nervous system stimulant.
 /datum/reagent/drug/cocaine
-	name = "Cocaine"
+	name = "Кокаин"
 	id = "cocaine"
-	description = "Reduces stun times by about 200%. If overdosed or addicted it will deal significant Toxin, Brute and Brain damage."
+	description = "Снижает стан в 2 раза. Очень вреден при передозировке и ломке."
 	reagent_state = LIQUID
 	color = "#FA00C8"
 	overdose_threshold = 20
@@ -98,7 +98,7 @@
 
 /datum/reagent/drug/cocaine/on_mob_life(mob/living/carbon/M)
 	if(prob(5))
-		var/high_message = pick("You feel jittery.", "You feel like you gotta go fast.", "You feel like you need to step it up.")
+		var/high_message = pick("«Вы нервничаете», «Вы чувствуете, что должны идти быстро», «Вы чувствуете, что вам нужно сделать шаг вперед».")
 		to_chat(M, "<span class='notice'>[high_message]</span>")
 	M.AdjustStun(-20, FALSE)
 	M.AdjustKnockdown(-20, FALSE)
@@ -139,12 +139,9 @@
 // A useful painkiller that reduces stun times and pain. However, the player will be unable to accurately gauge their health via the HUD and will suffer from nasty side effects such as
 // drowsiness and poor motor function.
 /datum/reagent/medicine/analgesic
-	name = "Diclofenac sodium"
+	name = "Диклофенак"
 	id = "analgesic"
-	description = "Non-steroidal anti-inflammatory drug from the group of phenylacetic acid derivatives. The effect of the drug dulls the user's nervous activity. \
-	Because of the huge number of side effects, such as headache, dizziness, drowsiness, and in some cases memory disorders, disorientation, irritability, it is not\
-	 used for medicinal purposes in most countries. However, in the Zone it has become popular due to a side effect expressed in violation of the sensitivity of the \
-	 central nervous system, which allows it to withstand severe injuries, such as gunshot and shrapnel wounds."
+	description = "Диклофенак используется для лечения боли, пользуется спросом так как помогает пережить больше выстрелов или ударов"
 	reagent_state = LIQUID
 	color = "#A9FBFB"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -163,7 +160,7 @@
 	if(prob(20) && iscarbon(M))
 		var/obj/item/I = M.get_active_held_item()
 		if(I && M.dropItemToGround(I))
-			to_chat(M, "<span class ='notice'>Your hands spaz out and you drop what you were holding!</span>")
+			to_chat(M, "<span class ='notice'>Твои руки дёргаются, и ты роняешь то, что держал в руках!</span>")
 			M.Jitter(10)
 
 	M.AdjustAllImmobility(-20, FALSE)
@@ -171,7 +168,7 @@
 
 	switch(current_cycle)
 		if(11)
-			to_chat(M, "<span class='warning'>You start to feel dizzy...</span>" )
+			to_chat(M, "<span class='warning'>У вас начинает кружиться голова...</span>" )
 		if(12 to 24)
 			M.drowsyness += 1
 		if(24 to INFINITY)
@@ -188,9 +185,9 @@
 
 // An extraordinarily powerful drug that heals all wounds, cures all ailments, and purges all radiation. The user will be in a coma as the drugs acts, healing all their wounds. Very, very, very rare.
 /datum/reagent/medicine/axyltallisal
-	name = "Axyltallisal"
+	name = "Аксилталлисал"
 	id = "axyltallisal"
-	description = "This powerful mixture contained in a small syringe will make you lose consciousness. But when you wake up (if you wake up), you will feel reborn."
+	description = "Эта мощная микстура поставляется в маленьких шприцах и заставляет вас вырубиться. Но когда вы всманете (если встанете), вы почувствуете себя перерождённым."
 	reagent_state = LIQUID
 	color = "#A9FBFB"
 	overdose_threshold = 30
@@ -245,9 +242,9 @@
 
 
 /datum/reagent/medicine/combatstimulant
-	name = "Combat-Stimulant"
+	name = "Боевой Стимулятор"
 	id = "combat_stim"
-	description = "Powerful and fast-acting. Combat stimulants are considered a grey-area in terms of user safety within the zone."
+	description = "Мощный и быстродействующий. Находится в серой зоне безопасности в использовании, по меркам Зоны."
 	reagent_state = LIQUID
 	color = "#4f0000"
 	metabolization_rate = 0.2 * REAGENTS_METABOLISM
@@ -265,7 +262,7 @@
 		if(method in list(INGEST, VAPOR, INJECT))
 			M.adjust_nutrition(-10) // HUNGER!
 			if(show_message)
-				to_chat(M, "<span class='warning'>You feel quite sick for a moment..</span>")
+				to_chat(M, "<span class='warning'>На мгновение вы чувствуете себя очень плохо..</span>")
 		else
 			var/mob/living/carbon/C = M
 			for(var/s in C.surgeries)
@@ -274,7 +271,7 @@
 				// +10% success propability on each step, useful while operating in less-than-perfect conditions
 
 			if(show_message)
-				to_chat(M, "<span class='danger'>YOU FEEL FUCKING INVINCIBLE!</span>" )
+				to_chat(M, "<span class='danger'>ТЫ ЧУВСТВУЕШЬ ЧТО ТЫ НЕПОБЕДИМ!</span>" )
 	..()
 
 /datum/reagent/medicine/combatstimulant/on_mob_delete(mob/living/M)
@@ -291,9 +288,9 @@
 // AI-2 Injector Medication | BRUTE + BURN HEALING | 30 point heal
 
 /datum/reagent/medicine/promedolsolution
-	name = "Promedol solution"
+	name = "Раствор Промедола"
 	id = "promedolsolution"
-	description = "A simple solution of low-grade opiods that promotes healing. It works extremely slowly and can be overdosed!"
+	description = "Простая смесь дешёвых опиоидов. Работает очень медленно и может вызвать передозировку!"
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
@@ -313,9 +310,9 @@
 // AI-2 Rasberry Bottle | Radioprotectant | Lasts about 30 seconds.
 
 /datum/reagent/medicine/ai2radioprotectant
-	name = "Low-Grade Radioprotectant"
+	name = "Низкосортный радиопротектор"
 	id = "ai2rp"
-	description = "A weak radioprotectant that protects the user from accumulating additional radiation during exposure."
+	description = "Слабый радиопротектор, защищающий пользователя от накопления дополнительного излучения."
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
@@ -331,9 +328,9 @@
 // AI-2 Strawberry Bottle | Anti-Rad | Does the job poorly
 
 /datum/reagent/medicine/ai2antirad
-	name = "Low-Grade Antiradiation"
+	name = "Низкосортный антирад"
 	id = "ai2ar"
-	description = "Ineffectively treats radiation sickness."
+	description = "Неэффективно лечит лучевую болезнь."
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
@@ -346,9 +343,9 @@
 // ARMY MEDICAL KIT | BRUTE + BURN HEALING + BLEED (Via Coag) | 60 point heal
 
 /datum/reagent/medicine/armysolution
-	name = "Army Medical Solution"
+	name = "Армейское медицинское раствор"
 	id = "armysolution"
-	description = "Potent and reliable medicine containing clotting agents."
+	description = "Сильнодействующее и надежное лекарство, содержащее свертывающие средства."
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
@@ -368,9 +365,9 @@
 // SCIENTIFIC MEDICAL KIT | BRUTE, BURN, TOXIN, ANTIRADIATION | 120 point heal
 
 /datum/reagent/medicine/scisolution
-	name = "Advanced Solution"
+	name = "Продвинутый раствор"
 	id = "scisolution"
-	description = "An extremely potent and powerful mixture of chemicals!"
+	description = "Чрезвычайно мощная смесь химических веществ!"
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
@@ -391,9 +388,9 @@
 	. = 1
 
 /datum/reagent/medicine/sciradsolution
-	name = "Advanced Rad Solution"
+	name = "Продвинутый антирад"
 	id = "sciradsolution"
-	description = "An extremely potent and powerful mixture of chemicals!"
+	description = "Чрезвычайно мощная химических веществ!"
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -415,9 +412,9 @@
 
 // Improvised Stimm | 25 Health | Rapid
 /datum/reagent/medicine/stim/improvisedstim
-	name = "Improvised Stim"
+	name = "Импровизированный стим"
 	id = "impstim"
-	description = "You're pretty sure this shit will kill you."
+	description = "Ты почти уверен, что это дерьмо убьет тебя."
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 2 * REAGENTS_METABOLISM
@@ -436,9 +433,9 @@
 
 // Army Stimm | 50 Health | Rapid
 /datum/reagent/medicine/stim/armystim
-	name = "Army Stim"
+	name = "Армейский стим"
 	id = "stimarmypack"
-	description = "Promotes rapid healing in soft-tissues."
+	description = "Способствует быстрому заживлению мягких тканей."
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 2 * REAGENTS_METABOLISM
@@ -457,9 +454,9 @@
 
 // Army Stimm | 100 Health | Rapid
 /datum/reagent/medicine/stim/scistim
-	name = "Scientific Stim"
+	name = "Научный стим"
 	id = "scistim"
-	description = "An unknown concoction of medical fluids. It apparently tastes like cherries."
+	description = "Неизвестная смесь медицинских жидкостей. По вкусу он явно похож на вишню."
 	reagent_state = LIQUID
 	color = "#e6eaff"
 	metabolization_rate = 2 * REAGENTS_METABOLISM

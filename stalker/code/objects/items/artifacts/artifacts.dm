@@ -50,48 +50,48 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 
 /////////////////////////////////////////Gravity artifacts/////////////////////////////////////////
 /obj/item/artifact/meduza
-	name = "jellyfish"
-	desc = "This gravitational artifact attracts and absorbs radioactive particles, reducing the effects of radiation on the body. Very common in the Zone and is unofficially used outside the Zone for treating acute radiation sickness in exceptional circumstances."
+	name = "медуза"
+	desc = "Этот гравитационный артефакт притягивает и поглощает радиоактивные частицы, уменьшая воздействие радиации на организм. Очень распространен в Зоне и неофициально используется за пределами Зоны для лечения острой лучевой болезни в исключительных обстоятельствах."
 	icon_state = "meduza"
 	art_armor = list()
 	radiation = -2
 	level_s = 1
 /*
 /obj/item/artifact/stoneflower
-	name = "stone flower"
-	desc = "Born in gravitional anomalies. This artifact is found in only a few areas of the Zone. The bits of metallic compounds create a beautiful light play."
+	name = "каменный цветок"
+	desc = "Родился в гравитационных аномалиях. Этот артефакт встречается только в нескольких областях Зоны. Кусочки металлических соединений создают красивую игру света."
 	icon_state = "stoneflower"
 	art_armor = list(bullet = 10)
 	radiation = 2
 	level_s = 2
 
 /obj/item/artifact/nightstar
-	name = "night star"
-	desc = "This wonderful artifact is formed by gravitional anomalies anomaly. The use of the artifact demands the neutralization of deadly radiation. Expensive and rare."
+	name = "Ночная звезда"
+	desc = "Этот чудесный артефакт образован гравитационными аномалиями. Использование артефакта требует нейтрализации смертоносной радиации. Дорогой и редкий."
 	icon_state = "nightstar"
 	art_armor = list(bullet = 20)
 	radiation = 3
 	level_s = 3
 */
 /obj/item/artifact/stoneflower_depleted
-	name = "depleted stone flower"
-	desc = "Born in gravitional anomalies. This artifact is found in only a few areas of the Zone. The bits of metallic compounds create a beautiful light play."
+	name = "истощённый каменный цветок"
+	desc = "Родился в гравитационных аномалиях. Этот артефакт встречается только в нескольких областях Зоны. Кусочки металлических соединений создают красивую игру света."
 	icon_state = "stoneflower"
 	art_armor = list()
 	radiation = 2
 	level_s = 2
 
 /obj/item/artifact/nightstar_depleted
-	name = "depleted night star"
-	desc = "This wonderful artifact is formed by gravitional anomalies anomaly. The use of the artifact demands the neutralization of deadly radiation. Expensive and rare."
+	name = "истощённая ночная звезда"
+	desc = "Этот чудесный артефакт образован гравитационными аномалиями. Использование артефакта требует нейтрализации смертоносной радиации. Дорогой и редкий."
 	icon_state = "nightstar"
 	art_armor = list()
 	radiation = 3
 	level_s = 3
 
 /obj/item/artifact/soul
-	name = "soul"
-	desc = "A unique organic artifact with properties just as unique. Somehow it increases the body's overall recovery rate from damage of any kind, without accelerating the accumulation of toxins. Thanks to its effects and attractive appearance, this artifact is a valuable collector's item. Emits radiation."
+	name = "душа"
+	desc = "Уникальный органический артефакт с такими же уникальными свойствами. Каким-то образом он увеличивает общую скорость восстановления организма после повреждений любого рода, не ускоряя накопление токсинов. Благодаря своим эффектам и привлекательному внешнему виду этот артефакт является ценным предметом коллекционирования. Излучает радиацию."
 	icon_state = "soul"
 	art_armor = list()
 	radiation = 2
@@ -107,32 +107,32 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	/////////////////////////////////////////Electro artifacts/////////////////////////////////////////
 
 /obj/item/artifact/flash
-	name = "flash"
-	desc = "This electrostatic artifact is a powerful absorbent of electricity, which it later discharges. Flash is capable of protecting its bearer from electric shocks of up to 5,000 volts. Emits radiation."
+	name = "вспышка"
+	desc = "Этот электростатический артефакт является мощным поглотителем электричества, которое он позже разряжает. Вспышка способна защитить своего носителя от поражения электрическим током напряжением до 5 000 вольт. Излучает радиацию."
 	icon_state = "flash"
 	art_armor = list(energy = 10)
 	radiation = 1
 	level_s = 1
 
 /obj/item/artifact/moonlight
-	name = "moonlight"
-	desc = "Degenerate case of the activity of the Electro anomaly. It seems that such a wonderful round form is created when the anomaly is subjected to thermal influences. Expensive artifact."
+	name = "лунный свет"
+	desc = "Выраженный случай активности аномалии Электро. Кажется, что такая замечательная круглая форма создается, когда аномалия подвергается термическим воздействиям. Дорогой артефакт."
 	icon_state = "moonlight"
 	art_armor = list(energy = 20)
 	radiation = 2
 	level_s = 2
 
 /obj/item/artifact/pustishka
-	name = "shell"
-	desc = "Degenerate case of the Electra anomaly activity. Apparently, such a remarkable rounded shape can be obtained by subjecting the anomaly to thermal action. Expensive artifact."
+	name = "пустышка"
+	desc = "Выраженный случай активности аномалии Электро. Кажется, что такая замечательная форма создается, когда аномалия подвергается термическим воздействиям. Дорогой артефакт."
 	icon_state = "pustishka"
 	art_armor = list(energy = 30)
 	radiation = 2
 	level_s = 3
 
 /obj/item/artifact/battery
-	name = "battery"
-	desc = "The composition of this artifact includes electrostatic elements, but scientists have yet to identify the exact physical conditions required for its formation. The artifact is popular in the Zone and valued by its residents and visitors for its energizing properties, although it can tire the body out through prolonged use. Doesn't emit radiation."
+	name = "батарейка"
+	desc = "В состав этого артефакта входят электростатические элементы, но ученым еще предстоит определить точные физические условия, необходимые для его формирования. Артефакт популярен в Зоне и ценится ее жителями и посетителями за его освежающие свойства, хотя он может утомить тело при длительном использовании. Не излучает радиацию."
 	icon_state = "battery"
 	art_armor = list(energy = 30)
 	level_s = 4
@@ -140,8 +140,8 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	/////////////////////////////////////////Fire artifacts/////////////////////////////////////////
 
 /obj/item/artifact/droplet
-	name = "droplet"
-	desc = "Formed in the fireer anomaly at high temperatures. From the exterior looks like a tear-like shade compound with a glossy surface, covered in cracks."
+	name = "капля"
+	desc = "Образующаяся в термических аномалия при высоких температурах. Снаружи выглядит слезообразно, с глянцевой поверхностью, покрытой трещинами."
 	icon_state = "droplet"
 	art_armor = list(rad = 10)
 	radiation = -1
@@ -155,24 +155,24 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	return 1
 */
 /obj/item/artifact/fireball
-	name = "fireball"
-	desc = "Crystallizes in the anomaly fireer. Fights well with radioactivity, though the heightened rate of energy exchange wears out the muscles of the moving apparatus. Won't be able to run for long. Artifact emits heat."
+	name = "Огненный шар"
+	desc = "Кристаллизуется в аномалиях огненного типа. Хорошо борется с радиацией, хотя повышенная скорость энергообмена истощает мышцы. Долго бегать не получится. Артефакт излучает тепло."
 	icon_state = "fireball"
 	art_armor = list(rad = 15)
 	radiation = -2
 	level_s = 2
 
 /obj/item/artifact/crystal
-	name = "crystal"
-	desc = "Is created when heavy metals fall into the fireer anomaly. This artifact eliminates radiation wonderfully. It is highly valued by stalkers and hard to find."
+	name = "кристал"
+	desc = "Создается, когда тяжелые металлы попадают в огненных аномалиях. Этот артефакт чудесным образом устраняет радиацию. Он высоко ценится сталкерами и его трудно найти."
 	icon_state = "crystal"
 	art_armor = list()
 	radiation = -5
 	level_s = 4
 
 /obj/item/artifact/maminibusi
-	name = "mama's beads"
-	desc = "Much about this artifact remains a complete mystery to scientists. At the same time, it is known for certain that emissions produced by pulses in its thicker sections force blood in open wounds to clot quicker, forming a protective scab. One of the most noticeable effects of this artifact is the increased speed of wound healing. Emits radiation."
+	name = "мамины буссы"
+	desc = "Многое об этом артефакте остается полной загадкой для ученых. В то же время доподлинно известно, что выбросы, производимые импульсами в его более толстых участках, заставляют кровь в открытых ранах быстрее сворачиваться, образуя защитный струп. Одним из наиболее заметных эффектов этого артефакта является повышенная скорость заживления ран. Испускает радиацию."
 	icon_state = "mamini_busi"
 	art_armor = list()
 	radiation = 5
@@ -189,24 +189,24 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	/////////////////////////////////////////Chemical artifacts/////////////////////////////////////////
 
 /obj/item/artifact/stone_blood
-	name = "stone blood"
-	desc = "A reddish formation of compressed and fossilized plants, soil and animal debris. Can partially neutralize chemical poisons. Emits radiation."
+	name = "кровь камня"
+	desc = "Красноватое образование из сжатых и окаменелых растений, почвы и остатков животных. Может частично нейтрализовать химические яды. Испускает радиацию."
 	icon_state = "stone_blood"
 	art_armor = list(bio = 10)
 	radiation = 1
 	level_s = 1
 
 /obj/item/artifact/bubble
-	name = "bubble"
-	desc = "A compound of several hollow organic formations, this artifact emits a gaseous substance that can neutralize radioactive particles inside the body without harming it. Because of its effectiveness, this artifact is in great demand."
+	name = "пузырь"
+	desc = "Соединение нескольких полых органических образований, этот артефакт выделяет газообразное вещество, которое может нейтрализовать радиоактивные частицы внутри организма, не причиняя ему вреда. Из-за своей эффективности этот артефакт пользуется большим спросом."
 	icon_state = "bubble"
 	art_armor = list()
 	radiation = -3
 	level_s = 2
 
 /obj/item/artifact/mica
-	name = "mica"
-	desc = "Anomaly \"Fruit Punch\" is able to create such an artifact at the rarest, most extreme collection of physical conditions. The result is a semi-transparent, hard object. A rare and expensive artifact."
+	name = "слюда"
+	desc = "Аномалия \"Кисель\" способна создать такой артефакт при редчайшей, самой экстремальной коллекции физических условий. В результате получается полупрозрачный твердый объект. Редкий и дорогой артефакт."
 	icon_state = "mica"
 	art_armor = list(laser = 10, bio = 10)
 	radiation = 3
@@ -236,8 +236,8 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	return 1
 
 /obj/item/artifact/firefly
-	name = "firefly"
-	desc = "Firefly interacts with fields unknown to science, considerably speeding up regeneration of tissue and organs in living beings, as well as normalizing metabolic processes. This artifact can literally get a badly wounded stalker back on his feet in seconds. Unfortunately, Firefly is extremely rare. Emits radiation."
+	name = "светляк"
+	desc = "Светляк взаимодействует с неизвестными науке полями, значительно ускоряя регенерацию тканей и органов у живых существ, а также нормализуя обменные процессы. Этот артефакт может буквально за считанные секунды поставить тяжело раненого сталкера на ноги. К сожалению, Светляк встречается крайне редко. Излучает радиацию."
 	icon_state = "firefly"
 	art_armor = list()
 	radiation = 5
@@ -253,8 +253,8 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 
 	//ПОЯС
 /obj/item/storage/belt/stalker
-	name = "artifact belt"
-	desc = "Special belt for artifacts."
+	name = "Пояс для артефактов"
+	desc = "Специальный пояс для артефактов."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "artifactbelt"
 	item_state = "utility"
@@ -269,8 +269,8 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	var/thinkrate = 100
 
 /obj/item/storage/belt/stalker/artifact_belt/small
-	name = "small artifact belt"
-	desc = "Special belt for artifacts."
+	name = "Маленький пояс для артефактов"
+	desc = "Специальный пояс для артефактов."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "artifactbeltsmall"
 	item_state = "artifacts"

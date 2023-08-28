@@ -14,8 +14,8 @@
 			new item2_type(src)
 
 /obj/item/storage/backpack/stalker
-	name = "backpack"
-	desc = "You wear this on your back and put items into it."
+	name = "Рюкзак"
+	desc = "Вы носите это на спине и кладете в него предметы."
 	icon_state = "backpack-tourist"
 	item_state = "backpack-tourist"
 	w_class = WEIGHT_CLASS_HUGE
@@ -30,8 +30,8 @@
 	STR.display_numerical_stacking = TRUE
 
 /obj/item/storage/backpack/stalker/civilian
-	name = "civilian backpack"
-	desc = "A regular camping backpack popular among those who just arrived in the Zone."
+	name = "Гражданский рюкзак"
+	desc = "Обычный походный рюкзак, популярный среди тех, кто только приехал в Зону."
 	icon_state = "backpack-civilian"
 	item_state = "backpack-civilian"
 
@@ -42,8 +42,8 @@
 	STR.max_w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/backpack/stalker/tourist
-	name = "tourist bag"
-	desc = "A tourist-targeted duffel bag with enough space to hold a few days of supplies."
+	name = "Туристический рюкзак"
+	desc = "Спортивная сумка, предназначенная для туристов, с достаточным пространством для хранения припасов на несколько дней."
 	icon_state = "backpack-tourist"
 	item_state = "backpack-tourist"
 
@@ -54,8 +54,8 @@
 	STR.max_w_class = WEIGHT_CLASS_BULKY
 
 /obj/item/storage/backpack/stalker/professional
-	name = "professional backpack"
-	desc = "A heavy-duty military surplus backpack. You can carry a small supply-room in this."
+	name = "Профессиональный рюкзак"
+	desc = "Сверхпрочный военный рюкзак. Вы можете нести небольшую комнату снабжения в этом."
 	icon_state = "backpack-professional"
 	item_state = "backpack-professional"
 
@@ -66,8 +66,8 @@
 	STR.max_w_class = WEIGHT_CLASS_BULKY
 
 /obj/item/storage/backpack/stalker/rucksack
-	name = "rucksack"
-	desc = "A practical bag for military use in harsh conditions. Due to no defined contours this bag is very useful for carrying just about anything."
+	name = "Рюкзак"
+	desc = "Практичная сумка для военного использования в суровых условиях. Из-за отсутствия четких контуров эта сумка очень полезна для переноски чего угодно."
 	icon_state = "backpack-rucksack"
 	item_state = "backpack-rucksack"
 	slowdown = 0.5
@@ -81,7 +81,7 @@
 
 
 /obj/item/storage/backpack/satchel/stalker
-	name = "satchel"
+	name = "сумка"
 	icon_state = "satchel"
 	item_state = "satchel"
 	w_class = WEIGHT_CLASS_HUGE
@@ -96,8 +96,8 @@
 	STR.display_numerical_stacking = TRUE
 
 /obj/item/storage/backpack/satchel/stalker/civilian
-	name = "civilian satchel"
-	desc = "A small bag, used by messengers, lackeys and couriers. Very portable when compared to other bags."
+	name = "Гражданская сумка"
+	desc = "Маленькая сумка, которой пользовались посыльные, лакеи и курьеры. Очень портативный по сравнению с другими сумками."
 	icon_state = "satchel-civilian"
 	item_state = "satchel-civilian"
 
@@ -108,8 +108,8 @@
 	STR.max_w_class = WEIGHT_CLASS_NORMAL
 
 ///obj/item/storage/backpack/stalker/stalker
-//	name = "backpack"
-//	desc = "You wear this on your back and put items into it."
+//	name = "рюкзак"
+//	desc = "Вы носите это на спине и кладете в него предметы."
 //	icon_state = "backpack-stalker"
 //	item_state = "backpack-stalker"
 //	w_class = WEIGHT_CLASS_HUGE
@@ -124,8 +124,8 @@
 //	STR.display_numerical_stacking = TRUE
 
 ///obj/item/storage/backpack/stalker/stalker/duffel
-//	name = "duffelbag"
-//	desc = "You wear this over your back and put items into it."
+//	name = "Вещевой мешок"
+//	desc = "Вы носите это на спине и кладете в него предметы."
 //	icon_state = "duffelbag-stalker"
 //	item_state = "duffelbag-stalker"
 //	w_class = WEIGHT_CLASS_HUGE
@@ -140,8 +140,8 @@
 //	STR.display_numerical_stacking = TRUE
 
 ///obj/item/storage/backpack/stalker/stalker/rucksack
-//	name = "rucksack"
-//	desc = "You wear this over your back and put items into it."
+//	name = "Рюкзак"
+//	desc = "Вы носите это на спине и кладете в него предметы."
 //	icon_state = "backpack-rucksack"
 //	item_state = "backpack-rucksack"
 //	w_class = WEIGHT_CLASS_HUGE

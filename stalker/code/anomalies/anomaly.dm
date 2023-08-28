@@ -264,7 +264,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 
 
 /obj/anomaly/electro
-	name = "electro"
+	name = "Электра"
 	damage_amount = 40
 	cooldown = 2
 	sound = 'stalker/sound/anomalies/electra_blast1.ogg'
@@ -291,7 +291,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 		SSobj.processing.Remove(src)
 
 /obj/anomaly/karusel
-	name = "vortex"
+	name = "Карусель"
 	damage_amount = 30
 	cooldown = 2
 	delay = 1
@@ -326,7 +326,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 			//	src.trapped.Add(A)
 
 /obj/anomaly/tramplin
-	name = "springboard"
+	name = "Трамплин"
 	damage_amount = 15
 	cooldown = 2
 	delay = 0.5
@@ -346,7 +346,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 				)
 
 /obj/anomaly/jarka
-	name = "burner"
+	name = "Жарка"
 	cooldown = 2
 	sound = 'stalker/sound/anomalies/zharka1.ogg'
 	luminosity = 3
@@ -403,7 +403,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	qdel(I)
 /*
 /obj/anomaly/jarka/comet
-	name = "comet"
+	name = "Комета"
 	inactive_icon_state = "jarka1"
 	active_icon_state = "jarka1"
 	loot = list(/obj/item/artifact/droplet = 45,
@@ -433,7 +433,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 		stage = 0
 */ //NEED REWORK
 /obj/anomaly/holodec
-	name = "fruit punch"
+	name = "Кисель"
 	cooldown = 2
 	luminosity = 3
 	idle_luminosity = 3
@@ -548,7 +548,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 		qdel(src)
 
 /obj/anomaly/puh
-	name = "burnt fuzz"
+	name = "Жгучий пух"
 	cooldown = 2
 	sound = 'stalker/sound/anomalies/buzz_hit.ogg'
 	damage_type = DMG_TYPE_BIO
@@ -596,7 +596,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 		active_icon_state = "puh2"
 
 /obj/rad 	//Only does rad damage
-	name = "radiation"
+	name = "Радиация"
 	icon = 'stalker/icons/anomalies.dmi'
 	icon_state = "rad_low"
 	var/damage_amount = 0 				//How much damage

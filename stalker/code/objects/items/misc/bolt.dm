@@ -1,6 +1,6 @@
 /obj/item/stalker/bolt
-	name = "bolt"
-	desc = "Old Soviet bolt affected by corrosion."
+	name = "Болт"
+	desc = "Старый советский болт, подвергшийся коррозии."
 	icon = 'stalker/icons/bolt.dmi'
 	icon_state = "bolt"
 	w_class = 6//from 1. >:(
@@ -11,8 +11,8 @@
 	QDEL_IN(src, 5 SECONDS)
 
 /obj/item/stalker/bolts
-	name = "bolts"
-	desc = "A pile of bolts."
+	name = "Болты"
+	desc = "Куча болтов."
 	icon = 'stalker/icons/bolt.dmi'
 	icon_state = "kucha"
 	w_class = 6//from 2. >:(
@@ -20,9 +20,9 @@
 /obj/item/stalker/bolts/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/stalker/bolt))
 		if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
-			user << "<span class='notice'>You place a bolt in the pile.</span>"
+			user << "<span class='notice'>Вы кладете болт в кучу.</span>"
 		else
-			user << "<span class='notice'>You put the bolt in a bunch.</span>"
+			user << "<span class='notice'>Вы кладёте болт в кучу.</span>"
 
 /obj/item/stalker/bolts/MouseDrop(atom/over_object)
 	var/mob/M = usr
@@ -62,9 +62,9 @@
 	P.loc = user.loc
 	user.put_in_hands(P)
 	if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
-		user << "<span class='notice'>You take a bolt out of the pile.</span>"
+		user << "<span class='notice'>Вы берете болт из кучи.</span>"
 	else
-		user << "<span class='notice'>You pull the bolt out of the pile.</span>"
+		user << "<span class='notice'>Вы вытаскиваете болт из кучи.</span>"
 
 	add_fingerprint(user)
 

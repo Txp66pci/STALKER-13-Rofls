@@ -7,12 +7,12 @@
 	..()
 
 /obj/machinery/door/airlock/stalker/sidor
-	name = "door"
+	name = "Дверь"
 	icon_state = "closed"
 
 /obj/machinery/door/poddoor/sidor
-	name = "door"
-	desc = "A heavy duty blast door that opens mechanically."
+	name = "Дверь"
+	desc = "Тяжёлая дверь. Открывается автоматически."
 	icon = 'stalker/icons/door_sidor.dmi'
 	icon_state = "closed"
 	id = null
