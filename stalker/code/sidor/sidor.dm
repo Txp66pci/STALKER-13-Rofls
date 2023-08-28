@@ -10,9 +10,9 @@
 					"Нафига ты эту дрянь тягаешь?"
 					"Что за бодягу ты мне приволок?")
 
-	var/buyText = list("buy", "buy", "take", "take away", "privolok", "dragged")
+	var/buyText = list("Купи", "купи", "Взять", "взять", "Приволок", "приволок")
 
-	var/badLanguage = list("hui", "hui", "suck", "huesos", "shovno", "shit", "pidoras", "faggot",, "gandon", "uyebok", "huilo")
+	var/badLanguage = list("Хуй", "хуй", "suck", "huesos", "shovno", "shit", "pidoras", "faggot",, "gandon", "uyebok", "huilo")
 
 	var/howMany = list("how's going", "how much", "how much")
 

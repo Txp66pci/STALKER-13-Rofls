@@ -53,10 +53,10 @@
     words = list("Двустволка" = 5, "двустволка" = 5, "пушка" = 5, "Пушка" = 10)
 
 /sidoritem/toz34
-    name = "Тост-34"
+    name = "Тоз-34"
     itemtype = /obj/item/weapon/gun/projectile/revolver/bm16/toz34
     cost = 15000
-    words = list("Тост" = 5, "тост" = 5, "34" = 10)
+    words = list("ТОЗ" = 5, "тоз" = 5, "34" = 10)
 
 /sidoritem/chaser
     name = "Чейзер-13"

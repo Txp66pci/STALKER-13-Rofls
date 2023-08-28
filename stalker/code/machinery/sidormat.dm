@@ -181,7 +181,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("ПС5-М",						"ПС5-М",					/obj/item/clothing/suit/hooded/kombez/ps5m,					25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Duty"),
 		new /datum/data/stalker_equipment("Броня ЧН-3а",			"Броня ЧН-3а",			/obj/item/clothing/suit/hooded/cs_medium,					25000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
 		new /datum/data/stalker_equipment("Тяжёлая Броня Наёмника",		"Тяжёлая Броня Наёмника",	/obj/item/clothing/suit/assaultmerc,						50000,		EXPERIENCED,initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("СЕВА Наёмника",			"СЕВА Наёмника",		/obj/item/clothing/suit/hooded/sealed/merc,					60000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Броня Наёмника Эколога",			"Броня Наёмника Эколога",		/obj/item/clothing/suit/hooded/sealed/merc,					60000,		ROOKIE,		initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
 		new /datum/data/stalker_equipment("Броня ЧН-1",			"Броня ЧН-1",			/obj/item/clothing/suit/cs_heavy,							60000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Clear Sky"),
 		new /datum/data/stalker_equipment("ПСЗ-9Д",						"ПСЗ-9Д",					/obj/item/clothing/suit/psz9d,								60000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
 		new	/datum/data/stalker_equipment("ПСЗ-9M",						"ПСЗ-9M",					/obj/item/clothing/suit/hooded/sealed/psz9md,				75000,		VETERAN,	initial_stock = PISTOL_AMOUNT,faction = "Duty"),
