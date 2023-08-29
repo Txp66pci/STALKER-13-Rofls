@@ -2,8 +2,8 @@ GLOBAL_LIST_EMPTY(KPKs)
 GLOBAL_VAR_INIT(global_lentahtml, "")
 
 /obj/item/stalker_pda
-	name = "PDA"
-	desc = "A portable device, used to communicate with other stalkers."
+	name = "RGR"
+	desc = "Портативное устройство, используемое для общения с другими сталкерами."
 	icon = 'stalker/icons/device_new.dmi'
 	icon_state = "kpk_off"
 	item_state = "kpk"
