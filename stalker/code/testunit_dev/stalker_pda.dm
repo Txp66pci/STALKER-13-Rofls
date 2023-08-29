@@ -1,9 +1,10 @@
-GLOBAL_LIST_EMPTY(KPKs)
-GLOBAL_VAR_INIT(global_lentahtml, "")
+GLOBAL_LIST_EMPTY (KPKs)
+GLOBAL_VAR_INIT (global_lentahtml, "")
+
 
 /obj/item/stalker_pda
-	name = "RGR"
-	desc = "Портативное устройство, используемое для общения с другими сталкерами."
+	name = "PDA"
+	desc = "A portable device, used to communicate with other stalkers."
 	icon = 'stalker/icons/device_new.dmi'
 	icon_state = "kpk_off"
 	item_state = "kpk"
@@ -321,20 +322,16 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 			<div style=\"overflow: hidden; height: 200px; width: 180px;\" ><img height=80 width=80 border=4 src=photo_front><img height=80 width=80 border=4 background src=photo_side></div>\
 			</td>\
 			<td valign=\"top\" align=\"left\">\
-			 <div align=\"right\"><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div><br>"
-
+			 <div align=\"right\"><a href='byond://?src=\ref[src];choice=title'>\</a> <a href='byond://?src=\ref[src];choice=close'>\</a></div><br>"
 			mainhtml +="\
+			<meta charset=utf-8>\
 			 <b>Name:</b> [owner.real_name]<br><br>\
 			 <b>Faction:</b> [eng_faction_s]<br><br>\
 			 <b>Rank:</b> [rating]<br><br>\
-			 <b>Reputation:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s]</font>"
-
-
-			 mainhtml +="\
-			 \
+			 <b>Reputation:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s]</font>\
 			</td>\
 			</tr>\
-			\
+		\
 			<tr>\
 			<td colspan=\"2\" align=\"center\" id=\"table-bottom1\" height=60>\
 				| <a style=\"color:#c10000;\" href='byond://?src=\ref[src];choice=password_check'>WRONG PASSWORD!</a> |<br>\
@@ -521,7 +518,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 					[navbarhtml]\
 					<div align=\"center\"></div>\
 				</td>\
-			</tr>"
+			</tr>" 
 	mainhtml +="\
 	<table>\
 	<script>\
