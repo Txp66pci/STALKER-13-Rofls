@@ -56,7 +56,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	art_armor = list()
 	radiation = -2
 	level_s = 1
-/
+/*
 /obj/item/artifact/stoneflower
 	name = "Каменный цветок"
 	desc = "Родился в гравитационных аномалиях. Этот артефакт встречается только в нескольких областях Зоны. Кусочки металлических соединений создают красивую игру света."
@@ -72,7 +72,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	art_armor = list(bullet = 20)
 	radiation = 3
 	level_s = 3
-/
+*/
 /obj/item/artifact/stoneflower_depleted
 	name = "Истощённый каменный цветок"
 	desc = "Родился в гравитационных аномалиях. Этот артефакт встречается только в нескольких областях Зоны. Кусочки металлических соединений создают красивую игру света."
@@ -285,7 +285,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 		A.Think(user)
 	//spawn(thinkrate)
 	//	Think()
-/
+/*
 /obj/item/storage/belt/stalker/artifact_belt/handle_item_insertion(obj/item/W, prevent_warning = 0, mob/user)
 	if(..(W, prevent_warning, user) && istype(W, /obj/item/artifact))
 		var/obj/item/artifact/artifact = W
@@ -309,4 +309,4 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 			mob.global_armor[armortype] -= artifact.art_armor[armortype]
 		return 1
 	return 0
-/
+*/
