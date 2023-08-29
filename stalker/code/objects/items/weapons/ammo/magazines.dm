@@ -15,7 +15,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x18bizon
-	name = "магазин бизон (9x18mm)"
+	name = "магазин Bizon (9x18mm)"
 	icon_state = "9x18bizon"
 	ammo_type = /obj/item/ammo_casing/c9x18
 	caliber = "9x18mm"
@@ -31,7 +31,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x19luger
-	name = "Пистолетный магазин люгера (9x19mm)"
+	name = "Пистолетный магазин Люгера (9x19mm)"
 	icon_state = "9x19luger"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"
@@ -47,7 +47,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x19glock
-	name = "Пистолетный магазин Глока (9x19mm)"
+	name = "Пистолетный магазин Glok (9x19mm)"
 	icon_state = "p9x19"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"
@@ -55,7 +55,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m57x28fiveseven
-	name = "Пистолетный магазин ФН 5-7 (5.7×28mm)"
+	name = "Пистолетный магазин FN Five-Seven (5.7×28mm)"
 	icon_state = "fiveseven"
 	ammo_type = /obj/item/ammo_casing/c57x28
 	caliber = "5.7×28mm"
@@ -63,7 +63,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x19waltherpp
-	name = "Пистолетный магазин Вальтера ПП (9x19mm)"
+	name = "Пистолетный магазин Вальтера (9x19mm)"
 	icon_state = "9x19waltherpp"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"
@@ -71,7 +71,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x18cz83
-	name = "CZ 83 Пистолетный магазин (9x18mm)"
+	name = "Магазин CZ 83 (9x18mm)"
 	icon_state = "9x18cz83"
 	ammo_type = /obj/item/ammo_casing/c9x18
 	caliber = "9x18mm"
@@ -79,7 +79,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/reising
-	name = "Магазин Рейсинга (.45)"
+	name = "Магазин Reising (.45)"
 	icon_state = "reising"
 	ammo_type = /obj/item/ammo_casing/acp45
 	caliber = ".45"
@@ -87,7 +87,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x19mat49
-	name = "Магазин Мэт 49 (9x19mm)"
+	name = "Магазин Mat 49 (9x19mm)"
 	icon_state = "9x19b"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"
@@ -193,7 +193,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/vz58
-	name = "Магазин ВЗ 58 (7.62x39)"
+	name = "Магазин VZ 58 (7.62x39)"
 	icon_state = "vz58"
 	ammo_type = /obj/item/ammo_casing/c762x39
 	caliber = "7.62x39"
@@ -201,7 +201,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/fnfal
-	name = "Магазин ФН ФАЛ (7.62x51)"
+	name = "Магазин FN FAL (7.62x51)"
 	icon_state = "fnfalmag"
 	ammo_type = /obj/item/ammo_casing/c762x51
 	caliber = "7.62x51mm"
@@ -217,7 +217,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x19mp5
-	name = "Магазин СМГ (9x19mm)"
+	name = "Магазин SMG (9x19mm)"
 	icon_state = "9x19mp5"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"
@@ -264,13 +264,13 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/internal/cylinder/anaconda
-	name = "Colt Anaconda internal magazine"
+	name = "Магазин Colt Anaconda"
 	ammo_type = /obj/item/ammo_casing/mag44
 	caliber = ".44"
 	max_ammo = 6
 
 /obj/item/ammo_box/magazine/internal/cylinder/c500revolver
-	name = ".500 Bull internal magazine"
+	name = "Магазин .500 Bull"
 	ammo_type = /obj/item/ammo_casing/c500cal
 	caliber = "c500cal"
 	max_ammo = 3
@@ -285,7 +285,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/mp40
-	name = "Магазин МП-40 (9x19mm)"
+	name = "Магазин MP-40 (9x19mm)"
 	icon_state = "mp40"
 	w_class = 3
 	ammo_type = /obj/item/ammo_casing/c9x19
@@ -294,7 +294,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/sten
-	name = "Магазин Стэн MK II  (9x19mm)"
+	name = "Магазин Sten MK II  (9x19mm)"
 	icon_state = "sten"
 	w_class = 3
 	ammo_type = /obj/item/ammo_casing/c9x19
@@ -312,7 +312,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m3a1
-	name = "Магазин М3А1 гризгана (9x19mm)"
+	name = "Магазин М3А1 Grease Gun (9x19mm)"
 	icon_state = "m3a1"
 	w_class = 3
 	ammo_type = /obj/item/ammo_casing/c9x19
@@ -321,7 +321,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/m9x19m76
-	name = "Магазин СнВ M76 (9x19mm)"
+	name = "Магазин S&W M76 (9x19mm)"
 	icon_state = "m76"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"
@@ -376,7 +376,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/mauser/ext
-	name = "Увеличенный пистолетный магазин Маузера (7.62x25mm)"
+	name = "Увеличенный магазин Маузера (7.62x25mm)"
 	icon_state = "mausermagext"
 	ammo_type = /obj/item/ammo_casing/c762x25
 	caliber = "7.62x25mm"
@@ -384,7 +384,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/kiparis
-	name = "Магазин СМГ (9x18mm)"
+	name = "Магазин SMG (9x18mm)"
 	icon_state = "kiparis"
 	ammo_type = /obj/item/ammo_casing/c9x18
 	caliber = "9x18mm"
@@ -392,7 +392,7 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/stalker/berettam38
-	name = "Магазин СМГ (9x19mm)"
+	name = "Магазин SMG (9x19mm)"
 	icon_state = "9x19b"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"
@@ -408,7 +408,7 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_box/magazine/stalker/mac10
-	name = "Магазин СМГ МАК10 (9x19mm)"
+	name = "Магазин SMG МАК10 (9x19mm)"
 	icon_state = "mac10"
 	ammo_type = /obj/item/ammo_casing/c9x19
 	caliber = "9x19mm"

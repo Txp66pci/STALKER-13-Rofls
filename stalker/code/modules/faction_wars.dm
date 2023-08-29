@@ -1,8 +1,8 @@
 GLOBAL_LIST_EMPTY(cps)
 
 /obj/machinery/stalker/sidorpoint
-	name = "SIDORPOINT - null"
-	desc = "Control point."
+	name = "СИДОРПОЙНТ - null"
+	desc = "Контрольная точка."
 	icon = 'stalker/icons/device_new.dmi'
 	icon_state = "radio_free"
 	density = 1
@@ -24,7 +24,7 @@ GLOBAL_LIST_EMPTY(cps)
 
 /obj/machinery/stalker/sidorpoint/New()
 	..()
-	name = "SIDORPOINT ([get_area(src).name])"
+	name = "СИДОРПОЙНТ ([get_area(src).name])"
 	GLOB.cps += src
 	outdoor_area = locate(text2path("/area/stalker/blowout/outdoor/backwater/[path_ending]"))
 	buildings_area = locate(text2path("/area/stalker/blowout/buildings/backwater/[path_ending]"))
@@ -44,16 +44,16 @@ GLOBAL_LIST_EMPTY(cps)
 /obj/machinery/stalker/sidorpoint/proc/update_desc()
 	if(controlled_by)
 
-		desc = "The point is under the control of the group [get_rus_faction(controlled_by)] on [control_percent]%"
-		desc = "Point is under [controlled_by] control by [control_percent]%"
+		desc = "Эта территория под контролем группировки [get_rus_faction(controlled_by)] на [control_percent]%"
+		desc = "Точка под [controlled_by] на [control_percent]%"
 
 	else if(control_percent)
 
-		desc = "Point is under [capturing_faction] control by [control_percent]%"
+		desc = "Точку захватывают [capturing_faction] и контролируют [control_percent]%"
 
 	else
 
-		desc = "This point can be captured."
+		desc = "Точку захватили."
 
 /obj/machinery/stalker/sidorpoint/proc/update_icon_percent()
 	switch(control_percent)
@@ -92,44 +92,44 @@ GLOBAL_LIST_EMPTY(cps)
 		return*/
 
 	if(!istype(user,/mob/living/carbon/human))
-		say("You are not a human.")
+		say("Вы не человек.")
 		return
 
 	var/mob/living/carbon/human/H = user
 
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
-		say("Put on your PDA.")
+		say("Наденьте ваш КПК.")
 		return
 
 	var/datum/data/record/sk = find_record("sid", H.sid, GLOB.data_core.stalkers)
 	var/obj/item/stalker_pda/KPK = H.wear_id
 
 	if(!sk || !KPK.owner)
-		say("Activate your PDA profile.")
+		say("Активируйте ваш КПК.")
 		return
 
 	if(KPK.owner != H)
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	//if(sk.fields["faction_s"] == "Loners" || sk.fields["faction_s"] == "Bandits")
-	//	say("No access.")
+	//	say("Нет доступа.")
 	//	return
 
 	if(control_percent == 100 && controlled_by == sk.fields["faction_s"])
-		say("[get_area(src).name] is already captured!")
+		say("[get_area(src).name] уже захваченна!")
 		return
 
 	if(capturing_faction && capturing_faction == sk.fields["faction_s"])
-		say("[get_area(src).name] is already being captured!")
+		say("[get_area(src).name] уже захватывается!")
 		return
 
 	if(!do_after(user, 10, 1, src))
 		return
 
 	capturing_faction = sk.fields["faction_s"]
-	add_lenta_message(null, "0", "Sidorovich", "Loners", "[capturing_faction] started capturing [get_area(src).name].")
-	say("[capturing_faction] started capturing [get_area(src).name]!")
+	add_lenta_message(null, "0", "Сидорович", "Одиночки", "[capturing_faction] начинают захватывать [get_area(src).name].")
+	say("[capturing_faction] начинают захватывать [get_area(src).name]!")
 
 	return
 
@@ -172,8 +172,8 @@ GLOBAL_LIST_EMPTY(cps)
 		if(control_percent >= 100)
 
 			control_percent = 100
-			add_lenta_message(null, "0", "Sidorovich", "Loners", "[controlled_by] captured [get_area(src).name].")
-			say("[get_area(src).name] is captured  by [controlled_by]!")
+			add_lenta_message(null, "0", "Сидорович", "Одиночки", "[controlled_by] захватили [get_area(src).name].")
+			say("[get_area(src).name] захваченна [controlled_by]!")
 			capturing_faction = null
 
 		return
@@ -190,8 +190,8 @@ GLOBAL_LIST_EMPTY(cps)
 			if(control_percent <= 0)
 
 				control_percent = 0
-				add_lenta_message(null, "0", "Sidorovich", "Loners", "[controlled_by] lost control of [get_area(src).name].")
-				say("[controlled_by] lost control of [get_area(src).name]!")
+				add_lenta_message(null, "0", "Сидорович", "Одиночки", "[controlled_by] потеряли [get_area(src).name].")
+				say("[controlled_by] потеряли [get_area(src).name]!")
 				controlled_by = capturing_faction
 
 /obj/machinery/stalker/sidorpoint/ex_act(severity, target)
@@ -208,7 +208,7 @@ GLOBAL_LIST_EMPTY(cps)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /obj/machinery/stalker/sidormat/special
-	desc = "An equipment vendor for experienced stalkers."
+	desc = "Поставщик оборудования для опытных сталкеров."
 	switches = SHOW_FACTION_EQUIPMENT
 	var/obj/machinery/stalker/sidorpoint/SP = null
 
@@ -221,26 +221,26 @@ GLOBAL_LIST_EMPTY(cps)
 		return
 
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
-		say("Put on your PDA.")
+		say("Наденьте ваш КПК.")
 		return
 
 	var/datum/data/record/sk = find_record("sid", H.sid, GLOB.data_core.stalkers)
 	var/obj/item/stalker_pda/KPK = H.wear_id
 
 	if(!sk || !KPK.owner)
-		say("Activate your PDA profile.")
+		say("Активируйте ваш КПК.")
 		return
 
 	if(KPK.owner != H)
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	if(!SP.controlled_by || SP.control_percent < 100)
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	if(SP.controlled_by != sk.fields["faction_s"])
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	..()

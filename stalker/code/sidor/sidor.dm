@@ -12,9 +12,9 @@
 
 	var/buyText = list("Купи", "купи", "Взять", "взять", "Приволок", "приволок")
 
-	var/badLanguage = list("Хуй", "хуй", "suck", "huesos", "shovno", "shit", "pidoras", "faggot",, "gandon", "uyebok", "huilo")
+	var/badLanguage = list("Хуй", "хуй", "соси", "Соси", "Хуесос", "говно", "Пидорас", "пидорас", "Пидорас", "гандон", "уёбок", "хуйло")
 
-	var/howMany = list("how's going", "how much", "how much")
+	var/howMany = list("Почём?", "Сколько", "сколько")
 
 	var/itemloc = null
 	var/itemloc2 = null
@@ -39,7 +39,7 @@
 
 /obj/sidor/proc/RecognizeSpeach(msg)
 	var/message = msg
-	if(!findtext(message, "Sidor"))
+	if(!findtext(message, "Сидор"))
 		return
 
 	for(var/T in buyText)
@@ -49,7 +49,7 @@
 
 	for(var/T in badLanguage)
 		if(findtext(message, lowertext(T)))
-			say("You're not confused, stalker? You 't]!")
+			say("Ты контуженный? Сейчас исправим]!")
 			return
 
 	var/list/weights = list()
@@ -71,7 +71,7 @@
 	if(bestWeight)
 		for(var/T in howMany)
 			if(findtext(message, lowertext(T)))
-				say("[GetCost(bestItem.itemtype)] Rubles.")
+				say("[GetCost(bestItem.itemtype)] рублей.")
 				return
 		BuyItem(bestItem)
 
@@ -202,7 +202,7 @@
 
 
 /obj/sidor/proc/NotEnoghMoney(have, need)
-	say("[pick(failText)] Or give khabara more [need - have] rubles, or add money, or fail!")
+	say("[pick(failText)] Или больше хабара на [need - have] рублей, или  бабок, или свали!")
 
 
 
