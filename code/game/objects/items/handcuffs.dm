@@ -201,7 +201,7 @@
 	else
 		return ..()
 
-/obj/item/restraints/handcuffs/cable/zipties
+
 	name = "zipties"
 	desc = "Plastic, disposable zipties that can be used to restrain temporarily but are destroyed after use."
 	icon_state = "cuff"
@@ -215,8 +215,6 @@
 /obj/item/restraints/handcuffs/cable/zipties/used
 	desc = "A pair of broken zipties."
 	icon_state = "cuff_used"
-	item_state = "cuff"
-
 /obj/item/restraints/handcuffs/cable/zipties/used/attack()
 	return
 

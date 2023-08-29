@@ -4,7 +4,7 @@
 	w_class = 2
 
 /obj/item/attachment/suppressor
-	name = "глушитель"
+	name = "Глушитель"
 	desc = "Универсальный глушитель."
 	icon = 'icons/obj/guns/projectile.dmi'
 	icon_state = "suppressor"
@@ -29,7 +29,7 @@
 	var/initial_w_class = null
 
 /obj/item/attachment/scope
-	name = "прицел"
+	name = "Прицел"
 	desc = "Универсальный прицел."
 	icon = 'stalker/icons/weapon_mods.dmi'
 	icon_state = "susat"

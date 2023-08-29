@@ -125,7 +125,7 @@ var/id_ = 0
 
 /////////////////////////////////////MATERIAL - I TIER//////////////////////////////////////////////////////
 /datum/data/modification/clothing/head/material/kevlar
-	name = "Kevlar padding"
+	name = "Кевларовые пластины"
 	cost = 18000
 	desc = "Kevlar helmet coverage protects from bullets."
 	add_armor = list("melee" = 0, "bullet" = 10, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "psy" = 0)
@@ -141,9 +141,9 @@ var/id_ = 0
 
 /////////////////////////////////////PADDING - I TIER///////////////////////////////////////////////////////
 /datum/data/modification/clothing/head/padding/psionic
-	name = "Psionic Protection module"
+	name = "Обруч для защиты от пси-излучения"
 	cost = 15000
-	desc = "Psionic protection module protects head and brain from psionic waves."
+	desc = "Известно, что замкнутый стальной обруч частично защищает от направленного пси-воздействия."
 	add_armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "psy" = 15)
 	tier = 1
 
@@ -156,9 +156,9 @@ var/id_ = 0
 
 /////////////////////////////////////PADDING - II TIER///////////////////////////////////////////////////////
 /datum/data/modification/clothing/head/padding/psionic_advanced
-	name = "Advanced Psionic Protection module"
+	name = "Обруч «Пси-купол»."
 	cost = 30000
-	desc = "Advanced psionic protection module protects head from psionic waves."
+	desc = "Высокотехнологичная пси-защита, изобретённая неким учёным по фамилии Сахаров."
 	add_armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "psy" = 25)
 	tier = 2
 

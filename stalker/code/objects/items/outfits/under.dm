@@ -1,6 +1,6 @@
 /obj/item/clothing/under/color/switer
 	name = "Свитер"
-	desc = "Dirty and worn old grandma's sweater made of natural dog hair with natural healing properties. This sweater is very warm and comfortable."
+	desc = "Грязный и потертый старый бабушкин свитер из натуральной собачьей шерсти с природными целебными свойствами. Этот свитер очень теплый и удобный."
 	body_parts_covered = CHEST|ARMS|LEGS
 	cold_protection = CHEST|ARMS|LEGS
 	icon_state = "switer"
