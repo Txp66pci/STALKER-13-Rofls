@@ -9,9 +9,9 @@
 		CheckControl(C)
 		if(SSblowout.isblowout && C.inshelter)
 			if(C.client && (C.client.prefs.chat_toggles & CHAT_LANGUAGE))
-				to_chat(C, "<big><span class='warning'>You leave the shelter.</span></big>")
+				to_chat(C, "<big><span class='warning'>Вы выходите из укрытия.</span></big>")
 			else
-				to_chat(C, "<big><span class='warning'>You leave the shelter.</span></big>")
+				to_chat(C, "<big><span class='warning'>Вы выходите из укрытия.</span></big>")
 			C.overlay_fullscreen("blowjob", /obj/screen/fullscreen/color_vision/blowjob)
 		C.inshelter = 0
 
@@ -22,18 +22,18 @@
 		CheckControl(C)
 		if(SSblowout.isblowout && !C.inshelter)
 			if(C.client && (C.client.prefs.chat_toggles & CHAT_LANGUAGE))
-				to_chat(C, "<big><span class='notice'>You enter the shelter.</span></big>")
+				to_chat(C, "<big><span class='notice'>Вы входите в укрытие.</span></big>")
 			else
-				to_chat(C, "<big><span class='notice'>You enter the shelter.</span></big>")
+				to_chat(C, "<big><span class='notice'>Вы входите в укрытие.</span></big>")
 			C.clear_fullscreen("blowjob")
 		C.inshelter = 1
 
 /area/proc/CheckControl(mob/living/carbon/C)
 	if(!C.inprivatezone && controlled_by)
 		if(C.client && (C.client.prefs.chat_toggles & CHAT_LANGUAGE))
-			to_chat(C, "<big><span class='warning'>You enter the zone controlled by [controlled_by]. [controlled_by] can kill you on sight if you are not allied.</warning></big>")
+			to_chat(C, "<big><span class='warning'>Вы входите в зону под контролем [controlled_by]. [controlled_by] может убить вас на месте, если вы не союзник.</warning></big>")
 		else
-			to_chat(C, "<big><span class='warning'>You are entering an area controlled by the faction. [get_rus_faction(controlled_by)]. You are entering an area controlled by the faction..</warning></big>")
+			to_chat(C, "<big><span class='warning'>Вы входите в зону, контролируемую фракцией. [get_rus_faction(controlled_by)]. Вы входите в зону, контролируемую фракцией..</warning></big>")
 
 	if(controlled_by)
 		C.inprivatezone = 1
@@ -118,16 +118,16 @@ SUBSYSTEM_DEF(blowout)
 
 	//SSnightcycle.updateLight("BLOWOUT")
 
-	add_lenta_message(null, "0", "Sidorovich", "Loners", "ATTENTION STALKERS! Blowout is coming! Look for the nearest hideout!")
+	add_lenta_message(null, "0", "Сидорович", "Одиночки", "ВНИМАНИЕ СТАЛКЕРЫ! Грядет выброс! Ищите ближайшее укрытие!")
 	world << sound('stalker/sound/blowout/blowout_begin_02.ogg', wait = 0, channel = 201, volume = 50)
 	world << sound('stalker/sound/blowout/blowout_siren.ogg', wait = 0, channel = 202, volume = 60)
 
 	for(var/mob/living/carbon/C in GLOB.player_list)
 		if(!C.inshelter)
-			to_chat(C, "<big><span class='warning'>You urgently need to look for shelter, the emission will begin soon!</span></big>")
+			to_chat(C, "<big><span class='warning'>Нужно срочно искать укрытие, скоро начнется выброс!</span></big>")
 			C.overlay_fullscreen("blowjob", /obj/screen/fullscreen/color_vision/blowjob)
 		else
-			to_chat(C, "<big><span class='notice'>You are in cover, you should stay in here until the emission is over.</span></big>")
+			to_chat(C, "<big><span class='notice'>Вы находитесь в укрытии, вы должны оставаться здесь, пока выброс не закончится.</span></big>")
 			C.clear_fullscreen("blowjob")
 
 /datum/controller/subsystem/blowout/proc/PreStopBlowout()
@@ -150,7 +150,7 @@ SUBSYSTEM_DEF(blowout)
 		*/
 		if(zomboid.has_trait(TRAIT_BLOWOUT_IMMUNE))
 			continue
-		to_chat(zomboid, "<big><span class='warning'>You have succumbed to the zone!</big></span>")
+		to_chat(zomboid, "<big><span class='warning'>Вы потерялись в Зоне!</big></span>")
 		new /mob/living/simple_animal/hostile/mutant/zombiesimp(zomboid.loc)
 		zomboid.ghostize(FALSE)
 		zomboid.unequip_everything()
@@ -229,14 +229,14 @@ SUBSYSTEM_DEF(blowout)
 		KPK.lentahtml = ""
 
 	blowout_count++
-	add_lenta_message(null, "0", "Sidorovich", "Loners", "The emmission is over! You can safely leave shelter.")
+	add_lenta_message(null, "0", "Сидорович", "Одиночки", "Выброс закончился! Можно смело покидать укрытие.")
 
 	for(var/datum/data/record/sk in GLOB.data_core.stalkers)
 		if(sk.fields["reputation"] <= VERYBAD)
 			var/name_ = sk.fields["name"]
 			var/rep_ = sk.fields["reputation"]
-			add_lenta_message(null, "0", "Sidorovich", "Loners", "For PDA [name_] get [GetCostBasedOnReputation(rep_)] roubles.")
-	add_lenta_message(null, "0", "Sidorovich", "Loners", "Don't go wandering alone and die, you have much more to buy from me!")
+			add_lenta_message(null, "0", "Сидорович", "Одиночки", "Для КПК [name_] выдаю [GetCostBasedOnReputation(rep_)] рублей.")
+	add_lenta_message(null, "0", "Сидорович", "Одиночки", "Не бродите в одиночку и не умирайте, у меня осталось ещё много товара!")
 
 
 //	BlowoutMobSpawns()//Calls 'SpawnMobs' on all active mob spawners. Disabled for now.

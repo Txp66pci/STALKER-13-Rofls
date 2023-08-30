@@ -105,10 +105,10 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/kitchen/knife/butcher
-	name = "butcher's cleaver"
+	name = "Мясницкий нож"
 	icon_state = "butch"
 	item_state = "butch"
-	desc = "A great cleaver for butchering mutants. Also good at cutting stalkers!"
+	desc = "Отличный тесак для разделки мутантов. Также хорош в разделке сталкеров!"
 	flags_1 = CONDUCT_1
 	force = 20
 	throwforce = 10

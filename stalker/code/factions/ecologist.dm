@@ -1,5 +1,5 @@
 /datum/job/ecologist
-	title = "Ecologist"
+	title = "Эколог"
 	faction_s = "Экологи"
 	faction = "Station"
 	total_positions = -1
