@@ -2,28 +2,28 @@
 Assistant
 */
 /datum/job/clearsky
-	title = "Чистонебовец"
-	faction_s = "Чистое Небо"
+	title = "Clear Sky Soldier"
+	faction_s = "Clear Sky"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
 	//limit_per_player = 2
-	description = "Чистое небо — независимая научно-военная организация, занимающаяся изучением Зоны."
-	enforces = "Разведка и исследование зоны. Стрельба по ренегатам на месте."
-	forbids = "Противостояние сталкерам, причиняя им вред или воруя у них, работа с бандитами или ренегатами и вступание в бой с любой нейтральной фракцией, не посовещавшись с главой."
-	supervisors = "Лидер Чистого неба"
+	description = "The Clear Sky faction is an independent scientific/military organization focusing on understanding the Zone."
+	enforces = "Exploration and research of the zone. Shooting Renegades on sight."
+	forbids = "Antagonizing stalkers by harming or stealing from them, working with the Bandits or Renegades, and starting fights with any neutral faction without asking up the chain of command."
+	supervisors = "Leader"
 	selection_color = "#64B2F7"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit = /datum/outfit/clearsky
-	real_rank = "Чистое Небо"
+	real_rank = "ClearSky"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/clearsky  // For select_equipment
-	name = "Чистое Небо"
-	faction_s = "Чистое Небо"
+	name = "Clear Sky Soldier"
+	faction_s = "Clear Sky"
 	suit = /obj/item/clothing/suit/hooded/kozhanka/cs_hood
 	belt = /obj/item/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -61,16 +61,16 @@ Assistant
 	H.grant_language(/datum/language/english, body = FALSE)
 
 /datum/job/clearsky_leader
-	title = "Лидер Чистого неба"
-	faction_s = "Чистое Небо"
+	title = "Clear Sky Leader"
+	faction_s = "Clear Sky"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
 	spawn_positions = 4
 	limit_per_player = 1
-	description = "Чистое небо — независимая научно-военная организация, занимающаяся изучением Зоны."
-	enforces = "Разведка и исследование зоны. Стрельба по ренегатам на месте."
-	forbids = "Противостояние сталкерам, причиняя им вред или воруя у них, работа с бандитами и вступление в драку с любой нейтральной фракцией или иным образом подвергая фракцию опасности по незначительной причине."
+	description = "The Clear Sky faction is an independent scientific/military organization focusing on understanding the Zone."
+	enforces = "Exploration and research of the zone. Shooting Renegades on sight."
+	forbids = "Antagonizing stalkers by harming or stealing from them, working with the Bandits, and starting fights with any neutral faction or otherwise jeopordize the faction for an insignificant reason."
 	selection_color = "#64B2F7"
 	whitelist_only = 0
 	limit_per_player = 2
@@ -80,8 +80,8 @@ Assistant
 	exp_requirements = 900
 
 /datum/outfit/job/clearsky_leader
-	name = "Лидер Чистого неба"
-	faction_s = "Чистое Небо"
+	name = "Clear Sky Leader"
+	faction_s = "Clear Sky"
 
 /datum/outfit/job/clearsky_leader/pre_equip(mob/living/carbon/human/H)
 	..()

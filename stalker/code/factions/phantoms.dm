@@ -1,5 +1,5 @@
 /datum/outfit/phantom  // For select_equipment
-	name = "Фантом"
+	name = "Phantom"
 
 	uniform = /obj/item/clothing/under/color/switer
 	suit = null
