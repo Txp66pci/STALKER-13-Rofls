@@ -1,6 +1,5 @@
-GLOBAL_LIST_EMPTY (KPKs)
-GLOBAL_VAR_INIT (global_lentahtml, "")
-
+GLOBAL_LIST_EMPTY(KPKs)
+var/global/global_lentahtml = ""
 
 /obj/item/stalker_pda
 	name = "КПК"
@@ -35,7 +34,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	var/password = null
 	var/hacked = 0
 	var/rep_color_s = "#ffe100"
-	var/rep_name_s = "Нейтрал"
+	var/rep_name_s = "Нейтральная"
 	var/eng_rep_name_s = "Нейтрал"
 	var/rus_rank_name_s = "Новичок"
 	var/eng_rank_name_s = "Новичок"
@@ -50,7 +49,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	var/last_faction_lenta = 0
 	var/lenta_faction_id = 0
 
-	var/msg_name = "Лента"
+	var/msg_name = "message"
 	var/max_length = 10
 	slot_flags = ITEM_SLOT_ID
 
@@ -58,7 +57,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	var/last_invite = 0
 
 	//РЕЙТИНГ
-	var/sortBy = "Рейтинг"
+	var/sortBy = "rating"
 	var/order = 1
 	var/lastlogin = 0
 
@@ -93,12 +92,12 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		"cursor_busy.ani"		= 'stalker/html/cursors/busy.ani'
 	)
 
-/obj/item/stalker_pda/Initialize()
-	. = ..()
-	GLOB.KPKs += src
+/obj/item/stalker_pda/New()
+	..()
+	return
 
 /obj/item/stalker_pda/Destroy()
-	. = ..()
+	..()
 	if(src in GLOB.KPKs)
 		GLOB.KPKs -= src
 	return
@@ -142,7 +141,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 
 	//user.set_machine(src)
 	mainhtml ="<html> \
-	\
+	<meta charset='utf-8'>\
 	<style>\
 	a:link {color: #607D8B;}\
 	a:visited {color: #607D8B;}\
@@ -297,10 +296,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		<td valign=\"top\" align=\"center\">\
 		<div align=\"right\"><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div><br>\
 		<div class=\"relative\" align=\"center\">"
-
-
 		mainhtml += "ВВЕДИТЕ ПАРОЛЬ"
-
 		mainhtml +="\
 		</div>\
 		</td>\
@@ -312,7 +308,6 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		</td>\
 		</tr>"
 	else
-
 		if (user != owner && hacked == 0)
 			mainhtml +="<body>\
 			\
@@ -322,19 +317,20 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 			<div style=\"overflow: hidden; height: 200px; width: 180px;\" ><img height=80 width=80 border=4 src=photo_front><img height=80 width=80 border=4 background src=photo_side></div>\
 			</td>\
 			<td valign=\"top\" align=\"left\">\
-			 <div align=\"right\"><a href='byond://?src=\ref[src];choice=title'>\</a> <a href='byond://?src=\ref[src];choice=close'>\</a></div><br>"
+			 <div align=\"right\"><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div><br>"
 			mainhtml +="\
-			<meta charset=utf-8>\
 			 <b>Имя:</b> [owner.real_name]<br><br>\
-			 <b>Фракция:</b> [eng_faction_s]<br><br>\
+			 <b>Группировка:</b> [rus_faction_s]<br><br>\
 			 <b>Ранг:</b> [rating]<br><br>\
-			 <b>репутация:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s]</font>\
+			 <b>Репутация:</b> <font color=\"[rep_color_s]\">[rep_name_s]</font>"
+			 mainhtml +="\
+			 \
 			</td>\
 			</tr>\
-		\
+			\
 			<tr>\
 			<td colspan=\"2\" align=\"center\" id=\"table-bottom1\" height=60>\
-				| <a style=\"color:#c10000;\" href='byond://?src=\ref[src];choice=password_check'>WRONG PASSWORD!</a> |<br>\
+				| <a style=\"color:#c10000;\" href='byond://?src=\ref[src];choice=password_check'>В ДОСТУПЕ ОТКАЗАНО - ВВЕДИТЕ ПАРОЛЬ</a> |<br>\
 			<div align=\"center\"></div>\
 			</td>\
 			</tr>"
@@ -344,7 +340,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//ПРОФИЛЬ
 
 				if(1)
-					navbarhtml ="| <a>Профиль</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
+					navbarhtml ="| <a>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопедия</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -353,7 +349,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 						<tr>\
 							<td valign=\"top\" align=\"left\">"
 					mainhtml +="\
-					<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=load_cache'>\[ЗАГРУЗИТЬ КЭШ\]</a><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=exit'>\[ВЫЙТИ\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
+					<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=exit'>\[ВЫХОД\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
 
 					mainhtml +="\
 							</td>\
@@ -368,11 +364,11 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 					</td>\
 					<td>"
 					mainhtml+="\
-				<b>Имя:</b> [owner.real_name]<br>\
-				<b>Фракция:</b> [eng_faction_s]<br>\
-				<b>Ранг:</b> [eng_rank_name_s] ([rating])<br>\
-				<b>Репутация:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s] ([reputation])</font><br>\
-				<b>Баланс:</b> [num2text(money, 8)] Руб<br>"
+					<b>Имя:</b> [owner.real_name]<br>\
+					<b>Группировка:</b> [rus_faction_s]<br>\
+					<b>Ранг:</b> [rus_rank_name_s] ([rating])<br>\
+					<b>Репутация:</b> <font color=\"[rep_color_s]\">[rep_name_s] ([reputation])</font><br>\
+					<b>Баланс:</b> [num2text(money, 8)] RU<br>"
 
 					mainhtml +="\
 					</td>\
@@ -384,7 +380,8 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//ЭНЦИКЛОПЕДИЯ
 
 				if(2)
-					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> |<br>"
+					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a>Энциклопедия</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
+
 					mainhtml +="\
 					<body>\
 						<table border=0 height=\"314\" width=\"455\">\
@@ -432,7 +429,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//РЕЙТИНГ
 
 				if(3)
-					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
+					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопедия</a> | <a>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -442,7 +439,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 							<td valign=\"top\" align=\"left\">\
 								<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=rating_images'>\[IMAGES\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
 					mainhtml +="\
-					<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=refresh_rating'>Обновить БД по сталкерам</a> | </div>"
+						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=refresh_rating'>Обновить список сталкеров</a> | </div>"
 					mainhtml +="\
 							</td>\
 						</tr>\
@@ -457,8 +454,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//ЛЕНТА
 
 				if(4)
-					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a>Лента</a> |<br>"
-
+					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопедия</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a>Лента</a> |<br>"
 					mainhtml +="\
 					<body>\
 					\
@@ -466,8 +462,8 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 					<tr>\
 					<td valign=\"top\" align=\"left\">\
 					<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=lenta_images'>\[IMAGES\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
-						mainhtml +="\
-						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=lenta_add'>Отправить сообщение</a> | <a href='byond://?src=\ref[src];choice=lenta_faction_add'>Отправить сообщение фракции</a> | <a href='byond://?src=\ref[src];choice=lenta_sound'>Вкл/Выкл звук</a> |</div>"
+					mainhtml +="\
+					<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=lenta_add'>Написать в ленту</a> | <a href='byond://?src=\ref[src];choice=lenta_faction_add'>Написать группировке</a> | <a href='byond://?src=\ref[src];choice=lenta_sound'>Вкл/Выкл звук</a> |</div>"
 					mainhtml +="\
 					</td>\
 					</tr>\
@@ -482,7 +478,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//КАРТА
 
 				if(5)
-					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> |<br>"
+					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопедия</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -518,7 +514,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 					[navbarhtml]\
 					<div align=\"center\"></div>\
 				</td>\
-			</tr>" 
+			</tr>"
 	mainhtml +="\
 	<table>\
 	<script>\
@@ -599,7 +595,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 				registered_name = H.real_name
 				owner = H
 				sid = H.sid
-				lentahtml = GLOB.global_lentahtml
+				lentahtml = global_lentahtml
 
 				//var/image = GLOB.data_core.fields["photo_front"]
 				//var/obj/item/photo/owner_photo_front = new()
@@ -614,12 +610,12 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 				profile = find_record("sid", H.sid, GLOB.data_core.stalkers)
 
 				profile.fields["pass"] = pass
-/*
+
 				if(H.job == "Old Stalker" || H.job == "Duty Soldier" || H.job == "Monolith Soldier" || H.job == "Freedom Soldier")
 					profile.fields["rating"] = 3000
 				else if(H.job == "Duty Lieutenant" || H.job == "Monolith Hegumen" || H.job == "Freedom Lieutenant")
 					profile.fields["rating"] = 5000
-*/
+
 				set_owner_info(profile)
 			else //Если человек зарегистрирован в сети сталкеров
 				if(sk && sk.fields["pass"] != t)
@@ -636,7 +632,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 				owner = H
 				sid = H.sid
 				if(!lentahtml)
-					lentahtml = GLOB.global_lentahtml
+					lentahtml = global_lentahtml
 
 				//var/image = GLOB.data_core.get_id_photo(H)
 
@@ -714,7 +710,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		if("lenta_add")
 			var/t = message_input(H, "message", 250)
 			if(!t)
-				to_chat(H, "<span class='warning'>Type a message!</span>")
+				to_chat(H, "<span class='warning'>Введите сообщение!</span>")
 			else
 				if ( !(last_lenta && world.time < last_lenta + LENTA_MESSAGE_COOLDOWN) )
 					last_lenta = world.time
@@ -722,43 +718,44 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 					add_lenta_message(src, sid, owner.real_name, eng_faction_s, t)
 
 				else
-					to_chat(H, "<span class='warning'>You can't send messages in next [round((LENTA_MESSAGE_COOLDOWN + last_lenta - world.time)/10)] sec.</span>")
+					to_chat(H, "<span class='warning'>Вы сможете отправить следующее сообщение через: [round((LENTA_MESSAGE_COOLDOWN + last_lenta - world.time)/10)] сек.</span>")
 
 		if("lenta_faction_add")
 			var/t = message_input(H, "message", 500)
 			if(!t)
-				to_chat(H, "<span class='warning'>Type a message!</span>")
+				to_chat(H, "<span class='warning'>Введите сообщение!</span>")
 			else
 				if ( !(last_faction_lenta && world.time < last_faction_lenta + LENTA_FACTION_MESSAGE_COOLDOWN) )
 					last_faction_lenta = world.time
 					add_faction_lenta_message(src, sid, owner.real_name, eng_faction_s, t)
 
 				else
-					to_chat(H, "<span class='warning'>You can't send messages in next [round((LENTA_FACTION_MESSAGE_COOLDOWN + last_faction_lenta - world.time)/10)] sec.</span>")
+					to_chat(H, "<span class='warning'>Вы сможете отправить следующее сообщение через: [round((LENTA_FACTION_MESSAGE_COOLDOWN + last_faction_lenta - world.time)/10)] сек.</span>")
 
 		if("lenta_sound")
 			if(switches & FEED_SOUND)
 				switches &= ~FEED_SOUND
-				to_chat(H, "<span class='notice'>Feed sound turned off.</span>")
+				to_chat(H, "<span class='notice'>Звук оповещения о сообщениях в ленте выключен.</span>")
 			else
 				switches |= FEED_SOUND
-				to_chat(H, "<span class='notice'>Feed sound turned on.</span>")
+				to_chat(H, "<span class='notice'>Звук оповещения о сообщениях в ленте активирован.</span>")
+
 
 		if("lenta_images")
 			if(switches & FEED_IMAGES)
 				switches &= ~FEED_IMAGES
-				to_chat(H, "<span class='notice'>Stalker avatars in the feed now will not be downloaded.</span>")
+				to_chat(H, "<span class='notice'>Аватары сталкеров в ленте теперь не будут скачиваться.</span>")
 			else
 				switches |= FEED_IMAGES
-				to_chat(H, "<span class='notice'>Stalker avatars in the feed now will be downloaded.</span>")
+				to_chat(H, "<span class='notice'>Аватары сталкеров в ленте теперь будут скачиваться.</span>")
 
 		if("rating_images")
 			if(switches & RATING_IMAGES)
 				switches &= ~RATING_IMAGES
-				to_chat(H, "<span class='notice'>Stalker avatars in the rating now will not be downloaded.</span>")
+				to_chat(H, "<span class='notice'>Аватары сталкеров в рейтинге теперь не будут скачиваться.</span>")
 			else
 				switches |= RATING_IMAGES
-				to_chat(H, "<span class='notice'>Stalker avatars in the rating now will be downloaded.</span>")
+				to_chat(H, "<span class='notice'>Аватары сталкеров в рейтинге теперь будут скачиваться.</span>")
 
 		if("refresh_rating")
 			ratinghtml = ""
@@ -777,155 +774,133 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 			mode = 2
 			get_asset_datum(/datum/asset/simple/encyclopedia).send(H)
 			if(href_list["page"])
-				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
-					switch(href_list["page"])
-						if("Zone")
-							article_title = "Zone"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "The Zone of Alienation is the 60 km wide area of exclusion that was set up around the Chernobyl NPP following the 1986 disaster and extended by the second Chernobyl disaster in 2006."
-
-						if("Backwater")
-							article_title = "Backwater"
-							article_img = "backwater"
-							article_img_width = 200
-							article_img_height = 125
-							article_text = "Backwater, also called Zaton, is mainly set in a swampy area, with a few industrial factories scattered around it and derelict, grounded boats, some dating back before the incident. From the outlying structures and sizable number of grounded boats and tankers around, Backwater appears to have been drained of its water sometime after the Chernobyl incident, most likely to contain the radiation contamination in the water. A free bar for Stalkers is run by Beard, in the wreck of a tanker – the Skadovsk."
-
-						if("Anomalies")
-							article_title = "Anomalies"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "After the second Chernobyl disaster, the Zone was littered with spots where the laws of nature and physics had been corrupted. These small oddities are called anomalies. They are hazardous, often deadly, towards human beings and other creatures as they can deliver electric shocks or burn, corrode and distort physical objects. Most anomalies produce visible air or light distortions, so their extent can be determined by throwing anything that is made of metal, like bolts, to trigger them. The anomalies seem to emit a powerful magnetic field, so it is logical to assume that the anomalies are triggered by anything made of metal that enters the magnetic field. Because vertebrate life on earth has iron-based blood, those creatures with enough body mass are capable of triggering the anomalies."
-
-						if("Electro")
-							article_title = "Electro"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "An anomalous formation, roughly 10 meters in diameter, accumulating large quantities of static electricity. When triggered, the anomaly bursts into a storm of arcing electricity nearly always lethal to all living beings. Easily recognizable by the blue gas it emits, along with the endless arcing of small bolts of electricity in the vicinity, the Electro holds no distinction for what crosses its event horizon, be it a human, a mutants or an inanimate object, and discharges as soon as anything gets too close."
-
-						if("Vortex")
-							article_title = "Vortex"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "An anomaly of presumably gravitational nature. When triggered, the tremendous power of the Vortex drags everything within the radius 10-15 meters towards the center. Victims drawn into the core have little to no chance of survival: their bodies are quickly constricted into a tight lump, only to be blown up in a powerful discharge of energy a moment later. In some cases, they may levitate in air with agony, and soon their entire systems are shredded into mere skeletal and flesh parts."
-
-						if("Whirligig")
-							article_title = "Whirligig"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "A common and dangerous anomaly, which snatches its victims up in the air and spins them at a breakneck speed. The exact nature of the Whirligig remains unknown. The anomaly can be recognized by a light whirlwind of dust above and by body fragments scattered in the vicinity. Victims caught on its outer rim, far enough from the maximum effect zone at the center, can escape the Whirligig with relatively minor injuries."
-
-						if("Burner")
-							article_title = "Burner"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "The Burner can be a bit difficult to see, even in daylight, as it's only revealed by a faint heat haze. If the anomaly is triggered by either a living being or an object such as a metal bolt, it shoots out a tall pillar of flame in the air, burning everything in its vicinity. Though somewhat rare, the Burner anomaly is often found in clusters. Some clusters also emit extreme high ambient temperature, which hurts anything in their vicinity. Burners can emit temperatures as low as 100 degrees Celsius, up to several thousand, hot enough to crack concrete and melt metal, which explains why some Burners appear in areas that have massive cracks and severe damaged soil, while other sites are untouched."
-
-						if("Fruit Punch")
-							article_title = "Fruit Punch"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "The Fruit Punch is a puddle of lambent green liquid that is easily visible in almost any environment due to its bright glow and distinctive hissing and bubbling noises. On contact with creatures or objects such as bolts, a Fruit Punch lights up brightly and emits a sharp hissing sound. It is extremely corrosive, damaging creatures and objects on contact. Any matter left in a Fruit Punch will eventually dissolve, hinting at the anomaly's corrosive nature and spelling doom for any protective suit."
-
-						if("Burnt Fuzz")
-							article_title = "Burnt Fuzz"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "This anomaly is usually found outdoors. It resembles moss or vines, hanging down like curtains from its growing spot. Reacts to rapidly approaching living beings by discharging a cloud of projectiles severely injuring uncovered or lightly protected skin upon contact. Does not react to slowly moving targets. Burnt Fuzz is generally considered the least dangerous anomaly in the Zone since it can be easily spotted and avoided."
-
-						if("Radiation")
-							article_title = "Radiation"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "Pockets of ionizing radiation, or simply radiation for short (areas where the ambient radiation count exceeds 50 mR per hour) can be found all over the Zone. In the outside areas, radiation tends to be dominant in wide, open spaces and on piles of scrap (such as the dirt or scrap piles in Garbage. Also cars, tractors and anything mechanical). Radiation in itself doesn't form artifacts. When you have accumulated enough radiation, you'll start to lose health; although radiation will decrease by itself (albeit very slowly) when you're outside of a radioactive area, it's often a good idea to use either Vodka, antirads, or a first aid kit to speed up the process."
-
-						if("Mutants")
-							article_title = "Mutants"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "Mutants are animals or humans who have been warped by the Zone, changing both their physical appearance and behavior, usually making them more aggressive."
-
-						if("Blind Dog")
-							article_title = "Blind Dog"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "Several generations of the dog species have lived and died since the catastrophe. Each was more affected by the Zone than the previous one. Rapid mutation lead to a vast improvement in previously peripheral abilities, frequently at the expense of primary ones. The most notable biological change was the loss of sight, paired with an uncanny development of smell. As it turned out, blind pups survived in the Zone as well as normal ones, if not better. As a result, the common dog quickly became extinct in the Zone, giving way to a new breed – that of blind dogs. The animals instinctively identify and avoid anomalies, radiation, and other invisible dangers that plague the Zone. Like their wild ancestors – the wolves – blind dogs hunt in packs. An encounter with a large group of these animals can be dangerous even to an experienced and well-armed stalker."
-
-						if("Flesh")
-							article_title = "Flesh"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "Like many other living creatures, domestic pigs in The Zone underwent serious mutations following the second Chernobyl disaster, affecting genes responsible for their metabolism. This eventually caused the animal's phenotype to change significantly."
-
-						if("Snork")
-							article_title = "Snork"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "The Snork is a horrifically mutated human soldier or Stalker, still wearing tattered remains of his uniform, boots and a GP-4 gas mask with cracked eyepieces, and a flailing hose. Exposure to radiation and anomalies in the wake of the second Chernobyl disaster has destroyed the human mind, leaving a feral, vicious beast psyche and a twisted body in its place, creating a dangerous predator."
-
-						if("Boar")
-							article_title = "Boar"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "Mutagenic processes engineered by radiation and anomalies have played a significant part in shaping these mammals: they have lost all fur in a few places and grown long, bristly fur in others. The animal's hooves have changed in shape and become sharper, acquiring a resemblance to claws. Also, their pupils have become colorless, while both pigmentation disorders and deep wrinkles have appeared on their bald heads. They have also grown an extra pair of tusks which are easily recognized."
-
-						if("Artifacts")
-							article_title = "Artifacts"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = "Artifacts are items that have been changed by the conditions in the Zone. Most artifacts have strange and useful characteristics. For example, when kept close to the body, some artifacts create a protective field that increases its user's resilience to damage. Others may increase the user's stamina or protect against fire, etc. Artifacts are also valuable scientific study material and outside corporations would pay a hefty price to obtain one of these artifacts from the zone."
-
-						if("Artifacts")
-							article_title = "Artifacts"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = ""
-
-						if("Artifacts")
-							article_title = "Artifacts"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = ""
-
-						if("Artifacts")
-							article_title = "Artifacts"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = ""
-
-						if("Artifacts")
-							article_title = "Artifacts"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = ""
-
-						if("Artifacts")
-							article_title = "Artifacts"
-							article_img = "nodata.gif"
-							article_img_width = 179
-							article_img_height = 128
-							article_text = ""
-
+				switch(href_list["page"])
+					if("Zone")
+						article_title = "Zone"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "The Zone of Alienation is the 60 km wide area of exclusion that was set up around the Chernobyl NPP following the 1986 disaster and extended by the second Chernobyl disaster in 2006."
+					if("Backwater")
+						article_title = "Backwater"
+						article_img = "backwater"
+						article_img_width = 200
+						article_img_height = 125
+						article_text = "Backwater, also called Zaton, is mainly set in a swampy area, with a few industrial factories scattered around it and derelict, grounded boats, some dating back before the incident. From the outlying structures and sizable number of grounded boats and tankers around, Backwater appears to have been drained of its water sometime after the Chernobyl incident, most likely to contain the radiation contamination in the water. A free bar for Stalkers is run by Beard, in the wreck of a tanker – the Skadovsk."
+					if("Anomalies")
+						article_title = "Anomalies"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "After the second Chernobyl disaster, the Zone was littered with spots where the laws of nature and physics had been corrupted. These small oddities are called anomalies. They are hazardous, often deadly, towards human beings and other creatures as they can deliver electric shocks or burn, corrode and distort physical objects. Most anomalies produce visible air or light distortions, so their extent can be determined by throwing anything that is made of metal, like bolts, to trigger them. The anomalies seem to emit a powerful magnetic field, so it is logical to assume that the anomalies are triggered by anything made of metal that enters the magnetic field. Because vertebrate life on earth has iron-based blood, those creatures with enough body mass are capable of triggering the anomalies."
+					if("Electro")
+						article_title = "Electro"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "An anomalous formation, roughly 10 meters in diameter, accumulating large quantities of static electricity. When triggered, the anomaly bursts into a storm of arcing electricity nearly always lethal to all living beings. Easily recognizable by the blue gas it emits, along with the endless arcing of small bolts of electricity in the vicinity, the Electro holds no distinction for what crosses its event horizon, be it a human, a mutants or an inanimate object, and discharges as soon as anything gets too close."
+					if("Vortex")
+						article_title = "Vortex"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "An anomaly of presumably gravitational nature. When triggered, the tremendous power of the Vortex drags everything within the radius 10-15 meters towards the center. Victims drawn into the core have little to no chance of survival: their bodies are quickly constricted into a tight lump, only to be blown up in a powerful discharge of energy a moment later. In some cases, they may levitate in air with agony, and soon their entire systems are shredded into mere skeletal and flesh parts."
+					if("Whirligig")
+						article_title = "Whirligig"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "A common and dangerous anomaly, which snatches its victims up in the air and spins them at a breakneck speed. The exact nature of the Whirligig remains unknown. The anomaly can be recognized by a light whirlwind of dust above and by body fragments scattered in the vicinity. Victims caught on its outer rim, far enough from the maximum effect zone at the center, can escape the Whirligig with relatively minor injuries."
+					if("Burner")
+						article_title = "Burner"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "The Burner can be a bit difficult to see, even in daylight, as it's only revealed by a faint heat haze. If the anomaly is triggered by either a living being or an object such as a metal bolt, it shoots out a tall pillar of flame in the air, burning everything in its vicinity. Though somewhat rare, the Burner anomaly is often found in clusters. Some clusters also emit extreme high ambient temperature, which hurts anything in their vicinity. Burners can emit temperatures as low as 100 degrees Celsius, up to several thousand, hot enough to crack concrete and melt metal, which explains why some Burners appear in areas that have massive cracks and severe damaged soil, while other sites are untouched."
+					if("Fruit Punch")
+						article_title = "Fruit Punch"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "The Fruit Punch is a puddle of lambent green liquid that is easily visible in almost any environment due to its bright glow and distinctive hissing and bubbling noises. On contact with creatures or objects such as bolts, a Fruit Punch lights up brightly and emits a sharp hissing sound. It is extremely corrosive, damaging creatures and objects on contact. Any matter left in a Fruit Punch will eventually dissolve, hinting at the anomaly's corrosive nature and spelling doom for any protective suit."
+					if("Burnt Fuzz")
+						article_title = "Burnt Fuzz"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "This anomaly is usually found outdoors. It resembles moss or vines, hanging down like curtains from its growing spot. Reacts to rapidly approaching living beings by discharging a cloud of projectiles severely injuring uncovered or lightly protected skin upon contact. Does not react to slowly moving targets. Burnt Fuzz is generally considered the least dangerous anomaly in the Zone since it can be easily spotted and avoided."
+					if("Radiation")
+						article_title = "Radiation"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "Pockets of ionizing radiation, or simply radiation for short (areas where the ambient radiation count exceeds 50 mR per hour) can be found all over the Zone. In the outside areas, radiation tends to be dominant in wide, open spaces and on piles of scrap (such as the dirt or scrap piles in Garbage. Also cars, tractors and anything mechanical). Radiation in itself doesn't form artifacts. When you have accumulated enough radiation, you'll start to lose health; although radiation will decrease by itself (albeit very slowly) when you're outside of a radioactive area, it's often a good idea to use either Vodka, antirads, or a first aid kit to speed up the process."
+					if("Mutants")
+						article_title = "Mutants"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "Mutants are animals or humans who have been warped by the Zone, changing both their physical appearance and behavior, usually making them more aggressive."
+					if("Blind Dog")
+						article_title = "Blind Dog"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "Several generations of the dog species have lived and died since the catastrophe. Each was more affected by the Zone than the previous one. Rapid mutation lead to a vast improvement in previously peripheral abilities, frequently at the expense of primary ones. The most notable biological change was the loss of sight, paired with an uncanny development of smell. As it turned out, blind pups survived in the Zone as well as normal ones, if not better. As a result, the common dog quickly became extinct in the Zone, giving way to a new breed – that of blind dogs. The animals instinctively identify and avoid anomalies, radiation, and other invisible dangers that plague the Zone. Like their wild ancestors – the wolves – blind dogs hunt in packs. An encounter with a large group of these animals can be dangerous even to an experienced and well-armed stalker."
+					if("Flesh")
+						article_title = "Flesh"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "Like many other living creatures, domestic pigs in The Zone underwent serious mutations following the second Chernobyl disaster, affecting genes responsible for their metabolism. This eventually caused the animal's phenotype to change significantly."
+					if("Snork")
+						article_title = "Snork"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "The Snork is a horrifically mutated human soldier or Stalker, still wearing tattered remains of his uniform, boots and a GP-4 gas mask with cracked eyepieces, and a flailing hose. Exposure to radiation and anomalies in the wake of the second Chernobyl disaster has destroyed the human mind, leaving a feral, vicious beast psyche and a twisted body in its place, creating a dangerous predator."
+					if("Boar")
+						article_title = "Boar"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "Mutagenic processes engineered by radiation and anomalies have played a significant part in shaping these mammals: they have lost all fur in a few places and grown long, bristly fur in others. The animal's hooves have changed in shape and become sharper, acquiring a resemblance to claws. Also, their pupils have become colorless, while both pigmentation disorders and deep wrinkles have appeared on their bald heads. They have also grown an extra pair of tusks which are easily recognized."
+					if("Artifacts")
+						article_title = "Artifacts"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = "Artifacts are items that have been changed by the conditions in the Zone. Most artifacts have strange and useful characteristics. For example, when kept close to the body, some artifacts create a protective field that increases its user's resilience to damage. Others may increase the user's stamina or protect against fire, etc. Artifacts are also valuable scientific study material and outside corporations would pay a hefty price to obtain one of these artifacts from the zone."
+					if("Artifacts")
+						article_title = "Artifacts"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = ""
+					if("Artifacts")
+						article_title = "Artifacts"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = ""
+					if("Artifacts")
+						article_title = "Artifacts"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = ""
+					if("Artifacts")
+						article_title = "Artifacts"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = ""
+					if("Artifacts")
+						article_title = "Artifacts"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = ""
 
 
 
@@ -964,6 +939,11 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		if(last_invite + LEADER_INVITE_COOLDOWN > world.time)
 			return
 
+		var/datum/data/record/sk_invited = find_record("sid", sid_, GLOB.data_core.stalkers)
+
+		if(!sk_invited)
+			return
+
 		last_invite = world.time
 		for(var/obj/item/stalker_pda/KPK_invited in GLOB.KPKs)
 			if(KPK_invited.sid == sid_)
@@ -976,6 +956,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		var/datum/job/J = SSjob.GetJob(get_job_title(eng_faction_s))
 
 		var/datum/data/record/sk_removed = find_record("sid", sid_, GLOB.data_core.stalkers)
+
 		if(!sk_removed)
 			return
 
@@ -993,7 +974,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	if(href_list["changefaction"])
 
 		var/new_eng_faction_s =  SSjob.GetJob(href_list["changefaction"]).faction_s
-		var/confirm = alert(H, "Do you want to change your faction from [eng_faction_s] to [new_eng_faction_s]?", "PDA", "Yes", "No")
+		var/confirm = alert(H, "Do you want to change your faction from [eng_faction_s] to [new_eng_faction_s]?", "KPK", "Yes", "No")
 		if(confirm == "Yes")
 			var/datum/job/J =  SSjob.GetJob(href_list["changefaction"])
 
@@ -1013,7 +994,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	return
 
 /obj/item/stalker_pda/proc/message_input(mob/living/U = usr, msg_name, max_length)
-	var/t = sanitize(stripped_input(U, "Please enter the [msg_name]", name, null, max_length), 1)
+	var/t = stripped_input(U, "Please enter the [msg_name]", name, null, max_length)
 	if (!t)
 		return
 	if (!in_range(src, U) && loc != U)
@@ -1043,7 +1024,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		</tr>\
 		</table>"
 
-	GLOB.global_lentahtml = t + GLOB.global_lentahtml
+	global_lentahtml = t + global_lentahtml
 	for(var/obj/item/stalker_pda/KPK in GLOB.KPKs)
 		KPK.lentahtml = t + KPK.lentahtml
 		show_lenta_message(KPK_owner, KPK, sid_owner, name_owner, faction_owner, msg)
@@ -1171,11 +1152,12 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		var/r = R.fields["rating"]
 
 		var/eng_f = R.fields["faction_s"]
+		var/f = get_rus_faction(eng_f)
 
 		var/rep_color = get_rep_color(R.fields["reputation"])
-		var/eng_rep = get_eng_rep_name(R.fields["reputation"])
+		var/rep = get_rep_name(R.fields["reputation"])
 
-		var/eng_rank_name = get_eng_rank_name(r)
+		var/rank_name = get_rus_rank_name(r)
 
 		count++
 
@@ -1188,19 +1170,18 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 				\
 				<td height=64 width=354 align=\"top\" style=\"text-align:left;vertical-align: top;\">\
 				\
-				<b>\[[count]\]</b> [n] ([eng_f])"
+				<b>\[[count]\]</b> [n] ([f])"
 		//Faction menu
-		if(degree >= 1)
-			if(!R.fields["degree"])
-				if(eng_faction_s == eng_f)
-					ratinghtml += "<a style=\"color:#c10000;\" href='byond://?src=\ref[src];remove=[sid_p]'>\[kick out\]</a>"
-				else
-					ratinghtml += "<a style=\"color:#7ac100;\" href='byond://?src=\ref[src];invite=[sid_p]'>\[invite\]</a>"
+		if(!R.fields["degree"])
+			if(eng_faction_s == eng_f)
+				ratinghtml += "<a style=\"color:#c10000;\" href='byond://?src=\ref[src];remove=[sid_p]'>\[исключить\]</a>"
 			else
-				ratinghtml += "<b>\[LEADER\]</b>"
+				ratinghtml += "<a style=\"color:#7ac100;\" href='byond://?src=\ref[src];invite=[sid_p]'>\[пригласить\]</a>"
+		else
+			ratinghtml += "<b>\[ЛИДЕР\]</b>"
 		//////////////
-		ratinghtml +="<br><b>Rating</b> [eng_rank_name] ([r])<br>\
-				<b>Reputation:</b> <font color=\"[rep_color]\">[eng_rep]</font><br>\
+		ratinghtml += "<br><b>Рейтинг:</b> [rank_name] ([r])<br>\
+				<b>Репутация:</b> <font color=\"[rep_color]\">[rep]</font><br>\
 				\
 				</td>\
 				\
@@ -1238,7 +1219,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		avatar.l_hand		= H.l_hand.type*/
 
 	if(avatar.uniform == null || avatar.shoes == null)
-		to_chat(H, "<span class='warning'>You should wear some clothes before taking a picture!</span>")
+		to_chat(H, "<span class='warning'>Вам нужно надеть свитер и ботинки перед тем, как делать фотографию!</span>")
 	else
 		var/image = get_avatar(H, avatar)
 
@@ -1297,43 +1278,39 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	return rus_rank_name_s
 
 /proc/get_eng_rank_name(var/rating)
-	var/eng_rank_name_s = "Новичок"
+	var/eng_rank_name_s = "Rookie"
 	switch(rating)
 		if(ZONE_LEGEND to INFINITY)
-			eng_rank_name_s = "Легенда Зоны"
+			eng_rank_name_s = "Legend"
 		if(EXPERT to ZONE_LEGEND)
-			eng_rank_name_s = "Мастер"
+			eng_rank_name_s = "Expert"
 		if(VETERAN to EXPERT)
-			eng_rank_name_s = "Ветеран"
+			eng_rank_name_s = "Veteran"
 		if(EXPERIENCED to VETERAN)
-			eng_rank_name_s = "Опытный"
+			eng_rank_name_s = "Experienced"
 		if(ROOKIE to EXPERIENCED)
-			eng_rank_name_s = "Новичок"
+			eng_rank_name_s = "Rookie"
 	return eng_rank_name_s
 
 /proc/get_rus_faction(var/eng_faction_s)
 	var/faction_s = "Одиночки"
 	switch(eng_faction_s)
-		if("Бандиты")
+		if("Bandits")
 			faction_s = "Бандиты"
-		if("Наёмники")
+		if("Mercenaries")
 			faction_s = "Наёмники"
-		if("Долг")
+		if("Duty")
 			faction_s = "Долг"
-		if("Торговцы")
-			faction_s = "Торговец"
-		if("Свобода")
+		if("Traders")
+			faction_s = "Торговцы"
+		if("Freedom")
 			faction_s = "Свобода"
-		if("Монолит")
-			faction_s = "Монолит"
-		if("Военные")
+		if("Army")
 			faction_s = "Военные"
-		if("Чистое Небо")
-			faction_s = "Чистое Небо"
-		if("Ренегаты")
-			faction_s = "Ренегаты"
-		if("Экологи")
-			faction_s = "Экологи"
+		if("Scientists")
+			faction_s = "Учёные"
+		if("Monolith")
+			faction_s = "Монолит"
 	return faction_s
 
 /proc/get_faction_color(var/eng_faction_s)
@@ -1366,40 +1343,40 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			rep_name_s = "Отлично"
+			rep_name_s = "Блатной"
 		if(VERYGOOD to AMAZING)
-			rep_name_s = "Очень хорошо"
+			rep_name_s = "Очень хорошая"
 		if(GOOD to VERYGOOD)
-			rep_name_s = "Хорошо"
+			rep_name_s = "Хорошая"
 		if(BAD to GOOD)
-			rep_name_s = "Нейтрал"
+			rep_name_s = "Нейтральная"
 		if(VERYBAD to BAD)
-			rep_name_s = "Плохо"
+			rep_name_s = "Плохая"
 		if(DISGUSTING to VERYBAD)
-			rep_name_s = "Очень плохо"
+			rep_name_s = "Очень плохая"
 		if(-INFINITY to DISGUSTING)
-			rep_name_s = "Ужасно"
+			rep_name_s = "Чёрт"
 
 	return rep_name_s
 
 /proc/get_eng_rep_name(var/rep)
-	var/eng_rep_name_s = "Нейтрал"
+	var/eng_rep_name_s = "Neutral"
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			eng_rep_name_s = "Отлично"
+			eng_rep_name_s = "Jesus"
 		if(VERYGOOD to AMAZING)
-			eng_rep_name_s = "Очень хорошо"
+			eng_rep_name_s = "Very Good"
 		if(GOOD to VERYGOOD)
-			eng_rep_name_s = "Хорошо"
+			eng_rep_name_s = "Good"
 		if(BAD to GOOD)
-			eng_rep_name_s = "Нейтрал"
+			eng_rep_name_s = "Neutral"
 		if(VERYBAD to BAD)
-			eng_rep_name_s = "Плохо"
+			eng_rep_name_s = "Bad"
 		if(DISGUSTING to VERYBAD)
-			eng_rep_name_s = "Очень плохо"
+			eng_rep_name_s = "Very Bad"
 		if(-INFINITY to DISGUSTING)
-			eng_rep_name_s = "Ужасно"
+			eng_rep_name_s = "Satan"
 
 	return eng_rep_name_s
 
@@ -1434,15 +1411,13 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 			return "Торговец"
 		if("Свобода")
 			return "Свободовец"
-		if("Монолит")
-			return "Монолитовец"
 		if("Военные")
 			return "Военный"
 		if("Чистое Небо")
 			return "Чистонебовец"
-		if("Ренегаты")
-			return "Ренегат"
+		if("Монолит")
+			return "Монолитовец"
 		if("Экологи")
 			return "Эколог"
 		else
-			return "Одиночка"
+			return "Loner"
