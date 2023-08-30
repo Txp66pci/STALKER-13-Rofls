@@ -3,43 +3,54 @@ Assistant
 */
 /datum/job/bandit
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Bandit"
 =======
 	title = "Бандит"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Bandits"
+=======
+	title = "Бандит"
+	faction_s = "Бандиты"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
-	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
-	enforces = "Form a group and find people to rob and antagonize, cause chaos between and exploit all the other factions, work with others to destabalize the order in the Zone."
-	forbids = "Work with Duty except under extraordinary circumstances, go off alone when there are fellow Bandits about, be non-antagonistic unless there is self interest involved, and cause major issues with factions without consulting the Bandit Boss."
-	supervisors = "Bandit Boss or Bandit Barman"
+	description = "Бандиты - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
+	enforces = "Сформируйте группу и найдите людей, которых можно грабить и противостоять, сейте хаос между всеми остальными фракциями и эксплуатируйте их, работайте с другими, чтобы дестабилизировать порядок в Зоне."
+	forbids = "Работать с Долгом, за исключением чрезвычайных обстоятельств, уходить в одиночку, когда рядом есть другие бандиты, не будь мудаком, если это не связано с личными интересами, и создавать войны с фракциями, не посоветовавшись с Паханом."
+	supervisors = "Пахан или Бармен бандитов"
 	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	locked = 1
 	outfit = /datum/outfit/job/bandit
-	real_rank = "Bandit"
+	real_rank = "Бандит"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/job/banditboss
+<<<<<<< HEAD
 <<<<<<< HEAD
 	title = "Bandit Boss"
 =======
 	title = "Пахан"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Bandits"
+=======
+	title = "Пахан"
+	faction_s = "Бандиты"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 2
 	locked = 1
 	spawn_positions = 2
 	limit_per_player = 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
 	enforces = "Organize your fellow bandits and coordinate outbound groups and homebound groups, cause chaos between and exploit all the other factions, work with others to destabalize the order in the Zone."
@@ -51,27 +62,39 @@ Assistant
 	forbids = "Работать с Долгом, за исключением чрезвычайных обстоятельств, уходить в одиночку, когда рядом есть другие Бандиты, не будь мудаком, если это не связано с личными интересами."
 	supervisors = "Султан"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
+=======
+	description = "Бандиты - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
+	enforces = "Организуйте своих товарищей-бандитов и координируйте исходящие группы и группы, связанные с базой, сейте хаос между всеми другими фракциями и используйте их, работайте с другими, чтобы дестабилизировать порядок в Зоне."
+	forbids = "Работать с Долгом, за исключением чрезвычайных обстоятельств, уходить в одиночку, когда рядом есть другие бандиты, не будь мудаком, если это не связано с личными интересами."
+	supervisors = "Султан"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access(
 	whitelist_only = 0
 	outfit = /datum/outfit/job/banditboss
-	real_rank = "Lieutenant"
+	real_rank = "Лейтенант"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
 /datum/job/bandit_barman
+<<<<<<< HEAD
 <<<<<<< HEAD
 	title = "Bandit Barman"
 =======
 	title = "Бармен бандитов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Bandits"
+=======
+	title = "Бармен бандитов"
+	faction_s = "Бандиты"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 1
 	locked = 1
 	spawn_positions = 1
 	limit_per_player = 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
 	enforces = "Help organize the bandits if the Bandit Boss isn't present and act as second-in-command, rip off anyone who isn't a Bandit however you can, arm your fellow bandits and provide them tools to further antagonize the Zone."
@@ -83,18 +106,24 @@ Assistant
 	forbids = "Работайть с Долгом, за исключением чрезвычайных обстоятельств, ставить под угрозу всю свою фракцию из-за чего-то незначительного."
 	supervisors = "Пахан"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
+=======
+	description = "Бандиты - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
+	enforces = "Помогите организовать бандитов, если босса-бандита нет, и действуйте в качестве заместителя командующего, грабьте всех, кто не является бандитом, как можете, вооружайте своих товарищей-бандитов и предоставляйте им инструменты для дальнейшего антагонизма в Зоне."
+	forbids = "Работайть с Долгом, за исключением чрезвычайных обстоятельств, ставить под угрозу всю свою фракцию из-за чего-то незначительного."
+	supervisors = "Пахан"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/bandit_barman
-	real_rank = "Bartender"
+	real_rank = "Бармен"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
 /datum/outfit/job/bandit
 	name = "Bandit"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 
 /datum/outfit/job/bandit/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -125,11 +154,16 @@ Assistant
 
 /datum/outfit/job/banditboss
 <<<<<<< HEAD
+<<<<<<< HEAD
 	name = "Bandit Boss"
 =======
 	name = "Пахан"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Bandits"
+=======
+	name = "Пахан"
+	faction_s = "Бандиты"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/banditboss/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -163,11 +197,16 @@ Assistant
 
 /datum/outfit/job/bandit_barman
 <<<<<<< HEAD
+<<<<<<< HEAD
 	name = "Bandit Barman"
 =======
 	name = "Бармен бандитов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Bandits"
+=======
+	name = "Бармен бандитов"
+	faction_s = "Бандиты"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/bandit_barman/pre_equip(mob/living/carbon/human/H)
 	uniform = UNIFORMPICK
@@ -204,8 +243,8 @@ Assistant
 	H.grant_language(/datum/language/russian, body = FALSE)
 
 /datum/outfit/bandit  // For select_equipment
-	name = "Bandit"
-	faction_s = "Bandits"
+	name = "Бандит"
+	faction_s = "Бандиты"
 
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka
 	ears = null

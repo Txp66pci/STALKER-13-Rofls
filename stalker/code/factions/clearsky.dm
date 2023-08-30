@@ -3,39 +3,53 @@ Assistant
 */
 /datum/job/clearsky
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Clear Sky Soldier"
 =======
 	title = "Чистонебовец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	title = "Чистонебовец"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
 	//limit_per_player = 2
-	description = "The Clear Sky faction is an independent scientific/military organization focusing on understanding the Zone."
-	enforces = "Exploration and research of the zone. Shooting Renegades on sight."
-	forbids = "Antagonizing stalkers by harming or stealing from them, working with the Bandits or Renegades, and starting fights with any neutral faction without asking up the chain of command."
-	supervisors = "Leader"
+	description = "Чистое небо — независимая научно-военная организация, занимающаяся изучением Зоны."
+	enforces = "Разведка и исследование зоны. Стрельба по ренегатам на месте."
+	forbids = "Противостояние сталкерам, причиняя им вред или воруя у них, работа с бандитами или ренегатами и вступание в бой с любой нейтральной фракцией, не посовещавшись с главой."
+	supervisors = "Лидер Чистого неба"
 	selection_color = "#64B2F7"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit = /datum/outfit/clearsky
 <<<<<<< HEAD
+<<<<<<< HEAD
 	real_rank = "ClearSky"
 =======
 	real_rank = "Clear Sky"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
+=======
+	real_rank = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/clearsky  // For select_equipment
+<<<<<<< HEAD
 <<<<<<< HEAD
 	name = "Clear Sky Soldier"
 =======
 	name = "Чистое небо"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	name = "Чистое Небо"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	suit = /obj/item/clothing/suit/hooded/kozhanka/cs_hood
 	belt = /obj/item/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -74,19 +88,24 @@ Assistant
 
 /datum/job/clearsky_leader
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Clear Sky Leader"
 =======
 	title = "Лидер Чистого неба"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	title = "Лидер Чистого неба"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 4
 	locked = 1
 	spawn_positions = 4
 	limit_per_player = 1
-	description = "The Clear Sky faction is an independent scientific/military organization focusing on understanding the Zone."
-	enforces = "Exploration and research of the zone. Shooting Renegades on sight."
-	forbids = "Antagonizing stalkers by harming or stealing from them, working with the Bandits, and starting fights with any neutral faction or otherwise jeopordize the faction for an insignificant reason."
+	description = "Чистое небо — независимая научно-военная организация, занимающаяся изучением Зоны."
+	enforces = "Разведка и исследование зоны. Стрельба по ренегатам на месте."
+	forbids = "Противостояние сталкерам, причиняя им вред или воруя у них, работа с бандитами и вступление в драку с любой нейтральной фракцией или иным образом подвергая фракцию опасности по незначительной причине."
 	selection_color = "#64B2F7"
 	whitelist_only = 0
 	limit_per_player = 2
@@ -97,11 +116,16 @@ Assistant
 
 /datum/outfit/job/clearsky_leader
 <<<<<<< HEAD
+<<<<<<< HEAD
 	name = "Clear Sky Leader"
 =======
 	name = "Лидер Чистого неба"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	name = "Лидер Чистого неба"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/clearsky_leader/pre_equip(mob/living/carbon/human/H)
 	..()

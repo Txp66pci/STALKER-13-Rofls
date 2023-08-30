@@ -3,19 +3,24 @@ Assistant
 */
 /datum/job/tourist
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Tourist"
 =======
 	title = "Турист"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Tourists"
+=======
+	title = "Турист"
+	faction_s = "Туристы"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	description = "Tourists are individuals from all over the world who came to the Zone with purposes ranging from naive curiosity to see things never before discovered, to a grand search for riches,to escaping checkered pasts with skeletons in the closet. Tourists are the underdogs of the Zone and are easily underestimated, however the truly robust will utilize the true potential and factionless nature of their situation and transform it into something greater than themselves."
-	enforces = "Take some pictures or record your journey on a tape recorder, parlay with the various factions in the area, relax and enjoy your time alive while you still can."
-	forbids = "Randomly, wordlessly attack others, die a terrible slow death, and be grumpy and a downer -- you're on vacation after all!"
+	description = "Туристы - это люди со всего мира, которые приехали в Зону с целями, варьирующимися от наивного любопытства, до грандиозных поисков богатства и побега от прошлого со скелетами в шкафу. Туристы являются аутсайдерами Зоны, и их легко недооценить, однако по-настоящему здравые воспользуются истинным потенциалом и бесфракционной природой своего положения и превратят его в нечто большее, чем они сами."
+	enforces = "Сделайте несколько снимков или запишите свое путешествие на магнитофон, пообщайтесь с различными фракциями в этом районе, расслабьтесь и наслаждайтесь временем, пока вы еще можете."
+	forbids = "Беспорядочно, бессловесно нападать на других, умирать ужасной медленной смертью и быть сварливым и унылым - в конце концов, вы в отпуске!"
 	supervisors = "no one"
 	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
@@ -25,20 +30,25 @@ Assistant
 
 /datum/job/stalker
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Stalker"
 =======
 	title = "Сталкер"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Сталкер"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	description = "The Loners are those who aren't part of any faction and inhabit the Zone as nomadic, independent stalkers. Even though they are not a proper faction of their own as per se, they often look out for eachother and are friendly with eachother in order to cohabitate the Zone."
-	enforces = "Explore the Zone for artifacts, survive and fight off mutants and extraordinary threats, and make discoveries beyond your imagination."
-	forbids = "Harm or steal from fellow Loners independently or as a result of joining along with other factions."
-	supervisors = "old stalkers at your discretion"
+	description = "Одиночки - это те, кто не является частью какой-либо фракции и населяют Зону как кочевые, независимые сталкеры. Несмотря на то, что они сами по себе не являются полноценной фракцией, они часто заботятся друг о друге и дружат друг с другом, чтобы сосуществовать в Зоне."
+	enforces = "Исследуйте Зону в поисках артефактов, выживайте и сражайтесь с мутантами и необычайными угрозами, а также совершайте открытия за пределами своего воображения."
+	forbids = "Причинять вред или воровать у других одиночек самостоятельно или в результате присоединения к другим фракциям."
+	supervisors = "Старые сталкеры (на ваше усмотрение)"
 	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
@@ -47,26 +57,31 @@ Assistant
 
 /datum/job/oldstalker
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Old Stalker"
 =======
 	title = "Старый Сталкер"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Старый Сталкер"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	locked = 1
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
-	description = "The Loners are those who aren't part of any faction and inhabit the Zone as nomadic, independent stalkers. Even though they are not a proper faction of their own as per se, they often look out for eachother and are friendly with eachother in order to cohabitate the Zone."
-	enforces = "Explore the Zone for artifacts, survive and fight off mutants and extraordinary threats, and make discoveries beyond your imagination."
-	forbids = "Harm or steal from fellow Loners independently or as a result of joining along with other factions."
-	supervisors = "old stalkers at your discretion"
+	description = "Одиночки - это те, кто не является частью какой-либо фракции и населяют Зону как кочевые, независимые сталкеры. Несмотря на то, что они сами по себе не являются полноценной фракцией, они часто заботятся друг о друге и дружат друг с другом, чтобы сосуществовать в Зоне."
+	enforces = "Исследуйте Зону в поисках артефактов, выживайте и сражайтесь с мутантами и необычайными угрозами, а также совершайте открытия за пределами своего воображения."
+	forbids = "Причинять вред или воровать у других одиночек самостоятельно или в результате присоединения к другим фракциям."
+	supervisors = "Старые сталкеры (на ваше усмотрение)"
 	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/oldstalker
-	real_rank = "Special"
+	real_rank = "Специальный"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
@@ -80,11 +95,16 @@ Assistant
 
 /datum/outfit/job/stalker
 <<<<<<< HEAD
+<<<<<<< HEAD
 	name = "Loner"
 =======
 	name = "Одиночка"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	name = "Одиночка"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/stalker/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -129,7 +149,7 @@ Assistant
 				/obj/item/flashlight/flare)
 
 /datum/outfit/stalker  // For select_equipment
-	name = "Loner"
+	name = "Одиночка"
 	uniform = /obj/item/clothing/under/color/switer
 	suit = /obj/item/clothing/suit/hooded/kozhanka
 	ears = null
@@ -140,10 +160,10 @@ Assistant
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1, /obj/item/storage/box/matches = 1)
 	back = /obj/item/storage/backpack/stalker/civilian
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/kolbasa
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/oldstalker
-	name = "Old Stalker"
+	name = "Старый Сталкер"
 
 /datum/outfit/job/oldstalker/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -199,7 +219,7 @@ Assistant
 	H.grant_language(/datum/language/russian, body = FALSE)
 
 /datum/outfit/stalkervolk  // For select_equipment
-	name = "Old Stalker"
+	name = "Старый Сталкер"
 	uniform = /obj/item/clothing/under/color/switer
 	suit = /obj/item/clothing/suit/hooded/kombez
 	ears = null
@@ -211,10 +231,10 @@ Assistant
 	suit_store = /obj/item/gun/ballistic/automatic/ak74
 	back = /obj/item/storage/backpack/stalker/tourist
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/konserva
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/tourist
-	name = "Tourist"
+	name = "Турист"
 
 /datum/outfit/job/tourist/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -285,7 +305,7 @@ Assistant
 	H.grant_language(/datum/language/german, body = FALSE)
 
 /datum/outfit/tourist  // For select_equipment
-	name = "Tourist"
+	name = "Турист"
 	uniform = /obj/item/clothing/under/color/switer/tourist/suspenders
 	suit = /obj/item/clothing/suit/kozhanka/tourist/gorka
 	ears = null
@@ -296,15 +316,20 @@ Assistant
 	backpack_contents = list(/obj/item/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/stack/medical/gauze/bint,/obj/item/reagent_containers/food/snacks/stalker/konserva,/obj/item/reagent_containers/food/snacks/stalker/baton)
 	back = /obj/item/storage/backpack/stalker/tourist
 	r_pocket = /obj/item/gun/ballistic/revolver/nagant
-	faction_s = "Tourists"
+	faction_s = "Туристы"
 
 /datum/job/trader
+<<<<<<< HEAD
 <<<<<<< HEAD
 	title = "Trader"
 =======
 	title = "Торговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Торговец"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -321,11 +346,16 @@ Assistant
 
 /datum/outfit/job/trader
 <<<<<<< HEAD
+<<<<<<< HEAD
 	name = "Trader"
 =======
 	name = "Торговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	name = "Торговец"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/trader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -348,11 +378,16 @@ Assistant
 
 /datum/job/barman
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Barman"
 =======
 	title = "Бармен"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Бармен"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -366,15 +401,20 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/barman
-	real_rank = "Bartender"
+	real_rank = "Бармен"
 
 /datum/outfit/job/barman
+<<<<<<< HEAD
 <<<<<<< HEAD
 	name = "Barman"
 =======
 	name = "Бармен"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	name = "Бармен"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/barman/pre_equip(mob/living/carbon/human/H)
 	..()

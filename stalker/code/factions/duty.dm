@@ -3,35 +3,45 @@ Assistant
 */
 /datum/job/duty
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Duty Soldier"
 =======
 	title = "Долговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
+=======
+	title = "Долговец"
+	faction_s = "Долг"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
-	description = "Duty is a paramilitary clan of stalkers operating in the Zone with members living according to a code. Their ranks are composed of ex-military and stalkers who wish to bring order to the Zone and keep it from spreading further. They are contrasted by other factions, such as Freedom or the Ecologists, who see the Zone as a miracle. Its members consider protecting the outside world from the Zone's dangers their primary objective."
-	enforces = "Work with your teammates to neutralize anarchists and mutants, confisccate anomalies and giving them to the ecologists if they are being waved around, shoot Freedom whenever possible."
-	forbids = "Antagonize stalkers by harming or stealing from them, working with Freedom, Renegades or the Bandits, and start a fight with a neutral faction without asking up the chain of command."
-	supervisors = "Lieutenant"
+	description = "Долг - это военизированный клан сталкеров, действующий в Зоне, члены которого живут по кодексу. Их ряды состоят из бывших военных и сталкеров, которые хотят навести порядок в Зоне и не дать ей распространиться дальше. Им противостоят другие фракции, такие как Свобода, которые считают Зону чудом. Ее члены считают своей главной целью защиту внешнего мира от опасностей, связанных с Зоной."
+	enforces = "Работайте со своими товарищами, чтобы нейтрализовать анархистов и мутантов, добывайте артефакты и отдавайте их экологам, стреляйте в Свободовцев, когда это возможно."
+	forbids = "Противодействовать сталкерам, причиняя им вред или воруя у них, работа со Свободой, Ренегатами или Бандитами, и вступание в бой с нейтральной фракцией, не спрашивая вышестоящих."
+	supervisors = "Лейтенант"
 	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/dutysoldier
-	real_rank = "Duty"
+	real_rank = "Долг"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/job/dutysoldier  // For select_equipment
+<<<<<<< HEAD
 <<<<<<< HEAD
 	name = "Duty Soldier"
 =======
 	name = "Долговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
+=======
+	name = "Долговец"
+	faction_s = "Долг"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
 	ears = null
@@ -43,7 +53,7 @@ Assistant
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,)
-	faction_s = "Duty"
+	faction_s = "Долг"
 
 /datum/outfit/job/dutysoldier/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -88,11 +98,16 @@ Assistant
 
 /datum/job/barman2
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Barman2"
 =======
 	title = "Бармен"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Бармен"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -106,17 +121,22 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/barman2
-	real_rank = "Bartender"
+	real_rank = "Бармен"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
 
 /datum/outfit/job/barman2
+<<<<<<< HEAD
 <<<<<<< HEAD
 	name = "Barman"
 =======
 	name = "Бармен"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Traders"
+=======
+	name = "Бармен"
+	faction_s = "Торговцы"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/barman2/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -131,34 +151,44 @@ Assistant
 
 /datum/job/duty_lieutenant
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Duty Lieutenant"
 =======
 	title = "Лейтенант Долга"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
+=======
+	title = "Лейтенант Долга"
+	faction_s = "Долг"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 4
 	locked = 1
 	spawn_positions = 4
 	limit_per_player = 1
-	description = "Duty is a paramilitary clan of stalkers operating in the Zone with members living according to a code. Their ranks are composed of ex-military and stalkers who wish to bring order to the Zone and keep it from spreading further. They are contrasted by other factions, such as Freedom or the Ecologists, who see the Zone as a miracle. Its members consider protecting the outside world from the Zone's dangers their primary objective."
-	enforces = "Organizing the soldiers into teams by designating responsibilities, save stalkers from death and help them get back on their feet, confisccate anomalies and giving them to the ecologists if they are being waved around, shoot Freedom on sight whenever possible."
-	forbids = "Antagonize stalkers by harming or stealing from them, working with Freedom, Renegades, or the Bandits, and jeopordize the faction for an insignificant reason."
-	supervisors = "Major"
+	description = "Долг - это военизированный клан сталкеров, действующий в Зоне, члены которого живут по кодексу. Их ряды состоят из бывших военных и сталкеров, которые хотят навести порядок в Зоне и не дать ей распространиться дальше. Им противостоят другие фракции, такие как Свобода, которые считают Зону чудом. Ее члены считают своей главной целью защиту внешнего мира от опасностей, связанных с Зоной."
+	enforces = "Организуйте солдат в команды, распределив обязанности, спасайте сталкеров от смерти и помогайте им встать на ноги, добывайте артефакты и отдавайте их экологам, стреляйте в Свободовцев на месте, когда это возможно."
+	forbids = "Противодействовать сталкерам, причиняя им вред или воруя у них, работа со Свободой, Ренегатами или Бандитами, и вступание в бой с нейтральной фракцией, без серьёзных обстоятельств."
+	supervisors = "Майор"
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/duty_lieutenant
-	real_rank = "Lieutenant"
+	real_rank = "Лейтенант"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
 /datum/outfit/job/duty_lieutenant
+<<<<<<< HEAD
 <<<<<<< HEAD
 	name = "Duty Lieutenant"
 =======
 	name = "Лейтенант Долга"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
+=======
+	name = "Лейтенант Долга"
+	faction_s = "Долг"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/duty_lieutenant/pre_equip(mob/living/carbon/human/H)
 	..()

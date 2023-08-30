@@ -1,15 +1,21 @@
 /datum/job/ecologist
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Ecologist"
 =======
 	title = "Эколог"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Ecologist"
+=======
+	title = "Эколог"
+	faction_s = "Экологи"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = -1
 	locked = 1
 	spawn_positions = -1
 	limit_per_player = 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 	description = "Ecologists are a group focusing on researching the Zone, in order to properly harness its potential for the good of mankind. They are largely pacifist when it comes to human conflict, and rely on other factions to offer protection when it comes to embarking on missions into the zone. Your job is to research the wonders of these strange lands and to report your discoveries, and coordinate with those around you to make it all happen."
 	enforces = "Stay aware of zone hostilities, stay pleasant and neutral to Zone politics, keep yourself safe and sound in mind, keep lab secure and useable, and write your reports so they can be peer reviewed."
@@ -21,20 +27,31 @@
 	forbids = "Участвовать в боевых действиях вне самообороны, нарушать стандартные национальные законы, подрывать безопасность ради исследований и бездельничать, не выполняя никакой работы."
 	supervisors = "Главный научный сотрудник"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
+=======
+	description = "Экологи - это группа, занимающаяся исследованием Зоны, чтобы должным образом использовать ее потенциал на благо человечества. Они в значительной степени пацифисты, когда дело доходит до человеческих конфликтов, и полагаются на другие фракции, чтобы предложить защиту, когда дело доходит до выполнения миссий в зоне. Ваша задача состоит в том, чтобы исследовать чудеса этих странных земель и сообщать о своих открытиях, а также координировать свои действия с окружающими, чтобы все это произошло."
+	enforces = "Будьте в дали от боевых действий в зоне, оставайтесь нейтральными по отношению к политике зоны, держите себя в целости и сохранности, держите лабораторию пригодной для использования, а также пишите свои отчеты, чтобы их можно было рецензировать."
+	forbids = "Участвовать в боевых действиях вне самообороны, нарушать стандартные национальные законы, подрывать безопасность ради исследований и бездельничать, не выполняя никакой работы."
+	supervisors = "Главный научный сотрудник"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/ecologist
-	real_rank = "Ecologist"
+	real_rank = "Эколог"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
 
 /datum/outfit/job/ecologist
+<<<<<<< HEAD
 <<<<<<< HEAD
 	name = "Ecologist"
 =======
 	name = "Эколог"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Ecologist"
+=======
+	name = "Эколог"
+	faction_s = "Экологи"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -63,10 +80,10 @@
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
 
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/ecologist  // For select_equipment
-	name = "Ecologist"
+	name = "Эколог"
 	head = null
 	uniform = /obj/item/clothing/under/lawyer/blacksuit
 	suit = /obj/item/clothing/suit/toggle/labcoat/ecologist_blue
@@ -85,7 +102,7 @@
 							/obj/item/gun/ballistic/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/ecologist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -98,34 +115,44 @@
 
 /datum/job/ecologistguard
 <<<<<<< HEAD
+<<<<<<< HEAD
 	title = "Ecologist Guard"
 =======
 	title = "Охранник Экологов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Ecologist"
+=======
+	title = "Охранник Экологов"
+	faction_s = "Экологи"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = -1
 	locked = 1
 	spawn_positions = -1
 	limit_per_player = 1
-	description = "Ecologists are a group focusing on researching the Zone, in order to properly harness its potential for the good of mankind. They are largely pacifist when it comes to human conflict, and rely on other factions to offer protection when it comes to embarking on missions into the zone. Your job is to research the wonders of these strange lands and to report your discoveries, and coordinate with those around you to make it all happen."
-	enforces = "Stay aware of zone hostilities, stay pleasant and neutral to Zone politics, keep yourself safe and sound in mind, keep lab secure and protect the Ecologists from all threats."
-	forbids = "Engage in hostilities outside of self defense, break standard nation laws, undermine security for sake of research, and bum around without doing any work."
-	supervisors = "Chief Ecologist"
+	description = "Экологи - это группа, занимающаяся исследованием Зоны, чтобы должным образом использовать ее потенциал на благо человечества. Они в значительной степени пацифисты, когда дело доходит до человеческих конфликтов, и полагаются на другие фракции, чтобы предложить защиту, когда дело доходит до выполнения миссий в зоне. Ваша задача состоит в том, чтобы исследовать чудеса этих странных земель и сообщать о своих открытиях, а также координировать свои действия с окружающими, чтобы все это произошло."
+	enforces = "Будьте в дали от боевых действий в зоне, оставайтесь нейтральными по отношению к политике зоны, держите себя в целости и сохранности, держите лабораторию экологов пригодными для использования."
+	forbids = "Участвовать в боевых действиях вне самообороны, нарушать стандартные национальные законы, подрывать безопасность ради исследований и бездельничать, не выполняя никакой работы."
+	supervisors = "Главный научный сотрудник"
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/ecologistguard
-	real_rank = "Ecologist"
+	real_rank = "Эколог"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/job/ecologistguard
+<<<<<<< HEAD
 <<<<<<< HEAD
 	name = "Ecologist Guard"
 =======
 	name = "Охранник Экологов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Ecologist"
+=======
+	name = "Охранник Экологов"
+	faction_s = "Экологи"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/ecologistguard/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -147,7 +174,7 @@
 							/obj/item/weapon/kitchen/knife/hunting = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	r_hand = pick(/obj/item/flashlight/lantern,
 				/obj/item/flashlight/seclite,
 				/obj/item/flashlight,
@@ -164,7 +191,7 @@
 	H.grant_language(/datum/language/german, body = FALSE)
 
 /datum/outfit/ecologistguard  // For select_equipment
-	name = "Ecologist Guard"
+	name = "Охранник Экологов"
 	head = null
 	uniform = /obj/item/clothing/under/color/switer/tourist/sweater
 	suit = /obj/item/clothing/suit/hooded/kombez/eco_mercenary
@@ -181,13 +208,13 @@
 							/obj/item/weapon/kitchen/knife/hunting = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	r_hand = /obj/item/flashlight/seclite
 
 /datum/job/chief_ecologist
-	title = "Chief Ecologist"
+	title = "Главный научный сотрудник"
 	faction = "Station"
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	total_positions = 2
 	locked = 1
 	spawn_positions = 1
@@ -196,13 +223,13 @@
 	whitelist_only = 0
 	limit_per_player = 1
 	outfit = /datum/outfit/job/chief_ecologist
-	real_rank = "Lieutenant"
+	real_rank = "Лейтенант"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
 /datum/job/chief_ecologist
-	title = "Chief Ecologist"
-	faction_s = "Ecologist"
+	title = "Главный научный сотрудник"
+	faction_s = "Экологи"
 
 /datum/outfit/job/chief_ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -226,7 +253,7 @@
 							/obj/item/gun/ballistic/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/job/chief_ecologist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -239,7 +266,7 @@
 
 
 /datum/outfit/job/chief_ecologist // For select_equipment
-	name = "Chief Ecologist"
+	name = "Главный научный сотрудник"
 	head = null
 	uniform = /obj/item/clothing/under/lawyer/blacksuit
 	suit = /obj/item/clothing/suit/hooded/sealed/ecologm
@@ -258,4 +285,4 @@
 							/obj/item/gun/ballistic/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
