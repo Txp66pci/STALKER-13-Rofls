@@ -299,7 +299,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		<div class=\"relative\" align=\"center\">"
 
 
-		mainhtml += "ENTER THE PASSWORD"
+		mainhtml += "ВВЕДИТЕ ПАРОЛЬ"
 
 		mainhtml +="\
 		</div>\
@@ -325,10 +325,10 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 			 <div align=\"right\"><a href='byond://?src=\ref[src];choice=title'>\</a> <a href='byond://?src=\ref[src];choice=close'>\</a></div><br>"
 			mainhtml +="\
 			<meta charset=utf-8>\
-			 <b>Name:</b> [owner.real_name]<br><br>\
-			 <b>Faction:</b> [eng_faction_s]<br><br>\
-			 <b>Rank:</b> [rating]<br><br>\
-			 <b>Reputation:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s]</font>\
+			 <b>Имя:</b> [owner.real_name]<br><br>\
+			 <b>Фракция:</b> [eng_faction_s]<br><br>\
+			 <b>Ранг:</b> [rating]<br><br>\
+			 <b>репутация:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s]</font>\
 			</td>\
 			</tr>\
 		\
@@ -344,7 +344,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//ПРОФИЛЬ
 
 				if(1)
-					navbarhtml ="| <a>Profile</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> |<br>"
+					navbarhtml ="| <a>Профиль</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -353,7 +353,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 						<tr>\
 							<td valign=\"top\" align=\"left\">"
 					mainhtml +="\
-					<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=load_cache'>\[LOAD CACHE\]</a><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=exit'>\[EXIT\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
+					<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=load_cache'>\[ЗАГРУЗИТЬ КЭШ\]</a><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=exit'>\[ВЫЙТИ\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
 
 					mainhtml +="\
 							</td>\
@@ -368,11 +368,11 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 					</td>\
 					<td>"
 					mainhtml+="\
-				<b>Name:</b> [owner.real_name]<br>\
-				<b>Faction:</b> [eng_faction_s]<br>\
-				<b>Rank:</b> [eng_rank_name_s] ([rating])<br>\
-				<b>Reputation:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s] ([reputation])</font><br>\
-				<b>Balance:</b> [num2text(money, 8)] RU<br>"
+				<b>Имя:</b> [owner.real_name]<br>\
+				<b>Фракция:</b> [eng_faction_s]<br>\
+				<b>Ранг:</b> [eng_rank_name_s] ([rating])<br>\
+				<b>Репутация:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s] ([reputation])</font><br>\
+				<b>Баланс:</b> [num2text(money, 8)] Руб<br>"
 
 					mainhtml +="\
 					</td>\
@@ -432,7 +432,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//РЕЙТИНГ
 
 				if(3)
-					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> |<br>"
+					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -442,7 +442,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 							<td valign=\"top\" align=\"left\">\
 								<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=rating_images'>\[IMAGES\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
 					mainhtml +="\
-					<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=refresh_rating'>Refresh stalker list</a> | </div>"
+					<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=refresh_rating'>Обновить БД по сталкерам</a> | </div>"
 					mainhtml +="\
 							</td>\
 						</tr>\
@@ -457,7 +457,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		//ЛЕНТА
 
 				if(4)
-					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a>Feed</a> |<br>"
+					navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a>Лента</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -467,7 +467,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 					<td valign=\"top\" align=\"left\">\
 					<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=lenta_images'>\[IMAGES\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>"
 						mainhtml +="\
-						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=lenta_add'>Send feed message</a> | <a href='byond://?src=\ref[src];choice=lenta_faction_add'>Send faction message</a> | <a href='byond://?src=\ref[src];choice=lenta_sound'>Turn on/off sound</a> |</div>"
+						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=lenta_add'>Отправить сообщение</a> | <a href='byond://?src=\ref[src];choice=lenta_faction_add'>Отправить сообщение фракции</a> | <a href='byond://?src=\ref[src];choice=lenta_sound'>Вкл/Выкл звук</a> |</div>"
 					mainhtml +="\
 					</td>\
 					</tr>\
