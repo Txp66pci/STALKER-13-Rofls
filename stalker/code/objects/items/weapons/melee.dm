@@ -398,7 +398,7 @@
 
 /obj/item/melee/baseball_bat/nail
 	name = "Бита с гвоздями"
-	desc = "В лиге нет ни одного черепа, который мог бы противостоять мухобойке. К этому прибиты гвозди."
+	desc = "В лиге нет ни одного черепа, который мог бы противостоять бите. К этой прибиты гвозди."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "nailbat"
 	item_state = "nailbat"
@@ -412,7 +412,7 @@
 
 /obj/item/melee/baseball_bat/barbed
 	name = "Бита с колючей проволокой"
-	desc = "There ain't a skull in the league that can withstand a swatter. This one has barbed wire wrapped around it."
+	desc = "В лиге нет ни одного черепа, который мог бы противостоять бите. К этой привязана проволока."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "barbedbat"
 	item_state = "barbedbat"
