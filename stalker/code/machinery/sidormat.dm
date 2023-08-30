@@ -690,10 +690,10 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		///////////////////////////////////////////////////////////РУССКИЙ СИДОРОМАТ///////////////////////////////////////////////////////////////////////
 
 		dat +="<div class='statusDisplay'>"
-		dat += "On account: [num2text(balance, 8)] RU<br>"
-		dat += "<br><br>INSTRUCTION: Place loot on <b> Left </b> Table.<br>" //Забирать деньги и купленные вещи - на <b>правом</b>.
+		dat += "Акаунт имеет: [num2text(balance, 8)] рублей<br>"
+		dat += "<br><br>INSTRUCTION: Положите товар на <b> Левый </b> стол.<br>" //Забирать деньги и купленные вещи - на <b>правом</b>.
 		if(switches & BUY_STUFF)
-			dat +="<A href='?src=\ref[src];choice=take'><b>Sell Loot</b></A><br>"
+			dat +="<A href='?src=\ref[src];choice=take'><b>Продать хабар</b></A><br>"
 		if(door_device && sk.fields["degree"])
 			dat +="<A href='?src=\ref[src];basement_toggle=1'><b>Open/Close Vault</b></A><br>"
 		dat += "</div>"
@@ -824,7 +824,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		CHECK_TICK
 
 	if(total_cost)
-		say("<b>Хабар умпешно продан за [total_cost].</b>")
+		say("<b>Хабар успешно продан за [total_cost].</b>")
 
 	updateUsrDialog()
 	return

@@ -40,5 +40,5 @@ ty ilu - bear
 
 
 /area/stalker/blowout/outdoor/backwater
-	narrate = "You hear crickets chirping in the murky swamps covered in old ships, home to anomalies, mutants, and bandits alike. Careful, you're not alone out here..."
+	narrate = "Вы слышите, как сверчки стрекочут в темных болотах, покрытых старыми кораблями, где обитают аномалии, мутанты и бандиты. Осторожно, вы здесь не одиноки..."
 

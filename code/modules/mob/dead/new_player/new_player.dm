@@ -292,17 +292,17 @@
 /proc/get_job_unavailable_error_message(retval, jobtitle)
 	switch(retval)
 		if(JOB_AVAILABLE)
-			return "[jobtitle] is available."
+			return "[jobtitle] доступен."
 		if(JOB_UNAVAILABLE_GENERIC)
-			return "[jobtitle] is unavailable."
+			return "[jobtitle] доступен."
 		if(JOB_UNAVAILABLE_BANNED)
-			return "You are currently banned from [jobtitle]."
+			return "Вы забанены с роли [jobtitle]."
 		if(JOB_UNAVAILABLE_PLAYTIME)
-			return "You do not have enough relevant playtime for [jobtitle]."
+			return "У вас недостаточно временя для [jobtitle]."
 		if(JOB_UNAVAILABLE_ACCOUNTAGE)
-			return "Your account is not old enough for [jobtitle]."
+			return "Ваш аккаунт достаточно стар для [jobtitle]."
 		if(JOB_UNAVAILABLE_SLOTFULL)
-			return "[jobtitle] is already filled to capacity."
+			return "[jobtitle] уже заполненно."
 	return "Error: Unknown job availability."
 
 /mob/dead/new_player/proc/IsJobUnavailable(rank, latejoin = FALSE)
@@ -337,7 +337,7 @@
 		return FALSE
 
 	if(SSticker.late_join_disabled)
-		alert(src, "An administrator has disabled late join spawning.")
+		alert(src, "Администратор выключил спавн новых ролей.")
 		return FALSE
 
 	for(var/datum/job/job in SSjob.occupations)
@@ -352,7 +352,7 @@
 					if(job.limit_per_player > GLOB.jobnamelatejoincount[usr.client.ckey + rank])
 						GLOB.jobnamelatejoincount[usr.client.ckey + rank]++
 					else
-						usr << "Respawn limit for your role [rank] exhausted."
+						usr << "Лимит респавна для вашей роли [rank] истощён."
 						return
 
 	//var/arrivals_docked = TRUE
@@ -489,7 +489,7 @@
 	//		else
 	//			dat += " [a.title]. </div>"
 
-	dat += "<div class='clearBoth'>Available Roles:</div><br>"
+	dat += "<div class='clearBoth'>Лоступны роли:</div><br>"
 	dat += "<div class='jobs'><div class='jobsColumn'>"
 	var/job_count = 0
 	//for(var/datum/job/job in SSjob.occupations)

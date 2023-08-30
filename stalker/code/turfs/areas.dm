@@ -1,6 +1,6 @@
 /area/stalker
 	icon = 'stalker/icons/areas.dmi'
-	name = "Strange Location"
+	name = "Странное место"
 	icon_state = "away"
 	has_gravity = STANDARD_GRAVITY
 	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
@@ -10,14 +10,14 @@
 	ambient_environment_night = DEFAULT_AMBIENT_ENVIRONMENT_NIGHT
 
 /area/stalker/blowout/outdoor
-	name = "Outdoor"
+	name = "Улица"
 	icon = 'stalker/icons/areas_outdoor_blowout.dmi'
 	icon_state = "outdoor"
 	open_space = TRUE
 	environment = 15
 
 /area/stalker/sidor
-	name = "Sidorovich Basement"
+	name = "Подвал Сидоровича"
 	icon = 'stalker/icons/areas_buildings.dmi'
 	icon_state = "sidor"
 	requires_power = 1
@@ -25,14 +25,14 @@
 	safezone = 1
 
 /area/stalker/blowout/buildings
-	name = "Buildings"
+	name = "Здания"
 	icon = 'stalker/icons/areas_buildings_blowout.dmi'
 	icon_state = "buildings"
 	requires_power = 1
 	environment = 2
 
 /area/stalker/buildings
-	name = "Buildings"
+	name = "Здания"
 	icon = 'stalker/icons/areas_buildings.dmi'
 	icon_state = "buildings"
 	requires_power = 1
@@ -47,17 +47,17 @@
 ///////////////////////?????////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /area/stalker/buildings/backwater
-	name = "Backwater - Buildings \[NB\]"
+	name = "Затон - Здания \[NB\]"
 	icon_state = "buildings"
 	environment = 2
 
 /area/stalker/blowout/buildings/backwater
-	name = "Backwater - Buildings"
+	name = "Затон - Здания"
 	icon_state = "buildings"
 	environment = 2
 
 /area/stalker/blowout/outdoor/backwater
-	name = "Backwater - Outdoor \[O\]"
+	name = "Затог - Улица \[O\]"
 	icon_state = "outdoor"
 	environment = 19
 
@@ -65,43 +65,43 @@
 
 ///////////////////////????? - ??????????///////////////////////
 /area/stalker/buildings/backwater/substation
-	name = "Backwater - Substation Workshops \[NB\]"
+	name = "Затон - Мастерская Подстанции \[NB\]"
 	icon_state = "substation"
 	environment = 5
 
 /area/stalker/blowout/buildings/backwater/substation
-	name = "Backwater - Substation Workshops"
+	name = "Затон - Мастерская Подстанции"
 	icon_state = "substation"
 
 /area/stalker/blowout/outdoor/backwater/substation
-	name = "Backwater - Substation Workshops \[O\]"
+	name = "Затон - Мастерская Подстанции \[O\]"
 	icon_state = "substation"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ????????/////////////////////////
 /area/stalker/buildings/backwater/skadovsk
-	name = "Backwater - Skadovsk \[NB\]"
+	name = "Затон - Скадовск \[NB\]"
 	icon_state = "skadovsk"
 	safezone = 1
 	environment = 0
 	//ambient_music = list()
 
 /area/stalker/buildings/backwater/skadovsk_respawn
-	name = "Backwater - Skadovsk (2nd floor) \[NB\]"
+	name = "Затон - Скадовск (2nd floor) \[NB\]"
 	icon_state = "skadovsk"
 	safezone = 1
 	environment = 0
 	//ambient_music = list()
 
 /area/stalker/blowout/buildings/backwater/skadovsk
-	name = "Backwater - Skadovsk"
+	name = "Затон - Скадовск"
 	icon_state = "skadovsk"
 	safezone = 1
 	environment = 0
 	//ambient_music = list()
 
 /area/stalker/blowout/outdoor/backwater/skadovsk
-	name = "Backwater - Skadovsk \[O\]"
+	name = "Затон - Скадовск \[O\]"
 	icon_state = "skadovsk"
 	safezone = 1
 	environment = 19
@@ -110,37 +110,37 @@
 
 ///////////////////////????? - ????????/////////////////////////
 /area/stalker/buildings/backwater/shevchenko
-	name = "Backwater - Shevchenko \[NB\]"
+	name = "Затон - Шевченко \[NB\]"
 	icon_state = "shevchenko"
 	environment = 2
 
 /area/stalker/blowout/buildings/backwater/shevchenko
-	name = "Backwater - Shevchenko"
+	name = "Затон - Шевченко"
 	icon_state = "shevchenko"
 	environment = 2
 
 /area/stalker/blowout/outdoor/backwater/shevchenko
-	name = "Backwater - Shevchenko \[O\]"
+	name = "Затон - Шевченко \[O\]"
 	icon_state = "shevchenko"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ????????? ?????//////////////////
 /area/stalker/buildings/backwater/burntfarm
-	name = "Backwater - Burnt Farmstead \[NB\]"
+	name = "Затон - Сгоревший хутор \[NB\]"
 	icon_state = "burntfarm"
 
 /area/stalker/blowout/buildings/backwater/burntfarm
-	name = "Backwater - Burnt Farmstead"
+	name = "Затон - Сгоревший хутор"
 	icon_state = "burntfarm"
 
 /area/stalker/blowout/outdoor/backwater/burntfarm
-	name = "Backwater - Burnt Farmstead \[O\]"
+	name = "Затон - Сгоревший хутор \[O\]"
 	icon_state = "burntfarm"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ???????? ???///////////////////
 /area/stalker/buildings/backwater/ironforest
-	name = "Backwater - Iron Forest \[NB\]"
+	name = "Затон - Железный лес \[NB\]"
 	icon_state = "ironforest"
 	ambient_background = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
 	ambient_background_cooldown = list(270)
@@ -150,17 +150,17 @@
 	environment = 8
 
 /area/stalker/blowout/buildings/backwater/ironforest
-	name = "Backwater - Iron Forest"
+	name = "Затон - Железный лес"
 	icon_state = "ironforest"
 
 /area/stalker/blowout/outdoor/backwater/ironforest
-	name = "Backwater - Iron Forest \[O\]"
+	name = "Затон - Железный лес \[O\]"
 	icon_state = "ironforest"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ??? ????///////////////////
 /area/stalker/buildings/backwater/krug
-	name = "Backwater - Krug Antenna Complex \[NB\]"
+	name = "Затон - ВНЗ Круг \[NB\]"
 	icon_state = "krug"
 	environment = 5
 	ambient_background = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
@@ -171,54 +171,54 @@
 	environment = 8
 
 /area/stalker/blowout/buildings/backwater/krug
-	name = "Backwater - Krug Antenna Complex"
+	name = "Затон - ВНЗ Круг"
 	icon_state = "krug"
 	environment = 2
 
 /area/stalker/blowout/outdoor/backwater/krug
-	name = "Backwater - Krug Antenna Complex \[O\]"
+	name = "Затон - ВНЗ Круг \[O\]"
 	icon_state = "krug"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ?????????///////////////////
 /area/stalker/buildings/backwater/sawmill
-	name = "Backwater - Sawmill \[NB\]"
+	name = "Затон - Лесопилка \[NB\]"
 	icon_state = "sawmill"
 
 /area/stalker/blowout/buildings/backwater/sawmill
-	name = "Backwater - Sawmill"
+	name = "Затон - Лесопилка"
 	icon_state = "sawmill"
 
 /area/stalker/blowout/outdoor/backwater/sawmill
-	name = "Backwater - Sawmill \[O\]"
+	name = "Затон - Лесопилка \[O\]"
 	icon_state = "sawmill"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ???????????///////////////////
 /area/stalker/buildings/backwater/ranger
-	name = "Backwater - Ranger Station \[NB\]"
+	name = "Затон - Лесничество \[NB\]"
 	icon_state = "ranger"
 
 /area/stalker/blowout/buildings/backwater/ranger
-	name = "Backwater - Ranger Station"
+	name = "Затон - Лесничество"
 	icon_state = "ranger"
 
 /area/stalker/blowout/outdoor/backwater/ranger
-	name = "Backwater - Ranger Station \[O\]"
+	name = "Затон - Лесничество \[O\]"
 	icon_state = "ranger"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ??????? ??????????? ???????///////////////////
 /area/stalker/buildings/backwater/waste
-	name = "Backwater - Waster Processing Station \[NB\]"
+	name = "Затон - Станция Переработки Отходов \[NB\]"
 	icon_state = "waste"
 
 /area/stalker/blowout/buildings/backwater/waste
-	name = "Backwater - Waster Processing Station"
+	name = "Затон - Станция Переработки Отходов"
 	icon_state = "waste"
 
 /area/stalker/blowout/outdoor/backwater/waste
-	name = "Backwater - Waster Processing Station \[O\]"
+	name = "Затон - Станция Переработки Отходов \[O\]"
 	icon_state = "waste"
 	environment
 
@@ -226,35 +226,35 @@
 
 ///////////////////////????? - ??????? ??????????? ???????///////////////////
 /area/stalker/buildings/backwater/waste
-	name = "Backwater - Waster Processing Station \[NB\]"
+	name = "Затон - Станция Переработки Отходов \[NB\]"
 	icon_state = "waste"
 
 /area/stalker/blowout/buildings/backwater/waste
-	name = "Backwater - Waster Processing Station"
+	name = "Затон - Станция Переработки Отходов"
 	icon_state = "waste"
 
 /area/stalker/blowout/outdoor/backwater/waste
-	name = "Backwater - Waster Processing Station \[O\]"
+	name = "Затон - Станция Переработки Отходов \[O\]"
 	icon_state = "waste"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ??????///////////////////
 /area/stalker/buildings/backwater/claw
-	name = "Backwater - Claw \[NB\]"
+	name = "Затон - Коготь \[NB\]"
 	icon_state = "claw"
 
 /area/stalker/blowout/buildings/backwater/claw
-	name = "Backwater - Claw"
+	name = "Затон - Коготь"
 	icon_state = "claw"
 
 /area/stalker/blowout/outdoor/backwater/claw
-	name = "Backwater - Claw \[O\]"
+	name = "Затон - Коготь \[O\]"
 	icon_state = "claw"
 ////////////////////////////////////////////////////////////////
 
 ///////////////////////????? - ????? ?????///////////////////
 /area/stalker/buildings/backwater/plateau
-	name = "Backwater - Southern Plateau \[NB\]"
+	name = "Затон - Южное Плато \[NB\]"
 	icon_state = "plateau"
 	ambient_background = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
 	ambient_background_cooldown = list(270)
@@ -264,11 +264,11 @@
 	environment = 8
 
 /area/stalker/blowout/buildings/backwater/plateau
-	name = "Backwater - Southern Plateau"
+	name = "Затон - Южное Плато"
 	icon_state = "plateau"
 
 /area/stalker/blowout/outdoor/backwater/plateau
-	name = "Backwater - Southern Plateau \[O\]"
+	name = "Затон - Южное Плато \[O\]"
 	icon_state = "plateau"
 ////////////////////////////////////////////////////////////////
 
@@ -279,19 +279,19 @@
 	requires_power = 1
 
 /area/stalker/kordon/buildings
-	name = "Buildings"
+	name = "Здания в Кордоне"
 	icon_state = "cellar"
 
 /area/stalker/blowout/kordon/buildings
-	name = "Buildings"
+	name = "Здания в Кордоне"
 	icon_state = "buildings"
 
 /area/stalker/kordon/cellar
-	name = "Cellar"
+	name = "Подвал в Кордоне"
 	icon_state = "cellar"
 
 /area/stalker/kordon/tunnel
-	name = "Tunnel"
+	name = "Тунель Кордон"
 	icon_state = "tunnel_s"
 	environment = 13
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_UNDERGROUND
@@ -299,11 +299,11 @@
 	ambient_environment_cooldown = 800
 
 /area/stalker/blowout/kordon/tunnel
-	name = "Tunnel"
+	name = "Тунель"
 	icon_state = "tunnel"
 
 /area/stalker/cave
-	name = "Cave"
+	name = "Пещера"
 	icon_state = "tunnel"
 	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
 	requires_power = 1
@@ -313,27 +313,27 @@
 	requires_power = 1
 
 /area/stalker/svalka/buildings
-	name = "Buildings"
+	name = "Здания свалки"
 	icon_state = "buildings"
 
 /area/stalker/blowout/svalka/buildings
-	name = "Buildings"
+	name = "Здания свалки"
 	icon_state = "buildings"
 
 /area/stalker/blowout/svalka/buildings/bar
-	name = "Bar"
+	name = "Бар свалки"
 	icon_state = "buildings"
 
 /area/stalker/svalka/cellar
-	name = "Cellar"
+	name = "Подвал свалки"
 	icon_state = "cellar"
 
 /area/stalker/svalka/tunnel
-	name = "Tunnel"
+	name = "Тунель свалки"
 	icon_state = "tunnel_s"
 
 /area/stalker/blowout/svalka/tunnel
-	name = "Tunnel"
+	name = "Тунель свалки"
 	icon_state = "tunnel"
 
 
@@ -342,27 +342,27 @@
 	requires_power = 1
 
 /area/stalker/agroprom/buildings
-	name = "Buildings_blowout"
+	name = "Здания_Выброс Агропром"
 	icon_state = "buildings"
 
 /area/stalker/blowout/agroprom/buildings
-	name = "Buildings"
+	name = "Здания_Выброс Агропром"
 	icon_state = "buildings_blowout"
 
 /area/stalker/agroprom/cellar
-	name = "Cellar"
+	name = "Подвал Агропром"
 	icon_state = "cellar"
 
 /area/stalker/agroprom/tunnel
-	name = "Tunnel"
+	name = "Тунель Агропром"
 	icon_state = "tunnel_s"
 
 /area/stalker/blowout/agroprom/tunnel
-	name = "Tunnel"
+	name = "Тунель Агропром"
 	icon_state = "tunnel"
 
 /area/stalker/agroprom/caves
-	name = "Caves"
+	name = "Пещеры Агропром"
 	icon_state = "caves"
 	requires_power = 1
 	ambient_music = null
@@ -377,26 +377,26 @@
 	requires_power = 1
 
 /area/stalker/byadt/bar
-	name = "Bar"
+	name = "Бар"
 	icon_state = "realbar"
 
 /area/stalker/byadt/buildings
-	name = "Buildings"
+	name = "Здания ХЗ"
 	icon_state = "buildings_s"
 
 /area/stalker/blowout/byadt/buildings
-	name = "Buildings Blowout"
+	name = "Здания Выброс"
 	icon_state = "buildings"
 
 /area/stalker/byadt/buildings/mercenary
-	name = "Mercenary"
+	name = "Наёмники"
 	icon_state = "mercenary"
 
 
 //bar
 
 /area/stalker/blowout/buildings/bar
-	name = "Bar"
+	name = "Бар"
 	icon_state = "buildings_s"
 
 /area/stalker/blowout/outdoor/bar
@@ -404,71 +404,71 @@
 	icon_state = "outdoor"
 
 /area/stalker/buildings/bar/city
-	name = "Buildings"
+	name = "Здания"
 	icon_state = "buildings"
 
 /area/stalker/buildings/bar/rentgen
-	name = "Bar 100RENTGEN"
+	name = "100 РЕНТГЕН"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "realbar"
 	safezone = 1
 
 /area/stalker/buildings/monolith
-	name = "Monolith Safezone"
+	name = "Зона Монолита"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "monolith"
 	monolithsafezone = 1
 
 /area/stalker/buildings/duty
-	name = "Duty Safezone"
+	name = "Зона Долга"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "duty"
 	dutysafezone = 1
 
 /area/stalker/buildings/freedom
-	name = "Freedom Safezone"
+	name = "Зона Свооды"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "freedom"
 	freedomsafezone = 1
 
 /area/stalker/buildings/clearsky
-	name = "Clear Sky Safezone"
+	name = "Зона ЧН"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "clearsky"
 	cssafezone = 1
 
 /area/stalker/buildings/bandit
-	name = "Bandit Safezone"
+	name = "Зона Бандитов"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "bandit"
 	banditsafezone = 1
 
 /area/stalker/buildings/military
-	name = "Military Safezone"
+	name = "Зона Военных"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "military"
 	militarysafezone = 1
 
 /area/stalker/buildings/renegade
-	name = "Renegade Safezone"
+	name = "Зона Ренегатов"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "renegades"
 	renegadesafezone = 1
 
 /area/stalker/buildings/mercenary
-	name = "Mercenary Safezone"
+	name = "Зона Мерков"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "mercenary"
 	mercenarysafezone = 1
 
 /area/stalker/buildings/ecologist
-	name = "ecologist safezone"
+	name = "Зона Экологов"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "ecologist"
 	ecosafezone = 1
 
 /area/stalker/buildings/ecologist_entrance
-	name = "ecologist"
+	name = "Экологи"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "ecologist entrance"
 	safezone = 1
@@ -479,7 +479,7 @@
 //kordon + svalka
 
 /area/stalker/blowout/buildings/kordon
-	name = "Bar"
+	name = "Бар"
 	icon_state = "buildings_s"
 
 /area/stalker/blowout/outdoor/kordon
@@ -487,16 +487,16 @@
 	icon_state = "outdoor"
 
 /area/stalker/buildings/kordon/domik
-	name = "Buildings"
+	name = "Домик Кордона"
 	icon_state = "buildings"
 
 /area/stalker/buildings/kordon/banditbar
-	name = "Bandit Bar"
+	name = "Бар Бандитов"
 	icon = 'stalker/icons/areas.dmi'
 	icon_state = "bandit_bar"
 //	banditsafezone = 1
 
 //radar
 /area/stalker/buildings/radar
-	name = "Buildings"
+	name = "Здания"
 	icon_state = "buildings"

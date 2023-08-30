@@ -433,7 +433,7 @@ SUBSYSTEM_DEF(job)
 		if(S)
 			SendToAtom(H, S, buckle = FALSE)
 		if(!S) //if there isn't a spawnpoint send them to latejoin, if there's no latejoin go yell at your mapper
-			log_world("Couldn't find a round start spawn point for [rank]")
+			log_world("Не найдена точка для спавна [rank]")
 			SendToLateJoin(H)
 
 
@@ -451,17 +451,17 @@ SUBSYSTEM_DEF(job)
 
 		SSpersistence.antag_rep_change[M.client.ckey] += job.GetAntagRep()
 
-	to_chat(M, "<b>You awake as a [job.title] to yet another day in the Zone. <FONT color='purple'> You take in the frigid air and your despondents surroundings.</b>")
+	to_chat(M, "<b>Вы проснулись как [job.title] Ещё один день в Зоне. <FONT color='purple'> Вы вдыхаете холодный воздух и осматриваете унылое окружение.</b>")
 	if(job)
-		to_chat(M, "You are a member of the [job.faction_s] as a [job.title], you answer directly to [job.supervisors]. Special circumstances may change this.")
+		to_chat(M, "Вы член фракции [job.faction_s] как [job.title], вы отвечаете перед [job.supervisors]. Особые обстоятельства могут изменить это.")
 		to_chat(M, "<FONT color='blue'><B>[job.description]</b>")
-		to_chat(M, "<FONT color='green'><b>As a member of the [job.faction_s], DO: [job.enforces]</b>")
-		to_chat(M, "<FONT color='red'><b>As a member of the [job.faction_s], DON'T: [job.forbids]</b>")
-		to_chat(M, "<FONT color='red'><b><h2><FONT color='blue'>Shoot on Sight Guide: Military may shoot anyone coming towards the checkpoint, they may do otherwise if they wish. Do not approach the checkpoint without asking first. <FONT color='black'>Duty may shoot Freedom on sight and vice versa. <FONT color='green'>Cleared Sky may shoot Renegades on sight and vice versa. <FONT color='purple'>Monolith stays in Radar, and may shoot anyone who enters their territory. They only leave when the Monolith wills it (admin intervention). <FONT color='black'>Bandit, Renegade, or Monolith are considered shoot on sight by any faction, and vice versa. The truly robust escalate anyway. Either shoot or escalate; do not sucker punch players with roleplay. <FONT color='red'>Do not complain about unfair deaths in deadchat, OOC, or public discord; contact staff and we will help you. DO NOT SPAWN CAMP. SOS factions may get shot off screen or in ways deemed unfair.</h2></b>")
+		to_chat(M, "<FONT color='green'><b>Как член фракции [job.faction_s], ДЕЛАЙТЕ: [job.enforces]</b>")
+		to_chat(M, "<FONT color='red'><b>Как член фракции [job.faction_s], НЕ ДЕЛАЙТЕ: [job.forbids]</b>")
+		to_chat(M, "<FONT color='red'><b><h2><FONT color='blue'>Руководство по Войне: Военные могут стрелять в любого, кто приближается к КПП, они могут поступить иначе, если захотят. Не подходите к КПП, не спросив предварительно.<FONT color='black'> Долговцы могут стрелять в Свободовцев и наоборот. <FONT color='green'> Чистонебовцы могут стрелять в Ренегатов и наоборот.<FONT color='purple'>Монолитовцы остаются на Радаре и могут стрелять в любого, кто войдет на их территорию. Они уходят только тогда, когда Монолит захочет этого (вмешательство администратора). <FONT color='black'>Бандиты, Ренегаты или Монолитовцы считаются валидными для отстрела, и наоборот. По-настоящему робастные эскалируют конфликт перед пальбой. Либо стрелйте, либо обостряйте.<FONT color='red'> Не жалуйтесь на несправедливые смерти в deadchat, OOC или публичном канале ДС; свяжитесь с админами, и мы вам поможем. НЕ КЭМПИТЕ ЛАГЕРЬ. Мирные группировки могут быть расстреляны за кадром или способами, которые будут сочтены несправедливыми.</h2></b>")
 		//to_chat(M, "<b>Как [job.title] вы слушаетесь лидера [job.faction_s].</b>")
 		//job.radio_help_message(M)
 		if(job.req_admin_notify)
-			to_chat(M, "<b>You play a role that requires constant interaction with the game. If you are going to leave, then inform the administrative staff about it.</b>")
+			to_chat(M, "<b>Вы играете роль, которая требует постоянного взаимодействия с игрой. Если вы собираетесь отойти, то сообщите об этом администратору.</b>")
 	//	if(CONFIG_GET(number/minimal_access_threshold))
 	//		to_chat(M, "<FONT color='blue'><B>As this station was initially staffed with a [CONFIG_GET(flag/jobs_have_minimal_access) ? "full crew, only your job's necessities" : "skeleton crew, additional access may"] have been added to your ID card.</B></font>")
 	if(ishuman(H))
@@ -670,7 +670,7 @@ SUBSYSTEM_DEF(job)
 			//last chance, pick ANY spot on arrivals and dump em
 			SendToAtom(M, arrivals_turfs[1], FALSE)
 		else
-			var/msg = "Unable to send mob [M] to late join!"
+			var/msg = "Невозможно отправить [M] в Зону!"
 			message_admins(msg)
 			CRASH(msg)
 
@@ -722,5 +722,5 @@ SUBSYSTEM_DEF(job)
 /datum/controller/subsystem/job/proc/GiveKeypadCodes(mob/living/H, rank)
 	for(var/obj/machinery/button/door/keypad/faction/K in all_faction_keypads)
 		if(rank in K.allowed_jobs)
-			H.mind.memory += "<BR><b>You remember that the code for [K.name] is [K.correctcode].</b>"
-			H << "<span class = 'notice'>You remember that the code for [K.name] is [K.correctcode].</span>"
+			H.mind.memory += "<BR><b>Вы вспомнили что код к [K.name] это [K.correctcode].</b>"
+			H << "<span class = 'notice'>Вы вспомнили что код к [K.name] это [K.correctcode].</span>"
