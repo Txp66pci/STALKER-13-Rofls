@@ -398,11 +398,7 @@
 
 /obj/item/melee/baseball_bat/nail
 	name = "Бита с гвоздями"
-<<<<<<< HEAD
-	desc = "В лиге нет ни одного черепа, который мог бы противостоять мухобойке. К этой прибиты гвозди."
-=======
 	desc = "В лиге нет ни одного черепа, который мог бы противостоять бите. К этой прибиты гвозди."
->>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "nailbat"
 	item_state = "nailbat"
@@ -416,11 +412,7 @@
 
 /obj/item/melee/baseball_bat/barbed
 	name = "Бита с колючей проволокой"
-<<<<<<< HEAD
-	desc = "В лиге нет ни одного черепа, который мог бы противостоять мухобойке. К этой присобачили провлоку."
-=======
 	desc = "В лиге нет ни одного черепа, который мог бы противостоять бите. К этой привязана проволока."
->>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "barbedbat"
 	item_state = "barbedbat"
