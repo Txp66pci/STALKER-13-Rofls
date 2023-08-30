@@ -1,5 +1,9 @@
 /datum/job/freedom
+<<<<<<< HEAD
 	title = "Freedom Soldier"
+=======
+	title = "Свободовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Freedom"
 	faction = "Station"
 	total_positions = -1
@@ -75,7 +79,11 @@
 	H.grant_language(/datum/language/english, body = FALSE)
 
 /datum/job/freedom_lieutenant
+<<<<<<< HEAD
 	title = "Freedom Lieutenant"
+=======
+	title = "Лейтенант Свободы"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Freedom"
 	faction = "Station"
 	total_positions = 4
@@ -94,7 +102,11 @@
 	exp_requirements = 900
 
 /datum/outfit/job/freedom_lieutenant
+<<<<<<< HEAD
 	name = "Freedom Lieutenant"
+=======
+	name = "Лейтенант Свободы"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Freedom"
 
 /datum/outfit/job/freedom_lieutenant/pre_equip(mob/living/carbon/human/H)

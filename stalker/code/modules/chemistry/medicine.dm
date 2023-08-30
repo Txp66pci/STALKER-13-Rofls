@@ -29,7 +29,7 @@
 
 // Indraline (Radioprotectant) offers a signifiant amount of radiation protection to players. Unlike anti-rad, it does not purge radiation.
 /datum/reagent/medicine/indraline
-	name = "Рад-Щит"
+	name = "Радиопротектор"
 	id = "indraline"
 	description = "Мощный радиопротектор, который защищает от дальнейшего накопления радиации."
 	reagent_state = LIQUID
@@ -343,7 +343,7 @@
 // ARMY MEDICAL KIT | BRUTE + BURN HEALING + BLEED (Via Coag) | 60 point heal
 
 /datum/reagent/medicine/armysolution
-	name = "Армейское медицинское раствор"
+	name = "Армейский медицинский раствор"
 	id = "armysolution"
 	description = "Сильнодействующее и надежное лекарство, содержащее свертывающие средства."
 	reagent_state = LIQUID
@@ -412,7 +412,7 @@
 
 // Improvised Stimm | 25 Health | Rapid
 /datum/reagent/medicine/stim/improvisedstim
-	name = "Импровизированный стим"
+	name = "Импровизированный стимулятор"
 	id = "impstim"
 	description = "Ты почти уверен, что это дерьмо убьет тебя."
 	reagent_state = LIQUID
@@ -433,7 +433,7 @@
 
 // Army Stimm | 50 Health | Rapid
 /datum/reagent/medicine/stim/armystim
-	name = "Армейский стим"
+	name = "Армейский стимулятор"
 	id = "stimarmypack"
 	description = "Способствует быстрому заживлению мягких тканей."
 	reagent_state = LIQUID
@@ -454,7 +454,7 @@
 
 // Army Stimm | 100 Health | Rapid
 /datum/reagent/medicine/stim/scistim
-	name = "Научный стим"
+	name = "Научный стимулятор"
 	id = "scistim"
 	description = "Неизвестная смесь медицинских жидкостей. По вкусу он явно похож на вишню."
 	reagent_state = LIQUID

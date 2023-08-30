@@ -1,5 +1,9 @@
 /datum/job/monolith
+<<<<<<< HEAD
 	title = "Monolith"
+=======
+	title = "Монолитовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
 	faction = "Station"
 	total_positions = 5//6 total, prior to the introduction of Radar.
@@ -20,7 +24,11 @@
 	exp_requirements = 300
 
 /datum/outfit/job/monolith
+<<<<<<< HEAD
 	name = "Monolith"
+=======
+	name = "Монолитовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
 
 /datum/outfit/job/monolith/pre_equip(mob/living/carbon/human/H)
@@ -74,7 +82,11 @@
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
 /datum/job/monolith_hegumen
+<<<<<<< HEAD
 	title = "Monolith Preacher"
+=======
+	title = "Проповедник Монолита"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
 	faction = "Station"
 	total_positions = 1//6 total, prior to the introduction of Radar.
@@ -91,7 +103,11 @@
 	exp_requirements = 900
 
 /datum/outfit/job/monolith_hegumen
+<<<<<<< HEAD
 	name = "Monolith Preacher"
+=======
+	name = "Проповедник Монолита"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
 
 /datum/outfit/job/monolith_hegumen/pre_equip(mob/living/carbon/human/H)

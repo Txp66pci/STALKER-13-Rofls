@@ -1,4 +1,5 @@
 /obj/item/stack/medical/gauze/bint
+	name = "Бинт"
 	desc = "Обычная марлевая повязка. Это будет очень хорошо работать для остановки любого кровотечения!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "bint"
@@ -7,7 +8,7 @@
 	self_delay = 10
 
 /obj/item/storage/firstaid/ifak
-	name = "ИФАК"
+	name = "IFAK"
 	desc = "Пехотная аптечка, содержащая все, что нужно сталкеру для стабилизации ран!"
 	icon = 'stalker/icons/items.dmi'
 	icon_state = "ifak"
@@ -42,14 +43,14 @@
 	rename_with_volume = FALSE
 
 /obj/item/reagent_containers/pill/painkiller
-	name = "обезболивающая таблетка"
+	name = "Болеутоляющее"
 	desc = "Используется для подавления боли. Вызывает спазмы желудка после приема внутрь, ешьте перед применением!"
 	icon_state = "pill17"
 	list_reagents = list("mine_salve" = 15)
 	rename_with_volume = FALSE
 
 /obj/item/storage/pill_bottle/iron
-	name = "флакон таблеток железа"
+	name = "Флакон таблеток железа"
 	desc = "Содержит таблетки, используемые для борьбы с дефицитом крови."
 
 /obj/item/storage/pill_bottle/iron/PopulateContents()
@@ -57,7 +58,7 @@
 		new /obj/item/reagent_containers/pill/iron(src)
 
 /obj/item/storage/pill_bottle/bicaridine
-	name = "флакон таблеток бикаридина"
+	name = "Флакон таблеток бикаридина"
 	desc = "Содержит таблетки, используемые для борьбы с физическими уроном."
 
 /obj/item/storage/pill_bottle/bicaridine/PopulateContents()
@@ -73,7 +74,7 @@
 		new /obj/item/reagent_containers/pill/kelotane(src)
 
 /obj/item/storage/pill_bottle/salbutamol
-	name = "флакон сальбутамола в таблетках"
+	name = "Флакон сальбутамола в таблетках"
 	desc = "Содержит таблетки, используемые для борьбы с усталостью и дефицитом кислорода после потери крови."
 
 /obj/item/storage/pill_bottle/salbutamol/PopulateContents()
@@ -81,7 +82,7 @@
 		new /obj/item/reagent_containers/pill/salbutamol(src)
 
 /obj/item/storage/pill_bottle/painkiller
-	name = "флакон обезболивающих таблеток"
+	name = "Флакон обезболивающих таблеток"
 	desc = "Содержит таблетки, используемые для облегчения боли."
 
 /obj/item/storage/pill_bottle/painkiller/PopulateContents()
@@ -89,14 +90,14 @@
 		new /obj/item/reagent_containers/pill/painkiller(src)
 
 /obj/item/reagent_containers/pill/bicaridine
-	name = "таблетка бикаридина"
+	name = "Таблетка бикаридина"
 	desc = "Используется для борьбы с физическими уроном."
 	icon_state = "pill17"
 	list_reagents = list("bicaridine" = 20)
 	rename_with_volume = FALSE
 
 /obj/item/reagent_containers/pill/kelotane
-	name = "таблетка еклотана"
+	name = "Таблетка келотана"
 	desc = " Используется для борьбы с ожогами."
 	icon_state = "pill19"
 	list_reagents = list("kelotane" = 20)

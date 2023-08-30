@@ -2,7 +2,11 @@
 Assistant
 */
 /datum/job/duty
+<<<<<<< HEAD
 	title = "Duty Soldier"
+=======
+	title = "Долговец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
 	faction = "Station"
 	total_positions = -1
@@ -22,7 +26,11 @@ Assistant
 	exp_requirements = 300
 
 /datum/outfit/job/dutysoldier  // For select_equipment
+<<<<<<< HEAD
 	name = "Duty Soldier"
+=======
+	name = "Долговец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
@@ -79,7 +87,11 @@ Assistant
 	H.grant_language(/datum/language/russian, body = FALSE)
 
 /datum/job/barman2
+<<<<<<< HEAD
 	title = "Barman2"
+=======
+	title = "Бармен"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 	locked = 1
 //	flag = ASSISTANT
@@ -99,7 +111,11 @@ Assistant
 	exp_requirements = 600
 
 /datum/outfit/job/barman2
+<<<<<<< HEAD
 	name = "Barman"
+=======
+	name = "Бармен"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Traders"
 
 /datum/outfit/job/barman2/pre_equip(mob/living/carbon/human/H)
@@ -114,7 +130,11 @@ Assistant
 	back = null
 
 /datum/job/duty_lieutenant
+<<<<<<< HEAD
 	title = "Duty Lieutenant"
+=======
+	title = "Лейтенант Долга"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
 	faction = "Station"
 	total_positions = 4
@@ -133,7 +153,11 @@ Assistant
 	exp_requirements = 900
 
 /datum/outfit/job/duty_lieutenant
+<<<<<<< HEAD
 	name = "Duty Lieutenant"
+=======
+	name = "Лейтенант Долга"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Duty"
 
 /datum/outfit/job/duty_lieutenant/pre_equip(mob/living/carbon/human/H)

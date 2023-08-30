@@ -2,7 +2,11 @@
 Assistant
 */
 /datum/job/clearsky
+<<<<<<< HEAD
 	title = "Clear Sky Soldier"
+=======
+	title = "Чистонебовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
 	faction = "Station"
 	total_positions = -1
@@ -17,12 +21,20 @@ Assistant
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit = /datum/outfit/clearsky
+<<<<<<< HEAD
 	real_rank = "ClearSky"
+=======
+	real_rank = "Clear Sky"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/clearsky  // For select_equipment
+<<<<<<< HEAD
 	name = "Clear Sky Soldier"
+=======
+	name = "Чистое небо"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
 	suit = /obj/item/clothing/suit/hooded/kozhanka/cs_hood
 	belt = /obj/item/kitchen/knife/tourist
@@ -61,7 +73,11 @@ Assistant
 	H.grant_language(/datum/language/english, body = FALSE)
 
 /datum/job/clearsky_leader
+<<<<<<< HEAD
 	title = "Clear Sky Leader"
+=======
+	title = "Лидер Чистого неба"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
 	faction = "Station"
 	total_positions = 4
@@ -80,7 +96,11 @@ Assistant
 	exp_requirements = 900
 
 /datum/outfit/job/clearsky_leader
+<<<<<<< HEAD
 	name = "Clear Sky Leader"
+=======
+	name = "Лидер Чистого неба"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
 
 /datum/outfit/job/clearsky_leader/pre_equip(mob/living/carbon/human/H)

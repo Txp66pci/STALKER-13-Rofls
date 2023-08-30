@@ -65,29 +65,29 @@
 	charges = INFINITY
 
 /obj/item/codespeak_manual/russian
-	name = "russian language book thing"
-	desc = "to be done"
+	name = "Самоучитель русского языка"
+	desc = "Учи блять русский язык ебаный в рот  © Марья Ивановна"
 	icon_state = "book1"
 	language_name = "Russian"
 	language_to_add = /datum/language/russian
 
 /obj/item/codespeak_manual/ukrainian
-	name = "ukrainian language book thing"
-	desc = "to be done"
+	name = "Самоучитель украинского языка"
+	desc = "Сало горилка сало сало горилка сало"
 	icon_state = "book1"
 	language_name = "Ukrainian"
 	language_to_add = /datum/language/ukrainian
 
 /obj/item/codespeak_manual/english
-	name = "english language book thing"
-	desc = "to be done"
+	name = "Самоучитель английского языка"
+	desc = "London is capital of greate britan"
 	icon_state = "book1"
 	language_name = "English"
 	language_to_add = /datum/language/english
 
 /obj/item/codespeak_manual/german
-	name = "german language book thing"
-	desc = "to be done"
+	name = "Самоучитель немецкого языка"
+	desc = "Ich frage euch: Wollt ihr den totalen Krieg?"
 	icon_state = "book1"
 	language_name = "German"
 	language_to_add = /datum/language/german

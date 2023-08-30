@@ -1,5 +1,9 @@
 /datum/job/mercenary
+<<<<<<< HEAD
 	title = "Mercenary"
+=======
+	title = "Наёмник"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -22,7 +26,11 @@
 	exp_requirements = 300
 
 /datum/outfit/job/mercenary
+<<<<<<< HEAD
 	name = "Mercenary"
+=======
+	name = "Наёмник"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
 
 /datum/outfit/job/mercenary/pre_equip(mob/living/carbon/human/H)
@@ -84,7 +92,11 @@
 	H.grant_language(/datum/language/german, body = FALSE)
 
 /datum/job/mercenarycommander
+<<<<<<< HEAD
 	title = "Mercenary Commander"
+=======
+	title = "Командир Наёмников"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
 	faction = "Station"
 	total_positions = 4
@@ -106,7 +118,11 @@
 	exp_requirements = 900
 
 /datum/outfit/job/mercenarycommander
+<<<<<<< HEAD
 	name = "Mercenary Commander"
+=======
+	name = "Командир Наёмников"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
 
 /datum/outfit/job/mercenarycommander/pre_equip(mob/living/carbon/human/H)

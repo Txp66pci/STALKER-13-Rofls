@@ -2,7 +2,11 @@
 Assistant
 */
 /datum/job/tourist
+<<<<<<< HEAD
 	title = "Tourist"
+=======
+	title = "Турист"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Tourists"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -20,7 +24,11 @@ Assistant
 	outfit = /datum/outfit/job/tourist
 
 /datum/job/stalker
+<<<<<<< HEAD
 	title = "Stalker"
+=======
+	title = "Сталкер"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -38,7 +46,11 @@ Assistant
 	outfit = /datum/outfit/job/stalker
 
 /datum/job/oldstalker
+<<<<<<< HEAD
 	title = "Old Stalker"
+=======
+	title = "Старый Сталкер"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 	faction = "Station"
 	locked = 1
@@ -67,7 +79,11 @@ Assistant
 
 
 /datum/outfit/job/stalker
+<<<<<<< HEAD
 	name = "Loner"
+=======
+	name = "Одиночка"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 
 /datum/outfit/job/stalker/pre_equip(mob/living/carbon/human/H)
@@ -283,7 +299,11 @@ Assistant
 	faction_s = "Tourists"
 
 /datum/job/trader
+<<<<<<< HEAD
 	title = "Trader"
+=======
+	title = "Торговец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 	locked = 1
 //	flag = ASSISTANT
@@ -300,7 +320,11 @@ Assistant
 	outfit = /datum/outfit/job/trader
 
 /datum/outfit/job/trader
+<<<<<<< HEAD
 	name = "Trader"
+=======
+	name = "Торговец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 
 /datum/outfit/job/trader/pre_equip(mob/living/carbon/human/H)
@@ -323,7 +347,11 @@ Assistant
 				/obj/item/flashlight/flare)
 
 /datum/job/barman
+<<<<<<< HEAD
 	title = "Barman"
+=======
+	title = "Бармен"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 	locked = 1
 //	flag = ASSISTANT
@@ -341,7 +369,11 @@ Assistant
 	real_rank = "Bartender"
 
 /datum/outfit/job/barman
+<<<<<<< HEAD
 	name = "Barman"
+=======
+	name = "Бармен"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
 
 /datum/outfit/job/barman/pre_equip(mob/living/carbon/human/H)

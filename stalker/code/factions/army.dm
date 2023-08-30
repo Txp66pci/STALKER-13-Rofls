@@ -2,7 +2,11 @@
 Assistant
 */
 /datum/job/army
+<<<<<<< HEAD
 	title = "Military Soldier"
+=======
+	title = "Солдат"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "State Security Service"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -10,10 +14,17 @@ Assistant
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
+<<<<<<< HEAD
 	description = "The State Security Services, often referred to as the Military or the Army, are Ukrainian soldiers that have been sent into the Zone by the Ukrainian government to maintain security along the borders of the Zone, in order to prevent unauthorized incursions by Stalkers, and by extension, distribution of artifacts to the outside world without government supervision."
 	enforces = "Protect the military checkpoint by default, be aware of orders from superiors and executing them with precision, communicate with those in the Zone so they know the military has a presence."
 	forbids = "Leave the base independently for any reason, disobey orders given by a superior, and start trouble with other factions before clearing it with superiors."
 	supervisors = "Military Commander"
+=======
+	description = "Вооружённые силы Украины, часто называемые военными или армией, являются украинскими солдатами, которые были отправлены в Зону украинским правительством для поддержания безопасности вдоль границ Зоны, чтобы предотвратить несанкционированные вторжения сталкеров и, как следствие, распространение артефактов во внешний мир без государственного надзора."
+	enforces = "Защищайте военный контрольно-пропускной пункт, будьте в курсе приказов начальства и выполняйте их с точностью, 'общайтесь' с теми, кто находится в Зоне, чтобы они знали, что State Security Service присутствуют."
+	forbids = "Покидать базу самостоятельно, не подчиняться приказам, отданным вышестоящим, и начинайть войны с другими фракциями, прежде чем зачистить их с начальством."
+	supervisors = "Лейтенант"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
@@ -43,7 +54,11 @@ Assistant
 	exp_requirements = 600
 
 /datum/outfit/job/army_spetsnaz
+<<<<<<< HEAD
 	name = "Military Spetsnaz"
+=======
+	name = "Спецназ"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "State Security Service"
 
 /datum/outfit/job/army_spetsnaz/pre_equip(mob/living/carbon/human/H)
@@ -92,10 +107,17 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
+<<<<<<< HEAD
 	faction_s = "Army"
 
 /datum/job/militarycommander
 	title = "Military Commander"
+=======
+	faction_s = "State Security Service"
+
+/datum/job/militarycommander
+	title = "Лейтенант"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "State Security Service"
 	outfit = /datum/outfit/job/militarycommander
 	faction = "Station"
@@ -116,7 +138,11 @@ Assistant
 	exp_requirements = 900
 
 /datum/outfit/job/militarycommander
+<<<<<<< HEAD
 	name = "Military Commander"
+=======
+	name = "Командир"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "State Security Service"
 
 /datum/outfit/job/militarycommander/pre_equip(mob/living/carbon/human/H)

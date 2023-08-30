@@ -248,7 +248,7 @@
 // FLARES
 
 /obj/item/flashlight/flare
-	name = "flare"
+	name = "Фальшфейер"
 	desc = "A red survival-grade flare. There are instructions on the side, it reads 'pull cord, make light'."
 	w_class = WEIGHT_CLASS_SMALL
 	brightness_on = 7 // Pretty bright.
