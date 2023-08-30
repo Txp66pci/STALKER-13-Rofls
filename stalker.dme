@@ -2815,6 +2815,7 @@
 #include "stalker\code\factions\bandit.dm"
 #include "stalker\code\factions\clearsky.dm"
 #include "stalker\code\factions\duty.dm"
+#include "stalker\code\factions\ecologist.dm"
 #include "stalker\code\factions\freedom.dm"
 #include "stalker\code\factions\mercenary.dm"
 #include "stalker\code\factions\monolith.dm"
