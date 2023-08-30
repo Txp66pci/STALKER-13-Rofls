@@ -72,7 +72,7 @@
 			if(62,60,92,47)
 				return			//rejects the text if it contains these bad characters: <, >, \ or /
 //			if(127 to 255)
-//				return			//rejects weird letters like �
+//				return			//rejects weird letters like пїЅ
 			if(0 to 31)
 				return			//more weird stuff
 			if(32)
@@ -269,13 +269,8 @@
 	return trim_left(trim_right(text))
 
 //Returns a string with the first element of the string capitalized.
-/proc/capitalize(t)
-	. = t
-	if(isatom(t))
-		var/atom/A = t
-		t = A.name
-	. = copytext_char(t, 1, 2)
-	return uppertext(.) + copytext_char(t, 2)
+/proc/capitalize(t as text)
+	return uppertext(copytext(t, 1, 2)) + copytext(t, 2)
 
 //Centers text by adding spaces to either side of the string.
 /proc/dd_centertext(message, length)
@@ -663,7 +658,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 	var/list/oldjson = list()
 	var/list/oldentries = list()
 	if(fexists(log))
-		oldjson = r_json_decode(file2text(log))
+		oldjson = json_decode(file2text(log))
 		oldentries = oldjson["data"]
 	if(!isemptylist(oldentries))
 		for(var/string in accepted)
