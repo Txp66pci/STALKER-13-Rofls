@@ -1,6 +1,6 @@
 /datum/job/mercenary
 	title = "Mercenary"
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -23,7 +23,7 @@
 
 /datum/outfit/job/mercenary
 	name = "Mercenary"
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 
 /datum/outfit/job/mercenary/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -73,7 +73,7 @@
 							/obj/item/gun/ballistic/automatic/pistol/sip = 1,
 							/obj/item/flashlight/seclite = 1)
 	l_pocket = /obj/item/storage/wallet/stalker
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 
 /datum/outfit/job/mercenary/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -85,7 +85,7 @@
 
 /datum/job/mercenarycommander
 	title = "Mercenary Commander"
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -107,7 +107,7 @@
 
 /datum/outfit/job/mercenarycommander
 	name = "Mercenary Commander"
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 
 /datum/outfit/job/mercenarycommander/pre_equip(mob/living/carbon/human/H)
 	..()

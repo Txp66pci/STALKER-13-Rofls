@@ -1,6 +1,6 @@
 /datum/job/freedom
 	title = "Freedom Soldier"
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -51,7 +51,7 @@
 		/obj/item/clothing/mask/cigarette/rollie/cannabis,
 		/obj/item/lighter/greyscale,
 	/obj/item/storage/box/matches)
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 
 /datum/outfit/freedomrookie  // For select_equipment
 	name = "Freedom Soldier"
@@ -64,7 +64,7 @@
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/cora
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sc45 = 2)
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 
 /datum/outfit/freedomrookie/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -76,7 +76,7 @@
 
 /datum/job/freedom_lieutenant
 	title = "Freedom Lieutenant"
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -95,7 +95,7 @@
 
 /datum/outfit/job/freedom_lieutenant
 	name = "Freedom Lieutenant"
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 
 /datum/outfit/job/freedom_lieutenant/pre_equip(mob/living/carbon/human/H)
 	..()

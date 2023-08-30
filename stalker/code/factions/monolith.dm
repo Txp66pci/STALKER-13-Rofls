@@ -1,6 +1,6 @@
 /datum/job/monolith
 	title = "Monolith"
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 	faction = "Station"
 	total_positions = 5//6 total, prior to the introduction of Radar.
 	spawn_positions = 5
@@ -21,7 +21,7 @@
 
 /datum/outfit/job/monolith
 	name = "Monolith"
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 
 /datum/outfit/job/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -61,7 +61,7 @@
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/berettam38 = 1,
 							/obj/item/flashlight/seclite = 1)
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 
 /datum/outfit/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -75,7 +75,7 @@
 				/obj/item/flashlight/flare)
 /datum/job/monolith_hegumen
 	title = "Monolith Preacher"
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 	faction = "Station"
 	total_positions = 1//6 total, prior to the introduction of Radar.
 	spawn_positions = 1
@@ -92,7 +92,7 @@
 
 /datum/outfit/job/monolith_hegumen
 	name = "Monolith Preacher"
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 
 /datum/outfit/job/monolith_hegumen/pre_equip(mob/living/carbon/human/H)
 	..()

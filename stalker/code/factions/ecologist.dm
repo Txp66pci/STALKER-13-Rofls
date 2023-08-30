@@ -1,6 +1,6 @@
 /datum/job/ecologist
 	title = "Ecologist"
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	faction = "Station"
 	total_positions = -1
 	locked = 1
@@ -19,7 +19,7 @@
 
 /datum/outfit/job/ecologist
 	name = "Ecologist"
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/job/ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -48,7 +48,7 @@
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
 
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/ecologist  // For select_equipment
 	name = "Ecologist"
@@ -70,7 +70,7 @@
 							/obj/item/gun/ballistic/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/ecologist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -83,7 +83,7 @@
 
 /datum/job/ecologistguard
 	title = "Ecologist Guard"
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	faction = "Station"
 	total_positions = -1
 	locked = 1
@@ -102,7 +102,7 @@
 
 /datum/outfit/job/ecologistguard
 	name = "Ecologist Guard"
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/job/ecologistguard/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -124,7 +124,7 @@
 							/obj/item/weapon/kitchen/knife/hunting = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	r_hand = pick(/obj/item/flashlight/lantern,
 				/obj/item/flashlight/seclite,
 				/obj/item/flashlight,
@@ -158,13 +158,13 @@
 							/obj/item/weapon/kitchen/knife/hunting = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	r_hand = /obj/item/flashlight/seclite
 
 /datum/job/chief_ecologist
 	title = "Chief Ecologist"
 	faction = "Station"
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 	total_positions = 2
 	locked = 1
 	spawn_positions = 1
@@ -179,7 +179,7 @@
 
 /datum/job/chief_ecologist
 	title = "Chief Ecologist"
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/job/chief_ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -203,7 +203,7 @@
 							/obj/item/gun/ballistic/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 
 /datum/outfit/job/chief_ecologist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -235,4 +235,4 @@
 							/obj/item/gun/ballistic/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 2,
 							/obj/item/clothing/accessory/patch/ecologists = 1)
-	faction_s = "Ecologist"
+	faction_s = "Экологи"

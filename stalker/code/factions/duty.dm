@@ -3,7 +3,7 @@ Assistant
 */
 /datum/job/duty
 	title = "Duty Soldier"
-	faction_s = "Duty"
+	faction_s = "Долг"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -23,7 +23,7 @@ Assistant
 
 /datum/outfit/job/dutysoldier  // For select_equipment
 	name = "Duty Soldier"
-	faction_s = "Duty"
+	faction_s = "Долг"
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
 	ears = null
@@ -35,7 +35,7 @@ Assistant
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,)
-	faction_s = "Duty"
+	faction_s = "Долг"
 
 /datum/outfit/job/dutysoldier/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -115,7 +115,7 @@ Assistant
 
 /datum/job/duty_lieutenant
 	title = "Duty Lieutenant"
-	faction_s = "Duty"
+	faction_s = "Долг"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -134,7 +134,7 @@ Assistant
 
 /datum/outfit/job/duty_lieutenant
 	name = "Duty Lieutenant"
-	faction_s = "Duty"
+	faction_s = "Долг"
 
 /datum/outfit/job/duty_lieutenant/pre_equip(mob/living/carbon/human/H)
 	..()

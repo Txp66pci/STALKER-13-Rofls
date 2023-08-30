@@ -3,7 +3,7 @@ Assistant
 */
 /datum/job/clearsky
 	title = "Clear Sky Soldier"
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -23,7 +23,7 @@ Assistant
 
 /datum/outfit/clearsky  // For select_equipment
 	name = "Clear Sky Soldier"
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 	suit = /obj/item/clothing/suit/hooded/kozhanka/cs_hood
 	belt = /obj/item/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -62,7 +62,7 @@ Assistant
 
 /datum/job/clearsky_leader
 	title = "Clear Sky Leader"
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -81,7 +81,7 @@ Assistant
 
 /datum/outfit/job/clearsky_leader
 	name = "Clear Sky Leader"
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 
 /datum/outfit/job/clearsky_leader/pre_equip(mob/living/carbon/human/H)
 	..()

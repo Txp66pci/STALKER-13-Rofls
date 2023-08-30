@@ -3,7 +3,7 @@ Assistant
 */
 /datum/job/bandit
 	title = "Bandit"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -26,7 +26,7 @@ Assistant
 
 /datum/job/banditboss
 	title = "Bandit Boss"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 	faction = "Station"
 	total_positions = 2
 	locked = 1
@@ -47,7 +47,7 @@ Assistant
 
 /datum/job/bandit_barman
 	title = "Bandit Barman"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 	faction = "Station"
 	total_positions = 1
 	locked = 1
@@ -68,7 +68,7 @@ Assistant
 
 /datum/outfit/job/bandit
 	name = "Bandit"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 
 /datum/outfit/job/bandit/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -99,7 +99,7 @@ Assistant
 
 /datum/outfit/job/banditboss
 	name = "Bandit Boss"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 
 /datum/outfit/job/banditboss/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -133,7 +133,7 @@ Assistant
 
 /datum/outfit/job/bandit_barman
 	name = "Bandit Barman"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 
 /datum/outfit/job/bandit_barman/pre_equip(mob/living/carbon/human/H)
 	uniform = UNIFORMPICK
@@ -171,7 +171,7 @@ Assistant
 
 /datum/outfit/bandit  // For select_equipment
 	name = "Bandit"
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka
 	ears = null

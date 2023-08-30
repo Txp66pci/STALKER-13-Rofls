@@ -2,8 +2,8 @@
 Assistant
 */
 /datum/job/army
-	title = "Military Soldier"
-	faction_s = "State Security Service"
+	title = "Солдат"
+	faction_s = "Военные"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -26,7 +26,7 @@ Assistant
 /datum/job/army_spetsnaz
 	title = "Military Spetsnaz"
 	faction = "Station"
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 	limit_per_player = 1
 	total_positions = 2
 	spawn_positions = 2
@@ -44,7 +44,7 @@ Assistant
 
 /datum/outfit/job/army_spetsnaz
 	name = "Military Spetsnaz"
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 
 /datum/outfit/job/army_spetsnaz/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -62,7 +62,7 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 
 /datum/outfit/job/army_spetsnaz/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -74,7 +74,7 @@ Assistant
 	H.grant_language(/datum/language/german, body = FALSE)
 
 /datum/outfit/job/army
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 
 /datum/outfit/job/army/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -96,7 +96,7 @@ Assistant
 
 /datum/job/militarycommander
 	title = "Military Commander"
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 	outfit = /datum/outfit/job/militarycommander
 	faction = "Station"
 	limit_per_player = 1
@@ -117,7 +117,7 @@ Assistant
 
 /datum/outfit/job/militarycommander
 	name = "Military Commander"
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 
 /datum/outfit/job/militarycommander/pre_equip(mob/living/carbon/human/H)
 	head = /obj/item/clothing/head/beret/black
@@ -134,7 +134,7 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 
 /datum/outfit/job/militarycommander/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -162,7 +162,7 @@ Assistant
 							/obj/item/storage/firstaid/ifak = 1)
 	l_pocket = /obj/item/storage/wallet/stalker
 	r_pocket = /obj/item/radio
-	faction_s = "State Security Service"
+	faction_s = "Военные"
 
 /datum/outfit/army/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -193,4 +193,4 @@ Assistant
 							/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	r_pocket = /obj/item/radio
 	l_pocket = /obj/item/storage/wallet/stalker
-	faction_s = "State Security Service"
+	faction_s = "Военные"

@@ -21,7 +21,7 @@ Assistant
 
 /datum/job/stalker
 	title = "Stalker"
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -39,7 +39,7 @@ Assistant
 
 /datum/job/oldstalker
 	title = "Old Stalker"
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 	faction = "Station"
 	locked = 1
 	total_positions = -1
@@ -68,7 +68,7 @@ Assistant
 
 /datum/outfit/job/stalker
 	name = "Loner"
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/stalker/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -124,7 +124,7 @@ Assistant
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1, /obj/item/storage/box/matches = 1)
 	back = /obj/item/storage/backpack/stalker/civilian
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/kolbasa
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/oldstalker
 	name = "Old Stalker"
@@ -195,7 +195,7 @@ Assistant
 	suit_store = /obj/item/gun/ballistic/automatic/ak74
 	back = /obj/item/storage/backpack/stalker/tourist
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/konserva
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/tourist
 	name = "Tourist"
@@ -284,7 +284,7 @@ Assistant
 
 /datum/job/trader
 	title = "Trader"
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -301,7 +301,7 @@ Assistant
 
 /datum/outfit/job/trader
 	name = "Trader"
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/trader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -324,7 +324,7 @@ Assistant
 
 /datum/job/barman
 	title = "Barman"
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -342,7 +342,7 @@ Assistant
 
 /datum/outfit/job/barman
 	name = "Barman"
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/barman/pre_equip(mob/living/carbon/human/H)
 	..()
