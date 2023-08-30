@@ -120,7 +120,7 @@
 /datum/outfit/job/monolith_hegumen
 <<<<<<< HEAD
 <<<<<<< HEAD
-	name = "Monolith Preacher"
+	name = "Проповедник Монолита"
 =======
 	name = "Проповедник Монолита"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
