@@ -495,8 +495,8 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	icon = 'stalker/icons/decor.dmi'
 
 /obj/machinery/stalker/sidormat
-	name = "SYCHEMAT"
-	desc = "An equipment vendor for beginning stalkers."
+	name = "СЫЧЕМАТ"
+	desc = "Поставщик оборудования для начинающих сталкеров."
 	icon_state = "radio"
 	density = 1
 	anchored = 1
@@ -506,7 +506,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	var/rating = 0
 	var/switches = BUY_STUFF
 	var/real_assorment = list()
-	var/list/special_factions = list("Loners", "Bandits", "Duty", "Freedom", "Mercenaries", "Monolith", "Clear Sky", "Ecologist", "Renegades", "State Security Service")
+	var/list/special_factions = list("Одиночки", "Бандиты", "Долг", "Свобода", "Наёмники", "Монолит", "Чистое Небо", "Экологи", "Ренегаты", "Военный")
 	var/path_ending = null
 	//Faction Locker
 	var/obj/item/assembly/control/door_device = null
@@ -626,7 +626,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		return
 
 	if(!ishuman(user))
-		say("You are not a human.")
+		say("Вы не человек.")
 		return
 
 	var/mob/living/carbon/human/H = user
@@ -637,7 +637,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 /obj/machinery/stalker/sidormat/ui_interact(mob/living/carbon/human/H)
 
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
-		say("Put on your PDA.")
+		say("Наденьте ваш КПК.")
 		return
 
 	//find_record("sid", H.sid, data_core.stalkers)
@@ -645,11 +645,11 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	var/datum/data/record/sk = KPK.profile
 
 	if(!sk || !KPK.owner)
-		say("Activate your PDA profile.")
+		say("Активируйте ваш КПК.")
 		return
 
 	if(KPK.owner != H)
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	H.set_machine(src)
@@ -734,7 +734,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	var/mob/living/carbon/human/H = usr
 
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
-		say("Put on your PDA.")
+		say("Наденьте ваш КПК.")
 		updateUsrDialog()
 		return
 
@@ -743,12 +743,12 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 
 	if(!sk)
-		say("Activate your PDA profile.")
+		say("Активируйте ваш КПК.")
 		updateUsrDialog()
 		return
 
 	if(!KPK.owner || (KPK.owner != H))
-		say("No access.")
+		say("Нет доступа.")
 		updateUsrDialog()
 		return
 
@@ -764,19 +764,19 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 			return
 
 		if(prize.amount <= 0)
-			say("[prize.name] is out of stock.")
+			say("[prize.name] уже скуплен.")
 			updateUsrDialog()
 			return
 
 		if(prize.cost > sk.fields["money"])
-			say("You don't have enough money to buy [prize.name].")
+			say("У вас недостаточно денег для покупки [prize.name].")
 			updateUsrDialog()
 			return
 
 		sk.fields["money"] -= prize.cost
 		balance = sk.fields["money"]
 		//PoolOrNew(prize.equipment_path, itemloc2)
-		say("Successfully bought [prize.name] for [prize.cost].")
+		say("Успешно куплен [prize.name] за [prize.cost].")
 		prize.amount -= 1
 		new prize.equipment_path(itemloc2)
 
@@ -790,25 +790,25 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 /obj/machinery/stalker/sidormat/proc/SellItems()
 	var/mob/living/carbon/human/H = usr
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
-		say("Put on your PDA.")
+		say("Наденьте ваш КПК.")
 		return
 
 	var/datum/data/record/sk = find_record("sid", H.sid, GLOB.data_core.stalkers)
 	var/obj/item/stalker_pda/KPK = H.wear_id
 
 	if(!sk)
-		say("Activate your profile in PDA.")
+		say("Активируйте свой КПК.")
 		return
 
 	if(KPK.sid != H.sid)
-		say("No access.")
+		say("Нет доступа.")
 		return
 
 	var/list/atom/movable/ontable = GetItemsOnTable()
 	var/total_cost = GetOnTableCost(ontable)
 
 	if(total_cost < 100)
-		say("Loot was not sold.")
+		say("Хабар не продан.")
 
 	for(var/atom/movable/I in ontable)
 		if(I.loc != itemloc)
@@ -817,14 +817,14 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		sk.fields["money"] += GetCost(I)
 		balance = sk.fields["money"]
 
-		say("[I] was sold for [GetCost(I)].")
+		say("[I] Проданно за [GetCost(I)].")
 
 		qdel(I)
 
 		CHECK_TICK
 
 	if(total_cost)
-		say("<b>Habar was successfully sold for [total_cost].</b>")
+		say("<b>Хабар умпешно продан за [total_cost].</b>")
 
 	updateUsrDialog()
 	return
@@ -838,17 +838,17 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		if(istype(AM, /obj/item/clothing))
 			var/obj/item/clothing/C = AM
 			if((C.durability / initial(C.durability)) * 100 < 80)
-				say("[AM] is too broken for sale.")
+				say("[AM] слишком сломан для продажи.")
 				continue
 
 		if(istype(AM, /obj/item/storage/backpack) && AM.contents.len)
-			say("Empty [AM] before selling.")
+			say("Опустошите [AM] перед продажей.")
 			continue
 
 		if(istype(AM, /obj/item/ammo_box))
 			var/obj/item/ammo_box/AB = AM
 			if(AB.stored_ammo.len < AB.max_ammo)
-				say("Fill [AB] before selling.")
+				say("Заполните [AB] перед продажей.")
 				continue
 
 		//if(istype(AM, /obj/item/reagent_containers))
