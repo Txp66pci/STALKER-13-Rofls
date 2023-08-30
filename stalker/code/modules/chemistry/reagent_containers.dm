@@ -7,7 +7,7 @@
 	list_reagents = list("potass_iodide" = 20)
 
 /obj/item/reagent_containers/pill/radioprotectant
-	name = "Радиопротекторная таблетки"
+	name = "Радиопротекторные таблетки"
 	desc = "Мощный радиопротектор, предотвращающий накопление дополнительного излучения пользователем."
 	icon_state = "pill17"
 	list_reagents = list("indraline" = 20)
