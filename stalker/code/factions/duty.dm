@@ -3,7 +3,7 @@ Assistant
 */
 /datum/job/duty
 	title = "Долговец"
-	faction_s = "Долг"
+	faction_s = "Duty"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -23,7 +23,7 @@ Assistant
 
 /datum/outfit/job/dutysoldier  // For select_equipment
 	name = "Долговец"
-	faction_s = "Долг"
+	faction_s = "Duty"
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
 	ears = null
@@ -80,7 +80,7 @@ Assistant
 
 /datum/job/barman2
 	title = "Бармен"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -100,7 +100,7 @@ Assistant
 
 /datum/outfit/job/barman2
 	name = "Бармен"
-	faction_s = "Торговцы"
+	faction_s = "Traders"
 
 /datum/outfit/job/barman2/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -115,7 +115,7 @@ Assistant
 
 /datum/job/duty_lieutenant
 	title = "Лейтенант Долга"
-	faction_s = "Долг"
+	faction_s = "Duty"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -134,7 +134,7 @@ Assistant
 
 /datum/outfit/job/duty_lieutenant
 	name = "Лейтенант Долга"
-	faction_s = "Долг"
+	faction_s = "Duty"
 
 /datum/outfit/job/duty_lieutenant/pre_equip(mob/living/carbon/human/H)
 	..()

@@ -3,7 +3,7 @@ Assistant
 */
 /datum/job/tourist
 	title = "Турист"
-	faction_s = "Туристы"
+	faction_s = "Tourists"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -21,7 +21,7 @@ Assistant
 
 /datum/job/stalker
 	title = "Сталкер"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -39,7 +39,7 @@ Assistant
 
 /datum/job/oldstalker
 	title = "Старый Сталкер"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 	faction = "Station"
 	locked = 1
 	total_positions = -1
@@ -68,7 +68,7 @@ Assistant
 
 /datum/outfit/job/stalker
 	name = "Одиночка"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 
 /datum/outfit/job/stalker/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -124,7 +124,7 @@ Assistant
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1, /obj/item/storage/box/matches = 1)
 	back = /obj/item/storage/backpack/stalker/civilian
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/kolbasa
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 
 /datum/outfit/job/oldstalker
 	name = "Старый Сталкер"
@@ -195,7 +195,7 @@ Assistant
 	suit_store = /obj/item/gun/ballistic/automatic/ak74
 	back = /obj/item/storage/backpack/stalker/tourist
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/konserva
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 
 /datum/outfit/job/tourist
 	name = "Турист"
@@ -284,7 +284,7 @@ Assistant
 
 /datum/job/trader
 	title = "Торговец"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -301,7 +301,7 @@ Assistant
 
 /datum/outfit/job/trader
 	name = "Торговец"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 
 /datum/outfit/job/trader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -324,7 +324,7 @@ Assistant
 
 /datum/job/barman
 	title = "Бармен"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -342,7 +342,7 @@ Assistant
 
 /datum/outfit/job/barman
 	name = "Бармен"
-	faction_s = "Одиночки"
+	faction_s = "Loners"
 
 /datum/outfit/job/barman/pre_equip(mob/living/carbon/human/H)
 	..()

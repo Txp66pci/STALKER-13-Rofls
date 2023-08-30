@@ -3,7 +3,7 @@ Assistant
 */
 /datum/job/clearsky
 	title = "Чистонебовец"
-	faction_s = "Чистое Небо"
+	faction_s = "Clear Sky"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -17,13 +17,13 @@ Assistant
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit = /datum/outfit/clearsky
-	real_rank = "Чистое Небо"
+	real_rank = "Clear Sky"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/clearsky  // For select_equipment
-	name = "Чистое Небо"
-	faction_s = "Чистое Небо"
+	name = "Чистое небо"
+	faction_s = "Clear Sky"
 	suit = /obj/item/clothing/suit/hooded/kozhanka/cs_hood
 	belt = /obj/item/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -62,7 +62,7 @@ Assistant
 
 /datum/job/clearsky_leader
 	title = "Лидер Чистого неба"
-	faction_s = "Чистое Небо"
+	faction_s = "Clear Sky"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -81,7 +81,7 @@ Assistant
 
 /datum/outfit/job/clearsky_leader
 	name = "Лидер Чистого неба"
-	faction_s = "Чистое Небо"
+	faction_s = "Clear Sky"
 
 /datum/outfit/job/clearsky_leader/pre_equip(mob/living/carbon/human/H)
 	..()

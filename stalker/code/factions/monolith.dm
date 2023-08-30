@@ -1,6 +1,6 @@
 /datum/job/monolith
 	title = "Монолитовец"
-	faction_s = "Монолит"
+	faction_s = "Monolith"
 	faction = "Station"
 	total_positions = 5//6 total, prior to the introduction of Radar.
 	spawn_positions = 5
@@ -21,7 +21,7 @@
 
 /datum/outfit/job/monolith
 	name = "Монолитовец"
-	faction_s = "Монолит"
+	faction_s = "Monolith"
 
 /datum/outfit/job/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -61,7 +61,7 @@
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/berettam38 = 1,
 							/obj/item/flashlight/seclite = 1)
-	faction_s = "Монолит"
+	faction_s = "Monolith"
 
 /datum/outfit/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -75,13 +75,13 @@
 				/obj/item/flashlight/flare)
 /datum/job/monolith_hegumen
 	title = "Проповедник Монолита"
-	faction_s = "Монолит"
+	faction_s = "Monolith"
 	faction = "Station"
 	total_positions = 1//6 total, prior to the introduction of Radar.
 	spawn_positions = 1
 	limit_per_player = 1
 	locked = 1
-	supervisors = "Монолит"
+	supervisors = "Monolith"
 	selection_color = "#601919"
 	whitelist_only = 0
 	limit_per_player = 1
@@ -92,7 +92,7 @@
 
 /datum/outfit/job/monolith_hegumen
 	name = "Проповедник Монолита"
-	faction_s = "Монолит"
+	faction_s = "Monolith"
 
 /datum/outfit/job/monolith_hegumen/pre_equip(mob/living/carbon/human/H)
 	..()

@@ -3,7 +3,7 @@ Assistant
 */
 /datum/job/bandit
 	title = "Бандит"
-	faction_s = "Бандиты"
+	faction_s = "Bandits"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -26,7 +26,7 @@ Assistant
 
 /datum/job/banditboss
 	title = "Пахан"
-	faction_s = "Бандиты"
+	faction_s = "Bandits"
 	faction = "Station"
 	total_positions = 2
 	locked = 1
@@ -34,7 +34,7 @@ Assistant
 	limit_per_player = 1
 	description = "Бандиты - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
 	enforces = "Организуйте своих товарищей-бандитов и координируйте исходящие группы и группы, связанные с базой, сейте хаос между всеми другими фракциями и используйте их, работайте с другими, чтобы дестабилизировать порядок в Зоне."
-	forbids = "Работать с Долгом, за исключением чрезвычайных обстоятельств, уходить в одиночку, когда рядом есть другие бандиты, не будь мудаком, если это не связано с личными интересами."
+	forbids = "Работать с Долгом, за исключением чрезвычайных обстоятельств, уходить в одиночку, когда рядом есть другие Бандиты, не будь мудаком, если это не связано с личными интересами."
 	supervisors = "Султан"
 	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
@@ -47,13 +47,13 @@ Assistant
 
 /datum/job/bandit_barman
 	title = "Бармен бандитов"
-	faction_s = "Бандиты"
+	faction_s = "Bandits"
 	faction = "Station"
 	total_positions = 1
 	locked = 1
 	spawn_positions = 1
 	limit_per_player = 1
-	description = "Бандиты - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
+	description = "Bandits - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
 	enforces = "Помогите организовать бандитов, если босса-бандита нет, и действуйте в качестве заместителя командующего, грабьте всех, кто не является бандитом, как можете, вооружайте своих товарищей-бандитов и предоставляйте им инструменты для дальнейшего антагонизма в Зоне."
 	forbids = "Работайть с Долгом, за исключением чрезвычайных обстоятельств, ставить под угрозу всю свою фракцию из-за чего-то незначительного."
 	supervisors = "Пахан"
@@ -68,7 +68,7 @@ Assistant
 
 /datum/outfit/job/bandit
 	name = "Bandit"
-	faction_s = "Бандиты"
+	faction_s = "Bandits"
 
 /datum/outfit/job/bandit/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -99,7 +99,7 @@ Assistant
 
 /datum/outfit/job/banditboss
 	name = "Пахан"
-	faction_s = "Бандиты"
+	faction_s = "Bandits"
 
 /datum/outfit/job/banditboss/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -133,7 +133,7 @@ Assistant
 
 /datum/outfit/job/bandit_barman
 	name = "Бармен бандитов"
-	faction_s = "Бандиты"
+	faction_s = "Bandits"
 
 /datum/outfit/job/bandit_barman/pre_equip(mob/living/carbon/human/H)
 	uniform = UNIFORMPICK
