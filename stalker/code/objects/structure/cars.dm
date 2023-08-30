@@ -60,8 +60,9 @@
 	desc = "Ржавый, но все еще рабочий. Бензобак пуст."
 
 /obj/structure/stalker/car/mi24
-	name = "MI24"
+	name = "МИ-24"
 	icon = 'stalker/icons/cars/mi-24.dmi'
+	desc = "Диспетчер мы падаем блять, падаем. Понял вас вычеркиваю"
 
 /obj/structure/stalker/car/gryzovik_army
 	name = "Грузовик"

@@ -389,7 +389,7 @@
 			walk_away(src, get_step(src, anydir), 7, move_to_delay)
 
 /mob/living/simple_animal/hostile/mutant/pseudog
-	name = "псевдособака"
+	name = "Псевдособака"
 	desc = "Псевдособаки — мутанты, обитающие почти на всей территории Зоны. Некогда это были дикие волки, обитавшие в лесах Зоны на момент катастрофы, которые и стали родоначальниками этого вида мутантов."
 	turns_per_move = 15
 	speed = 3
@@ -563,7 +563,7 @@
 // Poltergeist!//
 /////////////////
 /mob/living/simple_animal/hostile/mutant/poltergeist
-	name = "полтергейст"
+	name = "Полтергейст"
 	real_name = "poltergeist"
 	faction = list("stalker_mutants1", "monolith_forces")
 	icon = 'stalker/icons/anomalies.dmi'
@@ -651,7 +651,7 @@
 	gib()
 
 /mob/living/simple_animal/hostile/mutant/rat
-	name = "тушкан"
+	name = "Тушкан"
 	desc = "Тушкан — маленькое крысоподобное существо, передвигающиеся на двух лапах. Обитают в основном в подвалах и подземельях, на поверхность выбираются редко."
 	turns_per_move = 15
 	speed = 1
@@ -693,7 +693,7 @@
 	aggro_vision_range = 15
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp
-	name = "зомби"
+	name = "Зомби"
 	desc = "Зомби, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
@@ -853,7 +853,7 @@
 		icon_dead = "zombiesimp22_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged
-	name = "зомбированный"
+	name = "Зомбированный"
 	desc = "Зомбированный сталкер, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
@@ -1008,7 +1008,7 @@
 		icon_dead = "zombiesimp22_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/merc
-	name = "зомбированный Наёмник"
+	name = "Зомбированный Наёмник"
 	desc = "Зомбированный Наёмник, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
@@ -1080,8 +1080,8 @@
 		icon_dead = "zombiesimp15_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/duty
-	name = "зомбированный Долговец"
-	desc = "Зомбированный сталкер, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
+	name = "Зомбированный Долговец"
+	desc = "Зомбированный долговец, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
 	icon_dead = "zombiesimp_dead"
@@ -1152,8 +1152,8 @@
 		icon_dead = "zombiesimp14_dead"
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/military
-	name = "зобированный военный"
-	desc = "Зомбированный сталкер, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
+	name = "Зобированный военный"
+	desc = "Зомбированный военный, длительно подвергавшийся сильному воздействию пси-излучения или существ-телепатов."
 	icon_state = "zombiesimp"
 	icon_living = "zombiesimp"
 	icon_dead = "zombiesimp_dead"
