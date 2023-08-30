@@ -260,7 +260,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 
 	"Rigs" = list(
-		new /datum/data/stalker_equipment("Tactical belt",					"Боевые чулки",			/obj/item/storage/belt/military/tactibelt	,						8000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Tactical belt",					"Тактический ремень",			/obj/item/storage/belt/military/tactibelt	,						8000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Carry webbing",					"Разгрузка",			/obj/item/storage/belt/military/webbing,							14000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Chestrig",						"Честриг",					/obj/item/storage/belt/military/chestrig,							20000,	VETERAN,initial_stock = PISTOL_AMOUNT),
 		),
@@ -283,10 +283,10 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Cigarettes \"Maxim\"",				"Сигареты \"Максим\"",									/obj/item/storage/fancy/cigarettes/cigpack/maxim,					2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Cigars",								"Сигары",												/obj/item/storage/fancy/cigarettes/cigars,							10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Weed Rollie",						"Косяк",											/obj/item/clothing/mask/cigarette/rollie/trippy,					1000,	ROOKIE,	initial_stock = PISTOL_AMOUNT*4,faction = "Freedom"),
-		new /datum/data/stalker_equipment("100RUB",								"Сотен",												/obj/item/stack/spacecash/c100,										100,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =100),
-		new /datum/data/stalker_equipment("500RUB",								"Пятихат",												/obj/item/stack/spacecash/c500,										500,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =500),
-		new /datum/data/stalker_equipment("1000RUB",							"Косарь",												/obj/item/stack/spacecash/c1000,									1000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =1000),
-		new /datum/data/stalker_equipment("5000RUB",							"5 тыщ",												/obj/item/stack/spacecash/c5000,									5000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =5000),
+		new /datum/data/stalker_equipment("100RUB",								"100 рублей",												/obj/item/stack/spacecash/c100,										100,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =100),
+		new /datum/data/stalker_equipment("500RUB",								"500 рублей",												/obj/item/stack/spacecash/c500,										500,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =500),
+		new /datum/data/stalker_equipment("1000RUB",							"1000 рублей",												/obj/item/stack/spacecash/c1000,									1000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =1000),
+		new /datum/data/stalker_equipment("5000RUB",							"5000 рублей",												/obj/item/stack/spacecash/c5000,									5000,	ROOKIE, initial_stock = PISTOL_AMOUNT*5,sale_price =5000),
 //		new /datum/data/stalker_equipment("Bolts",								"Bolts",												/obj/item/stalker/bolts,											300,	ROOKIE),
 		new /datum/data/stalker_equipment("HandCuffs",							"Наручники",											/obj/item/restraints/handcuffs/cable/zipties,						500,	ROOKIE, initial_stock = PISTOL_AMOUNT,faction = "Bandits"),
 		new /datum/data/stalker_equipment("HandCuffs",							"Наручники",											/obj/item/restraints/handcuffs/cable/zipties,						500,	ROOKIE, initial_stock = PISTOL_AMOUNT,faction = "Renegades"),
@@ -295,7 +295,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Smoke Grenade",						"РГД-3",										/obj/item/grenade/smokebomb/rgd,									1500,	ROOKIE,initial_stock = PISTOL_AMOUNT*4),
 		new /datum/data/stalker_equipment("Flash Grenade",						"Светошумовая граната",										/obj/item/grenade/flashbang,										10000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT*4,faction = "Mercenaries"),
 		new /datum/data/stalker_equipment("Wallet",								"Бумажник",												/obj/item/storage/wallet,											500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Flare",								"фальшфейер",												/obj/item/flashlight/flare,											2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
+		new /datum/data/stalker_equipment("Flare",								"Фальшфейер",												/obj/item/flashlight/flare,											2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
 		new /datum/data/stalker_equipment("Glowstick",							"ХИС",											/obj/item/flashlight/glowstick,										2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
 		new /datum/data/stalker_equipment("Soap",								"Мыло",													/obj/item/soap,														250,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 150),
 		new /datum/data/stalker_equipment("Russian Vocabulary",					"Самоучитель русского языка",									/obj/item/codespeak_manual/russian,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Duty",sale_price = 8000),
