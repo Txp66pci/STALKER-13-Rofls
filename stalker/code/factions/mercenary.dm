@@ -5,7 +5,7 @@
 =======
 	title = "Наёмник"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 =======
 	title = "Наёмник"
 	faction_s = "Наёмники"
@@ -37,7 +37,7 @@
 =======
 	name = "Наёмник"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 =======
 	name = "Наёмник"
 	faction_s = "Наёмники"
@@ -108,7 +108,7 @@
 =======
 	title = "Командир Наёмников"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 =======
 	title = "Командир Наёмников"
 	faction_s = "Наёмники"
@@ -139,7 +139,7 @@
 =======
 	name = "Командир Наёмников"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 =======
 	name = "Командир Наёмников"
 	faction_s = "Наёмники"

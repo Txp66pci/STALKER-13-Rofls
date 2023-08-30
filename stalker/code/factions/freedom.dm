@@ -5,7 +5,7 @@
 =======
 	title = "Свободовец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 =======
 	title = "Свободовец"
 	faction_s = "Свобода"
@@ -90,7 +90,7 @@
 =======
 	title = "Лейтенант Свободы"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 =======
 	title = "Лейтенант Свободы"
 	faction_s = "Свобода"
@@ -118,7 +118,7 @@
 =======
 	name = "Лейтенант Свободы"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 =======
 	name = "Лейтенант Свободы"
 	faction_s = "Свобода"

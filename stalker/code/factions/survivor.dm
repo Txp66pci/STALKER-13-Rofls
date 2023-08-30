@@ -35,7 +35,7 @@ Assistant
 =======
 	title = "Сталкер"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 =======
 	title = "Сталкер"
 	faction_s = "Одиночки"
@@ -62,7 +62,7 @@ Assistant
 =======
 	title = "Старый Сталкер"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 =======
 	title = "Старый Сталкер"
 	faction_s = "Одиночки"
@@ -100,7 +100,7 @@ Assistant
 =======
 	name = "Одиночка"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 =======
 	name = "Одиночка"
 	faction_s = "Одиночки"
@@ -325,7 +325,7 @@ Assistant
 =======
 	title = "Торговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 =======
 	title = "Торговец"
 	faction_s = "Одиночки"
@@ -351,7 +351,7 @@ Assistant
 =======
 	name = "Торговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 =======
 	name = "Торговец"
 	faction_s = "Одиночки"
@@ -383,7 +383,7 @@ Assistant
 =======
 	title = "Бармен"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 =======
 	title = "Бармен"
 	faction_s = "Одиночки"
@@ -410,7 +410,7 @@ Assistant
 =======
 	name = "Бармен"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 =======
 	name = "Бармен"
 	faction_s = "Одиночки"

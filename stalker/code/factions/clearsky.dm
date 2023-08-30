@@ -8,7 +8,7 @@ Assistant
 =======
 	title = "Чистонебовец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 =======
 	title = "Чистонебовец"
 	faction_s = "Чистое Небо"
@@ -45,7 +45,7 @@ Assistant
 =======
 	name = "Чистое небо"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 =======
 	name = "Чистое Небо"
 	faction_s = "Чистое Небо"
@@ -93,7 +93,7 @@ Assistant
 =======
 	title = "Лидер Чистого неба"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 =======
 	title = "Лидер Чистого неба"
 	faction_s = "Чистое Небо"
@@ -121,7 +121,7 @@ Assistant
 =======
 	name = "Лидер Чистого неба"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Clear Sky"
+	faction_s = "Чистое Небо"
 =======
 	name = "Лидер Чистого неба"
 	faction_s = "Чистое Небо"
