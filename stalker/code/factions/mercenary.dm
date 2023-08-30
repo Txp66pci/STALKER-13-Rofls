@@ -1,6 +1,15 @@
 /datum/job/mercenary
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Mercenary"
+=======
 	title = "Наёмник"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
+=======
+	title = "Наёмник"
+	faction_s = "Наёмники"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -22,8 +31,17 @@
 	exp_requirements = 300
 
 /datum/outfit/job/mercenary
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Mercenary"
+=======
 	name = "Наёмник"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
+=======
+	name = "Наёмник"
+	faction_s = "Наёмники"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/mercenary/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -73,7 +91,7 @@
 							/obj/item/gun/ballistic/automatic/pistol/sip = 1,
 							/obj/item/flashlight/seclite = 1)
 	l_pocket = /obj/item/storage/wallet/stalker
-	faction_s = "Mercenaries"
+	faction_s = "Наёмники"
 
 /datum/outfit/job/mercenary/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -84,8 +102,17 @@
 	H.grant_language(/datum/language/german, body = FALSE)
 
 /datum/job/mercenarycommander
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Mercenary Commander"
+=======
 	title = "Командир Наёмников"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
+=======
+	title = "Командир Наёмников"
+	faction_s = "Наёмники"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -106,8 +133,17 @@
 	exp_requirements = 900
 
 /datum/outfit/job/mercenarycommander
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Mercenary Commander"
+=======
 	name = "Командир Наёмников"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Mercenaries"
+=======
+	name = "Командир Наёмников"
+	faction_s = "Наёмники"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/mercenarycommander/pre_equip(mob/living/carbon/human/H)
 	..()

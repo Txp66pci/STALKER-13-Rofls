@@ -1,6 +1,15 @@
 /datum/job/freedom
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Freedom Soldier"
+=======
 	title = "Свободовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Freedom"
+=======
+	title = "Свободовец"
+	faction_s = "Свобода"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -14,7 +23,7 @@
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/freedomrookie
-	real_rank = "Freedom"
+	real_rank = "Свобода"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -51,7 +60,7 @@
 		/obj/item/clothing/mask/cigarette/rollie/cannabis,
 		/obj/item/lighter/greyscale,
 	/obj/item/storage/box/matches)
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 
 /datum/outfit/freedomrookie  // For select_equipment
 	name = "Свободовец"
@@ -64,7 +73,7 @@
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/cora
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sc45 = 2)
-	faction_s = "Freedom"
+	faction_s = "Свобода"
 
 /datum/outfit/freedomrookie/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -75,8 +84,17 @@
 	H.grant_language(/datum/language/english, body = FALSE)
 
 /datum/job/freedom_lieutenant
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Freedom Lieutenant"
+=======
 	title = "Лейтенант Свободы"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Freedom"
+=======
+	title = "Лейтенант Свободы"
+	faction_s = "Свобода"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -94,8 +112,17 @@
 	exp_requirements = 900
 
 /datum/outfit/job/freedom_lieutenant
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Freedom Lieutenant"
+=======
 	name = "Лейтенант Свободы"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Freedom"
+=======
+	name = "Лейтенант Свободы"
+	faction_s = "Свобода"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/freedom_lieutenant/pre_equip(mob/living/carbon/human/H)
 	..()

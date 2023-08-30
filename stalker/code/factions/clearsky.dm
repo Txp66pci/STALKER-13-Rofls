@@ -2,8 +2,17 @@
 Assistant
 */
 /datum/job/clearsky
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Clear Sky Soldier"
+=======
 	title = "Чистонебовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	title = "Чистонебовец"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -17,13 +26,30 @@ Assistant
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit = /datum/outfit/clearsky
+<<<<<<< HEAD
+<<<<<<< HEAD
+	real_rank = "ClearSky"
+=======
 	real_rank = "Clear Sky"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
+=======
+	real_rank = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/clearsky  // For select_equipment
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Clear Sky Soldier"
+=======
 	name = "Чистое небо"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	name = "Чистое Небо"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	suit = /obj/item/clothing/suit/hooded/kozhanka/cs_hood
 	belt = /obj/item/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -61,8 +87,17 @@ Assistant
 	H.grant_language(/datum/language/english, body = FALSE)
 
 /datum/job/clearsky_leader
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Clear Sky Leader"
+=======
 	title = "Лидер Чистого неба"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	title = "Лидер Чистого неба"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 4
 	locked = 1
@@ -80,8 +115,17 @@ Assistant
 	exp_requirements = 900
 
 /datum/outfit/job/clearsky_leader
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Clear Sky Leader"
+=======
 	name = "Лидер Чистого неба"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Clear Sky"
+=======
+	name = "Лидер Чистого неба"
+	faction_s = "Чистое Небо"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/clearsky_leader/pre_equip(mob/living/carbon/human/H)
 	..()

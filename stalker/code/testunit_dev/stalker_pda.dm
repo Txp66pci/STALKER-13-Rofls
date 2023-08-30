@@ -3,8 +3,8 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 
 
 /obj/item/stalker_pda
-	name = "PDA"
-	desc = "A portable device, used to communicate with other stalkers."
+	name = "КПК"
+	desc = "Портативное устройство, используемое для общения с другими сталкерами."
 	icon = 'stalker/icons/device_new.dmi'
 	icon_state = "kpk_off"
 	item_state = "kpk"
@@ -24,7 +24,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	var/registered_name = null
 	var/sid = null
 	var/rotation = "front"
-	var/rus_faction_s = "Loners"
+	var/rus_faction_s = "Одиночки"
 	var/rating = 0
 	var/reputation = 0
 	var/money = 0
@@ -35,11 +35,11 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	var/password = null
 	var/hacked = 0
 	var/rep_color_s = "#ffe100"
-	var/rep_name_s = "Neutral"
-	var/eng_rep_name_s = "Neutral"
-	var/rus_rank_name_s = "Rookie"
-	var/eng_rank_name_s = "Rookie"
-	var/eng_faction_s = "Loners"
+	var/rep_name_s = "Нейтрал"
+	var/eng_rep_name_s = "Нейтрал"
+	var/rus_rank_name_s = "Новичок"
+	var/eng_rank_name_s = "Новичок"
+	var/eng_faction_s = "Одиночки"
 	var/degree = 0
 
 	//ЛЕНТА
@@ -50,7 +50,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	var/last_faction_lenta = 0
 	var/lenta_faction_id = 0
 
-	var/msg_name = "message"
+	var/msg_name = "Лента"
 	var/max_length = 10
 	slot_flags = ITEM_SLOT_ID
 
@@ -58,7 +58,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	var/last_invite = 0
 
 	//РЕЙТИНГ
-	var/sortBy = "rating"
+	var/sortBy = "Рейтинг"
 	var/order = 1
 	var/lastlogin = 0
 
@@ -1282,124 +1282,124 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 	usr << browse_rsc(P1.picture.picture_image, "photo_front")
 
 /proc/get_rus_rank_name(var/rating)
-	var/rus_rank_name_s = "Rookie"
+	var/rus_rank_name_s = "Новичок"
 	switch(rating)
 		if(ZONE_LEGEND to INFINITY)
-			rus_rank_name_s = "Legend"
+			rus_rank_name_s = "Легенда Зоны"
 		if(EXPERT to ZONE_LEGEND)
-			rus_rank_name_s = "Expert"
+			rus_rank_name_s = "Мастер"
 		if(VETERAN to EXPERT)
-			rus_rank_name_s = "Veteran"
+			rus_rank_name_s = "Ветеран"
 		if(EXPERIENCED to VETERAN)
-			rus_rank_name_s = "Experienced"
+			rus_rank_name_s = "Опытный"
 		if(ROOKIE to EXPERT)
-			rus_rank_name_s = "Rookie"
+			rus_rank_name_s = "Новичок"
 	return rus_rank_name_s
 
 /proc/get_eng_rank_name(var/rating)
-	var/eng_rank_name_s = "Rookie"
+	var/eng_rank_name_s = "Новичок"
 	switch(rating)
 		if(ZONE_LEGEND to INFINITY)
-			eng_rank_name_s = "Legend"
+			eng_rank_name_s = "Легенда Зоны"
 		if(EXPERT to ZONE_LEGEND)
-			eng_rank_name_s = "Expert"
+			eng_rank_name_s = "Мастер"
 		if(VETERAN to EXPERT)
-			eng_rank_name_s = "Veteran"
+			eng_rank_name_s = "Ветеран"
 		if(EXPERIENCED to VETERAN)
-			eng_rank_name_s = "Experienced"
+			eng_rank_name_s = "Опытный"
 		if(ROOKIE to EXPERIENCED)
 			eng_rank_name_s = "Rookie"
 	return eng_rank_name_s
 
 /proc/get_rus_faction(var/eng_faction_s)
-	var/faction_s = "Loners"
+	var/faction_s = "Одиночки"
 	switch(eng_faction_s)
-		if("Bandits")
-			faction_s = "Bandits"
-		if("Mercenaries")
-			faction_s = "Mercenaries"
-		if("Duty")
-			faction_s = "Duty"
-		if("Traders")
-			faction_s = "Traders"
-		if("Freedom")
-			faction_s = "Freedom"
-		if("Monolith")
-			faction_s = "Monolith"
-		if("State Security Service")
-			faction_s = "State Security Service"
-		if("Clear Sky")
-			faction_s = "Clear Sky"
-		if("Renegades")
-			faction_s = "Renegades"
-		if("Ecologists")
-			faction_s = "Ecologists"
+		if("Бандиты")
+			faction_s = "Бандиты"
+		if("Наёмники")
+			faction_s = "Наёмники"
+		if("Долг")
+			faction_s = "Долг"
+		if("Торговецы")
+			faction_s = "Торговец"
+		if("Свобода")
+			faction_s = "Свобода"
+		if("Монолит")
+			faction_s = "Монолит"
+		if("Военные")
+			faction_s = "Военные"
+		if("Чистое Небо")
+			faction_s = "Чистое Небо"
+		if("Ренегаты")
+			faction_s = "Ренегаты"
+		if("Экологи")
+			faction_s = "Экологи"
 	return faction_s
 
 /proc/get_faction_color(var/eng_faction_s)
 	var/factioncolor = "#ff7733"
 	switch(eng_faction_s)
-		if("Bandits")
+		if("Бандиты")
 			factioncolor = "#8c8c8c"
-		if("Loners")
+		if("Одиночки")
 			factioncolor = "#ff7733"
-		if("Mercenaries")
+		if("Наёмники")
 			factioncolor = "#3399ff"
-		if("Duty")
+		if("Долг")
 			factioncolor = "#ff4d4d"
-		if("Freedom")
+		if("Свобода")
 			factioncolor = "#6cba3f"
-		if("Monolith")
+		if("Монолит")
 			factioncolor = "#7c26d3"
-		if("Renegades")
+		if("Ренегаты")
 			factioncolor = "#bbae6a"
-		if("Clear Sky")
+		if("Чистое Небо")
 			factioncolor = "#64B2F7"
-		if("Ecologists")
+		if("Экологи")
 			factioncolor = "#601919"
-		if("State Security Service")
+		if("Военные")
 			factioncolor = "#2E8B57"
 	return factioncolor
 
 /proc/get_rep_name(var/rep)
-	var/rep_name_s = "Neutral"
+	var/rep_name_s = "Нейтральная"
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			rep_name_s = "Amazing"
+			rep_name_s = "Отлично"
 		if(VERYGOOD to AMAZING)
-			rep_name_s = "Very Good"
+			rep_name_s = "Очень хорошо"
 		if(GOOD to VERYGOOD)
-			rep_name_s = "Good"
+			rep_name_s = "Хорошо"
 		if(BAD to GOOD)
-			rep_name_s = "Neutral"
+			rep_name_s = "Нейтрал"
 		if(VERYBAD to BAD)
-			rep_name_s = "Bad"
+			rep_name_s = "Плохо"
 		if(DISGUSTING to VERYBAD)
-			rep_name_s = "Very Bad"
+			rep_name_s = "Очень плохо"
 		if(-INFINITY to DISGUSTING)
-			rep_name_s = "Disgusting"
+			rep_name_s = "Ужасно"
 
 	return rep_name_s
 
 /proc/get_eng_rep_name(var/rep)
-	var/eng_rep_name_s = "Neutral"
+	var/eng_rep_name_s = "Нейтрал"
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			eng_rep_name_s = "Amazing"
+			eng_rep_name_s = "Отлично"
 		if(VERYGOOD to AMAZING)
-			eng_rep_name_s = "Very Good"
+			eng_rep_name_s = "Очень хорошо"
 		if(GOOD to VERYGOOD)
-			eng_rep_name_s = "Good"
+			eng_rep_name_s = "Хорошо"
 		if(BAD to GOOD)
-			eng_rep_name_s = "Neutral"
+			eng_rep_name_s = "Нейтрал"
 		if(VERYBAD to BAD)
-			eng_rep_name_s = "Bad"
+			eng_rep_name_s = "Плохо"
 		if(DISGUSTING to VERYBAD)
-			eng_rep_name_s = "Very Bad"
+			eng_rep_name_s = "Очень плохо"
 		if(-INFINITY to DISGUSTING)
-			eng_rep_name_s = "Disgusting"
+			eng_rep_name_s = "Ужасно"
 
 	return eng_rep_name_s
 
@@ -1424,25 +1424,25 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 
 /proc/get_job_title(var/faction_s)
 	switch(faction_s)
-		if("Bandits")
-			return "Bandit"
-		if("Mercenaries")
-			return "Mercenary"
-		if("Duty")
-			return "Duty"
-		if("Traders")
-			return "Trader"
-		if("Freedom")
-			return "Freedom"
-		if("Monolith")
-			return "Monolith"
-		if("State Security Service")
-			return "Military"
-		if("Clear Sky")
-			return "Clear Sky"
-		if("Renegades")
-			return "Renegade"
-		if("Ecologists")
-			return "Ecologist"
+		if("Бандиты")
+			return "Бандит"
+		if("Наёмники")
+			return "Наёмник"
+		if("Долг")
+			return "Долговец"
+		if("Торговцы")
+			return "Торговец"
+		if("Свобода")
+			return "Свободовец"
+		if("Монолит")
+			return "Монолитовец"
+		if("Военные")
+			return "Военный"
+		if("Чистое Небо")
+			return "Чистонебовец"
+		if("Ренегаты")
+			return "Ренегат"
+		if("Экологи")
+			return "Эколог"
 		else
-			return "Loner"
+			return "Одиночка"

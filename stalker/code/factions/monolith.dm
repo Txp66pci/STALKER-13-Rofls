@@ -1,6 +1,15 @@
 /datum/job/monolith
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Monolith"
+=======
 	title = "Монолитовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
+=======
+	title = "Монолитовец"
+	faction_s = "Монолит"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 5//6 total, prior to the introduction of Radar.
 	spawn_positions = 5
@@ -20,8 +29,17 @@
 	exp_requirements = 300
 
 /datum/outfit/job/monolith
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Monolith"
+=======
 	name = "Монолитовец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
+=======
+	name = "Монолитовец"
+	faction_s = "Монолит"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -61,7 +79,7 @@
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/berettam38 = 1,
 							/obj/item/flashlight/seclite = 1)
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 
 /datum/outfit/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -74,14 +92,23 @@
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
 /datum/job/monolith_hegumen
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Monolith Preacher"
+=======
 	title = "Проповедник Монолита"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
+=======
+	title = "Проповедник Монолита"
+	faction_s = "Монолит"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	total_positions = 1//6 total, prior to the introduction of Radar.
 	spawn_positions = 1
 	limit_per_player = 1
 	locked = 1
-	supervisors = "Monolith"
+	supervisors = "Монолит"
 	selection_color = "#601919"
 	whitelist_only = 0
 	limit_per_player = 1
@@ -91,8 +118,17 @@
 	exp_requirements = 900
 
 /datum/outfit/job/monolith_hegumen
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Monolith Preacher"
+=======
 	name = "Проповедник Монолита"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Monolith"
+=======
+	name = "Проповедник Монолита"
+	faction_s = "Монолит"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/monolith_hegumen/pre_equip(mob/living/carbon/human/H)
 	..()

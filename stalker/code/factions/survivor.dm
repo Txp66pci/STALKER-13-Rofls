@@ -2,8 +2,17 @@
 Assistant
 */
 /datum/job/tourist
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Tourist"
+=======
 	title = "Турист"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Tourists"
+=======
+	title = "Турист"
+	faction_s = "Туристы"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -20,8 +29,17 @@ Assistant
 	outfit = /datum/outfit/job/tourist
 
 /datum/job/stalker
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Stalker"
+=======
 	title = "Сталкер"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Сталкер"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
@@ -38,8 +56,17 @@ Assistant
 	outfit = /datum/outfit/job/stalker
 
 /datum/job/oldstalker
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Old Stalker"
+=======
 	title = "Старый Сталкер"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Старый Сталкер"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	faction = "Station"
 	locked = 1
 	total_positions = -1
@@ -67,8 +94,17 @@ Assistant
 
 
 /datum/outfit/job/stalker
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Loner"
+=======
 	name = "Одиночка"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	name = "Одиночка"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/stalker/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -124,7 +160,7 @@ Assistant
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1, /obj/item/storage/box/matches = 1)
 	back = /obj/item/storage/backpack/stalker/civilian
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/kolbasa
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/oldstalker
 	name = "Старый Сталкер"
@@ -195,7 +231,7 @@ Assistant
 	suit_store = /obj/item/gun/ballistic/automatic/ak74
 	back = /obj/item/storage/backpack/stalker/tourist
 	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/konserva
-	faction_s = "Loners"
+	faction_s = "Одиночки"
 
 /datum/outfit/job/tourist
 	name = "Турист"
@@ -283,8 +319,17 @@ Assistant
 	faction_s = "Туристы"
 
 /datum/job/trader
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Trader"
+=======
 	title = "Торговец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Торговец"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -300,8 +345,17 @@ Assistant
 	outfit = /datum/outfit/job/trader
 
 /datum/outfit/job/trader
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Trader"
+=======
 	name = "Торговец"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	name = "Торговец"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/trader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -323,8 +377,17 @@ Assistant
 				/obj/item/flashlight/flare)
 
 /datum/job/barman
+<<<<<<< HEAD
+<<<<<<< HEAD
+	title = "Barman"
+=======
 	title = "Бармен"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	title = "Бармен"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 	locked = 1
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -341,8 +404,17 @@ Assistant
 	real_rank = "Бармен"
 
 /datum/outfit/job/barman
+<<<<<<< HEAD
+<<<<<<< HEAD
+	name = "Barman"
+=======
 	name = "Бармен"
+>>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
 	faction_s = "Loners"
+=======
+	name = "Бармен"
+	faction_s = "Одиночки"
+>>>>>>> parent of 53b6bb81 (Revert "Фракционки")
 
 /datum/outfit/job/barman/pre_equip(mob/living/carbon/human/H)
 	..()
