@@ -34,7 +34,7 @@ var/global/global_lentahtml = ""
 	var/password = null
 	var/hacked = 0
 	var/rep_color_s = "#ffe100"
-	var/rep_name_s = "Нейтральная"
+	var/rep_name_s = "Нейтрал"
 	var/eng_rep_name_s = "Нейтрал"
 	var/rus_rank_name_s = "Новичок"
 	var/eng_rank_name_s = "Новичок"
@@ -49,7 +49,7 @@ var/global/global_lentahtml = ""
 	var/last_faction_lenta = 0
 	var/lenta_faction_id = 0
 
-	var/msg_name = "message"
+	var/msg_name = "Лента"
 	var/max_length = 10
 	slot_flags = ITEM_SLOT_ID
 
@@ -57,7 +57,7 @@ var/global/global_lentahtml = ""
 	var/last_invite = 0
 
 	//РЕЙТИНГ
-	var/sortBy = "rating"
+	var/sortBy = "Рейтинг"
 	var/order = 1
 	var/lastlogin = 0
 
@@ -368,7 +368,7 @@ var/global/global_lentahtml = ""
 					<b>Группировка:</b> [rus_faction_s]<br>\
 					<b>Ранг:</b> [rus_rank_name_s] ([rating])<br>\
 					<b>Репутация:</b> <font color=\"[rep_color_s]\">[rep_name_s] ([reputation])</font><br>\
-					<b>Баланс:</b> [num2text(money, 8)] RU<br>"
+					<b>Баланс:</b> [num2text(money, 8)] Руб<br>"
 
 					mainhtml +="\
 					</td>\
@@ -611,15 +611,15 @@ var/global/global_lentahtml = ""
 
 				profile.fields["pass"] = pass
 
-				if(H.job == "Old Stalker" || H.job == "Duty Soldier" || H.job == "Monolith Soldier" || H.job == "Freedom Soldier")
+				if(H.job == "Старый сталкер" || H.job == "Долговец" || H.job == "Монолитовец" || H.job == "Свободовец")
 					profile.fields["rating"] = 3000
-				else if(H.job == "Duty Lieutenant" || H.job == "Monolith Hegumen" || H.job == "Freedom Lieutenant")
+				else if(H.job == "Лейтенант Долга" || H.job == "Проповедник Монолита" || H.job == "Лейтенант Свободы")
 					profile.fields["rating"] = 5000
 
 				set_owner_info(profile)
 			else //Если человек зарегистрирован в сети сталкеров
 				if(sk && sk.fields["pass"] != t)
-					to_chat(H, "<span class='warning'>Wrong password.</span>")
+					to_chat(H, "<span class='warning'>Неправильный пароль!.</span>")
 					return
 
 				password = t
@@ -688,9 +688,9 @@ var/global/global_lentahtml = ""
 			if(t == password)
 				//hacked = 1
 				hacked = 0
-				to_chat(H, "<span class='warning'>You are not the PDA owner.</span>")
+				to_chat(H, "<span class='warning'>Вы не владелец КПК.</span>")
 			else
-				to_chat(H, "<span class='warning'>Wrong password.</span>")
+				to_chat(H, "<span class='warning'>Неправильный пароль.</span>")
 
 		if("rotate")
 			switch(rotation)
@@ -1278,39 +1278,43 @@ var/global/global_lentahtml = ""
 	return rus_rank_name_s
 
 /proc/get_eng_rank_name(var/rating)
-	var/eng_rank_name_s = "Rookie"
+	var/eng_rank_name_s = "Новичок"
 	switch(rating)
 		if(ZONE_LEGEND to INFINITY)
-			eng_rank_name_s = "Legend"
+			eng_rank_name_s = "Легенда Зоны"
 		if(EXPERT to ZONE_LEGEND)
-			eng_rank_name_s = "Expert"
+			eng_rank_name_s = "Мастер"
 		if(VETERAN to EXPERT)
-			eng_rank_name_s = "Veteran"
+			eng_rank_name_s = "Ветеран"
 		if(EXPERIENCED to VETERAN)
-			eng_rank_name_s = "Experienced"
+			eng_rank_name_s = "Опытный"
 		if(ROOKIE to EXPERIENCED)
-			eng_rank_name_s = "Rookie"
+			eng_rank_name_s = "Новичок"
 	return eng_rank_name_s
 
 /proc/get_rus_faction(var/eng_faction_s)
 	var/faction_s = "Одиночки"
 	switch(eng_faction_s)
-		if("Bandits")
+		if("Бандиты")
 			faction_s = "Бандиты"
-		if("Mercenaries")
+		if("Наёмники")
 			faction_s = "Наёмники"
-		if("Duty")
+		if("Долг")
 			faction_s = "Долг"
-		if("Traders")
-			faction_s = "Торговцы"
-		if("Freedom")
+		if("Торговцы")
+			faction_s = "Торговец"
+		if("Свобода")
 			faction_s = "Свобода"
-		if("Army")
-			faction_s = "Военные"
-		if("Scientists")
-			faction_s = "Учёные"
-		if("Monolith")
+		if("Монолит")
 			faction_s = "Монолит"
+		if("Военные")
+			faction_s = "Военные"
+		if("Чистое Небо")
+			faction_s = "Чистое Небо"
+		if("Ренегаты")
+			faction_s = "Ренегаты"
+		if("Экологи")
+			faction_s = "Экологи"
 	return faction_s
 
 /proc/get_faction_color(var/eng_faction_s)
@@ -1343,40 +1347,40 @@ var/global/global_lentahtml = ""
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			rep_name_s = "Блатной"
+			rep_name_s = "Отлично"
 		if(VERYGOOD to AMAZING)
-			rep_name_s = "Очень хорошая"
+			rep_name_s = "Очень хорошо"
 		if(GOOD to VERYGOOD)
-			rep_name_s = "Хорошая"
+			rep_name_s = "Хорошо"
 		if(BAD to GOOD)
-			rep_name_s = "Нейтральная"
+			rep_name_s = "Нейтрал"
 		if(VERYBAD to BAD)
-			rep_name_s = "Плохая"
+			rep_name_s = "Плохо"
 		if(DISGUSTING to VERYBAD)
-			rep_name_s = "Очень плохая"
+			rep_name_s = "Очень плохо"
 		if(-INFINITY to DISGUSTING)
-			rep_name_s = "Чёрт"
+			rep_name_s = "Ужасно"
 
 	return rep_name_s
 
 /proc/get_eng_rep_name(var/rep)
-	var/eng_rep_name_s = "Neutral"
+	var/eng_rep_name_s = "Нейтрал"
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			eng_rep_name_s = "Jesus"
+			eng_rep_name_s = "Отлично"
 		if(VERYGOOD to AMAZING)
-			eng_rep_name_s = "Very Good"
+			eng_rep_name_s = "Очень хорошо"
 		if(GOOD to VERYGOOD)
-			eng_rep_name_s = "Good"
+			eng_rep_name_s = "Хорошо"
 		if(BAD to GOOD)
-			eng_rep_name_s = "Neutral"
+			eng_rep_name_s = "Нейтрал"
 		if(VERYBAD to BAD)
-			eng_rep_name_s = "Bad"
+			eng_rep_name_s = "Плохо"
 		if(DISGUSTING to VERYBAD)
-			eng_rep_name_s = "Very Bad"
+			eng_rep_name_s = "Очень плохо"
 		if(-INFINITY to DISGUSTING)
-			eng_rep_name_s = "Satan"
+			eng_rep_name_s = "Ужасно"
 
 	return eng_rep_name_s
 
@@ -1411,13 +1415,15 @@ var/global/global_lentahtml = ""
 			return "Торговец"
 		if("Свобода")
 			return "Свободовец"
+		if("Монолит")
+			return "Монолитовец"
 		if("Военные")
 			return "Военный"
 		if("Чистое Небо")
 			return "Чистонебовец"
-		if("Монолит")
-			return "Монолитовец"
+		if("Ренегаты")
+			return "Ренегат"
 		if("Экологи")
 			return "Эколог"
 		else
-			return "Loner"
+			return "Одиночка"
