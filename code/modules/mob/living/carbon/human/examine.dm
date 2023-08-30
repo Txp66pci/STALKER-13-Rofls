@@ -333,15 +333,15 @@
 						var/faction_s		= get_rus_faction(eng_faction_s) //russian_html2text
 
 						if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
-							msg += "\nFaction: [eng_faction_s]\n"
-							msg += "Reputation: <font color=\"[font_color]\">[eng_rep]</font><a href='?src=\ref[src];KPK=1;addition_rep=1'><font color=\"green\">\[+\]</font></a><a href='?src=\ref[src];KPK=1;subtraction_rep=1'><font color=\"red\">\[-\]</font></a>\n"
-							msg += "Rating: [eng_rank_name_s]\n\n"
+							msg += "\nГруппировка: [eng_faction_s]\n"
+							msg += "Репутация: <font color=\"[font_color]\">[eng_rep]</font><a href='?src=\ref[src];KPK=1;addition_rep=1'><font color=\"green\">\[+\]</font></a><a href='?src=\ref[src];KPK=1;subtraction_rep=1'><font color=\"red\">\[-\]</font></a>\n"
+							msg += "Рейтинг: [eng_rank_name_s]\n\n"
 							msg += "<a href='?src=\ref[src];KPK=1;money_transfer=1'>Commit money transfer</a>\n"
 						else
 							msg += "\nGroup: [faction_s]\n"
 							msg += "Reputation: <font color=\"[font_color]\">[rep]</font><a href='?src=\ref[src];KPK=1;addition_rep=1'><font color=\"green\">\[+\]</font></a><a href='?src=\ref[src];KPK=1;subtraction_rep=1'><font color=\"red\">\[-\]</font></a>\n"
 							msg += "Rating: [rus_rank_name_s]\n\n"
-							msg += "<a href='?src=\ref[src];KPK=1;money_transfer=1'>Make a money transfer</a>\n"
+							msg += "<a href='?src=\ref[src];KPK=1;money_transfer=1'>Перевести деньги</a>\n"
 				else
 					msg += "\n<span class='warning'></span>\n"
 

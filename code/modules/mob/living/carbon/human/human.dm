@@ -523,18 +523,18 @@
 										var/n_src	= R.fields["name"]
 										var/n		= R_H.fields["name"]
 
-										to_chat(src, "<p>\icon[KPK_src]<b><font color=\"#006699\">PDA</font>\[OS\]</b><br><font color=\"#006699\">[n] transfered [sum] RU to your account.</font></p>")
+										to_chat(src, "<p>\icon[KPK_src]<b><font color=\"#006699\">КПК</font>\[ОС\]</b><br><font color=\"#006699\">[n] перевёл [sum] рублей на ваш аккаунт.</font></p>")
 										if(KPK_src.switches & FEED_SOUND)
 											src << sound('stalker/sound/pda/sms.ogg', volume = 30)
 
-										to_chat(H, "<p>\icon[KPK]<b><font color=\"#006699\">KPK</font>\[OS\]</b><br><font color=\"#006699\">You transfered [sum] RU to [n_src] account.</font></p>")
+										to_chat(H, "<p>\icon[KPK]<b><font color=\"#006699\">КПК</font>\[ОС\]</b><br><font color=\"#006699\">Вы перевели [sum] рублей на аккаунт [n_src].</font></p>")
 										if(KPK.switches & FEED_SOUND)
 											H << sound('stalker/sound/pda/sms.ogg', volume = 30)
 
 									else
-										to_chat(usr, "<span class='warning'>You don't have enough RU to commit money transfer.</span>")
+										to_chat(usr, "<span class='warning'>У вас недостаточно денег для совершения перевода.</span>")
 								else
-									to_chat(usr, "<span class='warning'>Input real amount of RU for money transfer.</span>")
+									to_chat(usr, "<span class='warning'>Введите реальную сумму для перевода.</span>")
 
 						var/lefttime
 						var/ending
@@ -542,12 +542,12 @@
 						if(href_list["subtraction_rep"])
 							if(R)
 								if(src.stat == "dead")
-									to_chat(H, "<span class='warning'>[src] is dead.</span>")
+									to_chat(H, "<span class='warning'>[src] Мёртв.</span>")
 								else
 									if(!(last_vote && world.time < last_vote + 3000))
 										last_vote = world.time
 										R.fields["reputation"] = R.fields["reputation"] - 20
-										to_chat(usr, "<span class='notice'>Reputation updated.</span>")
+										to_chat(usr, "<span class='notice'>Репутация обновленна.</span>")
 									else
 										lefttime = round((3000 + last_vote - world.time)/10)
 										ending = ""
@@ -560,18 +560,18 @@
 												ending = "ы"
 											if(4)
 												ending = "ы"
-										to_chat(H, "<span class='warning'>You will be able to change your reputation through [round((3000 + last_vote - world.time)/10)] Seconds[ending].</span>")
+										to_chat(H, "<span class='warning'>Вы сможете изменить репутацию через [round((3000 + last_vote - world.time)/10)] секунд[ending].</span>")
 
 
 						if(href_list["addition_rep"])
 							if(R)
 								if(src.stat == "dead")
-									to_chat(H, "<span class='warning'>[src] Dead.</span>")
+									to_chat(H, "<span class='warning'>[src] мёртв.</span>")
 								else
 									if(!(last_vote && world.time < last_vote + 3000))
 										last_vote = world.time
 										R.fields["reputation"] += 20
-										to_chat(usr, "<span class='notice'>Reputation updated.</span>")
+										to_chat(usr, "<span class='notice'>Репутация обновленна.</span>")
 									else
 										lefttime = round((3000 + last_vote - world.time)/10)
 										ending = ""
@@ -584,10 +584,10 @@
 												ending = "ы"
 											if(4)
 												ending = "ы"
-										to_chat(H, "<span class='warning'>You will be able to change your reputation through [round((3000 + last_vote - world.time)/10)] Seconds[ending].</span>")
+										to_chat(H, "<span class='warning'>Вы сможете изменить репутацию через [round((3000 + last_vote - world.time)/10)] секунд[ending].</span>")
 
 					else
-						to_chat(H, "<span class='warning'>IN ACCESS TO THE SYSTEM S.T.A.L.K.E.R. DENIED!</span>")
+						to_chat(H, "<span class='warning'>В ДОСТУПЕ К СИСТЕМЕ S.T.A.L.K.E.R. ОТКАЗАНО!</span>")
 
 	..() //end of this massive fucking chain. TODO: make the hud chain not spooky.
 
@@ -616,7 +616,7 @@
 					. = 0
 	if(!. && error_msg && user)
 		// Might need re-wording.
-		to_chat(user, "<span class='alert'>There is no exposed flesh or thin material [above_neck(target_zone) ? "on [p_their()] head" : "on [p_their()] body"].</span>")
+		to_chat(user, "<span class='alert'>Нет открытой плоти или тонкого материала [above_neck(target_zone) ? "on [p_their()] head" : "on [p_their()] body"].</span>")
 
 /mob/living/carbon/human/assess_threat(judgement_criteria, lasercolor = "", datum/callback/weaponcheck=null)
 	if(judgement_criteria & JUDGE_EMAGGED)
@@ -714,20 +714,20 @@
 	CHECK_DNA_AND_SPECIES(C)
 
 	if(C.stat == DEAD || (C.has_trait(TRAIT_FAKEDEATH)))
-		to_chat(src, "<span class='warning'>[C.name] is dead!</span>")
+		to_chat(src, "<span class='warning'>[C.name] мёртв!</span>")
 		return
 	if(is_mouth_covered())
-		to_chat(src, "<span class='warning'>Remove your mask first!</span>")
+		to_chat(src, "<span class='warning'>Сначала снимите маску!</span>")
 		return 0
 	if(C.is_mouth_covered())
-		to_chat(src, "<span class='warning'>Remove [p_their()] mask first!</span>")
+		to_chat(src, "<span class='warning'>Сначала снимите маску [p_their()]!</span>")
 		return 0
 
 	if(C.cpr_time < world.time + 30)
-		visible_message("<span class='notice'>[src] is trying to perform CPR on [C.name]!</span>", \
-						"<span class='notice'>You try to perform CPR on [C.name]... Hold still!</span>")
+		visible_message("<span class='notice'>[src] пытается выполнить СЛР на [C.name]!</span>", \
+						"<span class='notice'>Вы пытаетесь выполнить СЛР на [C.name]... Стойте спокойно!</span>")
 		if(!do_mob(src, C))
-			to_chat(src, "<span class='warning'>You fail to perform CPR on [C]!</span>")
+			to_chat(src, "<span class='warning'>Вы не смогли выполнить СЛР на [C]!</span>")
 			return 0
 
 		var/they_breathe = !C.has_trait(TRAIT_NOBREATH)
@@ -736,7 +736,7 @@
 		if(C.health > C.crit_threshold)
 			return
 
-		src.visible_message("[src] performs CPR on [C.name]!", "<span class='notice'>You perform CPR on [C.name].</span>")
+		src.visible_message("[src] проводит СЛР на [C.name]!", "<span class='notice'>Вы проводите СЛР на [C.name].</span>")
 		SEND_SIGNAL(src, COMSIG_ADD_MOOD_EVENT, "perform_cpr", /datum/mood_event/perform_cpr)
 		C.cpr_time = world.time
 		log_combat(src, C, "CPRed")
@@ -745,11 +745,11 @@
 			var/suff = min(C.getOxyLoss(), 7)
 			C.adjustOxyLoss(-suff)
 			C.updatehealth()
-			to_chat(C, "<span class='unconscious'>You feel a breath of fresh air enter your lungs... It feels good...</span>")
+			to_chat(C, "<span class='unconscious'>Вы чувствуете, как глоток свежего воздуха проникает в ваши легкие... Это приятно...</span>")
 		else if(they_breathe && !they_lung)
-			to_chat(C, "<span class='unconscious'>You feel a breath of fresh air... but you don't feel any better...</span>")
+			to_chat(C, "<span class='unconscious'>Вы чувствуете, как глоток свежего воздуха... Но ты не чувствуешь себя лучше...</span>")
 		else
-			to_chat(C, "<span class='unconscious'>You feel a breath of fresh air... which is a sensation you don't recognise...</span>")
+			to_chat(C, "<span class='unconscious'>Вы чувствуете, как глоток свежего воздуха... Это ощущение, которое вы не узнаёте...</span>")
 
 /mob/living/carbon/human/cuff_resist(obj/item/I)
 	if(dna && dna.check_mutation(HULK))
@@ -906,8 +906,8 @@
 /mob/living/carbon/human/vomit(lost_nutrition = 10, blood = 0, stun = 1, distance = 0, message = 1, toxic = 0)
 	if(blood && (NOBLOOD in dna.species.species_traits))
 		if(message)
-			visible_message("<span class='warning'>[src] dry heaves!</span>", \
-							"<span class='userdanger'>You try to throw up, but there's nothing in your stomach!</span>")
+			visible_message("<span class='warning'>[src] мучается!</span>", \
+							"<span class='userdanger'>Вы пытаетесь вырвать, но в животе пусто!</span>")
 		if(stun)
 			Paralyze(200)
 		return 1
