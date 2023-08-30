@@ -5,7 +5,7 @@
 =======
 	title = "Эколог"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 =======
 	title = "Эколог"
 	faction_s = "Экологи"
@@ -47,7 +47,7 @@
 =======
 	name = "Эколог"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 =======
 	name = "Эколог"
 	faction_s = "Экологи"
@@ -120,7 +120,7 @@
 =======
 	title = "Охранник Экологов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 =======
 	title = "Охранник Экологов"
 	faction_s = "Экологи"
@@ -148,7 +148,7 @@
 =======
 	name = "Охранник Экологов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Ecologist"
+	faction_s = "Экологи"
 =======
 	name = "Охранник Экологов"
 	faction_s = "Экологи"

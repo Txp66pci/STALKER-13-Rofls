@@ -8,7 +8,7 @@ Assistant
 =======
 	title = "Долговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Duty"
+	faction_s = "Долг"
 =======
 	title = "Долговец"
 	faction_s = "Долг"
@@ -37,7 +37,7 @@ Assistant
 =======
 	name = "Долговец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Duty"
+	faction_s = "Долг"
 =======
 	name = "Долговец"
 	faction_s = "Долг"
@@ -132,7 +132,7 @@ Assistant
 =======
 	name = "Бармен"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Traders"
+	faction_s = "Торговцы"
 =======
 	name = "Бармен"
 	faction_s = "Торговцы"
@@ -156,7 +156,7 @@ Assistant
 =======
 	title = "Лейтенант Долга"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Duty"
+	faction_s = "Долг"
 =======
 	title = "Лейтенант Долга"
 	faction_s = "Долг"
@@ -184,7 +184,7 @@ Assistant
 =======
 	name = "Лейтенант Долга"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Duty"
+	faction_s = "Долг"
 =======
 	name = "Лейтенант Долга"
 	faction_s = "Долг"

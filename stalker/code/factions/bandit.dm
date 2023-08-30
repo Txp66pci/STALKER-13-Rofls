@@ -8,7 +8,7 @@ Assistant
 =======
 	title = "Бандит"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 =======
 	title = "Бандит"
 	faction_s = "Бандиты"
@@ -40,7 +40,7 @@ Assistant
 =======
 	title = "Пахан"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 =======
 	title = "Пахан"
 	faction_s = "Бандиты"
@@ -84,7 +84,7 @@ Assistant
 =======
 	title = "Бармен бандитов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 =======
 	title = "Бармен бандитов"
 	faction_s = "Бандиты"
@@ -159,7 +159,7 @@ Assistant
 =======
 	name = "Пахан"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 =======
 	name = "Пахан"
 	faction_s = "Бандиты"
@@ -202,7 +202,7 @@ Assistant
 =======
 	name = "Бармен бандитов"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Bandits"
+	faction_s = "Бандиты"
 =======
 	name = "Бармен бандитов"
 	faction_s = "Бандиты"

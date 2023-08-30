@@ -5,7 +5,7 @@
 =======
 	title = "Монолитовец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 =======
 	title = "Монолитовец"
 	faction_s = "Монолит"
@@ -35,7 +35,7 @@
 =======
 	name = "Монолитовец"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 =======
 	name = "Монолитовец"
 	faction_s = "Монолит"
@@ -98,7 +98,7 @@
 =======
 	title = "Проповедник Монолита"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 =======
 	title = "Проповедник Монолита"
 	faction_s = "Монолит"
@@ -120,11 +120,11 @@
 /datum/outfit/job/monolith_hegumen
 <<<<<<< HEAD
 <<<<<<< HEAD
-	name = "Monolith Preacher"
+	name = "Проповедник Монолита"
 =======
 	name = "Проповедник Монолита"
 >>>>>>> aa9469d57c9c456b9bb6cc4a0d2454b37a232555
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 =======
 	name = "Проповедник Монолита"
 	faction_s = "Монолит"
