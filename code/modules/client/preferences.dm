@@ -151,13 +151,13 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	update_preview_icon()
 	var/list/dat = list("<center>")
 
-	dat += "<a href='?_src_=prefs;preference=tab;tab=0' [current_tab == 0 ? "class='linkOn'" : ""]>Your Character</a>"
-	dat += "<a href='?_src_=prefs;preference=tab;tab=1' [current_tab == 1 ? "class='linkOn'" : ""]>Game</a>"
+	dat += "<a href='?_src_=prefs;preference=tab;tab=0' [current_tab == 0 ? "class='linkOn'" : ""]>Ваш Персонаж</a>"
+	dat += "<a href='?_src_=prefs;preference=tab;tab=1' [current_tab == 1 ? "class='linkOn'" : ""]>Игра</a>"
 	//dat += "<a href='?_src_=prefs;preference=tab;tab=2' [current_tab == 2 ? "class='linkOn'" : ""]>OOC</a>"
 
 	if(SSticker.current_state == GAME_STATE_PLAYING)
-		dat += "<a href='byond://?src=[REF(user)];ready=[PLAYER_READY_TO_OBSERVE]'>Observe</a>"
-		dat += "<a href='byond://?src=[REF(user)];late_join=1'>Join</a>"
+		dat += "<a href='byond://?src=[REF(user)];ready=[PLAYER_READY_TO_OBSERVE]'>Призрак</a>"
+		dat += "<a href='byond://?src=[REF(user)];late_join=1'>Присоединиться</a>"
 
 	if(!path)
 		dat += "<div class='notice'>What? RIP! FORCE! KILL!</div>"

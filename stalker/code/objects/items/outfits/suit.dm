@@ -146,12 +146,12 @@
 		var/mob/living/carbon/human/user = usr
 		if(!nvg.active)
 			playsound(usr, 'stalker/sound/nv_off.ogg', 50, 1, -1)
-			to_chat(usr, "Вы отключили оптический датчик[src].")
+			to_chat(usr, "Вы отключили оптический датчик [src].")
 			user.remove_client_colour(nvg.colour_matrix)
 			user.see_override_nva = 0
 		else
 			playsound(usr, 'stalker/sound/nv_start.ogg', 50, 1, -1)
-			to_chat(usr, "Вы включили оптический датчик[src].")
+			to_chat(usr, "Вы включили оптический датчик [src].")
 			user.add_client_colour(nvg.colour_matrix)
 			user.see_override_nva = 4
 	for(var/X in actions)
