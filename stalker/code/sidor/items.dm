@@ -73,7 +73,7 @@
     words = list("пм" = 5, "ПМ" = 5, "Пистолет Макарова" = 5, "пистолет Макарова" = 5, "Пистолет макарова" = 10)
 
 /sidoritem/sip
-    name = "Епа-т M200"
+    name = "Epa-t M200"
     itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/sip
     cost = 7500
     words = list("Епа" = 5, "епа" = 5, "Епа-т М200" = 15, "Епа-т" = 5, "епа-т м200" = 15, "епа-т" = 10)
@@ -103,7 +103,7 @@
 	words = list("ПБ1с" = 5, "пб1с" = 5, "Пб1с" = 5, "ПБ1С" = 5, "пБ1с" = 5, "пб1С" = 10)
 
 /sidoritem/usp_match
-	name = "ЮСП"
+	name = "USP"
 	itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/usp_match
 	cost = 9000
 	words = list("Usp" = 5, "Юсп" = 5, "ЮСП" = 5, "usp" = 10)

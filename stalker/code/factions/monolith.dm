@@ -1,27 +1,27 @@
 /datum/job/monolith
-	title = "Monolith"
-	faction_s = "Monolith"
+	title = "Монолитовец"
+	faction_s = "Монолит"
 	faction = "Station"
 	total_positions = 5//6 total, prior to the introduction of Radar.
 	spawn_positions = 5
 	limit_per_player = 1
 	locked = 1
-	supervisors = "Monolith Preacher"
-	enforces = "We thank you, oh Monolith, for revealing the cunning plans of your enemies to us. May your light shine down on the souls of the brave soldiers who gave their lives in service to your will. Onward warriors of the Monolith, avenge your fallen brothers, blessed as they are in their eternal union with the Monolith."
-	forbids = "Allowing the continued existance of all who oppose the holy monolith. (Every other faction but your own)"
+	supervisors = "Проповедник Монолита"
+	enforces = "Благодарим Тебя за то, что раскрыл слугам Твоим козни врагов наших! Озари сиянием Твоим души тех, кто отдал жизнь во исполнение воли Твоей! В бой, защитники Монолита! В бой! Отомстим за павших братьев наших, да будет благословенно вечное их единение с Монолитом!"
+	forbids = "Допускать дальнейшее существование всех, кто выступает против священного монолита. (Любая другая фракция, кроме вашей собственной)"
 	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	limit_per_player = 2
 	outfit = /datum/outfit/job/monolith// /datum/outfit/job/duty
-	real_rank = "Monolith"
+	real_rank = "Монолитовец"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/job/monolith
-	name = "Monolith"
-	faction_s = "Monolith"
+	name = "Монолитовец"
+	faction_s = "Монолит"
 
 /datum/outfit/job/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -48,7 +48,7 @@
 	H.grant_language(/datum/language/russian, body = FALSE)
 
 /datum/outfit/monolith  // For select_equipment
-	name = "Monolith Soldier"
+	name = "Монолитовец"
 
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/monolith
@@ -61,7 +61,7 @@
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/berettam38 = 1,
 							/obj/item/flashlight/seclite = 1)
-	faction_s = "Monolith"
+	faction_s = "Монолит"
 
 /datum/outfit/monolith/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -74,25 +74,25 @@
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
 /datum/job/monolith_hegumen
-	title = "Monolith Preacher"
-	faction_s = "Monolith"
+	title = "Проповедник Монолита"
+	faction_s = "Монолит"
 	faction = "Station"
 	total_positions = 1//6 total, prior to the introduction of Radar.
 	spawn_positions = 1
 	limit_per_player = 1
 	locked = 1
-	supervisors = "Monolith"
+	supervisors = "Монолит"
 	selection_color = "#601919"
 	whitelist_only = 0
 	limit_per_player = 1
 	outfit = /datum/outfit/job/monolith_hegumen
-	real_rank = "Lieutenant"
+	real_rank = "Лейтенант"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
 /datum/outfit/job/monolith_hegumen
-	name = "Monolith Preacher"
-	faction_s = "Monolith"
+	name = "Проповедник Монолита"
+	faction_s = "Монолит"
 
 /datum/outfit/job/monolith_hegumen/pre_equip(mob/living/carbon/human/H)
 	..()
