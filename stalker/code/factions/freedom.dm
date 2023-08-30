@@ -1,25 +1,25 @@
 /datum/job/freedom
-	title = "Freedom Soldier"
+	title = "Свободовец"
 	faction_s = "Свобода"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
-	description = "Freedom are anarchists and daredevils who declare themselves fighters for a free access to the Zone and consequently find themselves in constant conflict with the army, military stalkers and the Duty faction. These so-called freedom warriors believe in sharing all information about the Zone with the rest of the world and challenge the state's monopoly over the Zone's secrets and wonders."
-	enforces = "Work with fellow Freedom faction members to patrol the Zone, save stalkers from death and help them get back on their feet, vanquish the grip of oppression from various militant factions which suffocate those within it, and shoot Duty on sight."
-	forbids = "Antagonize stalkers by harming or stealing from them, cause trouble with other factions without permission from leadership, run off solo without communicating with others about what you're doing, and working with the Military or Duty."
-	supervisors = "Lieutenant"
+	description = "Свобода - это анархисты и смельчаки, которые объявляют себя борцами за свободный доступ в Зону и, следовательно, находятся в постоянном конфликте с армией, военными сталкерами и Долгом. Эти так называемые воины свободы верят в то, что они делятся всей информацией о Зоне с остальным миром и бросают вызов монополии государства на секреты и чудеса Зоны."
+	enforces = "Работайте с другими членами фракции Свободы, чтобы патрулировать Зону, спасайте сталкеров от смерти и помогайте им встать на ноги, преодолевайте хватку угнетения со стороны различных воинствующих группировок, которые душат тех, кто находится в Зоне, и стреляйте в Долгарей на месте."
+	forbids = "Противодействовать сталкерам, причиняя им вред или воруя у них, создавать конфликты с другими фракциями без разрешения руководства, убегать в одиночку, не сообщая другим о том, что вы делаете, и работать с Военными или Долгом."
+	supervisors = "Лейтенант"
 	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/freedomrookie
-	real_rank = "Freedom"
+	real_rank = "Свободовец"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
 /datum/outfit/job/freedomrookie
-	name = "Freedom Soldier"
+	name = "Свободовец"
 
 /datum/outfit/freedomrookie/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -54,7 +54,7 @@
 	faction_s = "Свобода"
 
 /datum/outfit/freedomrookie  // For select_equipment
-	name = "Freedom Soldier"
+	name = "Свободовец"
 	suit = /obj/item/clothing/suit/hooded/kombez/veter
 	ears = null
 	belt = /obj/item/kitchen/knife/tourist
@@ -75,26 +75,26 @@
 	H.grant_language(/datum/language/english, body = FALSE)
 
 /datum/job/freedom_lieutenant
-	title = "Freedom Lieutenant"
+	title = "Лейтенант Свободы"
 	faction_s = "Свобода"
 	faction = "Station"
 	total_positions = 4
 	locked = 1
 	spawn_positions = 4
 	limit_per_player = 1
-	description = "Freedom are anarchists and daredevils who declare themselves fighters for a free access to the Zone and consequently find themselves in constant conflict with the army, military stalkers and the Duty faction. These so-called freedom warriors believe in sharing all information about the Zone with the rest of the world and challenge the state's monopoly over the Zone's secrets and wonders."
-	enforces = "Organizing the soldiers into teams by designating responsibilities, save stalkers from death and help them get back on their feet, vanquish the grip of oppression from various militant factions which suffocate those within it, and establish good relationships with various factions such as the Bandits and Loners."
-	forbids = "Antagonize stalkers by harming or stealing from them, cause trouble with other factions without a good reason, run off solo without communicating with others about what you're doing, and working with the Military or Duty."
-	supervisors = "Lieutenant"
+	description = "Свобода - это анархисты и смельчаки, которые объявляют себя борцами за свободный доступ в Зону и, следовательно, находятся в постоянном конфликте с армией, военными сталкерами и Долгом. Эти так называемые воины свободы верят в то, что они делятся всей информацией о Зоне с остальным миром и бросают вызов монополии государства на секреты и чудеса Зоны."
+	enforces = "Организуйте солдат в команды, распределив обязанности, спасайте сталкеров от смерти и помогайте им встать на ноги, победите хватку угнетения со стороны различных воинствующих группировок, которые душат тех, кто находится в Зоне, и установите хорошие отношения с различными фракциями, такими как бандиты и одиночки."
+	forbids = "Противодействовать сталкерам, причиняя им вред или воруя у них, создавать конфликты с другими фракциями без разрешения руководства, убегать в одиночку, не сообщая другим о том, что вы делаете, и работать с Военными или Долгом."
+	supervisors = "Лейтенант"
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/freedom_lieutenant
-	real_rank = "Lieutenant"
+	real_rank = "Лейтенант"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
 /datum/outfit/job/freedom_lieutenant
-	name = "Freedom Lieutenant"
+	name = "Лейтенант Свободы"
 	faction_s = "Свобода"
 
 /datum/outfit/job/freedom_lieutenant/pre_equip(mob/living/carbon/human/H)

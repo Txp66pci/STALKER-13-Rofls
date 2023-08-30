@@ -1308,7 +1308,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 		if(EXPERIENCED to VETERAN)
 			eng_rank_name_s = "Опытный"
 		if(ROOKIE to EXPERIENCED)
-			eng_rank_name_s = "Rookie"
+			eng_rank_name_s = "Новичок"
 	return eng_rank_name_s
 
 /proc/get_rus_faction(var/eng_faction_s)
@@ -1320,7 +1320,7 @@ GLOBAL_VAR_INIT (global_lentahtml, "")
 			faction_s = "Наёмники"
 		if("Долг")
 			faction_s = "Долг"
-		if("Торговецы")
+		if("Торговцы")
 			faction_s = "Торговец"
 		if("Свобода")
 			faction_s = "Свобода"
