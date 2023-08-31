@@ -34,7 +34,7 @@
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "aaj" = (
-/obj/item/reagent_containers/pill/stalker/aptechka/civilian,
+/obj/item/storage/firstaid/ai2,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "aak" = (
@@ -12145,7 +12145,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker)
 "aQi" = (
-/obj/effect/landmark/latejoin/bandit_pahan,
+/obj/effect/landmark/latejoin/banditboss,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker)
 "aQj" = (
@@ -17385,7 +17385,7 @@
 "bfp" = (
 /obj/rad/rad_high,
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/storage/firstaid/armymedkit,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "bfq" = (
@@ -18518,7 +18518,7 @@
 /area/stalker/blowout/buildings)
 "biK" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/civilian,
+/obj/item/storage/firstaid/ai2,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "biL" = (
@@ -18698,7 +18698,7 @@
 /area/stalker/buildings/bar/rentgen)
 "bjs" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/storage/firstaid/armymedkit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bar/rentgen)
 "bjt" = (
@@ -20943,7 +20943,7 @@
 	tumbler_2_pos = 20
 	},
 /obj/item/gun/ballistic/shotgun/bm16/toz34,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/storage/firstaid/armymedkit,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bpO" = (
@@ -21125,7 +21125,7 @@
 "bqt" = (
 /obj/rad/rad_high,
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/storage/firstaid/armymedkit,
 /obj/item/reagent_containers/hypospray/medipen/stalker/antirad,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -21384,7 +21384,7 @@
 	icon_state = "bulb";
 	tag = "icon-bulb1 (EAST)"
 	},
-/obj/effect/landmark/latejoin/army_eliteagro,
+/obj/effect/landmark/latejoin/army_spetsnaz,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/buildings)
 "bro" = (
