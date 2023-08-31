@@ -870,7 +870,7 @@
 "Dg" = (/obj/structure/table/abductor,/obj/structure/window/reinforced/tinted{dir = 8},/obj/structure/window/reinforced/tinted/frosted,/obj/rad/rad_low,/obj/item/clothing/suit/toggle/labcoat,/turf/open/stalker/floor/lattice,/area/stalker/buildings/backwater/krug)
 "DB" = (/obj/structure/stalker/cacheable/junk_micro,/turf/open/floor/plating/dirt/dark,/area/stalker)
 "DI" = (/obj/machinery/clonepod,/turf/open/stalker/floor/lattice,/area/stalker/buildings/backwater/krug)
-"DO" = (/turf/closed/wall/mineral/titanium/survival/pod{desc = "Гладкая черная стена, сделанная из прочного металла."; name = "Гладкая металлическая стена"},/area/stalker/buildings/backwater/claw)
+"DO" = (/turf/closed/wall/mineral/titanium/survival/pod{desc = "A slick black wall that is made of a strong metal."; name = "slick metal wall"},/area/stalker/buildings/backwater/claw)
 "DQ" = (/mob/living/simple_animal/cockroach{faction = list("neutral, stalker_mutants1")},/turf/open/floor/plating/dirt,/area/stalker)
 "DT" = (/obj/effect/decal/cleanable/blood/drip,/obj/rad/rad_low,/turf/open/floor/plasteel/dark,/area/stalker)
 "Eo" = (/turf/closed/wall/rust,/area/stalker/buildings/backwater/claw)
