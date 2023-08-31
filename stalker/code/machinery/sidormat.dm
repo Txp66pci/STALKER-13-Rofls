@@ -17,7 +17,7 @@ var/list/legend_sidormatitems = list()
 
 GLOBAL_LIST_INIT(global_sidormat_list, list(
 		///////////////////////////////  Оружие  /////////////////////////////////////////
-	"Handguns" = list(
+	"Пистолеты" = list(
 		///////////////////////////// **Pistols, SMGs** /////////////////////////////////////
 		new /datum/data/stalker_equipment("PMm",			"ПМм",				/obj/item/gun/ballistic/automatic/pistol/pm,				3000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("TT",				"TT",				/obj/item/gun/ballistic/automatic/pistol/tt,				3000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
@@ -32,7 +32,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Submachine Guns" = list(
+	"Пистолеты пуллеметы" = list(
 		new /datum/data/stalker_equipment("Beretta M38",	"Beretta M38",		/obj/item/gun/ballistic/automatic/berettam38,				10000,	ROOKIE, initial_stock = SMG_AMOUNT),
 		new /datum/data/stalker_equipment("Kiparis",		"Кипарис",			/obj/item/gun/ballistic/automatic/kiparis,					12000,	ROOKIE, initial_stock = SMG_AMOUNT),
 		new /datum/data/stalker_equipment("PPSh",			"ППШ",				/obj/item/gun/ballistic/automatic/ppsh,						15000,	ROOKIE, initial_stock = SMG_AMOUNT),
@@ -42,7 +42,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Automatic Weapons" = list(
+	"Автоматы" = list(
 		///////////////////////////// **ARs** /////////////////////////////////////
 		new /datum/data/stalker_equipment("SKS",			"СКС",				/obj/item/gun/ballistic/rifle/semiautobolt/sks,				20000,	ROOKIE, initial_stock = SMG_AMOUNT),
 		new /datum/data/stalker_equipment("AK-74S",			"АКС-74У",			/obj/item/gun/ballistic/automatic/aksu74 ,					24000,	ROOKIE, initial_stock = SMG_AMOUNT),
@@ -63,7 +63,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Shotguns" = list(
+	"Дробовики" = list(
 		/////////////////////////////// **Дробовики** /////////////////////////////////////
 		new /datum/data/stalker_equipment("Sawn off",		"Обрез",			/obj/item/gun/ballistic/shotgun/bm16/sawnoff,				6000,	ROOKIE, initial_stock = SMG_AMOUNT),
 		new /datum/data/stalker_equipment("BM-16",			"БМ-16",			/obj/item/gun/ballistic/shotgun/bm16,						10000,	ROOKIE, initial_stock = SMG_AMOUNT),
@@ -74,7 +74,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Rifles" = list(
+	"Винтовки" = list(
 		/////////////////////////////// **Винтовки** /////////////////////////////////////
 		new /datum/data/stalker_equipment("Mosin-Nagant obrez",	"Обрез Мосина",	/obj/item/gun/ballistic/rifle/boltaction/mosinobrez,14000,	ROOKIE, initial_stock = SMG_AMOUNT),
 		new /datum/data/stalker_equipment("Mosin-Nagant",	"Винтовка Мосина",		/obj/item/gun/ballistic/rifle/boltaction/mosin,				15000,	ROOKIE, initial_stock = SMG_AMOUNT),
@@ -85,7 +85,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Melee Weapons" = list(
+	"Другое" = list(
 		/////////////////////////////// **Другое** /////////////////////////////////////
 		new /datum/data/stalker_equipment("Kitchen Knife",		"Кухонный нож",			/obj/item/kitchen/knife,												1500,	ROOKIE, initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Tourist Knife",		"Нож туриста",			/obj/item/kitchen/knife/tourist,										4000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
@@ -96,7 +96,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Ammo Boxes" = list(
+	"Патроны" = list(
 		////////////////////////////////  Патроны  /////////////////////////////////////////
 		new /datum/data/stalker_equipment("9x18mm Box",					"Коробка 9x18mm",								/obj/item/ammo_box/stalker/b9x18,						2500,	ROOKIE,	initial_stock = PISTOL_AMOUNT, sale_price =300),
 		new /datum/data/stalker_equipment("9x18mm AP Box",				"Коробка 9x18mm AP",							/obj/item/ammo_box/stalker/b9x18P,						3500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT, sale_price =350),
@@ -124,7 +124,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Ammo Magazines and Clips" = list(
+	"Магазины и прю" = list(
 		new /datum/data/stalker_equipment("PMm; PB1s Magazine",						"Магазин ПМм; ПБ1с",			/obj/item/ammo_box/magazine/stalker/m9x18pm,			1000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
 		new /datum/data/stalker_equipment("TT Magazine",							"Магазин TT",					/obj/item/ammo_box/magazine/stalker/tt,					1000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
 		new /datum/data/stalker_equipment("Fort-12 Magazine",						"Магазин Fort-12",				/obj/item/ammo_box/magazine/stalker/m9x18fort,			2000,	ROOKIE,		initial_stock = PISTOL_AMOUNT*2,sale_price =500),
@@ -152,7 +152,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Suits" = list(
+	"Костюмы" = list(
 		new /datum/data/stalker_equipment("Leather Jacket",				"Кожаная куртка",			/obj/item/clothing/suit/hooded/kozhanka,					5000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("White Leather Jacket",		"Белая Кожаная куртка",		/obj/item/clothing/suit/hooded/kozhanka/white,				5000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Armored Tan Coat",			"Кожаный плащ",			/obj/item/clothing/suit/hooded/kozhanka/tancoat,			15000,		ROOKIE,initial_stock = PISTOL_AMOUNT),
@@ -201,7 +201,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 
 	// Headwear
-	"Masks and Helmets" = list(
+	"Маски и шлемы" = list(
 		new /datum/data/stalker_equipment("Respirator",					"Респиратор",					/obj/item/clothing/mask/gas/stalker/respirator,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
 		new /datum/data/stalker_equipment("Gas Mask",					"Противогаз",						/obj/item/clothing/mask/gas/stalker,							7500,	ROOKIE,initial_stock = PISTOL_AMOUNT,),
 		new /datum/data/stalker_equipment("Mercenary Gas Mask",			"Противогаз",			/obj/item/clothing/mask/gas/stalker/mercenary,					7500,	ROOKIE,	initial_stock = PISTOL_AMOUNT,faction = "Mercenaries"),
@@ -219,7 +219,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	),
 
 
-	"Medicine" = list(
+	"Медикаменты" = list(
 		///////////////////////////////	Медикаменты	/////////////////////////////////////////
 		new /datum/data/stalker_equipment("AI-2",						"Аптечка",						/obj/item/storage/firstaid/ai2,									750,	ROOKIE, initial_stock = PISTOL_AMOUNT, sale_price = 150),
 		new /datum/data/stalker_equipment("Army Medkit",				"Армейская аптечка",				/obj/item/storage/firstaid/armymedkit,							2500,	EXPERIENCED, initial_stock = PISTOL_AMOUNT, sale_price = 600),
@@ -237,7 +237,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Food" = list(
+	"Еда" = list(
 		/////////////////////////////////	Еда	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Canned stew",				"Радость туриста",				/obj/item/reagent_containers/food/snacks/stalker/konserva,				550,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Canned fish",				"Шпроты",				/obj/item/reagent_containers/food/snacks/stalker/konserva/shproti,		750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
@@ -250,7 +250,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Backpacks" = list(
+	"Рюкзаки" = list(
 		new /datum/data/stalker_equipment("Civvie satchel",					"Гражданский рюкзак",			/obj/item/storage/backpack/satchel/stalker/civilian,				2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Cheap backpack",					"Дешевый рюкзак",			/obj/item/storage/backpack/stalker/civilian,						2500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Tourist bag",					"Туристический рюкзак",				/obj/item/storage/backpack/stalker/tourist,							10000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
@@ -259,14 +259,14 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Rigs" = list(
+	"Разгрузки" = list(
 		new /datum/data/stalker_equipment("Tactical belt",					"Тактический ремень",			/obj/item/storage/belt/military/tactibelt	,						8000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Carry webbing",					"Разгрузка",			/obj/item/storage/belt/military/webbing,							14000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Chestrig",						"Честриг",					/obj/item/storage/belt/military/chestrig,							20000,	VETERAN,initial_stock = PISTOL_AMOUNT),
 		),
 
 
-	"Misc" = list(
+	"Другое" = list(
 		/////////////////////////////////	Другое	/////////////////////////////////////////////
 		new /datum/data/stalker_equipment/stalker_pda("PDA",					"КПК",													/obj/item/stalker_pda,												4000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Radio",								"Рация",												/obj/item/radio,													7000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
@@ -305,7 +305,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Clothing" = list(
+	"Одежда" = list(
 		new /datum/data/stalker_equipment("Under",								"Свитер",												/obj/item/clothing/under/color/switer,						1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Dark under",							"Свитер",											/obj/item/clothing/under/color/switer/dark,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Telnyashka",							"Тельняжка",											/obj/item/clothing/under/color/switer/lolg,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
@@ -317,7 +317,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Detectors" = list(
+	"Детекторы" = list(
 		/////////////////////////////////	Детекторы	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Echo", 		"Отклик",						/obj/item/detector/blink,				8000,	ROOKIE,	sale_price =7000,initial_stock = SMG_AMOUNT),
 		new /datum/data/stalker_equipment("Bear",		"Медведь",						/obj/item/detector/bear,				17000,	EXPERIENCED,	sale_price =10000,initial_stock = RIFLE_AMOUNT),
@@ -325,7 +325,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		),
 
 
-	"Attachments" = list(
+	"Улучшения" = list(
 		/////////////////////////////////	Аттачменты	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Universal suppressor",	"Глушитель",						/obj/item/attachment/suppressor,			4000,	ROOKIE,RIFLE_AMOUNT,sale_price =500,),
 		new /datum/data/stalker_equipment("SUSAT",					"СУСАТ",									/obj/item/attachment/scope/SUSAT,			10000,	EXPERIENCED,RIFLE_AMOUNT,sale_price =3000),
