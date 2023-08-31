@@ -1,4 +1,4 @@
-/*
+/
 GLOBAL_LIST_EMPTY(mobspawner)
 GLOBAL_LIST_EMPTY(mobspawner_monolith)
 
@@ -99,4 +99,4 @@ SUBSYSTEM_DEF(zona)
 #undef L_INSANE
 #undef L_EXTREME
 #undef L_ABSURD
-*/
+/
