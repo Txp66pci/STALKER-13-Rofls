@@ -224,7 +224,7 @@ SUBSYSTEM_DEF(blowout)
 	/////////////////////////////////////
 
 	//Очистка ленты
-	GLOB.global_lentahtml = ""
+	global_lentahtml = ""
 	for(var/obj/item/stalker_pda/KPK in GLOB.KPKs)
 		KPK.lentahtml = ""
 
