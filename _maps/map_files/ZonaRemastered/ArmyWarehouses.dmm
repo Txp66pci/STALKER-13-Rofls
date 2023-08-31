@@ -8,7 +8,6 @@
 "ao" = (/obj/effect/step_trigger/teleporter{dir = 1; opacity = 1; teleport_x = 236; teleport_y = 8; teleport_z = 7},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "ar" = (/obj/rad/rad_medium,/mob/living/simple_animal/hostile/mutant/snork,/turf/open/stalker/floor/digable/gryaz_rocky,/area/stalker)
 "aw" = (/obj/structure/stalker/car/tractor{icon_state = "1,1"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
-"aB" = (/mob/living/simple_animal/hostile/mutant/rat,/obj/machinery/hydroponics/soil,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "aF" = (/obj/structure/stalker/rails{icon_state = "l"; tag = "icon-l"},/obj/item/clothing/mask/cigarette/rollie/cannabis{name = "Жирный Блант"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "aH" = (/obj/effect/step_trigger/teleporter{dir = 1; opacity = 1; teleport_x = 236; teleport_y = 8; teleport_z = 7},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "aJ" = (/obj/structure/stalker/list,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
@@ -47,6 +46,7 @@
 "cm" = (/obj/structure/stalker/cacheable/yashik/yaskik_a,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "cn" = (/obj/structure/stalker/cacheable/yashik/yaskik_a,/obj/rad/rad_medium,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "co" = (/obj/structure/flora/grass/jungle,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"cq" = (/obj/structure/stalker/cacheable/yashik/yaskik_a/big,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "ct" = (/turf/open/stalker/floor/gryaz,/area/stalker/blowout/buildings)
 "cu" = (/obj/structure/fence{dir = 4},/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/blowout/buildings)
 "cw" = (/obj/structure/stalker/car/tractor{icon_state = "2,2"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -88,7 +88,6 @@
 "dW" = (/obj/structure/stalker/car/tractor{icon_state = "1,2"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "dX" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "6"; tag = "icon-7"},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "ea" = (/obj/structure/flora/rock,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
-"ed" = (/obj/machinery/light{dir = 4},/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "ee" = (/obj/structure/stalker/car/btrgrimy{icon_state = "8"},/obj/rad/rad_medium,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "ef" = (/obj/item/trash/gear,/obj/rad/rad_medium,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "ei" = (/obj/structure/stalker/rails{icon_state = "r"; tag = "icon-r"},/obj/structure/stalker/rails{icon_state = "r"; tag = "icon-r"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
@@ -108,7 +107,6 @@
 "eF" = (/obj/effect/spawner/lootdrop/stalker/weapon/melee,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/outdoor)
 "eG" = (/obj/rad/rad_medium,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "eH" = (/turf/open/stalker/floor/lattice,/area/stalker)
-"eI" = (/obj/structure/reagent_dispensers/watertank{anchored = 1; icon = 'stalker/icons/decor.dmi'; icon_state = "bochka_s_vodoy"; tank_volume = 100000},/obj/item/reagent_containers/glass/bucket,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "eJ" = (/obj/structure/stalker/cacheable/musor_yashik/red,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "eK" = (/obj/structure/stalker/cacheable/yashik/yaskik_a{pixel_x = 1; pixel_y = 2},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "eN" = (/obj/rad/rad_medium,/obj/structure/closet/crate/stalker/blue/stash/medium,/turf/open/stalker/floor/digable/gryaz_rocky,/area/stalker)
@@ -147,12 +145,12 @@
 "gf" = (/obj/structure/stalker/bar_plitka,/turf/open/stalker/floor/plasteel/plitochka,/area/stalker/blowout/outdoor)
 "gh" = (/obj/effect/step_trigger/teleporter{dir = 4; opacity = 1; teleport_x = 72; teleport_y = 118; teleport_z = 9},/turf/open/floor/plasteel/stairs/medium/stalker{dir = 8},/area/stalker)
 "gi" = (/obj/structure/stalker/cacheable/bochka/red,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
-"gl" = (/obj/structure/stalker/cacheable/yashik,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "gp" = (/obj/structure/stalker/list,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
 "gq" = (/obj/structure/stalker/car/gryzovik_army/north{icon_state = "5"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "gt" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3{dir = 4},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "gu" = (/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "gy" = (/obj/structure/table/stalker/wood/bar,/obj/effect/spawner/lootdrop/stalker/equipment,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
+"gz" = (/obj/machinery/light{dir = 4},/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "gB" = (/obj/structure/stalker/car/gryzovik_army/north{icon_state = "4"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "gD" = (/obj/effect/spawner/lootdrop/stalker/metalparts,/turf/open/stalker/floor/lattice,/area/stalker)
 "gH" = (/obj/structure/stalker/blocks/vanish/block1/r,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -164,6 +162,7 @@
 "gY" = (/turf/open/stalker/floor/tropa,/area/stalker/blowout/outdoor)
 "ha" = (/obj/structure/stalker/blocks/vanish/shlagbaum1{icon_state = "shlagbaum2"; tag = "icon-shlagbaum2"},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "hc" = (/obj/structure/stalker/car/tractor{icon_state = "0,2"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"he" = (/mob/living/simple_animal/hostile/mutant/rat,/obj/machinery/hydroponics/soil,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "hi" = (/obj/effect/step_trigger/teleporter{dir = 8; teleport_x = 252; teleport_y = 177; teleport_z = 11},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "hk" = (/mob/living/simple_animal/hostile/mutant/snork,/turf/open/stalker/floor/gryaz/gryaz2,/area/stalker)
 "hn" = (/obj/structure/stalker/cacheable/musor_yashik/red/full,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
@@ -257,6 +256,7 @@
 "kL" = (/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border1"; tag = "icon-border1"},/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border4"; pixel_y = -4; tag = "icon-border4"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "kN" = (/obj/structure/stalker/cacheable/toilet_broken,/obj/effect/spawner/lootdrop/stalker/pornmag,/turf/open/stalker/floor/plasteel/plitka,/area/stalker)
 "kO" = (/obj/machinery/campfire/barrel,/turf/open/stalker/floor/tropa,/area/stalker/blowout/outdoor)
+"kP" = (/obj/machinery/light{dir = 8},/obj/item/seeds/cannabis,/obj/item/seeds/cannabis,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "kQ" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border2"; pixel_y = -24; tag = "icon-border2"},/obj/structure/flora/junglebush,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "kS" = (/obj/structure/stalker/cacheable/body{icon_state = "deadbody5"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "kT" = (/obj/item/chair/wood/two,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
@@ -271,7 +271,6 @@
 "lj" = (/obj/anomaly/jarka,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/outdoor)
 "lk" = (/obj/structure/table/stalker/wood,/obj/effect/spawner/lootdrop/stalker/weapon/rifles,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/buildings/freedom)
 "ll" = (/obj/structure/stalker/car/gryzovik/west,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
-"lm" = (/obj/machinery/light{dir = 8},/obj/item/seeds/cannabis,/obj/item/seeds/cannabis,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "lo" = (/obj/structure/stalker/car/gryzovik2/south{icon_state = "3"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "lp" = (/obj/effect/step_trigger/teleporter{dir = 8; teleport_x = 252; teleport_y = 179; teleport_z = 11},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "ls" = (/obj/structure/stalker/car/moskvich/south{icon_state = "2"; tag = "icon-2"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -290,6 +289,7 @@
 "lV" = (/obj/rad/rad_high,/obj/structure/stalker/car/mi24{icon_state = "3,1"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "lW" = (/obj/structure/stalker/blocks/block2/r,/turf/open/stalker/floor/tropa,/area/stalker/blowout/outdoor)
 "lY" = (/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/snork_meat,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/blowout/buildings)
+"mb" = (/obj/structure/stalker/cacheable/yashik/yaskik_a,/obj/item/clothing/accessory/patch/freedom,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "mc" = (/obj/structure/fence/door,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/blowout/buildings)
 "md" = (/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border8"; tag = "icon-border8"},/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border1"; tag = "icon-border1"},/obj/structure/fence,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/buildings/freedom)
 "me" = (/mob/living/simple_animal/hostile/mutant/boar,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -323,6 +323,7 @@
 "nh" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "7"; tag = "icon-7"},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "nj" = (/obj/structure/stalker/car/btrclean{icon_state = "5"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "nk" = (/obj/effect/spawner/lootdrop/stalker/medicine,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/outdoor)
+"nm" = (/obj/item/gun/ballistic/automatic/vintorez,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "no" = (/obj/structure/stalker/car/uaz{icon_state = "0,0"; tag = "icon-0,0"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "np" = (/obj/structure/bed/stalker/metal{dir = 8; tag = "icon-krovat_e (WEST)"},/obj/structure/bed/stalker/matras{dir = 8; icon_state = "matras"; tag = "icon-matras (EAST)"},/obj/effect/landmark/latejoin/freedom,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "nq" = (/obj/structure/table/stalker/wood,/obj/structure/stalker/cacheable/oldcomputer{dir = 1; icon_state = "oldcomp"; pixel_x = 7; pixel_y = 8},/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/blowout/buildings)
@@ -338,6 +339,7 @@
 "nR" = (/obj/rad/rad_high,/obj/structure/stalker/car/mi24{icon_state = "3,3"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "nS" = (/obj/structure/grille/stalker/beton{opacity = 1},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "nT" = (/turf/open/stalker/floor/road,/area/stalker/blowout/outdoor)
+"nU" = (/obj/item/seeds/amanita,/obj/item/seeds/amanita,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "nY" = (/obj/structure/stalker/blocks/vanish/block1/m,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "nZ" = (/turf/closed/mineral,/area/stalker/blowout/outdoor)
 "oa" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "5"; tag = "icon-5"},/obj/rad/rad_low,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
@@ -418,7 +420,7 @@
 "rj" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "7"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "rl" = (/turf/closed/wall/stalker/beton,/area/stalker/blowout/outdoor)
 "rm" = (/obj/machinery/door/poddoor/shutters/preopen,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
-"rq" = (/obj/item/seeds/reishi,/obj/item/seeds/reishi,/obj/item/seeds/reishi,/obj/machinery/hydroponics/soil,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
+"rq" = (/obj/structure/reagent_dispensers/compostbin,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "rr" = (/obj/structure/stalker/blocks/vanish/block2/m,/turf/open/stalker/floor/plasteel,/area/stalker/blowout/outdoor)
 "rs" = (/obj/structure/stalker/cacheable/televizor,/obj/structure/table/stalker/wood,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/blowout/buildings)
 "rz" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border8"; pixel_y = 20; tag = "icon-border8"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -428,7 +430,6 @@
 "rH" = (/obj/structure/stalker/car/moskvich/north/three{icon_state = "6"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "rI" = (/obj/structure/stalker/blocks/vanish/pipe/pipe2{dir = 8; tag = "icon-truba2 (WEST)"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "rK" = (/obj/structure/stalker/blocks/vanish/pipe/pipe3{dir = 4; tag = "icon-truba3 (EAST)"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
-"rM" = (/obj/structure/mineral_door/wood,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "rN" = (/obj/structure/stalker/blocks/vanish/sandbags{dir = 10; icon_state = "corners"; tag = "icon-corners (SOUTHWEST)"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "rO" = (/obj/structure/table/stalker/wood/bar,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
 "rP" = (/obj/structure/stalker/woodlogs,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
@@ -448,7 +449,6 @@
 "sx" = (/obj/structure/chair/wood,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
 "sy" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "4"; tag = "icon-4"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "sz" = (/obj/structure/stalker/rails{icon_state = "l"; tag = "icon-l"},/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border8"; tag = "icon-border8"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
-"sA" = (/mob/living/simple_animal/hostile/mutant/snork{health = 500; name = "�����"; resize = 1.5; speed = 2},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "sE" = (/obj/rad/rad_high,/obj/structure/stalker/car/mi24{icon_state = "1,3"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "sG" = (/obj/anomaly/karusel,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "sI" = (/obj/structure/stalker/cacheable/shkaf64,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/blowout/buildings)
@@ -471,7 +471,7 @@
 "tC" = (/obj/structure/stalker/cacheable/bochka{density = 0; pixel_y = 12},/obj/structure/stalker/cacheable/bochka{density = 0; pixel_x = 6},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "tE" = (/obj/structure/stalker/doski/doski_alt2,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "tI" = (/obj/item/trash/brokecrate/two,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
-"tK" = (/obj/machinery/hydroponics/soil,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
+"tK" = (/obj/item/seeds/reishi,/obj/item/seeds/reishi,/obj/item/seeds/reishi,/obj/machinery/hydroponics/soil,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "tN" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "2"; tag = "icon-2"},/obj/rad/rad_low,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "tP" = (/obj/structure/stalker/rails{icon_state = "spl1"; tag = "icon-spl1"},/obj/anomaly/electro,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "tT" = (/obj/structure/stalker/cacheable/yashik/yaskik_a,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
@@ -621,7 +621,6 @@
 "Ax" = (/obj/structure/stalker/car/uaz{icon_state = "0,0"; tag = "icon-0,0"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Az" = (/obj/structure/stalker/blocks/vanish/sandbags{icon_state = "centers"; tag = "icon-centers"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "AH" = (/obj/structure/stalker/blocks/vanish/block2/m,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
-"AJ" = (/obj/structure/barricade/stalker/box,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "AL" = (/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border1"; tag = "icon-border1"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "AO" = (/obj/structure/closet/crate/stalker/blue/stash/medium,/obj/rad/rad_low,/obj/rad/rad_medium,/obj/rad/rad_high,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Bb" = (/obj/structure/stalker/cacheable/musor_yashik/red,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -630,11 +629,9 @@
 "Bg" = (/obj/structure/stalker/cacheable/musor_yashik/red,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
 "Bm" = (/obj/item/trash/fueltank/large,/obj/rad/rad_medium,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Bn" = (/obj/item/trash/barbwire/barbedwirejumble,/turf/open/stalker/floor/plasteel,/area/stalker/blowout/buildings)
-"Bo" = (/obj/item/gun/ballistic/automatic/vintorez,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Bp" = (/obj/structure/curtain,/obj/structure/stalker/cacheable/shower_broken,/obj/structure/stalker/cacheable/vanna,/obj/effect/spawner/lootdrop/stalker/weapon/raresmgs,/turf/open/stalker/floor/plasteel/plitka,/area/stalker)
 "Br" = (/obj/structure/stalker/cacheable/yashik/yaskik_a/big,/obj/rad/rad_medium,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Bt" = (/obj/structure/stalker/cacheable/bochka/red{density = 0; pixel_x = -18; pixel_y = 15},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
-"Bv" = (/mob/living/simple_animal/hostile/mutant/rat,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "Bx" = (/mob/living/simple_animal/hostile/mutant/zombiesimp/ranged{health = 400; rapid_fire_delay = 1},/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
 "Bz" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border2"; pixel_y = -24; tag = "icon-border2"},/obj/structure/flora/grass/jungle,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "BC" = (/turf/closed/wall/stalker/beton,/area/stalker)
@@ -686,7 +683,6 @@
 "DP" = (/obj/structure/stalker/cacheable/yashik/yaskik_a/big,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "DQ" = (/obj/structure/grille/stalker/beton{icon_state = "|"; tag = "icon-|"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "DT" = (/obj/effect/decal/cleanable/blood/gibs/down,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
-"DU" = (/obj/machinery/light{dir = 8},/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "DV" = (/obj/structure/stalker/car/uaz{icon_state = "0,1"; tag = "icon-0,1"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "DZ" = (/obj/structure/stalker/rails{icon_state = "spr1"; tag = "icon-spr1"},/obj/anomaly/electro,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Eg" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border1"; tag = "icon-border1"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -728,6 +724,7 @@
 "FH" = (/obj/structure/stalker/blocks/block1,/turf/open/stalker/floor/tropa,/area/stalker/blowout/outdoor)
 "FK" = (/obj/item/trash/metalparts/metaljunk/one,/obj/rad/rad_low,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "FM" = (/obj/item/trash/binding_material/coil,/turf/open/stalker/floor/plasteel,/area/stalker/blowout/buildings)
+"FP" = (/obj/structure/mineral_door/wood,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "FQ" = (/obj/structure/stalker/cacheable/shitok/shitok2{pixel_y = 27},/turf/open/stalker/floor/wood/oldgor,/area/stalker)
 "FR" = (/mob/living/simple_animal/hostile/mutant/bloodsucker,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "FT" = (/obj/structure/grille/stalker/wood{icon_state = "zabor_povorot_down"; tag = "icon-zabor_povorot_down"},/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border1"; tag = "icon-border1"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -740,6 +737,7 @@
 "Gl" = (/obj/structure/mineral_door/wood,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
 "Gp" = (/obj/machinery/campfire/barrel,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Gq" = (/turf/closed/wall/stalker/bricks_yellow,/area/stalker/blowout/outdoor)
+"Gu" = (/obj/machinery/hydroponics/soil,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "Gx" = (/obj/item/trash/fueltank/bikelarge,/obj/structure/chair/brevno,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Gy" = (/obj/structure/closet/crate/stalker/blue/stash/low,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "GA" = (/obj/structure/stalker/doski/doski_alt2,/obj/machinery/microwave/potbelly,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
@@ -764,6 +762,7 @@
 "Hh" = (/obj/structure/stalker/blocks/vanish/shlagbaum1{dir = 1; icon_state = "shlagbaum2"; tag = "icon-shlagbaum2 (NORTH)"},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "Hi" = (/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border1"; tag = "icon-border1"},/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border8"; tag = "icon-border8"},/obj/structure/fence,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/blowout/buildings)
 "Hs" = (/turf/open/stalker/floor/gryaz/gryaz3,/area/stalker)
+"Hw" = (/obj/machinery/light{dir = 8},/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "Hx" = (/obj/item/trash/cigs_trash4,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "HB" = (/obj/structure/grille/stalker/beton{icon_state = "l4"; tag = "icon-l4"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "HC" = (/obj/structure/flora/grass/jungle,/obj/structure/flora/grass/jungle/b,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -822,7 +821,6 @@
 "JK" = (/turf/closed/wall/stalker/bricks_yellow,/area/stalker)
 "JP" = (/obj/structure/stalker/cacheable/bochka/red,/obj/rad/rad_high,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "JQ" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border2"; pixel_y = 0; tag = "icon-border2"},/turf/open/stalker/floor/plasteel,/area/stalker/blowout/outdoor)
-"JS" = (/obj/item/seeds/amanita,/obj/item/seeds/amanita,/turf/open/floor/plating/dirt,/area/stalker/buildings/freedom)
 "JW" = (/turf/open/floor/plasteel/stairs/left/stalker,/area/stalker/blowout/outdoor)
 "JZ" = (/obj/item/trash/chairtrash,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Ka" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border4"; pixel_y = -4; tag = "icon-border4"},/obj/structure/stalker/blocks/block2,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -910,6 +908,7 @@
 "NM" = (/obj/effect/decal/remains/human,/turf/open/stalker/floor/asphalt,/area/stalker)
 "NP" = (/obj/structure/stalker/rails{icon_state = "spr1"; tag = "icon-spr1"},/obj/anomaly/electro,/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border2"; pixel_y = 0; tag = "icon-border2"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "NR" = (/turf/open/floor/plasteel/stairs/medium/stalker{dir = 8; icon_state = "ladder_middle"},/area/stalker/blowout/outdoor)
+"NS" = (/mob/living/simple_animal/hostile/mutant/rat,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "NT" = (/obj/structure/stalker/rails{icon_state = "r"; tag = "icon-r"},/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border8"; tag = "icon-border8"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "NU" = (/obj/structure/stalker/list,/turf/open/stalker/floor/wood/oldgor,/area/stalker)
 "NV" = (/obj/item/trash/binding_material/brokehook,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
@@ -956,13 +955,15 @@
 "Qo" = (/obj/structure/grille/stalker/beton{icon_state = "|"; tag = "icon-|"},/obj/structure/flora/junglebush/b,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Qq" = (/obj/structure/stalker/cacheable/krest,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Qu" = (/obj/structure/stalker/blocks/vanish/sandbags{dir = 8; icon_state = "ends-s-n"},/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"QC" = (/obj/structure/rack,/obj/item/clothing/mask/cigarette/rollie/cannabis{name = "Жирный Блант"},/obj/item/clothing/mask/cigarette/rollie/cannabis{name = "Жирный Блант"},/obj/item/clothing/mask/cigarette/rollie/cannabis{name = "Жирный Блант"},/obj/item/seeds/cannabis/death{desc = "These seeds grow into most fucking headblowing weed!"; icon_state = "seed-cannabis"},/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/buildings/freedom)
 "QD" = (/turf/open/stalker/floor/wood/oldgor,/area/stalker)
 "QJ" = (/obj/structure/stalker/cacheable/bochka{pixel_x = 6; pixel_y = 7},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
+"QM" = (/obj/structure/barricade/stalker/box,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "QQ" = (/obj/structure/bed/stalker/mattress_mossy,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "QR" = (/obj/structure/flora/tree/jungle/small,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "QS" = (/obj/structure/stalker/okno/window3,/turf/closed/wall/stalker/bricks_white,/area/stalker/blowout/outdoor)
-"QT" = (/obj/structure/rack,/obj/item/clothing/mask/cigarette/rollie/cannabis{name = "Жирный Блант"},/obj/item/clothing/mask/cigarette/rollie/cannabis{name = "Жирный Блант"},/obj/item/clothing/mask/cigarette/rollie/cannabis{name = "Жирный Блант"},/obj/item/seeds/cannabis/death{desc = "These seeds grow into most fucking headblowing weed!"; icon_state = "seed-cannabis"},/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/buildings/freedom)
 "QX" = (/obj/structure/grille/stalker{density = 0; icon_state = "fence3"; pixel_x = -16},/obj/structure/barricade/stalker/box,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"QZ" = (/obj/rad/rad_low,/obj/rad/rad_low,/obj/anomaly/electro,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Re" = (/obj/structure/stalker/cacheable/yashik/yaskik_a,/obj/effect/spawner/lootdrop/stalker/medicine,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
 "Rf" = (/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border1"; tag = "icon-border1"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Rh" = (/obj/structure/stalker/radiation/stop,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -1009,6 +1010,7 @@
 "Tw" = (/obj/structure/barricade/stalker/box,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/outdoor)
 "Tx" = (/obj/structure/stalker/propane,/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
 "TC" = (/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"TD" = (/mob/living/simple_animal/hostile/mutant/snork{health = 500; name = "�����"; resize = 1.5; speed = 2},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "TF" = (/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "TH" = (/mob/living/simple_animal/hostile/mutant/snork,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
 "TJ" = (/obj/structure/bed/stalker/mattress_bloody,/mob/living/simple_animal/hostile/mutant/zombiesimp/ranged,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
@@ -1031,7 +1033,6 @@
 "Us" = (/obj/structure/stalker/car/gryzovik2/south{icon_state = "5"; pixel_x = 0; tag = "icon-5"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Uw" = (/obj/structure/stalker/cacheable/yashik/yaskik_a/big{pixel_x = -2; pixel_y = -4; pixel_z = 3},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Ux" = (/turf/open/stalker/floor/digable/grass,/area/stalker)
-"UA" = (/obj/structure/stalker/cacheable/yashik/yaskik_a,/obj/item/clothing/accessory/patch/freedom,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "UC" = (/obj/structure/flora/rock{pixel_x = 9},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "UD" = (/obj/structure/stalker/rails{icon_state = "l"; tag = "icon-l"},/obj/effect/turf_decal/stripes/full{density = 1; icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border4"; tag = "icon-border4"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "UF" = (/obj/machinery/light/small{dir = 4},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -1042,7 +1043,6 @@
 "Vb" = (/obj/machinery/light,/obj/structure/bed/stalker/metal/matras,/obj/effect/landmark/latejoin/freedom,/turf/open/stalker/floor/plasteel/plita/orange,/area/stalker/buildings/freedom)
 "Vg" = (/obj/structure/grille/stalker,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Vj" = (/obj/rad/rad_high,/obj/structure/stalker/car/mi24{icon_state = "4,3"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
-"Vl" = (/obj/rad/rad_low,/obj/rad/rad_low,/obj/anomaly/electro,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Vn" = (/obj/structure/stalker/car/tractor/red{icon_state = "3,1"},/obj/rad/rad_low,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Vs" = (/obj/structure/curtain,/obj/structure/stalker/cacheable/shower_broken,/obj/structure/mirror{pixel_x = 32},/obj/structure/stalker/cacheable/vanna,/turf/open/stalker/floor/plasteel/plitka,/area/stalker)
 "Vx" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "6"},/obj/rad/rad_high,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -1062,6 +1062,7 @@
 "Wb" = (/obj/structure/stalker/car/uaz{icon_state = "0,2"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Wd" = (/obj/rad/rad_low,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Wg" = (/mob/living/simple_animal/hostile/mutant/flesh,/turf/open/stalker/floor/asphalt,/area/stalker/blowout/outdoor)
+"Wh" = (/obj/structure/reagent_dispensers/watertank{anchored = 1; icon = 'stalker/icons/decor.dmi'; icon_state = "bochka_s_vodoy"; tank_volume = 100000},/obj/item/reagent_containers/glass/bucket,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "Wi" = (/obj/structure/stalker/car/gryzovik/west{icon_state = "4"; tag = "icon-4"},/obj/rad/rad_high,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Wl" = (/obj/structure/stalker/car/moskvich/south{icon_state = "5"; tag = "icon-5"},/turf/open/stalker/floor/wood/oldvert,/area/stalker/blowout/buildings)
 "Wm" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border2"; pixel_y = 0; tag = "icon-border2"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -1091,7 +1092,6 @@
 "Xy" = (/obj/anomaly/karusel,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Xz" = (/obj/structure/stalker/tree/leafless,/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border4"; pixel_y = -4; tag = "icon-border4"},/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border4"; pixel_y = -4; tag = "icon-border4"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "XE" = (/obj/structure/grille/stalker/beton{opacity = 1},/turf/closed/mineral,/area/stalker/blowout/outdoor)
-"XH" = (/obj/structure/stalker/cacheable/yashik/yaskik_a/big,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "XI" = (/obj/structure/stalker/car/moskvich/south/hyi{icon_state = "11"},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "XK" = (/obj/structure/stalker/blocks/block2/m,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "XM" = (/obj/structure/table/stalker/wood/bar,/obj/effect/spawner/lootdrop/stalker/flasks,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
@@ -1127,6 +1127,7 @@
 "Zb" = (/obj/structure/stalker/broke_table/right,/turf/open/stalker/floor/wood/oldgor,/area/stalker)
 "Zc" = (/obj/structure/stalker/rails{icon_state = "spl1"; tag = "icon-spl1"},/obj/structure/stalker/car/btrclean{icon_state = "4"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Zd" = (/obj/structure/grille/stalker{icon_state = "fence0"; tag = "icon-fence0"},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"Zi" = (/obj/structure/stalker/cacheable/yashik,/turf/open/stalker/floor/wood/oldvert,/area/stalker/buildings/freedom)
 "Zj" = (/obj/structure/table/stalker/wood,/obj/effect/spawner/lootdrop/stalker/medicine,/turf/open/stalker/floor/wood/oldvert,/area/stalker)
 "Zk" = (/obj/effect/turf_decal/stripes/full{icon = 'stalker/icons/warning_stripes.dmi'; icon_state = "border8"; tag = "icon-border8"},/obj/structure/stalker/blocks/vanish/pipe/pipe3{dir = 4},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Zm" = (/obj/structure/grille/stalker/beton{opacity = 1},/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
@@ -1354,12 +1355,12 @@ GdGdGdGdGdGdnZSFSFSFSFSFSFCySFSFSFSFSFSFSFSFSFSFSFCySFSFguSFCySFSFTCTCTCTCTCTCSF
 GdGdGdGdGdGdnZSFSFSFSFguguguSFSFSFSFSFSFSFSFSFSFSFSFSFSFguSFSFSFTCTCTCTCTCTCSFSFSFSFSFSFSFSFCKSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFguguSFSFSFSFSFSFSFSFguSFSFSFPxguguFusrwywyLtFuguTCguguFuwygVFuFuFuFuFuctFuFuPxSFLMSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxIdnAnAlMjrIdbxbRguhZgupJguguguSFWbkKSFSFzxhOSFSFSFOmSFSFSFhOSFZGZGZGZGZGZGSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdnZSFSFSFCySFSFSFSFCySFSFSFSFSFpmSFSFSFSFSFSFSFSFSFSFTCTCTCTCTCSFSFSFSFSFSFSFdySFSFSFSFSFSFSFSFSFCKSFSFSFSFSFSFSFSFSFSFSFSFSFSFguguSFSFSFguSFSFSFSFguSFSFSFPxguguFusrgVwyLtFuBWguTCguFuwywyFuuSguguguguguguPxSFSFSFSFSFSFguSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFRhSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxIdYOLmIdIdIdbxtTguguLVcDguguTsSFmDWrSFSFcmhOSFSFSFSFOmSFSFhOSFZGZGZGZGZGZGSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdnZSFqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvSFSFSFSFSFTCTCTCTCTCSFSFSFSFSFSFSFSFSFSFRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFPxguguFusrwywyLtFuguguTCguFugiwywyguguguguguguBtPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFguSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxIdiVIdIdIdxpbxhFguguguguguguguguLUOdSFSFrDhOSFSFSFSFSFSFSFhOSFZGZGZGZGZGZGSFbxbxbxbxbxbxbxbxbxbxbxbxSFSFSFbxbxbxbxbxbxbxbxbxbxbxbxbxSFSFSFbxbxbxbxbxbxbxbxbxbxbxbxbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdnZSFSFSFSFSFCySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFTCTCTCTCTCSFSFSFSFSFSFSFSFSFSFSFSFSFSFdySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFguSFSFSFSFSFSFSFSFSFLMSFPxguguFusrMktqLtFuguguguguFugVwywyguaJguguguguguPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJIFGSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxVyIdnAnAIddGbxyztTgugutTguguguguguguSFSFSFirmNmNmNipmNmNmNHFSFZGZGZGZGZGZGSFbxosTFziTFpOqWnpqWsUOqbxKTSFUFbxtUpOqWpOqWsUNirqtKtKHcbxSFSFUFbxtUpOqWpOqWsUTFTFziTFglbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdnZSFSFCySFSFSFSFSFSFSFCySFSFSFSFSFCySFSFSFCySFSFSFTCTCTCTCTCSFfPSFSFdySFdySFFGSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFguSFSFSFSFPxguguFumHwywydSFugugudDguFuFuFuFuguguguguguguguSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxVyIdYOYOIdxpbxyzuStTguuSguSFSFguguguSFSFSFSFSFSFSFSFSFSFSFjoywZGZGZGZGZGZGCTbxXHocNiGKTFTFTFTFTFTFbBGJSFGJbBTFTFTFTFTFTFziTFJkJkJkbxZsSFGJbBTFTFTFTFTFTFTFedNiGKglbxZsSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdnZSFSFSFSFSFSFdySFSFSFSFSFSFCySFSFSFSFSFSFSFSFSFTCTCTCTCTCSFSFSFSFSFSFCySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFPxpoguFugJiSwywywyguTCguguguguguguguguguguDcguguPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFguSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxIdIdrGIdIdIdbxSFSFSFguuStTuSSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFnjtWZGZGZGZGZGZGSFbxNiNiNiwETFFwTFTFTFTFbxSiSFJWbxTFTFTFTFTFedNilmtKJkJSbxSFSFJWbxTFTFTFTFTFTFTFTFNiNiNibxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdnZSFCySFSFSFSFCySFSFqvqvqvqvqvqvqvqvqvqvqvqvqvSFTCTCTCTCTCSFSFCySFSFguSFSFSFSFSFSFSFgufPSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFPxSFSFSFguguFuncCHPowywyguTCTCguguguguguguguguguguguguPxwASFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxziNiNiNiNizibxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFdjGZGZGZGZGZGZGSFbxglglNiTFTFTFTFTFekTFbxSFSFSFbxTFTFTFTFzledNiDUtKJkKubxSFSFSFbxTFTFTFTFzlTFTFTFNiBvUAbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdnZSFSFSFSFSFSFSFSFCySFSFSFSFSFSFdySFSFSFSFSFSFSFTCTCTCQaTCSFSFSFSFSFCySFSFSFCySFSFdySFSFSFSFSFSFSFSFSFFGSFSFSFFaSFSFRfRfRfRfRfRfRfRfRfRfSFSFSFSFSFSFPxSFSFSFguguFuWlvAYgwyFuguTCTCguFuFusoFuqQFuFuguguguguPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFFGSFSFSFSFXjIkSFSFSFbxnBAkNiIdIdIdbxSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFSFmzbaZGZGZGZGZGZGSFbxAJreNiGKTFTFTFTFTFTFbxSFSFSFbxFwTFTFTFTFTFrMTFJkJkUAbxSFSFSFbxFwTFTFTFTFTFTFedNiGKUAbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdnZSFdySFCySFSFSFSFSFSFSFSFSFSFgugucoSFSFSFCySFSFTCTCTCTCTCSFSFSFSFSFSFSFCKSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFaSFSFSFSFSFSFSFSFSFSFSFSFguSFSFSFSFSFSFSFSFSFguguFuLkrmFuFuFuguTCTCguFukvwywyFholFuguguaJSVPxSFSFSFSFSFRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfkLRfRfRfRfRfRfSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxbxbxbxzibxbxbxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFYTSFSFSFSFSFSFSFZGZGZGZGZGZGSFbxosTFziTFMDqWMDqWviOqbxSFSFSFbxtUsUqWsUqWsUNieIaBtKXHbxSFSFSFbxtUsUqWsUqWsUTFTFziTFXHbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdnZSFSFSFSFSFCySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFTCTCTCTCTCSFSFSFSFSFSFSFSFSFSFSFSFSFSFdySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFguSFSFSFSFSFSFSFSFSFLMSFPxguguFusrMktqLtFuguguguguFugVwywyguaJguguguguguPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJIFGSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxVyIdnAnAIddGbxyztTgugutTguguguguguguSFSFSFirmNmNmNipmNmNmNHFSFZGZGZGZGZGZGSFbxosTFziTFpOqWnpqWsUOqbxKTSFUFbxtUpOqWpOTFrqNitKGuGuHcbxSFSFUFbxtUpOqWpOqWsUTFTFziTFZibxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdnZSFSFCySFSFSFSFSFSFSFCySFSFSFSFSFCySFSFSFCySFSFSFTCTCTCTCTCSFfPSFSFdySFdySFFGSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFguSFSFSFSFPxguguFumHwywydSFugugudDguFuFuFuFuguguguguguguguSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxVyIdYOYOIdxpbxyzuStTguuSguSFSFguguguSFSFSFSFSFSFSFSFSFSFSFjoywZGZGZGZGZGZGCTbxcqocNiGKTFTFTFTFTFTFbBGJSFGJbBTFTFTFTFTFTFziTFJkJkJkbxZsSFGJbBTFTFTFTFTFTFTFgzNiGKZibxZsSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdnZSFSFSFSFSFSFdySFSFSFSFSFSFCySFSFSFSFSFSFSFSFSFTCTCTCTCTCSFSFSFSFSFSFCySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFPxpoguFugJiSwywywyguTCguguguguguguguguguguDcguguPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFguSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxIdIdrGIdIdIdbxSFSFSFguuStTuSSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFnjtWZGZGZGZGZGZGSFbxNiNiNiwETFFwTFTFTFTFbxSiSFJWbxTFTFTFTFTFgzNikPGuJknUbxSFSFJWbxTFTFTFTFTFTFTFTFNiNiNibxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdnZSFCySFSFSFSFCySFSFqvqvqvqvqvqvqvqvqvqvqvqvqvSFTCTCTCTCTCSFSFCySFSFguSFSFSFSFSFSFSFgufPSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFPxSFSFSFguguFuncCHPowywyguTCTCguguguguguguguguguguguguPxwASFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxziNiNiNiNizibxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFdjGZGZGZGZGZGZGSFbxZiZiNiTFTFTFTFTFekTFbxSFSFSFbxTFTFTFTFzlgzNiHwGuJkKubxSFSFSFbxTFTFTFTFzlTFTFTFNiNSmbbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdnZSFSFSFSFSFSFSFSFCySFSFSFSFSFSFdySFSFSFSFSFSFSFTCTCTCQaTCSFSFSFSFSFCySFSFSFCySFSFdySFSFSFSFSFSFSFSFSFFGSFSFSFFaSFSFRfRfRfRfRfRfRfRfRfRfSFSFSFSFSFSFPxSFSFSFguguFuWlvAYgwyFuguTCTCguFuFusoFuqQFuFuguguguguPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFFGSFSFSFSFXjIkSFSFSFbxnBAkNiIdIdIdbxSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFSFmzbaZGZGZGZGZGZGSFbxQMreNiGKTFTFTFTFTFTFbxSFSFSFbxFwTFTFTFTFTFFPTFJkJkmbbxSFSFSFbxFwTFTFTFTFTFTFgzNiGKmbbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdnZSFdySFCySFSFSFSFSFSFSFSFSFSFgugucoSFSFSFCySFSFTCTCTCTCTCSFSFSFSFSFSFSFCKSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFaSFSFSFSFSFSFSFSFSFSFSFSFguSFSFSFSFSFSFSFSFSFguguFuLkrmFuFuFuguTCTCguFukvwywyFholFuguguaJSVPxSFSFSFSFSFRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfkLRfRfRfRfRfRfSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFbxbxbxbxzibxbxbxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFYTSFSFSFSFSFSFSFZGZGZGZGZGZGSFbxosTFziTFMDqWMDqWviOqbxSFSFSFbxtUsUqWsUqWsUNiWhheGucqbxSFSFSFbxtUsUqWsUqWsUTFTFziTFcqbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdnZSFqvqvqvBzqvqvqvqvkQqvqvqvSFSFSFSFSFSFSFSFSFSFTCTCTCTCTCSFSFSFSFSFSFSFSFSFdySFSFSFSFSFCKSFSFSFSFSFSFSFSFguoISFFaSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFPxguguguDzTCgugueJguTCTCguFuwyFhwywywyFuguguguguPxSFPxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjIkSFSFSFSFSFcmrDgRSTSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFZGZGZGZGZGZGSFbxbxbxbxbxbxbxbxbxbxbxbxSFSFSFbxbxbxbxbxbxbxbxbxbxbxbxbxSFSFSFbxbxbxbxbxbxbxbxbxbxbxbxbxSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdnZSFSFSFSFSFSFSFSFSFSFSFSFCySFSFSFSFSFSFSFSFSFSFTCTCTCTCTCSFSFSFSFXqSFsORfRfRfRfRfRfRfRfRfRfSFdySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFPxguguguTCTCguguVNguWgTCguqQwywywywyFhqQguguguguSFSFPxSFSFSFSFSFSFSFSFSFSFSFSFSFCeSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjLTZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGSFSFSFSFSFSFSFSFSFSFSFSFSFSFbySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdnZSFSFFGSFSFSFSFSFSFSFSFqvqvqvqvqvkQqvqvBzqvqvSFTCTCTCTCTCSFCySFfPSFfPSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFOLPxguguguMRTCTCTCTCTCTCTCguFuwywyFhwywyFuguguguguSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFSFvBSFSFSFSFSFUCXjUkKCKCZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
@@ -1371,15 +1372,15 @@ nZnZTCTCTCTCTCUaTCTCAfoDZroaTeAfTCTCTCGLTCTCTCcYvuDzTCTCTCTCTCTCTCTCTCSFSFfPSFCy
 nZTCTCTCTCTCTCTCTCTCAfAfAfAfAfAfTCTCTCTCTCTCTCanewTCWaMqTCTCTCTCTCTCSFFGSFSFSFSFSFSFCyCySFSFSFSFSFSFSFSFguSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFwASFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjKRZGZGTYGPvBSFSFSFYTSFSFxFrHSFSFSFrVSFSFSFSFSFSFSFSFSFSFguSFgugunTnTnTSFZGZGZGZGZGSFSFSFrlUQBnZGZGZGZGhMpprlSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 hRTCTCTCTCTCnZSFERTTTTTTrISFSFSFSFTCTCTCTCTCTCTCTCTClaTCpMTCTCTCTCSFSFSFSFSFSFSFfPSFSFSFRfRfRfYIRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFERTTTTTTrISFSFSFSFSFSFSFSFRfSFRfRfRfSFSFCeSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFvBSFSFSFYTSFSFXjfFZGmrTYGPvBSFSFSFSFSFSFnGmBSFSFSFCDYqSFSFSFSFgugfgfgfcdgfgugfgugfgfgfSFZGZGZGZGZGSFSFSFrlEYvOhMjuqghMvOhMrlSFSFSFSFSFjejejejejejejejejeCeWdSFjejejejejejejejejeSFhOZGZGZGZGSFFGSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 RkTCTCTCnZnZnZdySFSFSFSFdySFSFFGSFCySFSFTCTCTCtCTCWaMqTCTCTCTCTCSFSFSFSFSFSFgucoSFSFSFSFdySFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFGPRfRfSFSFSFSFSFALRfSFSFCeSFSFCeSFSFSFSFSFSFSFSFSFSFSFSFvBSFFGSFSFSFSFXjfFZGZGTYGPSFSFSFSFSFSFCdmLYtSFSFGDbEXISFSFSFgucdSFSFSFSFguguguSFSFSFSFYTZGZGZGZGZGSFSFSFrlUQvOhMtaNrYhhMvOrlSFSFSFSFvbjeSFSFSFSFSFSFSFjevbWdvbjeSFSFSFSFSFSFSFjevbhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-eWTCTCnZnZGdnZSFXqCySFSFSFCySFSFSFSFfPSFSFFGSFSFSFSFSFSFzxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFGPGPWdWdWdWdWdWdWdWdRfSFSFSFSFSFSFSFSFFGJISFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFvmSFSFxQSFmhUlmhSFpxDFajDxSFxQgucdSFbxbxkVbxbxbxbxbxbxbxbxSFZGZGZGZGZGSFSFSFrlhMpVhMAteyhMIqhMozdPSFSFSFSFjeSFSFSFSFSFSFSFjeWdVlWdjeSFSFSFSFSFSFSFjeWdhOZGZGZGZGSFQqSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+eWTCTCnZnZGdnZSFXqCySFSFSFCySFSFSFSFfPSFSFFGSFSFSFSFSFSFzxSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFSFSFSFGPGPWdWdWdWdWdWdWdWdRfSFSFSFSFSFSFSFSFFGJISFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFvmSFSFxQSFmhUlmhSFpxDFajDxSFxQgucdSFbxbxkVbxbxbxbxbxbxbxbxSFZGZGZGZGZGSFSFSFrlhMpVhMAteyhMIqhMozdPSFSFSFSFjeSFSFSFSFSFSFSFjeWdQZWdjeSFSFSFSFSFSFSFjeWdhOZGZGZGZGSFQqSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 nZnZnZnZGdGdnZRfRfRfRfYIrSRfRfRfRfRfRfSFCySFSFfPSFUwcmSFSFSFSFSFCySFRfRfxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdwXxdxdxdxdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdSFSFSFSFSFSFSFSFguSFSFSFOiwsPbrjSFSFSFSFSFSFSFSFSFSFSFSFGPSFFGWdWdKIaWhzWdWdWdSFSFSFrzSFSFSFSFSFSFJISFSFSFSFSFFGSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFSFSFtIweUlquKnhFSFejKNMzBMrDxQguguSFbxfEseETNiIdIdNilMTUbxSFZGZGZGZGZGSFSFSFrlUphMXUxazghMwxUNrrdPSFSFSFvbjeSFSFSFSFSFSFSFjevbWdvbjeSFSFSFSFSFSFSFjevbhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdnZnZSFSFSFSFSFSFSFSFSFThSFCySFSFguCySFSFSFSFCyCyIwSFSFSFSFSFWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdoyWdWdWdWdWdWdWdWdWdWdWdWdWdWdSFSFSFSFSFSFSFSFSFfWxOZuwpSFSFSFSFSFSFSFSFSFSFSFSFGPSFSFWdWdtfpjkAVnWdWdSFSFSFSFrzSFSFSFSFSFJISFSFSFguSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFSFSFPTfVmhzxhFiigusPGWmmnzhFguguguSFkVQTIdIdNiIdIdNiIdYmkVSFZGZGZGZGZGSFSFSFISCGKCKChMvOvOFMhMeSdPSFSFSFSFjeSFSFSFSFSFSFSFjeWdwMWdjeSFSFSFSFSFSFSFjeWdhOZGZGZGZGSFSFQqDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdGdnZSFfPSFSFFGSFguguguguALRfALALALALRfRfRfSFSFSFSFWdWdWdWdWdwMWdnCnCnCnCnCnCnCnCnCnCGRGRGRGRGRGRGRGRGRnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCpRwMWdWdWdWdWdWdWdSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFGPSFSFSFWdWdDbHGWodpWdWdSFSFSFSFrzSFSFSFSFSFJISFSFSFSFSFSFSFSFvBSFSFSFFGSFSFXjfFZGZGTYGPvBypSFltcmrDhFisfiKtNVKtlFNmguguguguCTbxkoIdIdziIdIdziIdTUbxSFZGZGZGZGZGSFSFGPZGmrXaYQhMxfGfpvhMrlSFSFSFSFvbjeSFSFSFBoSFSFSFjevbWdvbjeSFSFSFSFSFSFSFjevbhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdGdnZRfYIRfRfRfRfALALgucoguguguguguguguSFfPSFCKCySFxdxdxdxdxdCBGRGRXuXulIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIpRpRWdWdoyWdWdWdWdSFSFSFSFSFSFSFSFSFSFSFguSFSFSFSFSFSFSFSFSFGPSFSFWdWdWdWdWdWdWdWdSFSFSFSFrzSFSFSFSFSFSFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPvBSFTrnuEpzxtTBZGTIOwYKtguGxcDguguSFSFkVIdIdIdNiIdIdNiIdYmkVSFZGZGZGZGZGSFSFGPZGCrmrmrvOhMvOhMuurlSFSFSFSFSFjeSFSFSFSFSFSFSFjeWdVlWdjeSFSFSFsASFSFSFjeWdhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdnZnZSFSFSFSFSFSFSFSFSFThSFCySFSFguCySFSFSFSFCyCyIwSFSFSFSFSFWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdWdoyWdWdWdWdWdWdWdWdWdWdWdWdWdWdSFSFSFSFSFSFSFSFSFfWxOZuwpSFSFSFSFSFSFSFSFSFSFSFSFGPSFSFWdWdtfpjkAVnWdWdSFSFSFSFrzSFSFSFSFSFJISFSFSFguSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFSFSFPTfVmhzxhFiigusPGWmmnzhFguguguSFkVQCIdIdNiIdIdNiIdYmkVSFZGZGZGZGZGSFSFSFISCGKCKChMvOvOFMhMeSdPSFSFSFSFjeSFSFSFSFSFSFSFjeWdwMWdjeSFSFSFSFSFSFSFjeWdhOZGZGZGZGSFSFQqDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdGdnZSFfPSFSFFGSFguguguguALRfALALALALRfRfRfSFSFSFSFWdWdWdWdWdwMWdnCnCnCnCnCnCnCnCnCnCGRGRGRGRGRGRGRGRGRnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCpRwMWdWdWdWdWdWdWdSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFGPSFSFSFWdWdDbHGWodpWdWdSFSFSFSFrzSFSFSFSFSFJISFSFSFSFSFSFSFSFvBSFSFSFFGSFSFXjfFZGZGTYGPvBypSFltcmrDhFisfiKtNVKtlFNmguguguguCTbxkoIdIdziIdIdziIdTUbxSFZGZGZGZGZGSFSFGPZGmrXaYQhMxfGfpvhMrlSFSFSFSFvbjeSFSFSFnmSFSFSFjevbWdvbjeSFSFSFSFSFSFSFjevbhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdGdnZRfYIRfRfRfRfALALgucoguguguguguguguSFfPSFCKCySFxdxdxdxdxdCBGRGRXuXulIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIpRpRWdWdoyWdWdWdWdSFSFSFSFSFSFSFSFSFSFSFguSFSFSFSFSFSFSFSFSFGPSFSFWdWdWdWdWdWdWdWdSFSFSFSFrzSFSFSFSFSFSFSFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPvBSFTrnuEpzxtTBZGTIOwYKtguGxcDguguSFSFkVIdIdIdNiIdIdNiIdYmkVSFZGZGZGZGZGSFSFGPZGCrmrmrvOhMvOhMuurlSFSFSFSFSFjeSFSFSFSFSFSFSFjeWdQZWdjeSFSFSFTDSFSFSFjeWdhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdGdnZSFSFSFSFSFguguguIlguguguIlguguguguguSFCySFSFSFoyWdWdWdWdnCGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtXuGRnCWdWdWdWdWdWdSFSFSFOpSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFWdWdWdWdWdWdWdWdSFSFSFSFrzSFSFSFSFSFJISFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPvBSFSFLRgBzxzxuSKtdDguJZgugupsguSFSFSFbxjKezhpNiIdIdNirGJybxSFZGZGZGZGZGSFSFGPZGZGZGrlrlrlrlrlrlrlSFSFSFSFvbjeSFSFSFSFSFSFSFjevbWdvbjeSFSFSFSFSFSFSFjevbhOZGZGZGZGSFQqSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdGdnZSFSFSFSFfPSFguguguguguguALALALALgdRfRfRfRfRfCKoyWdWdWdnCnCGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdlIlInCnCWdWdWdWdWdSFSFSFSFSFSFSFOpSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFWmSFSFSFSFSFSFSFSFSFFGSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPvBSFqagqFgUlcmWRkTguKtguHJguguKtguSFSFbxNiNiNiNiIdIdNiNiNibxSFZGZGZGZGZGSFSFSFzszszsSFSFSFSFSFSFSFSFSFSFSFSFjeSFSFSFSFSFSFSFjeWdwMWdjeSFSFSFSFSFSFSFjeWdhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdGdnZCySFSFSFSFCyguguguguIlguguIlguguguSFSFSFCySFSFWdWdWdWdnClIGdOtOtOtOtOtOtOtOtOtOtOtGdkXkXqikXkXkXkXkXkXkXkXGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdlIlIlInCnCWdWdWdWdWdWdSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFguSFWmWmWmSFSFSFWmWmSFguSFSFSFSFSFSFSFSFSFJISFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPvBSFSFfplwzxmhuSuSKtguguguPiJqSFnGSFSFbxIdmqIdIdIdIdlMIdIdbxLeZGZGZGZGZGSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFvbjeSFSFSFSFSFSFSFjevbWdvbjeSFSFSFSFSFSFSFjevbhOZGZGZGZGSFSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
-GdGdGdGdGdGdGdnZSFSFSFYIRfRfwnALALALguguguguguguguSFSFSFSFCySFWdWdWdnCnClIGdGdGdGdGdGdGdGdGdGdGdGdGdkXpWcTpWkXpWYpkXKMNWkXGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdlIlIlIlInCnCnCWdwMWdWdWdWdSFSFSFSFOpSFSFSFSFOpSFSFSFSFSFSFSFSFSFSFSFSFSFWmWmWmSFSFSFSFSFSFSFSFSFSFSFSFSFyDSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFSFSFigmhcmCqZJlsYLXOKtaZDVLDSFSFSFSFbxRwmdIdIdIdIdIdIdIdbBinZGZGZGZGZGSFSFbxbxbxbxbxbxbxbxbxbxbxbxbxSFSFSFjeSFSFSFSFSFSFSFjeWdVlwMjeSFSFSFSFSFSFSFjeWdhOZGZGZGZGSFCKSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
+GdGdGdGdGdGdGdnZSFSFSFYIRfRfwnALALALguguguguguguguSFSFSFSFCySFWdWdWdnCnClIGdGdGdGdGdGdGdGdGdGdGdGdGdkXpWcTpWkXpWYpkXKMNWkXGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdlIlIlIlInCnCnCWdwMWdWdWdWdSFSFSFSFOpSFSFSFSFOpSFSFSFSFSFSFSFSFSFSFSFSFSFWmWmWmSFSFSFSFSFSFSFSFSFSFSFSFSFyDSFSFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFSFSFigmhcmCqZJlsYLXOKtaZDVLDSFSFSFSFbxRwmdIdIdIdIdIdIdIdbBinZGZGZGZGZGSFSFbxbxbxbxbxbxbxbxbxbxbxbxbxSFSFSFjeSFSFSFSFSFSFSFjeWdQZwMjeSFSFSFSFSFSFSFjeWdhOZGZGZGZGSFCKSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdGdnZfPSFSFSFWESFguguguIlguguguvQguIlguRfRfRfRfRfRfxdxdWdnClIlIGdGdGdGdGdGdGdGdGdGdGdGdGdkXpWnqCkkXpWpWkXcumckXGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdyQyQxdxdxdxdxdxdxdxdxdxdxdxdxdWdSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJIJISFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFSFRKSFSFmhzxDDDiSFAbHehFAxEuYLSFSFSFbxIdFiLJIdIdIdIdIdIdbxJQZGZGZGZGZGSFSFbxOYOYOYeXtAWztAOYdEOYOYbxSFSFvbjeSFSFSFSFSFSFSFjevbWdvbjeSFSFSFSFSFSFSFjevbhOZGZGZGZGsKSFSFDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdGdnZfPSFfPSFSFSFIlguguguguIlguIlguguguSFSFCySFSFCyWdWdnCnClIlIGdGdGdGdGdGdGdGdGdGdGdGdGdkXLapWpWjRpWpWjRpWqHkXGdOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtOtGdGdGdGdGdnZnCWdWdoyWdWdWdqZWdWdWdWdqZWdSFSFSFSFSFSFSFSFSFSFSFRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfRfSFSFJISFSFSFSFSFSFvBSFSFSFSFSFSFXjfFZGZGTYGPSFSFSFcmSFcmSFHacLSFSFSFSFcmSFcmSFSFSFbxNiNiNiIdIdNiNiNiNibxSFZGZGZGZGZGSFSFbxOYdEOYOYOYOYOYOYOYOYdEbxSFSFSFjejejejejejejejejeSFWdSFjejejejejejejejejeYthOZGZGZGZGSFCKdyDQgugugugugugugugugugugugugunZGdGdGdGdGd
 GdGdGdGdGdGdGdnZSFWESFSFSFSFguguguguIlguALALALgdALcZRfRfRfRfRfxdxdGRlIlIlIGdGdGdGdGdGdGdGdGdGdGdGdGdkXpWpWpWkXpWpWkXmccukXGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdGdnCnCWdWdujWdWdWdWdWdWdWdWdWdSFSFSFOpSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFJISFSFSFSFSFvBSFSFFGSFSFSFXjfFZGZGTYGPSFhcdWcwSFSFSFSFSFSFbySFSFSFSFSFSFSFSFbxGgIdNiIdIdNiuIlMKPbxSFZGZGZGZGZGSFSFbxOYUisnOYdEdEOYOYcMDIOYbxSFtBSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFSFFGrHUsUchOZGZGZGZGSFSFSFQogugugugugugugugugugugugugunZGdGdGdGdGd
