@@ -73,7 +73,7 @@
 
 /obj/item/codespeak_manual/ukrainian
 	name = "Самоучитель украинского языка"
-	desc = "Сало горилка сало сало горилка сало"
+	desc = "Як розп'яти сепара у п'ять кроків"
 	icon_state = "book1"
 	language_name = "Ukrainian"
 	language_to_add = /datum/language/ukrainian
