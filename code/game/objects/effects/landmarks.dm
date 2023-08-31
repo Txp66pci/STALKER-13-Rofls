@@ -331,8 +331,6 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 			SSjob.latejoin_clearsky_leader += loc
 		if ("JoinLateRenegade")
 			SSjob.latejoin_renegade += loc
-		if ("JoinLateStalker")
-			SSjob.latejoin_stalker += loc
 		else
 			SSjob.latejoin_trackers += loc
 	return INITIALIZE_HINT_QDEL

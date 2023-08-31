@@ -268,9 +268,6 @@
 /obj/effect/landmark/latejoin/renegade
 	name = "JoinLateRenegade"
 
-/obj/effect/landmark/latejoin/stalker
-	name = "JoinLateStalker"
-
 /turf/open/floor/plasteel/stairs/stalker
 	icon = 'stalker/icons/floor.dmi'
 	icon_state = "ladder"
