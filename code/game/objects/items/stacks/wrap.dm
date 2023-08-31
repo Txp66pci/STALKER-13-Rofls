@@ -26,9 +26,9 @@
  */
 
 /obj/item/stack/packageWrap
-	name = "package wrapper"
-	singular_name = "wrapping sheet"
-	desc = "You can use this to wrap items in."
+	name = "Упаковочная бумага"
+	singular_name = "Упаковочный лист"
+	desc = "Вы можете использовать это для упаковки предметов."
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "deliveryPaper"
 	item_flags = NOBLUDGEON
@@ -121,8 +121,8 @@
 		new /obj/item/c_tube(T)
 
 /obj/item/c_tube
-	name = "cardboard tube"
-	desc = "A tube... of cardboard."
+	name = "Картонная трубка"
+	desc = "Трубка... картона."
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "c_tube"
 	throwforce = 0

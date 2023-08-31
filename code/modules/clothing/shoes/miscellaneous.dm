@@ -147,8 +147,8 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 
 /obj/item/clothing/shoes/workboots
-	name = "work boots"
-	desc = "Resiliant lace-up work boots for the especially blue-collar."
+	name = "Рабочие ботинки"
+	desc = "Эластичные рабочие ботинки на шнуровке."
 	icon_state = "workboots"
 	item_state = "jackboots"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
@@ -192,8 +192,8 @@
 	icon_state = "boots"
 
 /obj/item/clothing/shoes/laceup
-	name = "laceup shoes"
-	desc = "The height of fashion, and they're pre-polished!"
+	name = "Туфли"
+	desc = "Верх моды, и они уже отполированы!"
 	icon_state = "laceups"
 	equip_delay_other = 50
 

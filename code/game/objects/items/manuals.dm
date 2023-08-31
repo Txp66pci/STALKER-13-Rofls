@@ -1882,11 +1882,11 @@ the stars and can't see your own two hands.
 
 
 /obj/item/book/manual/metro2033
-	name = "Metro 2033"
+	name = "Метро 2033"
 	icon_state ="book_Metro2033"
-	author = "Dmitry Glukhovsky"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
+	author = "Дмитрий Глуховский"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
 	title = "Metro 2033"
-	desc = "An old tattered book left in the zone. This one looks to have a person in a gas mask on it."
+	desc = "Старая потрепанная книга, оставленная в зоне. На этой изображен человек в противогазе."
 //big pile of shit below.
 
 	dat = {"<html>

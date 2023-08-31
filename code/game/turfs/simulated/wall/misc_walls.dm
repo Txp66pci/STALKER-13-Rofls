@@ -161,14 +161,14 @@
 	bullet_sizzle = TRUE
 
 /turf/closed/wall/rust
-	name = "rusted wall"
-	desc = "A rusted metal wall."
+	name = "Ржавая стена"
+	desc = "Просто ржавая стена."
 	icon = 'icons/turf/walls/rusty_wall.dmi'
 	hardness = 45
 
 /turf/closed/wall/r_wall/rust
-	name = "rusted reinforced wall"
-	desc = "A huge chunk of rusted reinforced metal."
+	name = "Ржавая крепкая стена"
+	desc = "Огромный кусок ржавого армированного металла."
 	icon = 'icons/turf/walls/rusty_reinforced_wall.dmi'
 	hardness = 15
 

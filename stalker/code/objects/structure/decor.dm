@@ -1363,7 +1363,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 
 /obj/structure/stalker/cacheable
 	name = "Нычка"
-	desc = "Скажи педалям если видишь это."
+	desc = "Может быть тут осталось что-то?"
 	density = 1
 	var/cache_chance = 0	//percent
 	var/cache_quality = -1	//from 0 to 3, -1 for random

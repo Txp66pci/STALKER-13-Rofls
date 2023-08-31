@@ -111,8 +111,8 @@
 	icon_state = "fake_door"
 
 /turf/closed/indestructible/rock
-	name = "dense rock"
-	desc = "An extremely densely-packed rock, most mining tools or explosives would never get through this."
+	name = "Плотный камень"
+	desc = "Чрезвычайно плотно упакованная скала, большинство горнодобывающих инструментов или взрывчатых веществ никогда не пройдут через это."
 	icon = 'icons/turf/mining.dmi'
 	icon_state = "rock"
 

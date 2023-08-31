@@ -57,10 +57,10 @@
 
 
 /obj/item/kitchen/knife
-	name = "kitchen knife"
+	name = "Кухонный нож"
 	icon_state = "knife"
 	item_state = "knife"
-	desc = "A general purpose kitchen knife used by chefs all over the world. Not particularly good at combat, but better than nothing."
+	desc = "Кухонный нож общего назначения, используемый шеф-поварами во всем мире. Не особенно хорош в бою, но лучше, чем ничего."
 	flags_1 = CONDUCT_1
 	force = 15
 	w_class = WEIGHT_CLASS_SMALL

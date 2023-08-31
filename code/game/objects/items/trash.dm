@@ -3,648 +3,648 @@
 	icon = 'icons/obj/janitor.dmi'
 	lefthand_file = 'icons/mob/inhands/misc/food_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/misc/food_righthand.dmi'
-	desc = "This is rubbish."
+	desc = "Мусор."
 	w_class = WEIGHT_CLASS_TINY
 	resistance_flags = FLAMMABLE
 	var/random_icon_states
 
 /obj/item/trash/binding_material
-	desc = "This is rubbish. It looks like it can tie something together."
+	desc = "Мусор. Похоже, он может что-то связать воедино."
 
 /obj/item/trash/nail
-	desc = "This is rubbish. It looks like it can still be used to nail something together."
+	desc = "Мусор. Похоже, его все еще можно использовать, чтобы что-то сколотить."
 
 /obj/item/trash/oldcircuitboard
-	desc = "This is rubbish. It looks like some kind of circuit board."
+	desc = "Мусор. Похоже на какую-то печатную плату."
 
 /obj/item/trash/brokedevice
-	desc = "This is rubbish. The device is broken and wont turn on."
+	desc = "Мусор. Устройство сломано и не включается."
 
 /obj/item/trash/metalparts
-	desc = "This is rubbish. This is some metal junk."
+	desc = "Мусор. Это какой-то металлический хлам."
 
 /obj/item/trash/brokensyringe
-	desc = "This is rubbish. It looks like a broken syringe."
+	desc = "Мусор. Похоже на сломанный шприц."
 
 /obj/item/trash/brokenvinyl
-	desc = "This is rubbish, once upon a time this played music but now its beyond repair."
+	desc = "Мусор, когда-то давно это играло музыку, но теперь она не подлежит ремонту."
 
 /obj/item/trash/meshwirepatch
-	desc = "This is rubbish. It is a big patch of mesh wire."
+	desc = "Мусор. Это большой кусок сетчатой проволоки."
 
 /obj/item/trash/woodscrap
-	desc = "This is rubbish. A scrap of wood that has seen better days."
+	desc = "Мусор. Кусок дерева, который видел лучшие дни."
 
 /obj/item/trash/brokecrate
-	desc = "This is rubbish. It looks like it used to be a crate."
+	desc = "Мусор. Похоже, раньше это был ящик."
 
 /obj/item/trash/spitchew
-	desc = "This is rubbish. Someone spat this up and its still moist and disguisting."
+	desc = "Мусор. Кто-то выплюнул это, и оно все еще влажное и мерзкое."
 
 /obj/item/trash/barbwire
-	desc = "This is rubbish. Spiky barbwire makes this important to handle with care."
+	desc = "Мусор. Колючая проволока-осторожно."
 
 /obj/item/trash/glue
-	desc = "This is rubbish. Upon further inspection there seems to be just enough to use it one last time."
+	desc = "Мусор. При осмотре, кажется, клея достаточно, чтобы использовать его в последний раз."
 
 /obj/item/trash/fueltank
-	desc = "This is rubbish. It looks like a discarded fuel tank."
+	desc = "Мусор.Похоже на выброшенный бензобак."
 
 /obj/item/trash/anchor
-	desc = "This is rubbish. What is an anchor doing all the way out here?"
+	desc = "Мусор. Что здесь делает якорь?"
 
 /obj/item/trash/horn
-	desc = "This is rubbish. It appears to be a horn that came from an animal or was carved out."
+	desc = "Мусор. Похоже, что это рог, который произошел животного."
 
 /obj/item/trash/oldplank
-	desc = "This is rubbish. An old plank that has seen better days."
+	desc = "Мусор. Старая доска, которая видела лучшие дни."
 
 
 // STALKER Junk
 
 /obj/item/trash/cigs_trash
-	name = "cigarettes"
+	name = "Бычки"
 	icon_state = "cigs_trash"
 
 /obj/item/trash/cigs_trash2
-	name = "cigarettes"
+	name = "Бычки"
 	icon_state = "cigs_trash2"
 
 /obj/item/trash/cigs_trash3
-	name = "cigarettes"
+	name = "Бычки"
 	icon_state = "cigs_trash3"
 
 /obj/item/trash/cigs_trash4
-	name = "cigarettes"
+	name = "Бычки"
 	icon_state = "cigs_trash4"
 
 /obj/item/trash/cigs_trash5
-	name = "cigarettes"
+	name = "Бычки"
 	icon_state = "cigs_trash5"
 
 /obj/item/trash/ashtray1
-	name = "cigarettes"
+	name = "Пепельница"
 	icon_state = "ashtray1"
 
 /obj/item/trash/ashtray2
-	name = "broken ashtray"
+	name = "Сломанная пепельница"
 	icon_state = "ashtray2"
 
 /obj/item/trash/ashtray3
-	name = "ashtray"
+	name = "Пепельница"
 	icon_state = "ashtray3"
 
 /obj/item/trash/ashtray4
-	name = "broken ashtray"
+	name = "Сломанная пепельница"
 	icon_state = "ashtray4"
 
 /obj/item/trash/paintcan
-	name = "can of paint"
+	name = "Банка краски"
 	icon_state = "paintcan"
 
 /obj/item/trash/teapot
-	name = "old teapot"
+	name = "Старый чайник"
 	icon_state = "teapot"
 
 /obj/item/trash/pincers
-	name = "rusty pincers"
+	name = "Ржавые клещи"
 	icon_state = "artifactholder"
 
 /obj/item/trash/oldkey
-	name = "old key"
+	name = "Старый ключ"
 	icon_state = "oldkey"
 
 /obj/item/trash/modernkey
-	name = "car key"
+	name = "Ключ от машины"
 	icon_state = "modernkey"
 
 /obj/item/trash/crossnecklace
-	name = "cross necklace"
+	name = "Крестик"
 	icon_state = "chetki"
 
 /obj/item/trash/oldphoto
-	name = "old photo"
+	name = "Старое фото"
 	icon_state = "oldphoto"
 
 /obj/item/trash/oldvials
-	name = "old vials"
+	name = "Старые флаконы"
 	icon_state = "vials"
 
 /obj/item/trash/binding_material/steelwire
-	name = "steel wire"
+	name = "Стальная проволока"
 	icon_state = "steelwire"
 
 /obj/item/trash/binding_material/wire
-	name = "wire"
+	name = "Провод"
 	icon_state = "wire"
 
 /obj/item/trash/binding_material/duct_tape
-	name = "duct tape"
+	name = "Скотч"
 	icon_state = "duct_tape"
 
 /obj/item/trash/binding_material/steelwire1
-	name = "steel wire"
+	name = "Стальная проволока"
 	icon_state = "steelwire1"
 
 /obj/item/trash/metalparts/metaljunk
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunk"
 
 /obj/item/trash/metalparts/metaljunk/one
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunkone"
 
 /obj/item/trash/metalparts/metaljunk/two
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunktwo"
 
 /obj/item/trash/metalparts/metaljunk/three
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunkthree"
 
 /obj/item/trash/metalparts/metaljunk/four
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunkfour"
 
 /obj/item/trash/metalparts/metaljunk/five
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunkfive"
 
 /obj/item/trash/metalparts/metaljunk/six
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunksix"
 
 /obj/item/trash/metalparts/metaljunk/seven
-	name = "metal junk"
+	name = "Металлический хлам"
 	icon_state = "metaljunkseven"
 
 /obj/item/trash/oldcircuitboard
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard"
 
 /obj/item/trash/oldcircuitboard/alt
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard0"
 
 /obj/item/trash/oldcircuitboard/two
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard2"
 
 /obj/item/trash/oldcircuitboard/three
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard3"
 
 /obj/item/trash/oldcircuitboard/four
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard4"
 
 /obj/item/trash/oldcircuitboard/five
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard5"
 
 /obj/item/trash/oldcircuitboard/six
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard6"
 
 /obj/item/trash/oldcircuitboard/seven
-	name = "circuit board"
+	name = "Платы"
 	icon_state = "circuitboard7"
 
 /obj/item/trash/oldchembottle
-	name = "chemical bottle"
+	name = "Химическая бутылка"
 	icon_state = "chembottle"
 
 /obj/item/trash/brokenpocketwatch
-	name = "broken pocket watch"
+	name = "Сломанные карманные часы"
 	icon_state = "brokenpocketwatch"
 
 /obj/item/trash/brokedevice/pdabroke/one
-	name = "broken pda"
+	name = "Сломанный КПК"
 	icon_state = "pdabrokeone"
 
 /obj/item/trash/brokedevice/pdabroke/two
-	name = "broken pda"
+	name = "Сломанный КПК"
 	icon_state = "pdabroketwo"
 
 /obj/item/trash/brokedevice/echobroke/one
-	name = "broken echo detector"
+	name = "Сломанный детектор Отклик"
 	icon_state = "echobrokeone"
 
 /obj/item/trash/brokedevice/echobroke/two
-	name = "broken echo detector"
+	name = "Сломанный детектор Отклик"
 	icon_state = "echobroketwo"
 
 /obj/item/trash/brokedevice/bearbroken/one
-	name = "broken bear detector"
+	name = "Сломанный детектор Медведь"
 	icon_state = "bearbrokenone"
 
 /obj/item/trash/brokedevice/bearbroken/two
-	name = "broken bear detector"
+	name = "Сломанный детектор Медведь"
 	icon_state = "bearbrokentwo"
 
 /obj/item/trash/brokedevice/velesbroke/one
-	name = "broken veles detector"
+	name = "Сломанный детектор Медведь"
 	icon_state = "velesbrokeone"
 
 /obj/item/trash/brokedevice/velesbroke/two
-	name = "broken veles detector"
+	name = "Сломанный детектор Медведь"
 	icon_state = "velesbroketwo"
 
 /obj/item/trash/metalparts/metalplate/one
-	name = "metal plate"
+	name = "Металлическая пластина"
 	icon_state = "metalplateone"
 
 /obj/item/trash/metalparts/metalplate/two
-	name = "metal plate"
+	name = "Металлическая пластина"
 	icon_state = "metalplatetwo"
 
 /obj/item/trash/brokelock
-	name = "broke lock"
+	name = "Сломанный замок"
 	icon_state = "brokelock"
 
 /obj/item/trash/glassshard
-	name = "glass shard"
+	name = "Осколок стекла"
 	icon_state = "glassshard"
 
 /obj/item/trash/metalparts/scrap
-	name = "scrap"
+	name = "Хлам"
 	icon_state = "scrap"
 
 /obj/item/trash/metalparts
-	name = "metal parts"
+	name = "Металлические детали"
 	icon_state = "metalparts"
 
 /obj/item/trash/shards
-	name = "shards"
+	name = "Осколки"
 	icon_state = "shards"
 
 /obj/item/trash/pileofbandages
-	name = "pile of bandages"
+	name = "Куча бинтов"
 	icon_state = "pileofbandages"
 
 /obj/item/trash/papershreds
-	name = "paper shreds"
+	name = "Кусочки бумаги"
 	icon_state = "papershreds"
 
 /obj/item/trash/deskclutter
-	name = "desk clutter"
+	name = "Беспорядок на столе"
 	icon_state = "deskclutter"
 
 /obj/item/trash/oldplank/moldyplank
-	name = "moldy plank"
+	name = "Заплесневелая доска"
 	icon_state = "moldyplank"
 
 /obj/item/trash/wornpermit
-	name = "worn permit"
+	name = "Ношенное удостоверение"
 	icon_state = "wornpermit"
 
 /obj/item/trash/brokedevice
-	name = "broken cellphone"
+	name = "Сломанный телефон"
 	icon_state = "brokencellphoneone"
 
 /obj/item/trash/brokedevice/brokencellphone/two
-	name = "broken cellphone"
+	name = "Сломанный телефон"
 	icon_state = "brokencellphonetwo"
 
 /obj/item/trash/brokedevice/brokencellphone/three
-	name = "broken cellphone"
+	name = "Сломанный телефон"
 	icon_state = "brokencellphonethree"
 
 /obj/item/trash/brokehandmirror
-	name = "broken hand mirror"
+	name = "Разбитое зеркало"
 	icon_state = "brokehandmirror"
 
 /obj/item/trash/brokensyringe
-	name = "broken syringe"
+	name = "Сломанный шприц"
 	icon_state = "brokensyringeone"
 
 /obj/item/trash/brokensyringe/two
-	name = "broken syringe"
+	name = "Сломанный шприц"
 	icon_state = "brokensyringetwo"
 
 /obj/item/trash/brokensyringe/three
-	name = "broken syringe"
+	name = "Сломанный шприц"
 	icon_state = "brokensyringethree"
 
 /obj/item/trash/rustyscissor
-	name = "rusty scissor"
+	name = "Ржавые ножницы"
 	icon_state = "rustyscissor"
 
 /obj/item/trash/binding_material/vhs
-	name = "vhs"
+	name = "VHS"
 	icon_state = "vhs"
 
 /obj/item/trash/brokenvinyl
-	name = "broken vinyl"
+	name = "Сломанный винил"
 	icon_state = "brokenvinylone"
 
 /obj/item/trash/brokenvinyl/two
-	name = "broken vinyl"
+	name = "Сломанный винил"
 	icon_state = "brokenvinyltwo"
 
 /obj/item/trash/brokenvinyl/three
-	name = "broken vinyl"
+	name = "Сломанный винил"
 	icon_state = "brokenvinylthree"
 
 /obj/item/trash/brokenvinyl/four
-	name = "broken vinyl"
+	name = "Сломанный винил"
 	icon_state = "brokenvinylfour"
 
 /obj/item/trash/brokenvinyl/five
-	name = "broken vinyl"
+	name = "Сломанный винил"
 	icon_state = "brokenvinylfive"
 
 /obj/item/trash/brokenvinyl/six
-	name = "broken vinyl"
+	name = "Сломанный винил"
 	icon_state = "brokenvinylsix"
 
 /obj/item/trash/meshwirepatch
-	name = "meshwire patch"
+	name = "Рулон сеточного забора"
 	icon_state = "meshwirepatchone"
 
 /obj/item/trash/meshwirepatch/two
-	name = "meshwire patch"
+	name = "Рулон сеточного забора"
 	icon_state = "meshwirepatchtwo"
 
 /obj/item/trash/meshwirepatch/three
-	name = "meshwire patch"
+	name = "Рулон сеточного забора"
 	icon_state = "meshwirepatchthree"
 
 /obj/item/trash/woodscrap
-	name = "wood scrap"
+	name = "Древесный лом"
 	icon_state = "woodscrapone"
 
 /obj/item/trash/woodscrap/two
-	name = "wood scrap"
+	name = "Древесный лом"
 	icon_state = "woodscraptwo"
 
 /obj/item/trash/brokecrate
-	name = "broken crate"
+	name = "Сломанный ящик"
 	icon_state = "brokecrateone"
 
 /obj/item/trash/brokecrate/two
-	name = "broken crate"
+	name = "Сломанный ящик"
 	icon_state = "brokecratetwo"
 
 /obj/item/trash/nail
-	name = "rusty nails"
+	name = "Ржавые гвозди"
 	icon_state = "rustynail"
 
 /obj/item/trash/nail/alt
-	name = "rusty nails"
+	name = "Ржавые гвозди"
 	icon_state = "rustynailalt"
 
 /obj/item/trash/nail/rustynails
-	name = "rusty nails"
+	name = "Ржавые гвозди"
 	icon_state = "rustynails"
 
 /obj/item/trash/nail/largerustynail
-	name = "large rusty nail"
+	name = "Большой ржавый гвоздь"
 	icon_state = "largerustynail"
 
 /obj/item/trash/metalparts/brokenladder
-	name = "broken ladder"
+	name = "Сломанная лестница"
 	icon_state = "brokenladder"
 
 /obj/item/trash/metalparts/brokenpipes
-	name = "rusty pipes"
+	name = "Ржавые трубы"
 	icon_state = "brokenpipes"
 
 /obj/item/trash/broketrash
-	name = "broken trash bag"
+	name = "Порваный мешок для мусора"
 	icon_state = "broketrash"
 
 /obj/item/trash/binding_material/brokechain
-	name = "broken chain"
+	name = "Разорванная цепь"
 	icon_state = "brokechain"
 
 /obj/item/trash/binding_material/brokehook
-	name = "broken hook"
+	name = "Сломанный крюк"
 	icon_state = "brokehook"
 
 /obj/item/trash/rustedbadge
-	name = "rusted badge"
+	name = "Ржавый значок"
 	icon_state = "rustedbadge"
 
 /obj/item/trash/spitchew/one
-	name = "spit wad"
+	name = "Плевок"
 	icon_state = "spitchewone"
 
 /obj/item/trash/spitchew/two
-	name = "spit wad"
+	name = "Плевок"
 	icon_state = "spitchewtwo"
 
 /obj/item/trash/binding_material/rope
-	name = "rope"
+	name = "Веревка"
 	icon_state = "rope"
 
 /obj/item/trash/barbwire/barbedwirejumble
-	name = "barbed wire jumble"
+	name = "Нагромождение колючей проволоки"
 	icon_state = "barbedwirejumble"
 
 /obj/item/trash/binding_material/coil
-	name = "coil"
+	name = "Провод"
 	icon_state = "coil"
 
 /obj/item/trash/barbwire/brokebarbwire
-	name = "rusted barbwire"
+	name = "Ржавая колючая проволока"
 	icon_state = "brokebarbwire"
 
 /obj/item/trash/tincan
-	name = "empty tincan"
+	name = "Пустая жестяная банка"
 	icon_state = "tincan"
 
 /obj/item/trash/binding_material/ducttape
-	name = "ducttape"
+	name = "Клейкая лента"
 	icon_state = "ducttape"
 
 /obj/item/trash/slate
-	name = "desecrated slate"
+	name = "Оскверненный шифер"
 	icon_state = "slate"
 
 /obj/item/trash/chairtrash
-	name = "chair trash"
+	name = "Ошметки стула"
 	icon_state = "chairtrash"
 
 /obj/item/trash/brokensink
-	name = "broken sink"
+	name = "Сломанная раковина"
 	icon_state = "brokensink"
 
 /obj/item/trash/glue/one
-	name = "glue"
+	name = "Клей"
 	icon_state = "glueone"
 
 /obj/item/trash/glue/two
-	name = "glue"
+	name = "Клей"
 	icon_state = "gluetwo"
 
 /obj/item/trash/metalparts/brokenturbine
-	name = "broken turbine"
+	name = "Сломанная турбина"
 	icon_state = "brokenturbine"
 
 /obj/item/trash/woodenrods
-	name = "wooden rods"
+	name = "Деревянные прутья"
 	icon_state = "woodenrods"
 
 /obj/item/trash/binding_material
-	name = "binding material"
+	name = "Связывающий материал"
 	icon_state = "leash"
 
 /obj/item/trash/binding_material/woolyarn
-	name = "wool yarn"
+	name = "Шерстяная пряжа"
 	icon_state = "woolyarn"
 
 /obj/item/trash/claybricks
-	name = "claybricks"
+	name = "Кирпичи"
 	icon_state = "claybricks"
 
 /obj/item/trash/binding_material/filmtape
-	name = "film tape"
+	name = "Кинолента"
 	icon_state = "filmtape"
 
 /obj/item/trash/dogtag
-	name = "ruined dogtag"
+	name = "Испорченный жетон"
 	icon_state = "dogtag"
 
 /obj/item/trash/grassbundle
-	name = "grass bundle"
+	name = "Пучок травы"
 	icon_state = "grassbundle"
 
 /obj/item/trash/fueltank
-	name = "fueltank"
+	name = "Бензобак"
 	icon_state = "fueltank"
 
 /obj/item/trash/fueltank/large
-	name = "large fueltank"
+	name = "Большой бензобак"
 	icon_state = "fueltank_large"
 
 /obj/item/trash/fueltank/bike
-	name = "bike fueltank"
+	name = "Бензобак мотоцикла"
 	icon_state = "fueltank_bike"
 
 /obj/item/trash/fueltank/bikelarge
-	name = "large bike fueltank"
+	name = "Большой бензобак мотоцикла"
 	icon_state = "fueltank_bikelarge"
 
 /obj/item/trash/anchor
-	name = "anchor"
+	name = "Якорь"
 	icon_state = "anchor"
 
 /obj/item/trash/anchor/small
-	name = "small anchor"
+	name = "Маленький якорь"
 	icon_state = "smallanchor"
 
 /obj/item/trash/metalparts/busdoor
-	name = "bus door"
+	name = "Дверь автобуса"
 	icon_state = "busdoor"
 
 /obj/item/trash/metalparts/auto_shaft
-	name = "auto shaft"
+	name = "Автоматический вал"
 	icon_state = "auto_shaft"
 
 /obj/item/trash/blown_shotgun
-	name = "blown shotgun"
+	name = "Хлам"
 	icon_state = "blown_shotgun"
 
 /obj/item/trash/racecar
-	name = "toy racecar"
+	name = "Игрушечный автомобиль"
 	icon_state = "racecar"
 
 /obj/item/trash/horn
-	name = "horn"
+	name = "Клаксон"
 	icon_state = "horn"
 
 /obj/item/trash/horn/two
-	name = "horn"
+	name = "Клаксон"
 	icon_state = "horntwo"
 
 /obj/item/trash/binding_material/chain
-	name = "chain"
+	name = "Цепь"
 	icon_state = "chain"
 
 /obj/item/trash/igniter
-	name = "igniter"
+	name = "Воспламенитель"
 	icon_state = "igniter"
 
 /obj/item/trash/timer
-	name = "kitchen timer"
+	name = "Кухонный таймер"
 	icon_state = "timer"
 
 /obj/item/trash/toaster
-	name = "toaster"
+	name = "Тостер"
 	icon_state = "toaster"
 
 /obj/item/trash/iron
-	name = "iron"
+	name = "Железо"
 	icon_state = "iron"
 
 /obj/item/trash/gear
-	name = "gear"
+	name = "Шестерня"
 	icon_state = "gear"
 
 /obj/item/trash/baseball
-	name = "baseball"
+	name = "Шар"
 	icon_state = "baseball"
 
 /obj/item/trash/brokemic
-	name = "broken microphone"
+	name = "Сломанный микрофон"
 	icon_state = "brokemic"
 
 /obj/item/trash/brokeseclite
-	name = "broken flashlight"
+	name = "Сломанный фонарик"
 	icon_state = "brokeseclite"
 
 /obj/item/trash/brokeheadset
-	name = "broken headset"
+	name = "Сломанные наушники"
 	icon_state = "brokeheadset"
 
 /obj/item/trash/brokephone
-	name = "broken phone"
+	name = "Сломанный телефон"
 	icon_state = "brokephone"
 
 /obj/item/trash/oldplank
-	name = "old plank"
+	name = "Старая доска"
 	icon_state = "oldplank"
 
 /obj/item/trash/oldplank/two
-	name = "old plank"
+	name = "Старая доска"
 	icon_state = "oldplanktwo"
 
 /obj/item/trash/oldplank/three
-	name = "old plank"
+	name = "Старая доска"
 	icon_state = "oldplankthree"
 
 /obj/item/trash/fermentingjar
-	name = "fermenting jar"
-	desc = "An empty jar used for fermentation."
+	name = "Бродильный кувшин"
+	desc = "Пустая банка, используемая для брожения."
 	icon = 'stalker/icons/food.dmi'
 	icon_state = "fermentingjar"
 
 // Porn Mags
 
 /obj/item/trash/pornmagazine
-	name = "porn magazine"
-	desc = "An old ukrainian playboy magazine. The pictures inside are still intact...somewhat."
+	name = "Порно журнал"
+	desc = "Старый украинский журнал Playboy. Фотографии внутри до сих пор целы... почти..."
 	icon_state = "mag1"
 
 /obj/item/trash/pornmagazine/two
-	name = "porn magazine"
-	desc = "An old ukrainian playboy magazine. The pictures inside are still intact...somewhat."
+	name = "Порно журнал"
+	desc = "Старый украинский журнал Playboy. Фотографии внутри до сих пор целы... почти..."
 	icon_state = "mag2"
 
 /obj/item/trash/pornmagazine/three
-	name = "porn magazine"
-	desc = "An old ukrainian playboy magazine. The pictures inside are still intact...somewhat."
+	name = "Порно журнал"
+	desc = "Старый украинский журнал Playboy. Фотографии внутри до сих пор целы... почти..."
 	icon_state = "mag3"
 
 /obj/item/trash/pornmagazine/four
-	name = "porn magazine"
-	desc = "An old ukrainian playboy magazine. The pictures inside are still intact...somewhat."
+	name = "Порно журнал"
+	desc = "Старый украинский журнал Playboy. Фотографии внутри до сих пор целы... почти..."
 	icon_state = "mag4"
 
 /obj/item/trash/pornmagazine/five
-	name = "porn magazine"
-	desc = "An old ukrainian playboy magazine. The pictures inside are still intact...somewhat."
+	name = "Порно журнал"
+	desc = "Старый украинский журнал Playboy. Фотографии внутри до сих пор целы... почти..."
 	icon_state = "mag5"
 
 // SS13 Junk
@@ -654,19 +654,19 @@
 	icon_state= "4no_raisins"
 
 /obj/item/trash/candy
-	name = "candy"
+	name = "конфета"
 	icon_state= "candy"
 
 /obj/item/trash/cheesie
-	name = "cheesie honkers"
+	name = "Сырные хонкерсы"
 	icon_state = "cheesie_honkers"
 
 /obj/item/trash/chips
-	name = "chips"
+	name = "Чипсы"
 	icon_state = "chips"
 
 /obj/item/trash/popcorn
-	name = "popcorn"
+	name = "Попкорн"
 	icon_state = "popcorn"
 
 /obj/item/trash/sosjerky
@@ -682,11 +682,11 @@
 	icon_state = "energybar"
 
 /obj/item/trash/waffles
-	name = "waffles tray"
+	name = "Поднос для вафель"
 	icon_state = "waffles"
 
 /obj/item/trash/plate
-	name = "plate"
+	name = "Поднос"
 	icon_state = "plate"
 	resistance_flags = NONE
 
@@ -695,21 +695,21 @@
 	icon_state = "pistachios_pack"
 
 /obj/item/trash/semki
-	name = "semki pack"
+	name = "Пачка семечек"
 	icon_state = "semki_pack"
 
 /obj/item/trash/tray
-	name = "tray"
+	name = "Поднос"
 	icon_state = "tray"
 	resistance_flags = NONE
 
 /obj/item/trash/candle
-	name = "candle"
+	name = "Свеча"
 	icon = 'icons/obj/candle.dmi'
 	icon_state = "candle4"
 
 /obj/item/trash/can
-	name = "crushed can"
+	name = "Раздавленная банка"
 	icon_state = "cola"
 	resistance_flags = NONE
 	grind_results = list("aluminium" = 10)
@@ -718,14 +718,14 @@
 	return
 
 /obj/item/trash/coal
-	name = "lump of coal"
+	name = "Кусок угля"
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "slag"
 	desc = "Someone's gotten on the naughty list."
 	grind_results = list("carbon" = 20)
 
 /obj/item/trash/coal/burn()
-	visible_message("[src] fuses into a diamond! Someone wasn't so naughty after all...")
+	visible_message("[src] сплавляется в алмаз! В конце концов, кто-то не был таким непослушным...")
 	new /obj/item/stack/ore/diamond(loc)
 	qdel(src)
 
