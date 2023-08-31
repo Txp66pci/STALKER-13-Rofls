@@ -66,7 +66,7 @@ SUBSYSTEM_DEF(zona)
 	return total_mobs
 
 /datum/controller/subsystem/zona/proc/SpawnMobs()
-	for (var/obj/structure/spawner/stalker in GLOB.mobspawner)
+	for (var/obj/structure/spawner/S in GLOB.mobspawner)
 		switch (S.name)
 			if ("flesh")
 				new /mob/living/simple_animal/hostile/mutant/flesh(S.loc)
