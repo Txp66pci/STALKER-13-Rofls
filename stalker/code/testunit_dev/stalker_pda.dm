@@ -396,22 +396,22 @@ var/global/global_lentahtml = ""
 										<tr align=\"left\">\
 											<td align=\"left\">\
 												<div id=\"encyclopedia_list\">\
-													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Zone'>Zone</a></h4>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Backwater'>Backwater</a><br>\
-													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Anomalies'>Anomalies</a></h4>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Electro'>Electro</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Vortex'>Vortex</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Whirligig'>Whirligig</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Burner'>Burner</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Fruit Punch'>Fruit Punch</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Burnt Fuzz'>Burnt Fuzz</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Radiation'>Radiation</a><br>\
-													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Mutants'>Mutants</a></h4>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Blind Dog'>Blind Dog</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Flesh'>Flesh</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Snork'>Snork</a><br>\
-													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Boar'>Boar</a><br>\
-													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Artifacts'>Artifacts</a></h4>\
+													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Zone'>Зона</a></h4>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Backwater'>Затон</a><br>\
+													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Anomalies'>Аномалии</a></h4>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Electro'>Электра</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Vortex'>Грави</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Whirligig'>Карусель</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Burner'>Жарка</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Fruit Punch'>Кисель</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Burnt Fuzz'>Жгучий пух</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Radiation'>Радиация</a><br>\
+													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Mutants'>Мутанты</a></h4>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Blind Dog'>Слепая собака</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Flesh'>Плоть</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Snork'>Снорк</a><br>\
+													<a style=\"margin-left:10px\" href='byond://?src=\ref[src];choice=2;page=Boar'>Кабан</a><br>\
+													<h3 style=\"margin-top:0px;margin-bottom:0px\"><a href='byond://?src=\ref[src];choice=2;page=Artifacts'>Артефакты</a></h4>\
 												</div>\
 											</td>\
 											<td valign=\"top\">\
@@ -776,127 +776,127 @@ var/global/global_lentahtml = ""
 			if(href_list["page"])
 				switch(href_list["page"])
 					if("Zone")
-						article_title = "Zone"
+						article_title = "Зона"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "The Zone of Alienation is the 60 km wide area of exclusion that was set up around the Chernobyl NPP following the 1986 disaster and extended by the second Chernobyl disaster in 2006."
+						article_text = "ЧЗО - это зона отчуждения шириной 60 км, которая была создана вокруг Чернобыльской АЭС после катастрофы 1986 года и расширена второй Чернобыльской катастрофой в 2006 году."
 					if("Backwater")
-						article_title = "Backwater"
+						article_title = "Затон"
 						article_img = "backwater"
 						article_img_width = 200
 						article_img_height = 125
-						article_text = "Backwater, also called Zaton, is mainly set in a swampy area, with a few industrial factories scattered around it and derelict, grounded boats, some dating back before the incident. From the outlying structures and sizable number of grounded boats and tankers around, Backwater appears to have been drained of its water sometime after the Chernobyl incident, most likely to contain the radiation contamination in the water. A free bar for Stalkers is run by Beard, in the wreck of a tanker – the Skadovsk."
+						article_text = "Затон в основном расположен в болотистой местности, с несколькими промышленными заводами, разбросанными вокруг него, и заброшенными, севшими на мель лодками, некоторые из которых были построены еще до инцидента. Судя по отдаленным сооружениям и значительному количеству севших на мель лодок и танкеров вокруг, Затон, по-видимому, лишился своей воды через некоторое время после аварии на Чернобыльской АЭС. Бар для сталкеров находится в ведении Бороды, на затонувшем танкере - Скадовске."
 					if("Anomalies")
-						article_title = "Anomalies"
+						article_title = "Аномалии"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "After the second Chernobyl disaster, the Zone was littered with spots where the laws of nature and physics had been corrupted. These small oddities are called anomalies. They are hazardous, often deadly, towards human beings and other creatures as they can deliver electric shocks or burn, corrode and distort physical objects. Most anomalies produce visible air or light distortions, so their extent can be determined by throwing anything that is made of metal, like bolts, to trigger them. The anomalies seem to emit a powerful magnetic field, so it is logical to assume that the anomalies are triggered by anything made of metal that enters the magnetic field. Because vertebrate life on earth has iron-based blood, those creatures with enough body mass are capable of triggering the anomalies."
+						article_text = "После второй Чернобыльской катастрофы Зона была усеяна местами, где законы природы и физики были искажены. Эти небольшие странности называются аномалиями. Они опасны, часто смертельны для людей и других существ, поскольку могут вызывать поражение электрическим током или жечь, разъедать и искажать физические объекты. Большинство аномалий производят видимые воздушные или световые искажения, поэтому их местоположение можно определить, бросив все, что сделано из металла, например, болты, чтобы вызвать их. Аномалии, по-видимому, излучают мощное магнитное поле, поэтому логично предположить, что аномалии активируются чем-либо из металла, который попадает в магнитное поле. Поскольку позвоночные на Земле имеют кровь на основе железа, эти существа с достаточной массой тела способны активировать аномалии."
 					if("Electro")
-						article_title = "Electro"
+						article_title = "Электра"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "An anomalous formation, roughly 10 meters in diameter, accumulating large quantities of static electricity. When triggered, the anomaly bursts into a storm of arcing electricity nearly always lethal to all living beings. Easily recognizable by the blue gas it emits, along with the endless arcing of small bolts of electricity in the vicinity, the Electro holds no distinction for what crosses its event horizon, be it a human, a mutants or an inanimate object, and discharges as soon as anything gets too close."
+						article_text = "Аномальное образование диаметром около 10 метров, накапливающее статическое электричество. Потревоженная аномалия взрывается десятком мини-молний, причём поражение током для любого живого существа почти всегда смертельно. Характерной особенностью «электры» является видимый над ней днём голубоватый свет. Ночью легко обнаруживается любыми видами детекторов или с помощью бросания металлических предметов."
 					if("Vortex")
-						article_title = "Vortex"
+						article_title = "Воронка"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "An anomaly of presumably gravitational nature. When triggered, the tremendous power of the Vortex drags everything within the radius 10-15 meters towards the center. Victims drawn into the core have little to no chance of survival: their bodies are quickly constricted into a tight lump, only to be blown up in a powerful discharge of energy a moment later. In some cases, they may levitate in air with agony, and soon their entire systems are shredded into mere skeletal and flesh parts."
+						article_text = "Аномалия предположительно гравитационной природы. В момент активизации со страшной силой втягивает в себя всё, что находится в радиусе десяти-пятнадцати метров. При попадании в центр «воронки» шансов выжить нет: тело и животного, и человека будет сжато в плотный комок, а затем разорвано в момент так называемой разрядки."
 					if("Whirligig")
-						article_title = "Whirligig"
+						article_title = "Карусель"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "A common and dangerous anomaly, which snatches its victims up in the air and spins them at a breakneck speed. The exact nature of the Whirligig remains unknown. The anomaly can be recognized by a light whirlwind of dust above and by body fragments scattered in the vicinity. Victims caught on its outer rim, far enough from the maximum effect zone at the center, can escape the Whirligig with relatively minor injuries."
+						article_text = "Название обусловлено эффектом поднятия в воздух любого живого существа с последующей раскруткой до огромной скорости. Природа «карусели» пока не исследована до конца."
 					if("Burner")
-						article_title = "Burner"
+						article_title = "Жарка"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "The Burner can be a bit difficult to see, even in daylight, as it's only revealed by a faint heat haze. If the anomaly is triggered by either a living being or an object such as a metal bolt, it shoots out a tall pillar of flame in the air, burning everything in its vicinity. Though somewhat rare, the Burner anomaly is often found in clusters. Some clusters also emit extreme high ambient temperature, which hurts anything in their vicinity. Burners can emit temperatures as low as 100 degrees Celsius, up to several thousand, hot enough to crack concrete and melt metal, which explains why some Burners appear in areas that have massive cracks and severe damaged soil, while other sites are untouched."
+						article_text = "В неактивном состоянии выглядит как едва видимое облако горячего воздуха, однако при попадании в зону действия любого предмета или живого существа образует компактную зону, разогретую до температуры около 1500К."
 					if("Fruit Punch")
-						article_title = "Fruit Punch"
+						article_title = "Кисель"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "The Fruit Punch is a puddle of lambent green liquid that is easily visible in almost any environment due to its bright glow and distinctive hissing and bubbling noises. On contact with creatures or objects such as bolts, a Fruit Punch lights up brightly and emits a sharp hissing sound. It is extremely corrosive, damaging creatures and objects on contact. Any matter left in a Fruit Punch will eventually dissolve, hinting at the anomaly's corrosive nature and spelling doom for any protective suit."
+						article_text = "Образование не ясной до конца природы. При контакте с телом наносит травмы, сходные с эффектом воздействия сильной кислоты."
 					if("Burnt Fuzz")
-						article_title = "Burnt Fuzz"
+						article_title = "Жгучий пух"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "This anomaly is usually found outdoors. It resembles moss or vines, hanging down like curtains from its growing spot. Reacts to rapidly approaching living beings by discharging a cloud of projectiles severely injuring uncovered or lightly protected skin upon contact. Does not react to slowly moving targets. Burnt Fuzz is generally considered the least dangerous anomaly in the Zone since it can be easily spotted and avoided."
+						article_text = "Аномалия представляет собой свисающую волокнистую растительность, обычно закреплённое на дереве, металле или бетоне. Свисающая часть «паутины» очень лёгкая и колышется на ветру, время от времени из неё опадают на землю тёмные хлопья. Произрастает как на открытой местности, так и в помещениях. При быстром приближении любого тела выбрасывает облачко частиц, которые при контакте с какой-либо поверхностью обжигают её."
 					if("Radiation")
-						article_title = "Radiation"
+						article_title = "Радиация"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "Pockets of ionizing radiation, or simply radiation for short (areas where the ambient radiation count exceeds 50 mR per hour) can be found all over the Zone. In the outside areas, radiation tends to be dominant in wide, open spaces and on piles of scrap (such as the dirt or scrap piles in Garbage. Also cars, tractors and anything mechanical). Radiation in itself doesn't form artifacts. When you have accumulated enough radiation, you'll start to lose health; although radiation will decrease by itself (albeit very slowly) when you're outside of a radioactive area, it's often a good idea to use either Vodka, antirads, or a first aid kit to speed up the process."
+						article_text = "Зона повышенного уровня — более 50 мкР/ч (микроРентген/час) — радиации. Необходимо избегать длительного нахождения в подобных местах."
 					if("Mutants")
-						article_title = "Mutants"
+						article_title = "Мутанты"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "Mutants are animals or humans who have been warped by the Zone, changing both their physical appearance and behavior, usually making them more aggressive."
+						article_text = "Мутанты — мутировавший животный мир Зоны. Довольно разнообразен и однозначно опасен. Сталкерам известен только один вид животных, который не представляет угрозы, — это ворона."
 					if("Blind Dog")
-						article_title = "Blind Dog"
+						article_title = "Слепой пёс"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "Several generations of the dog species have lived and died since the catastrophe. Each was more affected by the Zone than the previous one. Rapid mutation lead to a vast improvement in previously peripheral abilities, frequently at the expense of primary ones. The most notable biological change was the loss of sight, paired with an uncanny development of smell. As it turned out, blind pups survived in the Zone as well as normal ones, if not better. As a result, the common dog quickly became extinct in the Zone, giving way to a new breed – that of blind dogs. The animals instinctively identify and avoid anomalies, radiation, and other invisible dangers that plague the Zone. Like their wild ancestors – the wolves – blind dogs hunt in packs. An encounter with a large group of these animals can be dangerous even to an experienced and well-armed stalker."
+						article_text = "Со времён первой катастрофы в собачьем роду сменилось уже несколько поколений, и в каждом из них всё более наблюдалось влияние Зоны. Мутации и эволюционная адаптация привели к усилению прежде слабо выраженных собачьих способностей, причём зачастую в ущерб привычным. Основные физиологические изменения коснулись зрения — оно оказалось почти бесполезным после стремительного усиления чутья: например, слепые щенки выживали в Зоне не хуже, а то и лучше своих зрячих собратьев. В результате обычные собаки вскоре выродились здесь полностью, уступив место новому виду — слепым псам. Данные животные прекрасно распознают и обходят аномалии, радиацию и другие невидимые опасности, которыми кишит Зона. Как и их предки, слепые псы охотятся стаями; встреча с большой группой этих существ означает серьёзную опасность даже для хорошо вооруженного сталкера."
 					if("Flesh")
-						article_title = "Flesh"
+						article_title = "Плоть"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "Like many other living creatures, domestic pigs in The Zone underwent serious mutations following the second Chernobyl disaster, affecting genes responsible for their metabolism. This eventually caused the animal's phenotype to change significantly."
+						article_text = "Оказавшиеся в Зоне домашние свиньи, как и многие другие живые организмы, подверглись сильной мутации. Поскольку были затронуты гены, контролирующие процессы метаболизма, фенотип животного резко изменился. Мутировавшая свинья, которую сталкеры называют плотью — один из самых наглядных примеров надругательства Зоны над природой. У этих существ сформировался чешуйчато-костный защитный покров, значительно увеличилась способность организма к регенерации, усложнилась нервная система. Как и обычная свинья, плоть всеядна, поэтому, будучи голодной, вполне может напасть на сталкера."
 					if("Snork")
-						article_title = "Snork"
+						article_title = "Снорк"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "The Snork is a horrifically mutated human soldier or Stalker, still wearing tattered remains of his uniform, boots and a GP-4 gas mask with cracked eyepieces, and a flailing hose. Exposure to radiation and anomalies in the wake of the second Chernobyl disaster has destroyed the human mind, leaving a feral, vicious beast psyche and a twisted body in its place, creating a dangerous predator."
+						article_text = "Эти существа, судя по всему, некогда были людьми, хотя сложно представить, какие условия могут довести человека до подобного состояния. Снорки — это сумасшедшие, ведущие совершенно животный образ жизни создания, по сути своей слабо отличающиеся от хищных монстров Зоны. Передвигаются они на четырёх конечностях, подпрыгивая над землёй и постоянно нюхая её, чтобы уловить запах жертвы. Охотятся осторожно и расчётливо, подстерегая сталкеров подобно хищным животным. Молниеносные рефлексы и гипертрофированные мышцы позволяют сноркам совершать длинные точные прыжки и за несколько секунд разрывать жертву в клочья. На некоторых особях сохранились детали армейской униформы или отдельные детали экипировки, что позволяет предположить в них пропавших без вести военных сталкеров."
 					if("Boar")
-						article_title = "Boar"
+						article_title = "Кабан"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "Mutagenic processes engineered by radiation and anomalies have played a significant part in shaping these mammals: they have lost all fur in a few places and grown long, bristly fur in others. The animal's hooves have changed in shape and become sharper, acquiring a resemblance to claws. Also, their pupils have become colorless, while both pigmentation disorders and deep wrinkles have appeared on their bald heads. They have also grown an extra pair of tusks which are easily recognized."
+						article_text = "Крупный зверь, достигающий полутора метров в холке. Своей живучестью и агрессивностью данное животное превосходит своих родственников вне Зоны и не уступает большинству мутантов. Мутагенные процессы, обусловленные воздействием радиации и аномалий, в значительной степени сказались на облике этих млекопитающих: местами последние облысели, а местами, наоборот, обросли очень длинной жёсткой шерстью. Копыта зверей изменили свою форму и стали более острыми, приобретя некоторое сходство с когтями; зрачки обесцветились, на облысевшей голове проявились пигментационные пятна и глубокие морщины. Кабаны Зоны хорошо переносят радиацию, что позволяет им подолгу находиться на сильно загрязнённых территориях. Обычно эти животные атакуют с разбега, пытаясь клыками распороть живот жертвы или сбить её с ног."
 					if("Artifacts")
-						article_title = "Artifacts"
+						article_title = "Артефакты"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
-						article_text = "Artifacts are items that have been changed by the conditions in the Zone. Most artifacts have strange and useful characteristics. For example, when kept close to the body, some artifacts create a protective field that increases its user's resilience to damage. Others may increase the user's stamina or protect against fire, etc. Artifacts are also valuable scientific study material and outside corporations would pay a hefty price to obtain one of these artifacts from the zone."
+						article_text = "Артефакт — предмет не до конца понятной физической природы, образующийся в аномалиях. Интересен первым делом тем, что по-разному влияет на носителя: влияние может быть как благотворное, так и вредоносное. Продажа артефактов теоретически является главным источником дохода сталкеров, большинство из которых прибыли в Зону именно за этим. В изучении свойств артефактов весьма заинтересованы учёные, работающие в различных сферах, например, в медицине."
 					if("Artifacts")
-						article_title = "Artifacts"
-						article_img = "nodata.gif"
-						article_img_width = 179
-						article_img_height = 128
-						article_text = ""
-					if("Artifacts")
-						article_title = "Artifacts"
+						article_title = "Артефакты"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
 						article_text = ""
 					if("Artifacts")
-						article_title = "Artifacts"
+						article_title = "Артефакты"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
 						article_text = ""
 					if("Artifacts")
-						article_title = "Artifacts"
+						article_title = "Артефакты"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
 						article_text = ""
 					if("Artifacts")
-						article_title = "Artifacts"
+						article_title = "Артефакты"
+						article_img = "nodata.gif"
+						article_img_width = 179
+						article_img_height = 128
+						article_text = ""
+					if("Artifacts")
+						article_title = "Артефакты"
 						article_img = "nodata.gif"
 						article_img_width = 179
 						article_img_height = 128
@@ -947,8 +947,8 @@ var/global/global_lentahtml = ""
 		last_invite = world.time
 		for(var/obj/item/stalker_pda/KPK_invited in GLOB.KPKs)
 			if(KPK_invited.sid == sid_)
-				show_lenta_message(src, KPK_invited, sid, owner.real_name, eng_faction_s, "You have been invited to [eng_faction_s] faction. Check feed for more info.")
-				add_local_lenta_message(src, KPK_invited, sid, owner.real_name, eng_faction_s,"You have been invited to [eng_faction_s] faction. <a style=\"color:#c10000;\" href='byond://?src=\ref[KPK_invited];changefaction=[J.title]'>\[Accept invitation\]</a>")
+				show_lenta_message(src, KPK_invited, sid, owner.real_name, eng_faction_s, "Вас приглассили в группировку [eng_faction_s]. Осмотрите ленту для большей информации.")
+				add_local_lenta_message(src, KPK_invited, sid, owner.real_name, eng_faction_s,"Вас приглассили в группировку [eng_faction_s]. <a style=\"color:#c10000;\" href='byond://?src=\ref[KPK_invited];changefaction=[J.title]'>\[Accept invitation\]</a>")
 
 	if(href_list["remove"])
 
@@ -966,15 +966,15 @@ var/global/global_lentahtml = ""
 
 		for(var/obj/item/stalker_pda/KPK_removed in GLOB.KPKs)
 			if(KPK_removed.sid == sid_)
-				show_lenta_message(src, KPK_removed, sid, owner.real_name, eng_faction_s, "You have been kicked out of [eng_faction_s] faction.")
-				add_local_lenta_message(src, KPK_removed, sid, owner.real_name, eng_faction_s,"You have been kicked out of [eng_faction_s] faction.")
+				show_lenta_message(src, KPK_removed, sid, owner.real_name, eng_faction_s, "Вы были изгнанны из группировки [eng_faction_s].")
+				add_local_lenta_message(src, KPK_removed, sid, owner.real_name, eng_faction_s,"Вы были изгнанны из группировки [eng_faction_s].")
 
 				KPK_removed.set_owner_info(KPK_removed.profile)
 
 	if(href_list["changefaction"])
 
 		var/new_eng_faction_s =  SSjob.GetJob(href_list["changefaction"]).faction_s
-		var/confirm = alert(H, "Do you want to change your faction from [eng_faction_s] to [new_eng_faction_s]?", "KPK", "Yes", "No")
+		var/confirm = alert(H, "Хотите сменить вашу группировку [eng_faction_s] на [new_eng_faction_s]?", "КПК", "Да", "Нет")
 		if(confirm == "Yes")
 			var/datum/job/J =  SSjob.GetJob(href_list["changefaction"])
 
@@ -994,7 +994,7 @@ var/global/global_lentahtml = ""
 	return
 
 /obj/item/stalker_pda/proc/message_input(mob/living/U = usr, msg_name, max_length)
-	var/t = stripped_input(U, "Please enter the [msg_name]", name, null, max_length)
+	var/t = stripped_input(U, "Введите [msg_name]", name, null, max_length)
 	if (!t)
 		return
 	if (!in_range(src, U) && loc != U)
@@ -1007,7 +1007,7 @@ var/global/global_lentahtml = ""
 	var/factioncolor 	= get_faction_color(faction_owner)
 	var/faction_title = faction_owner
 	if(KPK_owner && KPK_owner.profile && KPK_owner.profile.fields["degree"] >= 1)
-		faction_title += " - leader"
+		faction_title += "Лидер - "
 
 	var/t = "<table style=\"margin-top: 0px; margin-bottom: 5px; border: 0px; background: #2e2e38;\">\
 		<tr style=\"border: 0px solid black;\">\
@@ -1036,7 +1036,7 @@ var/global/global_lentahtml = ""
 	var/factioncolor 	= get_faction_color(faction_owner)
 	var/faction_title = faction_owner
 	if(KPK_owner && KPK_owner.profile && KPK_owner.profile.fields["degree"] >= 1)
-		faction_title += " - leader"
+		faction_title += "Лидер - "
 	KPK_guest.lentahtml = "<table style=\"margin-top: 0px; margin-bottom: 5px; border: 0px; background: #2e2e38;\">\
 	<tr style=\"border: 0px solid black;\">\
 	<td style=\"border: 0px solid black; vertical-align: top; background: #2e2e38;\" width=32 height=32>\
@@ -1180,7 +1180,7 @@ var/global/global_lentahtml = ""
 		else
 			ratinghtml += "<b>\[ЛИДЕР\]</b>"
 		//////////////
-		ratinghtml += "<br><b>Рейтинг:</b> [rank_name] ([r])<br>\
+		ratinghtml += "<br><b>Ранг:</b> [rank_name] ([r])<br>\
 				<b>Репутация:</b> <font color=\"[rep_color]\">[rep]</font><br>\
 				\
 				</td>\

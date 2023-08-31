@@ -353,51 +353,51 @@
 //////////////
 
 /obj/item/clothing/accessory/patch/loner
-	name = "loner patch"
-	desc = "A patch with a radiation sign on it, denoting a member of the Loner faction in the Zone."
+	name = "Нашивка Одиночек"
+	desc = "A нашивка с радиационным знаком на нем, обозначающим члена фракции Одиночек."
 	icon_state = "loners_patch"
 
 /obj/item/clothing/accessory/patch/bandits
-	name = "bandits patch"
-	desc = "A patch with a cracked skull on it, denoting a member of the Bandits faction in the Zone."
+	name = "Нашивка Бандитов"
+	desc = "Нашивка с треснувшим черепом, обозначающая члена фракции Бандитов."
 	icon_state = "bandits_patch"
 
 /obj/item/clothing/accessory/patch/clearsky
-	name = "clear sky patch"
-	desc = "A patch with a rising sun and two doves flying out, denoting a member of the Clear Sky faction in the Zone."
+	name = "Нашивка Чистого Неба"
+	desc = "Нашивка с восходящим солнцем и вылетающими двумя голубями, обозначающими члена фракции Чистое Небо."
 	icon_state = "clear_sky_patch"
 
 /obj/item/clothing/accessory/patch/duty
-	name = "duty patch"
-	desc = "A patch with a target with red background, denoting a member of the Duty faction in the Zone."
+	name = "Нашивка Долга"
+	desc = "Нашивка с мишенью на красном фоне, обозначающая члена фракции Долг."
 	icon_state = "duty_patch"
 
 /obj/item/clothing/accessory/patch/freedom
-	name = "freedom patch"
-	desc = "A patch with a green and golden wolf, denoting a member of the Freedom faction in the Zone."
+	name = "Нашивка Свободы"
+	desc = "Нашивка с зеленым и золотым волком, обозначающая члена Свободы."
 	icon_state = "freedom_patch"
 
 /obj/item/clothing/accessory/patch/ecologists
-	name = "ecologists patch"
-	desc = "A patch with two yellow wings with six green stars above on a white background with green stripes below, denotiong a member of the Ecologists faction in the Zone."
+	name = "Нашивка Экологов"
+	desc = "Нашивка с двумя желтыми крыльями с шестью зелеными звездами вверху и зелеными полосами внизу на белом фоне , обозначающая члена фракции экологов в Зоне."
 	icon_state = "ecologists_patch"
 
 /obj/item/clothing/accessory/patch/monolith
-	name = "monolith patch"
-	desc = "A patch with a human figure wrapped around an atom with an eye in its chest, denoting a member of the Monolitg faction in the Zone."
+	name = "Нашивка Монолита"
+	desc = "Нашивка с человеческой фигурой с глазом в груди и атомом обвивающим его голову , обозначающая члена фракции Монолит."
 	icon_state = "monolith_patch"
 
 /obj/item/clothing/accessory/patch/military
-	name = "military patch"
-	desc = "A patch with two golden leaves and the Ukranian military emblem in the middle, denoting a member of the Military in the Zone."
+	name = "Нашивка Военных"
+	desc = "Нашивка с двумя золотыми листьями и военной эмблемой Украины посередине, обозначающая военнослужащего."
 	icon_state = "military_patch"
 
 /obj/item/clothing/accessory/patch/mercenaries
-	name = "mercenaries patch"
-	desc = "A patch with an eagle embroidered in blue and gold, denoting a member of the Mercenary faction in the Zone."
+	name = "Нашивка Наёмников"
+	desc = "Нашивка с орлом, вышитым голубым и золотом, обозначающая члена фракции Наемников."
 	icon_state = "mercenaries_patch"
 
 /obj/item/clothing/accessory/patch/renegades
-	name = "renegades patch"
-	desc = "A patch with a scorpion embroidered in  gold, denoting a member of the Renegades faction in the Zone."
+	name = "Нашивка Ренегатов"
+	desc = "Нашивка со скорпионом, вышитым золотом, обозначающая члена фракции Ренегатов."
 	icon_state = "renegades_patch"
