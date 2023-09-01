@@ -551,11 +551,11 @@
 	icon_state = "racecar"
 
 /obj/item/trash/horn
-	name = "Клаксон"
+	name = "Рог"
 	icon_state = "horn"
 
 /obj/item/trash/horn/two
-	name = "Клаксон"
+	name = "Рог"
 	icon_state = "horntwo"
 
 /obj/item/trash/binding_material/chain

@@ -1,4 +1,4 @@
-/
+/*
 /obj/effect/landmark/mobspawner
 	name = "mob spawner"
 	icon_state = "xeno_spawn"
