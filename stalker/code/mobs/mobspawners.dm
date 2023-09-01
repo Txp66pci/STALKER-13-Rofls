@@ -46,4 +46,4 @@
 
 /obj/effect/landmark/mobspawner/zombiesimp_spawner
 	name = "zombiesimp"
-/
+/*
