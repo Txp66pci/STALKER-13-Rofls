@@ -307,30 +307,30 @@ var/sid_generator = 0
 			J = SSjob.GetJob(H.mind.assigned_role)
 
 		if(J)
-			if(J.real_rank == "Lieutenant")
+			if(J.real_rank == "Лейтенант")
 				sk.fields["rating"] = 10000//Starts faction leaders at Veteran,
 				sk.fields["money"] = 85000//with enough to buy other people gear,
 				sk.fields["degree"] = 1//and marked as leader on the PDA system.
-			if(J.real_rank == "Bartender")
+			if(J.real_rank == "Бармен")
 				sk.fields["rating"] = 40000//Starts barkeeps at Legend,
 				sk.fields["money"] = 1500000//with a load of cash to provide quests and tasks for.
-			if(J.real_rank == "Special")
+			if(J.real_rank == "Специальный")
 				sk.fields["rating"] = 8000//Starts experienced stalkers at Experienced,
 				sk.fields["money"] = 45000//with a bit of extra cash to gear themselves.
-			if(J.real_rank == "Duty")
+			if(J.real_rank == "Долг")
 				sk.fields["rating"] = 8000//Starts Duty at Experienced.
-			if(J.real_rank == "Freedom")
+			if(J.real_rank == "Свободовец")
 				sk.fields["rating"] = 8000//Starts Freedom at Experienced.
-			if(J.real_rank == "Ecologist")
+			if(J.real_rank == "Эколог")
 				sk.fields["rating"] = 8000//Starts Ecologists at Experienced,
 				sk.fields["money"] = 45000//with a lot of extra cash to gear themselves.
-			if(J.real_rank == "Army")
+			if(J.real_rank == "Военный")
 				sk.fields["rating"] = 8000//Starts Army Soldiers at Experienced.
-			if(J.real_rank == "ClearSky")
+			if(J.real_rank == "Чистое Небо")
 				sk.fields["rating"] = 8000//Starts CS at Experienced.
-			if(J.real_rank == "Bandit")
+			if(J.real_rank == "Бандит")
 				sk.fields["rating"] = 8000//Starts Bandits at Experienced.
-			if(J.real_rank == "Monolith")
+			if(J.real_rank == "Монолит")
 				sk.fields["rating"] = 8000//Starts Monolith at Experienced,
 				sk.fields["money"] = 45000//with a lot of extra cash to gear themselves, as they're an antagonist faction.
 			if(J.real_rank == "Renegade")
