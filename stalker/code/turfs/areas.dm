@@ -57,7 +57,7 @@
 	environment = 2
 
 /area/stalker/blowout/outdoor/backwater
-	name = "Затог - Улица \[O\]"
+	name = "Затон - Улица \[O\]"
 	icon_state = "outdoor"
 	environment = 19
 
