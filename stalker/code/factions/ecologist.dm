@@ -13,7 +13,7 @@
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/ecologist
-	real_rank = "Эколог"
+	real_rank = "Ecologist"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
 
@@ -96,7 +96,7 @@
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/ecologistguard
-	real_rank = "Эколог"
+	real_rank = "Ecologist"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -173,7 +173,7 @@
 	whitelist_only = 0
 	limit_per_player = 1
 	outfit = /datum/outfit/job/chief_ecologist
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 

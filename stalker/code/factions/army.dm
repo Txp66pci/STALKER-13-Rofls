@@ -20,7 +20,7 @@ Assistant
 	whitelist_only = 0
 	locked = 1
 	outfit = /datum/outfit/job/army
-	real_rank = "Военный"
+	real_rank = "Army"
 	exp_requirements = 300
 
 /datum/job/army_spetsnaz
@@ -38,7 +38,7 @@ Assistant
 	whitelist_only = 0
 	locked = 1
 	outfit = /datum/outfit/job/army_spetsnaz
-	real_rank = "Специальный"
+	real_rank = "Special"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
 
@@ -111,7 +111,7 @@ Assistant
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 

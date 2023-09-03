@@ -54,7 +54,7 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/oldstalker
-	real_rank = "Специальный"
+	real_rank = "Special"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
@@ -338,7 +338,7 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/barman
-	real_rank = "Бармен"
+	real_rank = "Bartender"
 
 /datum/outfit/job/barman
 	name = "Бармен одиночек"

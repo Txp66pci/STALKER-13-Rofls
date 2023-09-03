@@ -17,7 +17,7 @@
 	whitelist_only = 0
 	locked = 1
 	outfit = /datum/outfit/job/mercenary
-	real_rank = "Специальный"
+	real_rank = "Special"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -101,7 +101,7 @@
 	whitelist_only = 0
 	limit_per_player = 4
 	outfit = /datum/outfit/job/mercenarycommander
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 

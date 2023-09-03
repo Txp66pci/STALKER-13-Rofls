@@ -17,7 +17,7 @@ Assistant
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit = /datum/outfit/clearsky
-	real_rank = "Чистое небо"
+	real_rank = "ClearSky"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -75,7 +75,7 @@ Assistant
 	whitelist_only = 0
 	limit_per_player = 2
 	outfit = /datum/outfit/job/clearsky_leader
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 

@@ -15,7 +15,7 @@
 	whitelist_only = 0
 	limit_per_player = 2
 	outfit = /datum/outfit/job/monolith// /datum/outfit/job/duty
-	real_rank = "Монолит"
+	real_rank = "Monolith"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -86,7 +86,7 @@
 	whitelist_only = 0
 	limit_per_player = 1
 	outfit = /datum/outfit/job/monolith_hegumen
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 

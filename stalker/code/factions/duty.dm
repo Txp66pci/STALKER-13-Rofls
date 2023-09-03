@@ -17,7 +17,7 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/dutysoldier
-	real_rank = "Долг"
+	real_rank = "Duty"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -94,7 +94,7 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/barman2
-	real_rank = "Бармен"
+	real_rank = "Bartender"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
 
@@ -128,7 +128,7 @@ Assistant
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/duty_lieutenant
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 

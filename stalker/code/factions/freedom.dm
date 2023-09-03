@@ -14,7 +14,7 @@
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/freedomrookie
-	real_rank = "Свободовец"
+	real_rank = "Freedom"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -89,7 +89,7 @@
 	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/freedom_lieutenant
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 

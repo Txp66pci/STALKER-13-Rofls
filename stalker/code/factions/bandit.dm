@@ -20,7 +20,7 @@ Assistant
 	whitelist_only = 0
 	locked = 1
 	outfit = /datum/outfit/job/bandit
-	real_rank = "Бандит"
+	real_rank = "Bandit"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
 
@@ -41,7 +41,7 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access(
 	whitelist_only = 0
 	outfit = /datum/outfit/job/banditboss
-	real_rank = "Лейтенант"
+	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
@@ -62,7 +62,7 @@ Assistant
 	minimal_access = list()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/bandit_barman
-	real_rank = "Бармен"
+	real_rank = "Bartender"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
 
