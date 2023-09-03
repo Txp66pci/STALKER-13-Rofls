@@ -199,8 +199,8 @@
 	icon_state = "ert_security"
 
 /obj/item/storage/backpack/duty
-	name = "duty rucksack"
-	desc = "A spacious backpack with lots of pockets, worn by members of the Duty faction."
+	name = "Рюкзак Долга"
+	desc = "Вместительный рюкзак с большим количеством карманов, который носят члены фракции Долга."
 	icon_state = "ert_security"
 
 /obj/item/storage/backpack/ert/medical

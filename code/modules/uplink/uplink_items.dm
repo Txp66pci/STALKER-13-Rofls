@@ -1243,7 +1243,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	surplus = 90
 
 /datum/uplink_item/device_tools/military_belt
-	name = "Chest Rig"
+	name = "Разгрузка"
 	desc = "A robust seven-slot set of webbing that is capable of holding all manner of tactical equipment."
 	item = /obj/item/storage/belt/military
 	cost = 1

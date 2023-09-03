@@ -219,7 +219,7 @@
 	update_icon()
 
 /obj/item/storage/belt/security/webbing
-	name = "security webbing"
+	name = "Разгрузка"
 	desc = "Unique and versatile chest rig, can hold security gear."
 	icon_state = "securitywebbing"
 	item_state = "securitywebbing"
@@ -232,7 +232,7 @@
 	STR.max_items = 6
 
 /obj/item/storage/belt/mining
-	name = "explorer's webbing"
+	name = "Разгрузка"
 	desc = "A versatile chest rig, cherished by miners and hunters alike."
 	icon_state = "explorer1"
 	item_state = "explorer1"
@@ -340,7 +340,7 @@
 		)
 
 /obj/item/storage/belt/military
-	name = "chest rig"
+	name = "Разгрузка"
 	desc = "A set of tactical webbing worn by Syndicate boarding parties."
 	icon_state = "militarywebbing"
 	item_state = "militarywebbing"
@@ -710,4 +710,4 @@
 	STR.max_items = 8
 	icon_state = "chestrig"
 	item_state = "chestrig"
-	desc = "A hefty chestrig with a numerous amount of pouch slots. Ideal for carrying important equipment."
+	desc = "Здоровенная разгрузка с большим количеством сумок. Идеально подходит для переноски важного оборудования."

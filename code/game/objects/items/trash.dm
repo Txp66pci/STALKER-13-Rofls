@@ -243,11 +243,11 @@
 	icon_state = "bearbrokentwo"
 
 /obj/item/trash/brokedevice/velesbroke/one
-	name = "Сломанный детектор Медведь"
+	name = "Сломанный детектор Велес"
 	icon_state = "velesbrokeone"
 
 /obj/item/trash/brokedevice/velesbroke/two
-	name = "Сломанный детектор Медведь"
+	name = "Сломанный детектор Велес"
 	icon_state = "velesbroketwo"
 
 /obj/item/trash/metalparts/metalplate/one

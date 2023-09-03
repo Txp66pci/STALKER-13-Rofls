@@ -12,7 +12,7 @@ Assistant
 	description = "Чистое небо — независимая научно-военная организация, занимающаяся изучением Зоны."
 	enforces = "Разведка и исследование зоны. Стрельба по ренегатам по возможности."
 	forbids = "Противостояние сталкерам, причиняя им вред или воруя у них, работа с бандитами или ренегатами и вступание в бой с любой нейтральной фракцией, не посовещавшись с главой."
-	supervisors = "Leader"
+	supervisors = "Лидер"
 	selection_color = "#64B2F7"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
