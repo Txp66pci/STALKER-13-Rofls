@@ -193,7 +193,7 @@ SUBSYSTEM_DEF(ticker)
 
 
 /datum/controller/subsystem/ticker/proc/setup()
-	to_chat(world, "<span class='boldannounce'>Launching the Zone...</span>")
+	to_chat(world, "<span class='boldannounce'>Запускаем Зону...</span>")
 	var/init_start = world.timeofday
 		//Create and announce mode
 	var/list/datum/game_mode/runnable_modes
@@ -276,7 +276,7 @@ SUBSYSTEM_DEF(ticker)
 	round_start_time = world.time
 	SSdbcore.SetRoundStart()
 
-	to_chat(world, "<FONT color='red'><B>You encroach upon the Zone. Be wary, and keep your wits about you.</B></FONT>")
+	to_chat(world, "<FONT color='red'><B>Вы подходите к Зоне. Будьте осторожны и сохраняйте остроумие.</B></FONT>")
 	SEND_SOUND(world, sound('stalker/sound/start.ogg'))
 
 	current_state = GAME_STATE_PLAYING

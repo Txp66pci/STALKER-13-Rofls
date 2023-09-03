@@ -1069,7 +1069,7 @@ var/global/global_lentahtml = ""
 		\
 		<td width=386 height=32 align=\"top\" style=\"background: #131416; border: 0px; text-align:left; vertical-align: top;\">\
 		\
-		<p class=\"lentamsg\"><b><font color = \"[factioncolor]\">[name_owner]\[[faction_title]\](faction chat)</font></b>:<br><font color = \"#afb2a1\">[msg]</font></p>\
+		<p class=\"lentamsg\"><b><font color = \"[factioncolor]\">[name_owner]\[[faction_title]\](Чат группировки)</font></b>:<br><font color = \"#afb2a1\">[msg]</font></p>\
 		\
 		</td>\
 		\
@@ -1110,7 +1110,7 @@ var/global/global_lentahtml = ""
 /proc/show_dead_lenta_message(var/obj/item/stalker_pda/KPK_owner, var/name_owner, var/faction_owner, var/msg, var/isfactionchat = 0)
 	var/factioncolor	= get_faction_color(faction_owner)
 	if(isfactionchat)
-		msg = "<p style=\"margin-top: 0px; margin-bottom: 0px;\">\icon[KPK_owner]<b style=\"margin-top: 0px; margin-bottom: 0px;\"><font style=\"margin-top: 0px; margin-bottom: 0px;\" color=\"[factioncolor]\">[name_owner]\[[faction_owner]\](faction chat):</font></b><br><font color=\"#006699\"> \"[msg]\"</font></p>"
+		msg = "<p style=\"margin-top: 0px; margin-bottom: 0px;\">\icon[KPK_owner]<b style=\"margin-top: 0px; margin-bottom: 0px;\"><font style=\"margin-top: 0px; margin-bottom: 0px;\" color=\"[factioncolor]\">[name_owner]\[[faction_owner]\](Чат группировки):</font></b><br><font color=\"#006699\"> \"[msg]\"</font></p>"
 	else
 		msg = "<p style=\"margin-top: 0px; margin-bottom: 0px;\">\icon[KPK_owner]<b style=\"margin-top: 0px; margin-bottom: 0px;\"><font style=\"margin-top: 0px; margin-bottom: 0px;\" color=\"[factioncolor]\">[name_owner]\[[faction_owner]\]:</font></b><br><font color=\"#006699\"> \"[msg]\"</font></p>"
 

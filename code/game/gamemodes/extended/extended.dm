@@ -6,7 +6,7 @@
 	required_players = 0
 
 	announce_span = "notice"
-	announce_text = "Welcome to the Zone. Be careful out there, stalker!"
+	announce_text = "Добро пожаловать в Зону. Будь осторожен, сталкер!"
 
 /datum/game_mode/extended/pre_setup()
 	return 1
