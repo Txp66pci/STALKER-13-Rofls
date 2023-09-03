@@ -1,4 +1,3 @@
-/*
 /obj/effect/landmark/mobspawner
 	name = "mob spawner"
 	icon_state = "xeno_spawn"
@@ -46,4 +45,3 @@
 
 /obj/effect/landmark/mobspawner/zombiesimp_spawner
 	name = "zombiesimp"
-/*
