@@ -271,7 +271,7 @@
 	observer.started_as_observer = TRUE
 	close_spawn_windows()
 	var/obj/effect/landmark/observer_start/O = locate(/obj/effect/landmark/observer_start) in GLOB.landmarks_list
-	to_chat(src, "<span class='notice'>Moving to the Zone...</span>")
+	to_chat(src, "<span class='notice'>Вы приближаетесь к Зоне...</span>")
 	if (O)
 		observer.forceMove(O.loc)
 	else
@@ -489,7 +489,7 @@
 	//		else
 	//			dat += " [a.title]. </div>"
 
-	dat += "<div class='clearBoth'>Лоступны роли:</div><br>"
+	dat += "<div class='clearBoth'>Доступны роли:</div><br>"
 	dat += "<div class='jobs'><div class='jobsColumn'>"
 	var/job_count = 0
 	//for(var/datum/job/job in SSjob.occupations)

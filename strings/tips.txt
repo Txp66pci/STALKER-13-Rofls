@@ -1,60 +1,60 @@
-Tip #1. Vodka, a cheap alternative to antirad meds, is the easiest way to reduce the effects of radiation on the body.
-Tip #2.Workbenches can upgrade your weapons, suits, and helmets.
-Tip #3.Make sure to keep your inventory organized. Never know when you might need to grab something urgently or fetch a new magazine.
-Tip #4.You can access your PDA quickly by click-dragging it onto yourself.
-Tip #5.Most weapons are far more accurate when held with both hands. You will grip the weapon automatically if the other hand slot is empty.
-Tip #6.Medicine is extremely important in the zone. Always have at least a basic medkit in case of disaster.
-Tip #7.Drugs don't take effect immediately and some last for quite a long time.
-Tip #8.You can access detailed information about the current zone occupants using your PDA.
-Tip #9.If you find a gun you don't plan to keep, consider unloading it and using the rounds to either refill your stocks or sell just the magazine to safe space. Only full magazines can be sold.
-Tip #10. Your PDA has lots of details on anomalies. Read them frequently to stay safe around anomalies.
-Tip #11. You need a detector to search for artifacts. Better detectors have access to better artifacts.
-Tip #12. Holstering your weapon is a good show of faith towards other stalkers. It's also a good way to get killed...
-Tip #13. Throw bolts often to avoid being sucked into an anomaly.
-Tip #14. Radiation is the silent killer. Make sure to carry anti-rads so you don't fall to the Zone's most common killer.
-Tip #15. Eating food gives you a rush of energy and jumpstarts your metabolism. If you're hurt with no meds, try chowing down.
-Tip #16. Energy drinks, while uncommon, can give you the extra boost you need to get out of a sticky situation.
-Tip #17. Being hungry is a great way to become slow. Moving slowly is a great way to become dead.
-Tip #18. Having a detector in one hand doesn't stop you from using a knife, a pistol or bolt with your other hand.
-Tip #19. A grainy, washed out screen indicates that you are suffering from radiation.
-Tip #20. Making friends is a great tool. Not everyone is out to get you, and they might just help you out.
-Tip #21. Most artifacts are radioactive. In order to reap their benefits (and maluses) you must either hold it in your hand or put it on an artifact belt.
-Tip #22. Artifacts are invisible until you walk near them with a detector. Make sure to have a detector handy any time you brave some anomalies.
-Tip #23. Mutants are harder to spot at night, which could really spoil a late-night loot run. Be careful or bring nightvision.
-Tip #24. If you don't have any anti-rads, pop a toxin pill. It'll hold off the effects long enough for you to get to safety.
-Tip #25. Buckling into a chair near a campfire will slowly restore your health and reduce radiation. It's powerful enough to overcome minor radiation poisoning.
-Tip #26. Selling artifacts isn't the only way to make money. Selling trash and food can get you money over time. Looting equipment can be equally as valuable.
-Tip #27. You'll need to buy a repair kit to repair an item. Make sure to frequently maintain your weapons to stop them from failing in a rough spot.
-Tip #28. You can use an item with the off-hand to change it's firemode. Not every weapon has multiple firemodes.
-Tip #29. Sometimes, less armor is more. Avoiding a fight can often be better than surviving it.
-Tip #30. Even though they have a wide spread, shotguns are still lethal from quite some distance. Never count out someone with a double-barrel, even if you have an assault rifle.
-Tip #31. Don't underestimate pistols. They provide considerable stopping power and can be very effective versus poorly armored targets. They also often have cheap and plentiful ammo.
-Tip #32. Each type of mutant in the Zone has it's own combat traits. If you take these into account, you will be far more likely to survive.
-Tip #33. If you are more interested in killing than diplomacy, bring a grenade. It's a wonderful tool to flush someone out of hiding.
-Tip #34. Dying is part of the game. If everyone lived all the time, the Zone wouldn't be a very dangerous place, would it?
-Tip #35. Sometimes, you make mistakes. Everyone does. Make sure to realize your mistakes and learn from them instead of blaming the game. Saying that, though, some things are just broken. We're working on it, probably!
-Tip #36. Sniper rifles are useful for scouting as well as sniping. Using a scope is a good way to gauge a distant engagement before deciding to move in.
-Tip #37. Firing accuracy suffers considerably when you're on the move. Stand still to improve it.
-Tip #38. The Zone has a life of it's own, which means that there is always a chance of bumping into mutants or enemy stalkers in areas that you have already cleared.
-Tip #39. Blowouts stimulate the Zone, causing anomalies to produce more artifacts. Be sure to check anomalies for new loot often.
-Tip #40. Blowouts always occur when you think it's been a while since the last one. Always know where the nearest shelter is.
-Tip #41. Some people just can't be reasoned with. It's never a bad idea to step away, disengage, and reassess your strategy.
-Tip #42. Talking to people can reveal secrets about things you never knew to ask. Who knew that doorsteps can have caches under them?
-Tip #43. When out in the Zone, make sure to keep a few spare magazines with you. They're bound to come in handy.
-Tip #44. To use drugs effectively, it helps to know what they do. Consult drug descriptions to find out the effects of certain drugs.
-Tip #45. Every weapon behaves differently. Experiment to find your favorite.
-Tip #46. If you have to (or want to) kill a fellow stalker, make sure to grab their KPK. Sid pays well for info. Oh, and make sure he didn't have any friends. The last thing you need is to be the antagonist in a revenge flick.
-Tip #47. Almost everything in the zone can kill you quickly. Be careful, and be rapid in threat assessment.
-Tip #48. A flashlight is always a good purchase. Nighttime can kill.
-Tip #49. The Sphera has built-in nightvision. It can be hard to use due to the green tint, but it still might save your life.
-Tip #50. Your PDA has a map, personal stats, rankings, and more.
-Tip #51. Don't be a coward. Equally, don't be a hero.
-Tip #52. Check the ammo in your mag often. Click-click-click is a horrible sound.
-Tip #53. Just because a stalker is part of an enemy faction doesn't mean they want to kill you. Sometimes you can form unspoken, temporary alliances simply by showing courtesy. Always keep your gun handy, though.
-Tip #54. The Military won't necessarily shoot you on sight, but if you near the Cordon, they won't hesitate.
-Tip #55. If Bandits come to harangue you, try diplomacy. Haggling them down to an artifact or a few medkits is better than getting killed.
-Tip #56. Loners can be anyone. Don't expect them to look out for each other, but similarly, it's suprising how tight the bonds of similarity are.
-Tip #57. Duty won't tolerate any fighting in Rostok. Don't pick fights around paramilitaries.
-Tip #58. Freedom is unlikely to tolerate any limits you might impose. Steer clear if you plan on restricting people.
-Tip #59. Ecologists are on orders from the Ukrainian goverment. Attacking them could draw the ire of the Military.
-Tip #60. The Monolith are glorified zombies, brainwashed by the Holy Monolith. They are unpredictable, being governed only by the wish granter. Don't get on their bad side, or at least don't get near them. «I»
+Подсказка #1. Водка, дешевая альтернатива антираду, является самым простым способом уменьшить воздействие радиации на организм.
+Подсказка #2. Верстаки могут улучшать ваше оружие, костюмы и шлемы.
+Подсказка #3. Убедитесь, что ваш инвентарь организован. Никогда не знаешь, когда тебе может понадобиться срочно что-то схватить или сменить магазин.
+Подсказка #4. Вы можете быстро получить доступ к своему КПК, перетащив его иконку на себя.
+Подсказка #5. Большинство видов оружия гораздо точнее, если их держать обеими руками. Вы будете хавтать оружие автоматически, если другая рука пуста.
+Подсказка #6. Медицина крайне важна в Зоне. Всегда имейте хотя бы базовую аптечку на случай катастрофы.
+Подсказка #7. Лекарства не вступают в силу сразу, а некоторые действуют довольно долго.
+Подсказка #8. Вы можете получить доступ к подробной информации о текущих обитателях Зоны с помощью вашего КПК.
+Подсказка #9. Если вы найдете оружие, которое не планируете хранить, подумайте о том, чтобы разрядить его и использовать патроны, чтобы пополнить свои запасы, либо продать. Только полные магазины могут быть проданы .
+Подсказка #10. Ваш КПК содержит множество подробностей об аномалиях. Читайте, чтобы обезопасить себя от аномалий.
+Подсказка #11. Вам нужен детектор для поиска артефактов. Лучшие детекторы имеют доступ к лучшим артефактам.
+Подсказка #12. Убранное оружие - хорошее проявление веры по отношению к другим сталкерам. Это также хороший способ быть убитым...
+Подсказка #13. Часто бросайте болты, чтобы не попасть в аномалию.
+Подсказка #14. Радиация — тихий убийца. Не забудьте взять с собой анти-рады, чтобы не пасть от самого распространенного убийцы Зоны.
+Подсказка #15. Употребление пищи дает вам прилив энергии и запускает ваш метаболизм. Если вы ранены и без лекарств, попробуйте пожевать.
+Подсказка #16. Энергетические напитки, хоть и редкие, могут дать вам дополнительный импульс, необходимый для выхода из сложной ситуации.
+Подсказка #17. Быть голодным — отличный способ стать медленным. А в Зоне медленный = мертвый.
+Подсказка #18. Наличие детектора в одной руке не мешает вам использовать нож, пистолет или болт другой рукой.
+Подсказка #19. Зернистый, размытый экран указывает на то, что вы страдаете от радиации.
+Подсказка #20. Заводить друзей — отличный инструмент. Не все хотят вас достать, и они могут помочь вам.
+Подсказка #21. Большинство артефактов радиоактивны. Для того, чтобы использовать их, вы должны либо держать его в руке, либо надевать на пояс артефактов.
+Подсказка #22. Артефакты невидимы, пока вы не подойдете к ним с детектором. Убедитесь, что у вас под рукой есть детектор каждый раз, когда вы преодолеваете некоторые аномалии.
+Подсказка #23. Мутантов труднее обнаружить ночью, что действительно может испортить ночную пробежку за добычей. Будьте осторожны или возьмите с собой ПНВ.
+Подсказка #24. Если у вас нет анти-радов, выпейте таблетку радблока. Это будет сдерживать эффекты достаточно долго, чтобы вы могли добраться до безопасного места.
+Подсказка #25. Присев возле костра, вы постепенно восстановите свое здоровье и уменьшите радиацию. Он достаточно мощный, чтобы вылечить незначительное радиационное отравление.
+Подсказка #26. Продажа артефактов — не единственный способ заработать деньги. Продажа мусора и еды может со временем принести вам деньги. Не менее ценным может быть и мародерство.
+Подсказка #27. Вам нужно будет купить ремкомплект, чтобы отремонтировать предмет. Обязательно часто обслуживайте свое оружие, чтобы оно не вышло из строя в трудной ситуации.
+Подсказка #28. Вы можете "использовать" оружие в руке, чтобы изменить его режим огня. Не каждое оружие имеет несколько режимов огня.
+Подсказка #29. Иногда, меньше брони - больше. Избегание драки часто может быть лучше, чем пережить ее.
+Подсказка #30. Несмотря на то, что они широко распространены, дробовики по-прежнему смертоносны с довольно большого расстояния. Никогда не списывайте со счетов кого-то с двустволкой, даже если у вас есть штурмовая винтовка.
+Подсказка #31. Не стоит недооценивать пистолеты. Они обеспечивают значительную останавливающую силу и могут быть очень эффективны против плохо бронированных целей. У них также часто есть дешевые и обильные боеприпасы.
+Подсказка #32. У каждого типа мутантов в Зоне есть свои боевые повадки. Если вы примете это во внимание, у вас будет гораздо больше шансов выжить.
+Подсказка #33. Если вас больше интересует убийство, чем дипломатия, возьмите с собой гранату. Это замечательный инструмент, чтобы вытащить кого-то из укрытия.
+Подсказка #34. Смерть - это часть игры. Если бы все жили постоянно, Зона не была бы очень опасным местом, не так ли?
+Подсказка #35. Иногда вы совершаете ошибки. Все делают. Обязательно осознайте свои ошибки и учитесь на них, а не обвиняйте игру. Однако, говоря это, некоторые вещи просто сломаны. Мы работаем над этим! наверное...
+Подсказка #36. Снайперские винтовки полезны как для разведки, так и для снайперской стрельбы. Использование прицела — хороший способ увидить проблему, прежде чем принять решение.
+Подсказка #37. Точность стрельбы значительно страдает, когда вы находитесь в движении. Стойте на месте, чтобы улучшить её.
+Подсказка #38. У Зоны есть своя жизнь, а это значит, что всегда есть шанс столкнуться с мутантами или вражескими сталкерами в областях, которые вы уже очистили.
+Подсказка #39. Взрывы стимулируют Зону, заставляя аномалии производить больше артефактов. Обязательно почаще проверяйте аномалии на наличие новой добычи.
+Подсказка #40. Выбросы всегда происходят, когда вы думаете, что прошло много времени с момента последнего. Всегда знайте, где находится ближайшее укрытие.
+Подсказка #41. Некоторых людей просто невозможно урезонить. Никогда не бывает плохой идеей отступить и пересмотреть свою стратегию.
+Подсказка #42. Общение с людьми может раскрыть секреты о вещах, о которых вы никогда не знали. Кто знал, что под порогами могут быть тайники?
+Подсказка #43. Находясь в Зоне, не забудьте взять с собой несколько запасных магазинов. Они обязательно пригодятся.
+Подсказка #44. Чтобы эффективно использовать лекарства, полезно знать, что они делают. Обратитесь к описаниям лекарств, чтобы узнать о влиянии некоторых лекарств.
+Подсказка #45. Каждое оружие ведет себя по-своему. Экспериментируйте, чтобы найти своё любимое.
+Подсказка #46. Если вам нужно (или вы хотите) убить другого сталкера, обязательно захватите его KPK. Сидор хорошо платит за информацию. О, и убедитесь, что у него нет друзей. Последнее, что вам нужно, это быть антагонистом в фильме о мести.
+Подсказка #47. Почти все в зоне может быстро убить вас. Будьте осторожны и быстро оценивайте угрозы.
+Подсказка #48. Фонарик – это всегда удачное приобретение. Ночь убивает.
+Подсказка #49. Сфера имеет встроенное ночное видение. Его может быть трудно использовать из-за зеленого оттенка, но оно все равно может спасти вам жизнь.
+Подсказка #50. На вашем КПК есть карта, личная статистика, рейтинги и многое другое.
+Подсказка #51. Не будьте трусом. Точно так же не будьте героем.
+Подсказка #52. Часто проверяйте боеприпасы в своем магазине. Клик-клик-клик - ужасный звук.
+Подсказка #53. То, что сталкер является частью вражеской группировки, не означает, что он хочет вас убить. Иногда вы можете заключать негласные, временные союзы, просто проявляя вежливость. Однако всегда держите пистолет под рукой.
+Подсказка #54. Военные не обязательно будут стрелять в вас на месте, но если вы окажетесь рядом с кордоном, они не будут колебаться.
+Подсказка #55. Если бандиты "докапываются" до вас, попробуйте дипломатию. Сторговаться с ними за артефакта или нескольких аптечек лучше, чем быть убитым.
+Подсказка #56. Одиночки могут быть кем угодно. Не ожидайте, что они будут присматривать друг за другом, но точно так же удивительно, насколько крепки узы сходства.
+Подсказка #57. Долг не потерпит никаких боев в Ростоке. Не вступайте в драки вокруг парамилитаристов.
+Подсказка #58. Свобода вряд ли потерпит какие-либо ограничения, которые вы можете наложить. Держитесь подальше, если вы планируете ограничивать людей.
+Подсказка #59. Экологи работают по приказу Украинского правительства. Нападение на них может вызвать гнев военных.
+Подсказка #60. Монолит - это прославленные зомби, мозги которым промыты Святым Монолитом. Они непредсказуемы, управляются только исполнителем желаний. Не становитесь на их сторону или, по крайней мере, не приближайтесь к ним.
