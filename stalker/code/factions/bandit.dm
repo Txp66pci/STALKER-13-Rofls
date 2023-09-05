@@ -2,18 +2,18 @@
 Assistant
 */
 /datum/job/bandit
-	title = "Bandit"
-	faction_s = "Bandits"
+	title = "Бандит"
+	faction_s = "Бандиты"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
-	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
-	enforces = "Form a group and find people to rob and antagonize, cause chaos between and exploit all the other factions, work with others to destabalize the order in the Zone."
-	forbids = "Work with Duty except under extraordinary circumstances, go off alone when there are fellow Bandits about, be non-antagonistic unless there is self interest involved, and cause major issues with factions without consulting the Bandit Boss."
-	supervisors = "Bandit Boss or Bandit Barman"
+	description = "Бандиты - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
+	enforces = "Сформируйте группу и найдите людей, которых можно грабить и противостоять, сейте хаос между всеми остальными фракциями и эксплуатируйте их, работайте с другими, чтобы дестабилизировать порядок в Зоне."
+	forbids = "Работать с Долгом, за исключением чрезвычайных обстоятельств, уходить в одиночку, когда рядом есть другие Бандиты, не будь мудаком, если это не связано с личными интересами, развязывать войны без разрешения босса."
+	supervisors = "Пахан или Бармен бандитов"
 	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
@@ -25,17 +25,17 @@ Assistant
 	exp_requirements = 300
 
 /datum/job/banditboss
-	title = "Bandit Boss"
-	faction_s = "Bandits"
+	title = "Пахан"
+	faction_s = "Бандиты"
 	faction = "Station"
 	total_positions = 2
 	locked = 1
 	spawn_positions = 2
 	limit_per_player = 1
-	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
+	description = "Бандиты - это группа, состоящая в основном из бывших преступников, которые прибыли в Зону, чтобы скрыться от закона, торговать оружием или заработать деньги. Они являются силой хаоса в Зоне и, по сути, являются плохими людьми, которые делают плохие вещи хорошим людям."
 	enforces = "Organize your fellow bandits and coordinate outbound groups and homebound groups, cause chaos between and exploit all the other factions, work with others to destabalize the order in the Zone."
-	forbids = "Work with Duty except under extraordinary circumstances, go off alone when there are fellow Bandits about, and be non-antagonistic unless there is self interest involved."
-	supervisors = "Sultan"
+	forbids = "Работайть с Долгом, за исключением чрезвычайных обстоятельств, ставить под угрозу всю свою фракцию из-за чего-то незначительного."
+	supervisors = "Султан"
 	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access(
@@ -46,17 +46,17 @@ Assistant
 	exp_requirements = 900
 
 /datum/job/bandit_barman
-	title = "Bandit Barman"
-	faction_s = "Bandits"
+	title = "Бармен бандитов"
+	faction_s = "Бандиты"
 	faction = "Station"
 	total_positions = 1
 	locked = 1
 	spawn_positions = 1
 	limit_per_player = 1
 	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
-	enforces = "Help organize the bandits if the Bandit Boss isn't present and act as second-in-command, rip off anyone who isn't a Bandit however you can, arm your fellow bandits and provide them tools to further antagonize the Zone."
-	forbids = "Work with Duty except under extraordinary circumstances, jeopordize your entire faction over something insignificant."
-	supervisors = "Bandit Boss"
+	enforces = "Помогите организовать бандитов, если босса-бандита нет, и действуйте в качестве заместителя командующего, грабьте всех, кто не является бандитом, как можете, вооружайте своих товарищей-бандитов и предоставляйте им инструменты для дальнейшего антагонизма в Зоне."
+	forbids = "Работайть с Долгом, за исключением чрезвычайных обстоятельств, ставить под угрозу всю свою фракцию из-за чего-то незначительного."
+	supervisors = "Пахан"
 	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()
@@ -67,8 +67,8 @@ Assistant
 	exp_requirements = 900
 
 /datum/outfit/job/bandit
-	name = "Bandit"
-	faction_s = "Bandits"
+	name = "Бандит"
+	faction_s = "Бандиты"
 
 /datum/outfit/job/bandit/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -98,8 +98,8 @@ Assistant
 				/obj/item/storage/wallet/alt)
 
 /datum/outfit/job/banditboss
-	name = "Bandit Boss"
-	faction_s = "Bandits"
+	name = "Пахан"
+	faction_s = "Бандиты"
 
 /datum/outfit/job/banditboss/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -132,8 +132,8 @@ Assistant
 	H.grant_language(/datum/language/russian, body = FALSE)
 
 /datum/outfit/job/bandit_barman
-	name = "Bandit Barman"
-	faction_s = "Bandits"
+	name = "Бармен бандитов"
+	faction_s = "Бандиты"
 
 /datum/outfit/job/bandit_barman/pre_equip(mob/living/carbon/human/H)
 	uniform = UNIFORMPICK
@@ -170,8 +170,8 @@ Assistant
 	H.grant_language(/datum/language/russian, body = FALSE)
 
 /datum/outfit/bandit  // For select_equipment
-	name = "Bandit"
-	faction_s = "Bandits"
+	name = "Бандит"
+	faction_s = "Бандиты"
 
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka
 	ears = null
