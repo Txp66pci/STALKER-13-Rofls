@@ -2,18 +2,18 @@
 Assistant
 */
 /datum/job/army
-	title = "Солдат"
-	faction_s = "Военные"
+	title = "Military Soldier"
+	faction_s = "State Security Service"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
 	limit_per_player = 1
-	description = "Вооружённые силы Украины, часто называемые военными или армией, являются украинскими солдатами, которые были отправлены в Зону украинским правительством для поддержания безопасности вдоль границ Зоны, чтобы предотвратить несанкционированные вторжения сталкеров и, как следствие, распространение артефактов во внешний мир без государственного надзора."
-	enforces = "Защищайте военный контрольно-пропускной пункт, будьте в курсе приказов начальства и выполняйте их с точностью, 'общайтесь' с теми, кто находится в Зоне, чтобы они знали, что военные присутствуют."
-	forbids = "Покидать базу самостоятельно, не подчиняться приказам, отданным вышестоящим, и начинайть войны с другими фракциями, прежде чем зачистить их с начальством."
-	supervisors = "Командир"
+	description = "The State Security Services, often referred to as the Military or the Army, are Ukrainian soldiers that have been sent into the Zone by the Ukrainian government to maintain security along the borders of the Zone, in order to prevent unauthorized incursions by Stalkers, and by extension, distribution of artifacts to the outside world without government supervision."
+	enforces = "Protect the military checkpoint by default, be aware of orders from superiors and executing them with precision, communicate with those in the Zone so they know the military has a presence."
+	forbids = "Leave the base independently for any reason, disobey orders given by a superior, and start trouble with other factions before clearing it with superiors."
+	supervisors = "Military Commander"
 	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
@@ -24,16 +24,16 @@ Assistant
 	exp_requirements = 300
 
 /datum/job/army_spetsnaz
-	title = "Спецназовец"
+	title = "Military Spetsnaz"
 	faction = "Station"
-	faction_s = "Военные"
+	faction_s = "State Security Service"
 	limit_per_player = 1
 	total_positions = 2
 	spawn_positions = 2
-	description = "Вооружённые силы Украины, часто называемые военными или армией, являются украинскими солдатами, которые были отправлены в Зону украинским правительством для поддержания безопасности вдоль границ Зоны, чтобы предотвратить несанкционированные вторжения сталкеров и, как следствие, распространение артефактов во внешний мир без государственного надзора."
-	enforces = "Защищайте военный контрольно-пропускной пункт, будьте в курсе приказов начальства и выполняйте их с точностью, беря на себя руководство, когда командира нет."
-	forbids = "Покидать базу самостоятельно, не подчиняться приказам, отданным вышестоящим, и начинайть войны с другими фракциями, прежде чем зачистить их с начальством."
-	supervisors = "Командир"
+	description = "The State Security Services, often referred to as the Military or the Army, are Ukrainian soldiers that have been sent into the Zone by the Ukrainian government to maintain security along the borders of the Zone, in order to prevent unauthorized incursions by Stalkers, and by extension, distribution of artifacts to the outside world without government supervision."
+	enforces = "Protect the military checkpoint by default, be aware of orders from superiors and executing them with precision, taking leadership when the Commander isn't present."
+	forbids = "Leave the base independently for any reason, disobey orders given by a superior, and start trouble with other factions before clearing it with superiors."
+	supervisors = "Military Commander"
 	selection_color = "#2E8B57"
 	whitelist_only = 0
 	locked = 1
@@ -43,8 +43,8 @@ Assistant
 	exp_requirements = 600
 
 /datum/outfit/job/army_spetsnaz
-	name = "Спецназовец"
-	faction_s = "Военные"
+	name = "Military Spetsnaz"
+	faction_s = "State Security Service"
 
 /datum/outfit/job/army_spetsnaz/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -62,7 +62,7 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	faction_s = "Военные"
+	faction_s = "State Security Service"
 
 /datum/outfit/job/army_spetsnaz/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -74,7 +74,7 @@ Assistant
 	H.grant_language(/datum/language/german, body = FALSE)
 
 /datum/outfit/job/army
-	faction_s = "Военные"
+	faction_s = "State Security Service"
 
 /datum/outfit/job/army/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -92,21 +92,21 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	faction_s = "Военные"
+	faction_s = "Army"
 
 /datum/job/militarycommander
-	title = "Командир"
-	faction_s = "Военные"
+	title = "Military Commander"
+	faction_s = "State Security Service"
 	outfit = /datum/outfit/job/militarycommander
 	faction = "Station"
 	limit_per_player = 1
 	total_positions = 2
 	locked = 1
 	spawn_positions = 2
-	description = "Вооружённые силы Украины, часто называемые военными или армией, являются украинскими солдатами, которые были отправлены в Зону украинским правительством для поддержания безопасности вдоль границ Зоны, чтобы предотвратить несанкционированные вторжения сталкеров и, как следствие, распространение артефактов во внешний мир без государственного надзора."
-	enforces = "Защищайте военный контрольно-пропускной пункт по умолчанию, создавайте и проводите ротацию для патрулирования и для защиты базы."
-	forbids = "Покидать базу самостоятельно по любой причине, приказывать военнослужащим покидать базу в одиночестве, и избегать общения со своими солдатами."
-	supervisors = "Высшее Командование"
+	description = "The State Security Services, often referred to as the Military or the Army, are Ukrainian soldiers that have been sent into the Zone by the Ukrainian government to maintain security along the borders of the Zone, in order to prevent unauthorized incursions by Stalkers, and by extension, distribution of artifacts to the outside world without government supervision."
+	enforces = "Protect the military checkpoint by default, create and rotate outbound squads to patrol and homebound squads to defend the base."
+	forbids = "Leave the base independently for any reason, order normal military personnel to leave the base alone, and avoid communicating with your troops."
+	supervisors = "High Command"
 	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
@@ -116,8 +116,8 @@ Assistant
 	exp_requirements = 900
 
 /datum/outfit/job/militarycommander
-	name = "Командир"
-	faction_s = "Военные"
+	name = "Military Commander"
+	faction_s = "State Security Service"
 
 /datum/outfit/job/militarycommander/pre_equip(mob/living/carbon/human/H)
 	head = /obj/item/clothing/head/beret/black
@@ -134,7 +134,7 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	faction_s = "Военные"
+	faction_s = "State Security Service"
 
 /datum/outfit/job/militarycommander/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -146,7 +146,7 @@ Assistant
 	H.grant_language(/datum/language/german, body = FALSE)
 
 /datum/outfit/army  // For select_equipment
-	name = "Солдат"
+	name = "Military Soldier"
 
 	head = null
 	ears = null
@@ -162,7 +162,7 @@ Assistant
 							/obj/item/storage/firstaid/ifak = 1)
 	l_pocket = /obj/item/storage/wallet/stalker
 	r_pocket = /obj/item/radio
-	faction_s = "Военные"
+	faction_s = "State Security Service"
 
 /datum/outfit/army/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -174,7 +174,7 @@ Assistant
 				/obj/item/storage/wallet/alt)
 
 /datum/outfit/armycommander // For select_equipment
-	name = "Командир"
+	name = "Military Commander"
 
 	head = /obj/item/clothing/head/beret_ua
 	uniform = /obj/item/clothing/under/color/switer/dark
@@ -193,4 +193,4 @@ Assistant
 							/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	r_pocket = /obj/item/radio
 	l_pocket = /obj/item/storage/wallet/stalker
-	faction_s = "Военные"
+	faction_s = "State Security Service"
